@@ -81,3 +81,12 @@ default taken and what would change it.
     an Android SDK, so CI installs the exact packages it needs with
     sdkmanager directly (`platform-tools`, `platforms;android-36`,
     `build-tools;37.0.0`, `ndk;27.1.12297006`).
+19. **react-native-nitro-modules is a direct dependency (fixed 2026-11-16).**
+    `react-native-audio-recorder-player` 4.5.0 declares it only as a peer
+    dependency, so React Native autolinking never registered it as a Gradle
+    project and CI failed with "Project with path ':react-native-nitro-modules'
+    could not be found" (run 43901109792). It is now pinned as a direct
+    dependency (0.37.2, the version already resolved in the lockfile).
+    Note: audio-recorder-player 4.5.0 is deprecated upstream in favour of
+    react-native-nitro-sound — a future switch is possible but not needed
+    while this one builds and works.
