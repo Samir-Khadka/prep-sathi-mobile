@@ -1,0 +1,1 @@
+{"compilerOptions": {"allowJs": false, "paths": {"@/*": ["./src/*"]}, "strict": true}, "exclude": ["node_modules", "android", "ios", "coverage"], "extends": "@react-native/typescript-config", "include": ["src", "index.js", "jest.setup.js"]}

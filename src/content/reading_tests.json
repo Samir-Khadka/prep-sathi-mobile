@@ -1,0 +1,2304 @@
+{
+  "tests": [
+    {
+      "id": "RA1",
+      "track": "academic",
+      "title": "Academic Reading Test 1",
+      "passages": [
+        {
+          "section": 1,
+          "title": "Rivers in the Sea: How Ocean Currents Shape Climate",
+          "text": "Seen from space, the ocean looks still and uniform, a single blue sheet covering most of the planet. In reality it is in constant motion. Great rivers of water, some wider than many countries, flow through the seas, carrying heat, salt, nutrients and living creatures across thousands of kilometres. These ocean currents shape the climate of continents, feed some of the richest fisheries on Earth, and influence weather patterns that affect billions of people.\n\nSurface currents, which flow in the top few hundred metres of the ocean, are driven mainly by the wind. Steady winds push the surface water along, and the rotation of the Earth bends the flow into huge circular patterns called gyres. In the Northern Hemisphere these gyres turn clockwise, while in the Southern Hemisphere they turn anticlockwise. The warm water carried towards the poles in the western side of a gyre is balanced by cold water returning towards the equator on the eastern side. This endless turning moves an enormous amount of heat from the tropics towards higher latitudes, softening winters in places that would otherwise be far colder.\n\nThe best-known example is the Gulf Stream, a powerful warm current that flows north-eastwards along the coast of North America and then across the Atlantic towards Europe. The Gulf Stream carries more water than all the world's rivers combined, and the heat it releases into the atmosphere helps to keep winters in western Europe much milder than in other places at the same latitude, such as Labrador in Canada. Without this steady supply of warmth, cities such as London and Dublin would face winters more like those of Moscow, which lies at a similar latitude but far from any warm current.\n\nBelow the surface, a second and slower system is at work. Deep currents are driven not by wind but by differences in the density of seawater. When surface water in the far north becomes very cold, and when sea ice forms and leaves salt behind, the remaining water grows colder, saltier and heavier. This dense water sinks to the ocean floor and begins a slow journey southwards, creeping along the seabed for hundreds or even thousands of years before it rises again. In the North Atlantic, this sinking water forms a vast underwater river that flows south past the equator, while in the Southern Ocean strong winds pull deep water back to the surface, completing the loop. Scientists call this global pattern the thermohaline circulation, because it depends on temperature and salt, and it links all the world's oceans into one connected system.\n\nOcean currents also decide where marine life can thrive. Where a cold, deep current rises to the surface, a process known as upwelling, it brings nutrients from the depths into sunlit waters. Tiny plants called phytoplankton flourish on these nutrients, and they in turn support fish, seabirds and whales. The waters off the west coast of South America, where the Humboldt Current brings cold, nutrient-rich water northwards, support one of the largest fisheries in the world. When this upwelling weakens, as it does during an El Nino event, fish catches fall sharply and the effects ripple through local economies and food supplies.\n\nIn recent decades, researchers have found signs that this great system is changing. Thousands of drifting instruments, known as Argo floats, now measure temperature and salt through the upper two kilometres of the ocean, giving scientists their clearest picture yet of how currents behave. The data suggest that the Atlantic part of the thermohaline circulation has slowed since the middle of the twentieth century, probably because melting ice in the far north is adding fresh water that is too light to sink. A slower circulation could bring colder winters to northern Europe, shift rainfall patterns in the tropics, and raise sea levels along the east coast of North America. Much of the deep ocean remains unmapped in detail, so the full consequences are still uncertain, but researchers agree that the currents which have quietly regulated the planet's climate for thousands of years deserve far closer attention than they have received. New autonomous submarines and deeper floats are beginning to explore waters below two kilometres, where currents move so slowly that a single parcel of water may take more than a thousand years to complete its circuit of the globe.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "tfng",
+              "prompt": "Surface currents are driven mainly by the wind.",
+              "answer": "TRUE",
+              "explanation": "The passage states directly that wind is the main driver of surface currents.",
+              "evidence": "Surface currents, which flow in the top few hundred metres of the ocean, are driven mainly by the wind."
+            },
+            {
+              "no": 2,
+              "type": "tfng",
+              "prompt": "Gyres in the Northern and Southern Hemispheres turn in the same direction.",
+              "answer": "FALSE",
+              "explanation": "The passage says Northern Hemisphere gyres turn clockwise and Southern Hemisphere gyres turn anticlockwise, so they turn in opposite directions.",
+              "evidence": "In the Northern Hemisphere these gyres turn clockwise, while in the Southern Hemisphere they turn anticlockwise."
+            },
+            {
+              "no": 3,
+              "type": "tfng",
+              "prompt": "The Gulf Stream carries less water than all the world's rivers combined.",
+              "answer": "FALSE",
+              "explanation": "The passage says the Gulf Stream carries more water than all the world's rivers combined, the opposite of the statement.",
+              "evidence": "The Gulf Stream carries more water than all the world's rivers combined"
+            },
+            {
+              "no": 4,
+              "type": "tfng",
+              "prompt": "London would have winters similar to Moscow's if the Gulf Stream stopped warming western Europe.",
+              "answer": "TRUE",
+              "explanation": "The passage makes exactly this comparison between London, Dublin and Moscow.",
+              "evidence": "cities such as London and Dublin would face winters more like those of Moscow, which lies at a similar latitude but far from any warm current."
+            },
+            {
+              "no": 5,
+              "type": "mcq",
+              "prompt": "What causes deep ocean water to sink?",
+              "options": [
+                "Strong winds pushing it downwards",
+                "It becoming colder, saltier and heavier",
+                "Warm water rising from the seabed",
+                "The rotation of the Earth"
+              ],
+              "answer": 1,
+              "explanation": "Deep water sinks because cold, salty water is dense and heavy.",
+              "evidence": "the remaining water grows colder, saltier and heavier. This dense water sinks to the ocean floor"
+            },
+            {
+              "no": 6,
+              "type": "mcq",
+              "prompt": "What does the term 'thermohaline circulation' refer to?",
+              "options": [
+                "The wind-driven movement of surface water",
+                "The global pattern of deep currents driven by temperature and salt",
+                "The circular flow of water in a gyre",
+                "The seasonal change in ocean temperature"
+              ],
+              "answer": 1,
+              "explanation": "The passage defines it as the global deep-current pattern depending on temperature and salt.",
+              "evidence": "Scientists call this global pattern the thermohaline circulation, because it depends on temperature and salt"
+            },
+            {
+              "no": 7,
+              "type": "tfng",
+              "prompt": "Upwelling brings nutrients from deep water into sunlit surface waters.",
+              "answer": "TRUE",
+              "explanation": "Upwelling is described as cold, deep water rising and bringing nutrients up to sunlit waters.",
+              "evidence": "Where a cold, deep current rises to the surface, a process known as upwelling, it brings nutrients from the depths into sunlit waters."
+            },
+            {
+              "no": 8,
+              "type": "tfng",
+              "prompt": "The Humboldt Current supports one of the largest fisheries in the world.",
+              "answer": "TRUE",
+              "explanation": "The passage states this directly about the waters off South America.",
+              "evidence": "The waters off the west coast of South America, where the Humboldt Current brings cold, nutrient-rich water northwards, support one of the largest fisheries in the world."
+            },
+            {
+              "no": 9,
+              "type": "mcq",
+              "prompt": "What happens to fish catches during an El Nino event?",
+              "options": [
+                "They rise sharply because the water warms",
+                "They fall sharply because upwelling weakens",
+                "They stay the same",
+                "They move to deeper water but catches stay stable"
+              ],
+              "answer": 1,
+              "explanation": "During El Nino, upwelling weakens and fish catches fall sharply.",
+              "evidence": "When this upwelling weakens, as it does during an El Nino event, fish catches fall sharply"
+            },
+            {
+              "no": 10,
+              "type": "short",
+              "prompt": "Complete the sentence: Thousands of drifting instruments known as ___ measure temperature and salt in the upper ocean.",
+              "answers": [
+                "Argo floats"
+              ],
+              "explanation": "The passage names the drifting instruments as Argo floats.",
+              "evidence": "Thousands of drifting instruments, known as Argo floats, now measure temperature and salt"
+            },
+            {
+              "no": 11,
+              "type": "mcq",
+              "prompt": "According to the passage, why may the Atlantic circulation have slowed?",
+              "options": [
+                "Because winds have become weaker",
+                "Because melting ice is adding fresh water that is too light to sink",
+                "Because the Gulf Stream has changed direction",
+                "Because Argo floats disturb the water"
+              ],
+              "answer": 1,
+              "explanation": "Melting ice adds fresh, light water that does not sink, slowing the circulation.",
+              "evidence": "probably because melting ice in the far north is adding fresh water that is too light to sink."
+            },
+            {
+              "no": 12,
+              "type": "tfng",
+              "prompt": "A slower Atlantic circulation could raise sea levels along the east coast of North America.",
+              "answer": "TRUE",
+              "explanation": "This is listed among the possible consequences of a slower circulation.",
+              "evidence": "A slower circulation could bring colder winters to northern Europe, shift rainfall patterns in the tropics, and raise sea levels along the east coast of North America."
+            },
+            {
+              "no": 13,
+              "type": "tfng",
+              "prompt": "Scientists have mapped every part of the deep ocean in detail.",
+              "answer": "FALSE",
+              "explanation": "The passage says much of the deep ocean remains unmapped in detail.",
+              "evidence": "Much of the deep ocean remains unmapped in detail, so the full consequences are still uncertain"
+            },
+            {
+              "no": 14,
+              "type": "mcq",
+              "prompt": "What is the main purpose of the passage?",
+              "options": [
+                "To argue that ocean research should stop",
+                "To explain how ocean currents work and why they matter for climate and life",
+                "To describe the history of ocean exploration",
+                "To compare the Atlantic and Pacific Oceans"
+              ],
+              "answer": 1,
+              "explanation": "The whole passage explains surface and deep currents, their climate effects, their role in fisheries, and recent changes.",
+              "evidence": "These ocean currents shape the climate of continents, feed some of the richest fisheries on Earth, and influence weather patterns that affect billions of people."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "title": "From Leaf to Cup: The Story of Tea",
+          "text": "Every day, people around the world drink billions of cups of tea. It is the most widely consumed drink on the planet after water, yet its story begins with a single plant growing wild in the forests of Asia. Tea comes from the leaves of Camellia sinensis, an evergreen shrub that thrives in warm, wet climates with acidic soil. For centuries, farmers in China and neighbouring regions picked its young leaves by hand, dried them in the sun, and steeped them in hot water to make a bitter, refreshing drink that gradually became part of daily life, ceremony and trade.\n\nAccording to a popular Chinese legend, tea was discovered by accident around 2737 BCE, when leaves from a wild tea tree blew into a pot of boiling water belonging to the emperor Shen Nong. Historians treat this tale with caution, since no written records survive from that period, but early Chinese texts do show that tea was being drunk for its medicinal qualities by the third century BCE. At first it was valued mainly as a medicine and a stimulant for monks and scholars, who drank it to stay alert during long hours of study and meditation. Only much later did it become an everyday drink for ordinary people.\n\nThe spread of tea beyond China was slow. Buddhist monks carried seeds and drinking customs to Japan in the ninth century, where tea drinking developed into a highly formal ritual, the tea ceremony, in which every gesture, from the warming of the bowl to the whisking of the powdered green tea, carried meaning. Tea reached Korea and Vietnam by similar routes, carried by monks, traders and diplomats. For a long time, however, China kept a firm grip on production: the techniques for growing and processing tea leaves were closely guarded secrets, and foreign traders could buy the finished leaves but not the knowledge of how to make them.\n\nThat monopoly was broken in the nineteenth century, when British traders, frustrated by the cost of buying tea from China, smuggled tea plants and skilled workers out of China and established plantations in India and Sri Lanka. The new plantations, worked under harsh conditions that are now widely recognised as exploitative, produced tea far more cheaply and in far greater quantities. In Britain, tea changed from a luxury for the wealthy into a drink for everyone. Factory workers drank sweet, milky tea during short breaks, and the custom of afternoon tea, a light meal served between lunch and dinner, became a social institution. By 1900, Britain was importing hundreds of millions of kilograms of tea every year.\n\nWhat makes one tea different from another is not the plant, which is the same for green, black and oolong teas, but the way the leaves are processed after picking. For green tea, the fresh leaves are heated quickly to stop oxidation, the chemical process that darkens them, so they keep their green colour and grassy flavour. For black tea, the leaves are rolled, left to oxidise fully until they turn dark brown, and then dried, producing a stronger, maltier drink. Oolong tea sits between the two, partly oxidised, with a flavour that can range from floral to roasted. White tea, the least processed of all, is made from young buds that are simply withered and dried. Each method reflects the tastes and traditions of the region where it developed.\n\nToday the tea trade faces new pressures. Climate change is shifting the regions where tea grows well: rising temperatures and unpredictable rainfall have already reduced yields in some lowland areas of Assam and Kenya, while higher ground that was once too cold for tea is becoming suitable. At the same time, many tea pickers, most of them women, still earn low wages for demanding work, and campaigns for fairer pay have pushed some buyers towards certified teas that guarantee a minimum price to farmers. Researchers are also breeding new varieties of the tea plant that can survive drought and resist disease, hoping to protect both the crop and the livelihoods that depend on it. The drink that began as a handful of leaves in a pot of hot water now supports the incomes of millions of people, and its future will depend on how well growers, traders and drinkers adapt to a warming world.",
+          "questions": [
+            {
+              "no": 15,
+              "type": "tfng",
+              "prompt": "Tea is the most widely consumed drink in the world after water.",
+              "answer": "TRUE",
+              "explanation": "The passage opens with this claim about tea's popularity.",
+              "evidence": "It is the most widely consumed drink on the planet after water"
+            },
+            {
+              "no": 16,
+              "type": "tfng",
+              "prompt": "Tea comes from the leaves of several different plant species.",
+              "answer": "FALSE",
+              "explanation": "All tea comes from one plant, Camellia sinensis; the differences come from processing.",
+              "evidence": "Tea comes from the leaves of Camellia sinensis, an evergreen shrub"
+            },
+            {
+              "no": 17,
+              "type": "mcq",
+              "prompt": "According to the passage, how should the legend of Shen Nong be treated?",
+              "options": [
+                "As a proven historical fact",
+                "With caution, because no written records survive from that period",
+                "As a story invented by British traders",
+                "As evidence that tea was first drunk in Japan"
+              ],
+              "answer": 1,
+              "explanation": "Historians are cautious because no records survive from that period.",
+              "evidence": "Historians treat this tale with caution, since no written records survive from that period"
+            },
+            {
+              "no": 18,
+              "type": "tfng",
+              "prompt": "Tea was first valued mainly as a medicine and a stimulant.",
+              "answer": "TRUE",
+              "explanation": "Early tea was drunk for medicinal qualities and to stay alert.",
+              "evidence": "tea was being drunk for its medicinal qualities by the third century BCE. At first it was valued mainly as a medicine and a stimulant for monks and scholars"
+            },
+            {
+              "no": 19,
+              "type": "short",
+              "prompt": "Complete the sentence: Buddhist monks carried tea seeds and drinking customs to ___ in the ninth century.",
+              "answers": [
+                "Japan"
+              ],
+              "explanation": "The passage says monks carried tea to Japan in the ninth century.",
+              "evidence": "Buddhist monks carried seeds and drinking customs to Japan in the ninth century"
+            },
+            {
+              "no": 20,
+              "type": "mcq",
+              "prompt": "In the Japanese tea ceremony, what carried meaning?",
+              "options": [
+                "Only the taste of the tea",
+                "Every gesture, from warming the bowl to whisking the tea",
+                "The price of the tea bowl",
+                "The number of guests present"
+              ],
+              "answer": 1,
+              "explanation": "Every gesture in the ceremony carried meaning.",
+              "evidence": "in which every gesture, from the warming of the bowl to the whisking of the powdered green tea, carried meaning."
+            },
+            {
+              "no": 21,
+              "type": "tfng",
+              "prompt": "China freely shared its tea-growing techniques with foreign traders for centuries.",
+              "answer": "FALSE",
+              "explanation": "China guarded the techniques closely; traders could buy leaves but not the knowledge.",
+              "evidence": "the techniques for growing and processing tea leaves were closely guarded secrets, and foreign traders could buy the finished leaves but not the knowledge of how to make them."
+            },
+            {
+              "no": 22,
+              "type": "mcq",
+              "prompt": "How did Britain break China's monopoly on tea production?",
+              "options": [
+                "By inventing a new tea plant",
+                "By smuggling tea plants and skilled workers out of China and starting plantations in India and Sri Lanka",
+                "By banning tea imports from China",
+                "By buying all of China's tea gardens"
+              ],
+              "answer": 1,
+              "explanation": "British traders smuggled plants and workers and set up plantations in India and Sri Lanka.",
+              "evidence": "British traders, frustrated by the cost of buying tea from China, smuggled tea plants and skilled workers out of China and established plantations in India and Sri Lanka."
+            },
+            {
+              "no": 23,
+              "type": "tfng",
+              "prompt": "The passage says the working conditions on the new plantations are now widely recognised as exploitative.",
+              "answer": "TRUE",
+              "explanation": "The passage describes the plantations as worked under harsh, exploitative conditions.",
+              "evidence": "The new plantations, worked under harsh conditions that are now widely recognised as exploitative, produced tea far more cheaply"
+            },
+            {
+              "no": 24,
+              "type": "mcq",
+              "prompt": "What mainly makes green, black and oolong teas different from each other?",
+              "options": [
+                "They come from different plants",
+                "They are grown in different soils",
+                "The way the leaves are processed after picking",
+                "The temperature of the water used to brew them"
+              ],
+              "answer": 2,
+              "explanation": "The plant is the same; processing, especially oxidation, creates the differences.",
+              "evidence": "What makes one tea different from another is not the plant, which is the same for green, black and oolong teas, but the way the leaves are processed after picking."
+            },
+            {
+              "no": 25,
+              "type": "short",
+              "prompt": "Complete the sentence: For green tea, the fresh leaves are heated quickly to stop ___.",
+              "answers": [
+                "oxidation"
+              ],
+              "explanation": "Heating stops oxidation so green tea keeps its colour and flavour.",
+              "evidence": "For green tea, the fresh leaves are heated quickly to stop oxidation, the chemical process that darkens them"
+            },
+            {
+              "no": 26,
+              "type": "tfng",
+              "prompt": "Climate change has reduced tea yields in some lowland areas of Assam and Kenya.",
+              "answer": "TRUE",
+              "explanation": "Rising temperatures and unpredictable rainfall have already reduced yields there.",
+              "evidence": "rising temperatures and unpredictable rainfall have already reduced yields in some lowland areas of Assam and Kenya"
+            },
+            {
+              "no": 27,
+              "type": "mcq",
+              "prompt": "What are researchers doing to protect the future of tea?",
+              "options": [
+                "Breeding new tea varieties that can survive drought and resist disease",
+                "Moving all tea production indoors",
+                "Replacing tea with a different crop",
+                "Banning the sale of certified teas"
+              ],
+              "answer": 0,
+              "explanation": "Researchers are breeding tougher varieties to protect the crop and livelihoods.",
+              "evidence": "Researchers are also breeding new varieties of the tea plant that can survive drought and resist disease"
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "title": "Why We Sleep: The Night Shift of the Brain",
+          "text": "Humans spend roughly a third of their lives asleep, yet for most of history sleep was treated as little more than a pause between days, a time when the brain simply switched off. Modern research has overturned that view. Sleep is now understood as an active and essential process, during which the brain sorts memories, clears waste, repairs tissue and prepares the body for the day ahead. Far from doing nothing, a sleeping brain is often as busy as a waking one, though it is busy with very different tasks.\n\nA night's sleep is not uniform. It is made up of cycles, each lasting about ninety minutes, in which the brain moves through several stages. The first stages are light sleep, when a person can be woken easily and may not even realise they have drifted off. Next comes deep sleep, also called slow-wave sleep, when breathing and heartbeat slow, muscles relax, and the brain produces slow, powerful waves. Finally there is REM sleep, named for the rapid eye movements that occur beneath closed eyelids. During REM sleep the brain is highly active, the body is temporarily paralysed, and most vivid dreams occur. The first cycles of the night contain the most deep sleep, while the later cycles contain more REM sleep, which is why dreams are often longest and strangest in the early hours of the morning.\n\nEach stage appears to serve a different purpose. Deep sleep is thought to be important for physical restoration: during this stage the body releases growth hormone, repairs muscle and consolidates memories of facts and events. REM sleep, by contrast, seems to help with emotional memories and creative problem-solving. In one well-known experiment, volunteers who were allowed to sleep after learning a difficult task performed far better the next day than volunteers who stayed awake, and those who dreamed about the task improved the most. Sleep, in other words, does not merely preserve what we have learned; it appears to reorganise it, linking new information to what we already know.\n\nThe effects of losing sleep are immediate and measurable. After a single night of poor sleep, attention wanders, reaction times slow, and people make more mistakes on simple tasks. Driving after a night without sleep can be as dangerous as driving after drinking alcohol, because the sleep-deprived brain suffers brief lapses known as microsleeps, moments of a few seconds when awareness simply drops away. Over longer periods, chronic short sleep is linked to a higher risk of obesity, diabetes, heart disease and depression, as well as to a weaker immune system. Despite this, surveys in many countries show that a large share of adults regularly sleep less than the seven to nine hours recommended for most adults, often because of work schedules, screens and the belief that sleep is time wasted.\n\nPart of the problem is light. The human body runs on an internal clock, the circadian rhythm, which is roughly twenty-four hours long and is set mainly by light entering the eyes. Morning light tells the brain to wake up and suppresses melatonin, the hormone that promotes sleep, while darkness in the evening allows melatonin to rise. Electric light, and especially the blue light from phones and laptops, can confuse this system, delaying melatonin and pushing sleep later. Shift workers, who must sleep during the day and work at night, face the sharpest clash with their body clocks and suffer the highest rates of sleep-related health problems.\n\nFortunately, researchers have identified habits that improve sleep without medicine. Keeping regular bedtimes and waking times, even at weekends, helps to stabilise the circadian rhythm. Exposure to bright daylight in the morning and dim light in the evening supports the same process. Caffeine late in the day, alcohol before bed and heavy meals close to bedtime all make sleep lighter and more broken, while regular daytime exercise is linked to deeper sleep. For people with serious insomnia, a treatment called cognitive behavioural therapy for insomnia, which changes unhelpful thoughts and habits around sleep, has proved more effective in the long term than sleeping pills, which tend to lose their effect and can leave people groggy. Sleep, scientists now agree, is not a luxury to be squeezed out of a busy life but a foundation on which health, memory and clear thinking all depend.",
+          "questions": [
+            {
+              "no": 28,
+              "type": "tfng",
+              "prompt": "Sleep was once thought of as a time when the brain simply switched off.",
+              "answer": "TRUE",
+              "explanation": "The passage says sleep was treated as a pause when the brain simply switched off.",
+              "evidence": "for most of history sleep was treated as little more than a pause between days, a time when the brain simply switched off."
+            },
+            {
+              "no": 29,
+              "type": "mcq",
+              "prompt": "What does the passage say the sleeping brain does?",
+              "options": [
+                "It stops working almost entirely",
+                "It sorts memories, clears waste, repairs tissue and prepares the body for the day ahead",
+                "It only dreams",
+                "It stores memories but does nothing else"
+              ],
+              "answer": 1,
+              "explanation": "The sleeping brain is active: sorting memories, clearing waste, repairing tissue.",
+              "evidence": "during which the brain sorts memories, clears waste, repairs tissue and prepares the body for the day ahead."
+            },
+            {
+              "no": 30,
+              "type": "short",
+              "prompt": "Complete the sentence: A sleep cycle lasts about ___ minutes.",
+              "answers": [
+                "ninety",
+                "90"
+              ],
+              "explanation": "Each sleep cycle lasts about ninety minutes.",
+              "evidence": "It is made up of cycles, each lasting about ninety minutes"
+            },
+            {
+              "no": 31,
+              "type": "tfng",
+              "prompt": "Deep sleep occurs mostly in the later cycles of the night.",
+              "answer": "FALSE",
+              "explanation": "The first cycles contain the most deep sleep; later cycles contain more REM sleep.",
+              "evidence": "The first cycles of the night contain the most deep sleep, while the later cycles contain more REM sleep"
+            },
+            {
+              "no": 32,
+              "type": "mcq",
+              "prompt": "What is REM sleep named for?",
+              "options": [
+                "The rapid eye movements beneath closed eyelids",
+                "The relaxed eye muscles of deep sleep",
+                "The repeated electrical signals in the brain",
+                "The restful state of the body"
+              ],
+              "answer": 0,
+              "explanation": "REM stands for rapid eye movement, seen beneath closed eyelids.",
+              "evidence": "Finally there is REM sleep, named for the rapid eye movements that occur beneath closed eyelids."
+            },
+            {
+              "no": 33,
+              "type": "mcq",
+              "prompt": "During deep sleep, what does the body do?",
+              "options": [
+                "It releases growth hormone and repairs muscle",
+                "It dreams most vividly",
+                "It becomes temporarily paralysed",
+                "It produces melatonin"
+              ],
+              "answer": 0,
+              "explanation": "Deep sleep is the stage of physical restoration, growth hormone release and muscle repair.",
+              "evidence": "during this stage the body releases growth hormone, repairs muscle and consolidates memories of facts and events."
+            },
+            {
+              "no": 34,
+              "type": "tfng",
+              "prompt": "Volunteers who slept after learning a difficult task performed better the next day than those who stayed awake.",
+              "answer": "TRUE",
+              "explanation": "The experiment showed sleepers performed far better the next day.",
+              "evidence": "volunteers who were allowed to sleep after learning a difficult task performed far better the next day than volunteers who stayed awake"
+            },
+            {
+              "no": 35,
+              "type": "mcq",
+              "prompt": "What is a microsleep?",
+              "options": [
+                "A short nap taken during the day",
+                "A brief lapse of a few seconds when awareness drops away",
+                "A stage of very light sleep",
+                "A dream that lasts only seconds"
+              ],
+              "answer": 1,
+              "explanation": "Microsleeps are brief lapses of a few seconds when awareness drops away.",
+              "evidence": "the sleep-deprived brain suffers brief lapses known as microsleeps, moments of a few seconds when awareness simply drops away."
+            },
+            {
+              "no": 36,
+              "type": "tfng",
+              "prompt": "Driving after a night without sleep is described as being as dangerous as driving after drinking alcohol.",
+              "answer": "TRUE",
+              "explanation": "The passage makes this direct comparison.",
+              "evidence": "Driving after a night without sleep can be as dangerous as driving after drinking alcohol"
+            },
+            {
+              "no": 37,
+              "type": "short",
+              "prompt": "Complete the sentence: The hormone that promotes sleep is called ___.",
+              "answers": [
+                "melatonin"
+              ],
+              "explanation": "Melatonin is the hormone that promotes sleep.",
+              "evidence": "Morning light tells the brain to wake up and suppresses melatonin, the hormone that promotes sleep"
+            },
+            {
+              "no": 38,
+              "type": "mcq",
+              "prompt": "Why can blue light from phones and laptops delay sleep?",
+              "options": [
+                "It makes the room too warm",
+                "It confuses the body clock, delaying melatonin and pushing sleep later",
+                "It damages the eyes permanently",
+                "It makes people hungry"
+              ],
+              "answer": 1,
+              "explanation": "Blue light confuses the circadian system and delays melatonin.",
+              "evidence": "Electric light, and especially the blue light from phones and laptops, can confuse this system, delaying melatonin and pushing sleep later."
+            },
+            {
+              "no": 39,
+              "type": "tfng",
+              "prompt": "Sleeping pills have proved more effective in the long term than cognitive behavioural therapy for insomnia.",
+              "answer": "FALSE",
+              "explanation": "The therapy has proved more effective long term; pills lose effect and leave people groggy.",
+              "evidence": "a treatment called cognitive behavioural therapy for insomnia, which changes unhelpful thoughts and habits around sleep, has proved more effective in the long term than sleeping pills"
+            },
+            {
+              "no": 40,
+              "type": "mcq",
+              "prompt": "What is the main conclusion of the passage?",
+              "options": [
+                "Sleep is a luxury that busy people can safely give up",
+                "Sleep is a foundation on which health, memory and clear thinking depend",
+                "Only deep sleep matters for health",
+                "Medicine is the best way to improve sleep"
+              ],
+              "answer": 1,
+              "explanation": "The passage concludes sleep is a foundation for health, memory and clear thinking.",
+              "evidence": "Sleep, scientists now agree, is not a luxury to be squeezed out of a busy life but a foundation on which health, memory and clear thinking all depend."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RA2",
+      "track": "academic",
+      "title": "Academic Reading Test 2",
+      "passages": [
+        {
+          "section": 1,
+          "title": "Harvesting the Sun: The Rise of Solar Power",
+          "text": "For most of human history, the sun was a source of warmth and light, but not of electricity. That changed in the nineteenth century, when scientists discovered that certain materials produce an electric current when struck by light, an effect known as the photovoltaic effect. It took more than a hundred years for this discovery to become practical, yet solar power is now the fastest-growing source of electricity in the world, with panels appearing on rooftops, in deserts and even floating on reservoirs.\n\nA solar cell is a thin slice of a semiconductor material, usually silicon, treated so that one side carries a slight positive charge and the other a slight negative charge. When sunlight hits the cell, it knocks electrons loose, and the difference in charge pushes those electrons through a circuit, creating an electric current. A single cell produces only a small amount of power, so cells are joined together into panels, and panels into arrays that can power a house, a school or a whole town. Unlike a coal or gas power station, a solar panel has no moving parts, makes no noise and produces no smoke while it works.\n\nThe cost of solar power has fallen dramatically. In the 1970s, a solar panel cost so much that it was used mainly on satellites, where no other power source was available. Since then, larger factories, better manufacturing methods and competition between producers have cut the price by more than ninety percent. In many sunny countries, electricity from a new solar farm is now cheaper than electricity from a new coal or gas plant, even without government support. This fall in price has allowed solar power to spread far beyond wealthy countries: in parts of Africa and South Asia, small solar systems now bring light and phone charging to homes that were never connected to a national grid.\n\nSolar power still faces serious challenges. The most obvious is that the sun does not shine at night, and its strength varies with the weather and the seasons. A solar farm produces far less power on a cloudy winter day than on a clear summer one, so electricity systems that depend heavily on solar power need ways to store energy or to draw on other sources when the sun is weak. Batteries are the most direct answer, and their price has also fallen sharply, but storing enough electricity for a whole city through a long cloudy spell remains expensive. Another challenge is land: a solar farm needs far more space than a gas plant producing the same amount of power, which can create tension with farming and wildlife in crowded regions.\n\nEngineers are responding with new ideas. One is to place solar panels on water, where they stay cooler and produce more power, and where they also reduce evaporation from reservoirs. Another is to combine solar panels with farming, growing crops or grazing sheep beneath panels raised above the ground, so the same land produces both food and electricity. A third is to build solar panels into the fabric of buildings themselves, as roof tiles or window glass that generate power while serving as part of the structure. Researchers are also testing new materials, such as perovskites, that could be printed cheaply like ink and could one day make solar cells lighter, more flexible and even more efficient than silicon.\n\nThe growth of solar power has already changed the politics of energy. Countries that once depended on importing oil and gas can now generate a large share of their electricity at home, from a resource that no one can cut off. At the same time, the manufacture of panels is concentrated in a small number of countries, which has created new dependencies and trade disputes. Environmentalists also warn that old panels, which contain glass, metals and small amounts of toxic material, will need to be recycled carefully as the first great wave of panels reaches the end of its life in the 2030s and 2040s. How the world manages these problems will decide whether solar power fulfils its promise. What is no longer in doubt is that a technology once confined to satellites now sits at the centre of the global effort to produce electricity without warming the planet.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "tfng",
+              "prompt": "Solar power is now the fastest-growing source of electricity in the world.",
+              "answer": "TRUE",
+              "explanation": "The passage states this in the opening paragraph.",
+              "evidence": "solar power is now the fastest-growing source of electricity in the world"
+            },
+            {
+              "no": 2,
+              "type": "mcq",
+              "prompt": "What is the photovoltaic effect?",
+              "options": [
+                "The heating of a material by sunlight",
+                "Certain materials producing an electric current when struck by light",
+                "The reflection of light from a mirror",
+                "The storage of sunlight as heat"
+              ],
+              "answer": 1,
+              "explanation": "The photovoltaic effect is materials producing current when struck by light.",
+              "evidence": "scientists discovered that certain materials produce an electric current when struck by light, an effect known as the photovoltaic effect."
+            },
+            {
+              "no": 3,
+              "type": "short",
+              "prompt": "Complete the sentence: A solar cell is usually made from a semiconductor material called ___.",
+              "answers": [
+                "silicon"
+              ],
+              "explanation": "Solar cells are usually made of silicon.",
+              "evidence": "A solar cell is a thin slice of a semiconductor material, usually silicon"
+            },
+            {
+              "no": 4,
+              "type": "tfng",
+              "prompt": "A single solar cell produces enough power for a whole house.",
+              "answer": "FALSE",
+              "explanation": "A single cell produces only a small amount of power; cells are joined into panels and arrays.",
+              "evidence": "A single cell produces only a small amount of power, so cells are joined together into panels, and panels into arrays"
+            },
+            {
+              "no": 5,
+              "type": "mcq",
+              "prompt": "What is one advantage of a solar panel over a coal power station mentioned in the passage?",
+              "options": [
+                "It produces more power per square metre",
+                "It has no moving parts, makes no noise and produces no smoke while it works",
+                "It works at night",
+                "It needs no sunlight"
+              ],
+              "answer": 1,
+              "explanation": "Solar panels have no moving parts, no noise and no smoke while working.",
+              "evidence": "Unlike a coal or gas power station, a solar panel has no moving parts, makes no noise and produces no smoke while it works."
+            },
+            {
+              "no": 6,
+              "type": "tfng",
+              "prompt": "The price of solar panels has fallen by more than ninety percent since the 1970s.",
+              "answer": "TRUE",
+              "explanation": "Larger factories and better methods cut the price by more than ninety percent.",
+              "evidence": "larger factories, better manufacturing methods and competition between producers have cut the price by more than ninety percent."
+            },
+            {
+              "no": 7,
+              "type": "mcq",
+              "prompt": "In many sunny countries, how does the cost of electricity from a new solar farm compare with a new coal or gas plant?",
+              "options": [
+                "It is much more expensive",
+                "It is now cheaper, even without government support",
+                "It costs exactly the same",
+                "It is cheaper only with government support"
+              ],
+              "answer": 1,
+              "explanation": "In sunny countries solar is now cheaper even without support.",
+              "evidence": "In many sunny countries, electricity from a new solar farm is now cheaper than electricity from a new coal or gas plant, even without government support."
+            },
+            {
+              "no": 8,
+              "type": "tfng",
+              "prompt": "Small solar systems have brought light to some homes never connected to a national grid.",
+              "answer": "TRUE",
+              "explanation": "Small systems bring light and phone charging to off-grid homes in Africa and South Asia.",
+              "evidence": "in parts of Africa and South Asia, small solar systems now bring light and phone charging to homes that were never connected to a national grid."
+            },
+            {
+              "no": 9,
+              "type": "mcq",
+              "prompt": "What is the most obvious challenge facing solar power?",
+              "options": [
+                "Panels are too noisy",
+                "The sun does not shine at night and its strength varies",
+                "Solar panels wear out in weeks",
+                "Sunlight damages the panels"
+              ],
+              "answer": 1,
+              "explanation": "The sun does not shine at night and varies with weather and season.",
+              "evidence": "The most obvious is that the sun does not shine at night, and its strength varies with the weather and the seasons."
+            },
+            {
+              "no": 10,
+              "type": "short",
+              "prompt": "Complete the sentence: Solar panels placed on water stay cooler, produce more power, and also reduce ___ from reservoirs.",
+              "answers": [
+                "evaporation"
+              ],
+              "explanation": "Floating panels reduce evaporation from reservoirs.",
+              "evidence": "where they stay cooler and produce more power, and where they also reduce evaporation from reservoirs."
+            },
+            {
+              "no": 11,
+              "type": "mcq",
+              "prompt": "What does combining solar panels with farming involve?",
+              "options": [
+                "Growing crops or grazing sheep beneath raised panels so the land produces food and electricity",
+                "Replacing all farms with solar farms",
+                "Using farm waste to make panels",
+                "Growing panels instead of crops"
+              ],
+              "answer": 0,
+              "explanation": "Agrivoltaics means crops or sheep under raised panels, producing food and power together.",
+              "evidence": "growing crops or grazing sheep beneath panels raised above the ground, so the same land produces both food and electricity."
+            },
+            {
+              "no": 12,
+              "type": "tfng",
+              "prompt": "Perovskites could one day make solar cells lighter and more flexible than silicon ones.",
+              "answer": "TRUE",
+              "explanation": "Researchers test perovskites that could be printed cheaply and be lighter and more flexible.",
+              "evidence": "such as perovskites, that could be printed cheaply like ink and could one day make solar cells lighter, more flexible and even more efficient than silicon."
+            },
+            {
+              "no": 13,
+              "type": "tfng",
+              "prompt": "Old solar panels contain no toxic material at all.",
+              "answer": "FALSE",
+              "explanation": "Old panels contain small amounts of toxic material and need careful recycling.",
+              "evidence": "old panels, which contain glass, metals and small amounts of toxic material, will need to be recycled carefully"
+            },
+            {
+              "no": 14,
+              "type": "mcq",
+              "prompt": "What is the main purpose of the passage?",
+              "options": [
+                "To explain how solar power works, why it has grown, and what challenges remain",
+                "To argue that solar power should replace all other energy sources immediately",
+                "To describe the history of satellites",
+                "To compare solar power with wind power"
+              ],
+              "answer": 0,
+              "explanation": "The passage covers how solar works, its falling cost, its challenges and its future.",
+              "evidence": "What is no longer in doubt is that a technology once confined to satellites now sits at the centre of the global effort to produce electricity without warming the planet."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "title": "The Hands That Remember: Traditional Weaving",
+          "text": "In a small workshop in the hills, a weaver sits at a wooden loom that has been in her family for three generations. Her hands move without hesitation, passing the shuttle back and forth, while a pattern she learned as a child slowly appears in the cloth. She is not following a written diagram. The pattern lives in her memory, in the rhythm of her hands and in the songs her mother sang while weaving. Around the world, millions of people still make cloth this way, keeping alive crafts that are far older than the factories that now produce most of our clothes.\n\nWeaving is one of the oldest human technologies. Archaeologists have found woven fragments dating back more than twenty thousand years, and nearly every culture developed its own way of turning plant fibres, wool or silk into fabric. The basic principle has never changed: threads running in one direction, the warp, are held tight on a loom, while threads running across them, the weft, are passed over and under the warp in turn. What varies enormously is the result. A plain cotton cloth for everyday wear, a thick woollen blanket for a cold winter, and a silk brocade patterned with gold thread are all made by the same simple crossing of threads, yet each demands different materials, tools and years of skill.\n\nThe knowledge of a master weaver is difficult to write down. Choosing the right fibre, judging how tightly to spin it, setting the tension of the loom and knowing exactly when a dye bath is ready are skills learned by watching, copying and practising over many years. A weaver must also know how to mend a broken thread without leaving a mark, and how to judge the quality of a finished cloth by touch alone. Apprentices traditionally began as children, doing small tasks beside an experienced weaver, and only gradually took on the full work. Because so much of this knowledge is held in the body rather than in books, it is fragile: when a generation stops weaving, the skill can disappear within a few decades, even if the looms and the raw materials remain.\n\nThat is now happening in many places. Cheap factory cloth, produced quickly and sold at prices no hand weaver can match, has pushed traditional weaving to the margins. Young people leave villages for jobs in towns, and the long apprenticeship that weaving demands seems a poor investment beside a wage in a shop or office. In some regions, the number of working handlooms has fallen by more than half in a single generation. The loss is not only economic. Patterns in woven cloth often carry meaning: a particular border may mark a wedding cloth, a colour may show the wearer's village, and a motif may tell a story from local legend. When the weaving stops, that visual language fades with it.\n\nYet weaving is also finding new life. Designers in fashion capitals now seek out handwoven fabrics for their texture and irregularity, qualities that factory cloth cannot copy, and are willing to pay far more for them. Some weaving cooperatives now employ young designers who combine old patterns with new colours, creating fabrics that appeal to buyers who have never seen a loom. Fair-trade organisations help weavers sell directly to buyers abroad, cutting out middlemen who once took most of the profit. In several countries, governments have given protected status to famous weaving traditions, and museums and schools run courses to teach young people the craft. Tourism has helped too: visitors who watch a weaver at work are more likely to buy a scarf or blanket at a fair price, and the sale gives the weaver a reason to teach the skill to her children.\n\nTechnology is playing an unexpected part in this revival. Weavers now photograph their patterns and share them on social media, reaching customers they could never have met through a village market. Some record videos of their techniques so that the movements of their hands can be studied long after they have stopped weaving. Others use the internet to order dyes and fibres that are no longer sold locally. The loom itself has changed little, but the world around it has. Whether these efforts will be enough is uncertain. What is clear is that the survival of traditional weaving now depends less on the loom than on whether societies value the slow, skilled work of human hands enough to pay for it.",
+          "questions": [
+            {
+              "no": 15,
+              "type": "tfng",
+              "prompt": "The weaver in the opening paragraph follows a written diagram.",
+              "answer": "FALSE",
+              "explanation": "She follows no written diagram; the pattern lives in her memory.",
+              "evidence": "She is not following a written diagram. The pattern lives in her memory"
+            },
+            {
+              "no": 16,
+              "type": "mcq",
+              "prompt": "What is the basic principle of weaving?",
+              "options": [
+                "Threads are knotted together by hand",
+                "Weft threads are passed over and under tight warp threads",
+                "Cloth is cut from a single sheet of fibre",
+                "Threads are glued onto a frame"
+              ],
+              "answer": 1,
+              "explanation": "Warp threads are held tight and weft threads pass over and under them.",
+              "evidence": "threads running in one direction, the warp, are held tight on a loom, while threads running across them, the weft, are passed over and under the warp in turn."
+            },
+            {
+              "no": 17,
+              "type": "tfng",
+              "prompt": "Woven fragments more than twenty thousand years old have been found by archaeologists.",
+              "answer": "TRUE",
+              "explanation": "Archaeologists found woven fragments dating back more than twenty thousand years.",
+              "evidence": "Archaeologists have found woven fragments dating back more than twenty thousand years"
+            },
+            {
+              "no": 18,
+              "type": "short",
+              "prompt": "Complete the sentence: The threads running in one direction on a loom are called the ___.",
+              "answers": [
+                "warp"
+              ],
+              "explanation": "The lengthwise threads are the warp.",
+              "evidence": "threads running in one direction, the warp, are held tight on a loom"
+            },
+            {
+              "no": 19,
+              "type": "mcq",
+              "prompt": "Why is a master weaver's knowledge described as fragile?",
+              "options": [
+                "Because looms break easily",
+                "Because so much of it is held in the body rather than in books, so it can disappear in a generation",
+                "Because weavers refuse to teach anyone",
+                "Because the raw materials are rare"
+              ],
+              "answer": 1,
+              "explanation": "The knowledge lives in the body, not books, so it vanishes if a generation stops weaving.",
+              "evidence": "Because so much of this knowledge is held in the body rather than in books, it is fragile: when a generation stops weaving, the skill can disappear within a few decades"
+            },
+            {
+              "no": 20,
+              "type": "tfng",
+              "prompt": "Apprentices traditionally began learning weaving as children.",
+              "answer": "TRUE",
+              "explanation": "Apprentices began as children doing small tasks beside an experienced weaver.",
+              "evidence": "Apprentices traditionally began as children, doing small tasks beside an experienced weaver"
+            },
+            {
+              "no": 21,
+              "type": "mcq",
+              "prompt": "What has pushed traditional weaving to the margins in many places?",
+              "options": [
+                "A shortage of looms",
+                "Cheap factory cloth produced quickly and sold at prices no hand weaver can match",
+                "A ban on handwoven fabrics",
+                "A lack of raw materials"
+              ],
+              "answer": 1,
+              "explanation": "Cheap factory cloth undercut hand weavers on price.",
+              "evidence": "Cheap factory cloth, produced quickly and sold at prices no hand weaver can match, has pushed traditional weaving to the margins."
+            },
+            {
+              "no": 22,
+              "type": "tfng",
+              "prompt": "Patterns in woven cloth sometimes carry meaning, such as marking a wedding cloth.",
+              "answer": "TRUE",
+              "explanation": "Patterns can mark weddings, villages and local legends.",
+              "evidence": "a particular border may mark a wedding cloth, a colour may show the wearer's village, and a motif may tell a story from local legend."
+            },
+            {
+              "no": 23,
+              "type": "mcq",
+              "prompt": "Why do fashion designers seek out handwoven fabrics?",
+              "options": [
+                "Because they are cheaper than factory cloth",
+                "For their texture and irregularity, qualities factory cloth cannot copy",
+                "Because they are easier to wash",
+                "Because they are always the same colour"
+              ],
+              "answer": 1,
+              "explanation": "Designers value the texture and irregularity factory cloth cannot copy.",
+              "evidence": "Designers in fashion capitals now seek out handwoven fabrics for their texture and irregularity, qualities that factory cloth cannot copy"
+            },
+            {
+              "no": 24,
+              "type": "short",
+              "prompt": "Complete the sentence: Fair-trade organisations help weavers sell directly to buyers abroad, cutting out ___.",
+              "answers": [
+                "middlemen"
+              ],
+              "explanation": "Fair-trade groups cut out middlemen who took most of the profit.",
+              "evidence": "Fair-trade organisations help weavers sell directly to buyers abroad, cutting out middlemen who once took most of the profit."
+            },
+            {
+              "no": 25,
+              "type": "tfng",
+              "prompt": "Tourism has helped weaving because visitors who watch a weaver at work are more likely to buy at a fair price.",
+              "answer": "TRUE",
+              "explanation": "Watching the work makes visitors more likely to buy at a fair price.",
+              "evidence": "visitors who watch a weaver at work are more likely to buy a scarf or blanket at a fair price"
+            },
+            {
+              "no": 26,
+              "type": "mcq",
+              "prompt": "How is technology helping the revival of weaving?",
+              "options": [
+                "By replacing looms with machines",
+                "Weavers photograph patterns, share them online, and record videos of techniques",
+                "By banning factory cloth",
+                "By making weaving fully automatic"
+              ],
+              "answer": 1,
+              "explanation": "Weavers share patterns on social media and record technique videos.",
+              "evidence": "Weavers now photograph their patterns and share them on social media, reaching customers they could never have met through a village market."
+            },
+            {
+              "no": 27,
+              "type": "mcq",
+              "prompt": "According to the passage, what does the survival of traditional weaving now depend on most?",
+              "options": [
+                "Whether societies value the slow, skilled work of human hands enough to pay for it",
+                "Whether new looms are invented",
+                "Whether weaving becomes faster than factory production",
+                "Whether weavers move to cities"
+              ],
+              "answer": 0,
+              "explanation": "Survival depends on societies valuing and paying for skilled hand work.",
+              "evidence": "the survival of traditional weaving now depends less on the loom than on whether societies value the slow, skilled work of human hands enough to pay for it."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "title": "The Long Way Home: The Migration of Birds",
+          "text": "Twice a year, billions of birds set out on journeys that would defeat most human travellers. The Arctic tern, a seabird weighing less than a small apple, flies from its breeding grounds in the far north to the seas around Antarctica and back again, covering more than seventy thousand kilometres in a single year. The bar-tailed godwit, a wading bird, flies without stopping for more than eleven thousand kilometres across the Pacific Ocean, a journey that takes eight days and nights without food, water or rest. How birds find their way across such distances, and how they survive the effort, remains one of the great puzzles of biology.\n\nMigration is driven first of all by food. In the high north, summer brings long days, abundant insects and few competitors, making it an excellent place to raise young. But when winter arrives, the insects disappear, lakes freeze, and the same region becomes almost uninhabitable for small birds. Flying south to warmer regions, where food remains available through the winter, is a better option than staying, even though the journey itself is long and dangerous. Birds that migrate tend to raise more young than birds that stay behind, which is why the habit has evolved independently in many different families of birds.\n\nFinding the way is the harder problem. Experiments have shown that birds use several different guides, often in combination. Many species navigate by the sun during the day and by the stars at night, and young birds appear to learn the pattern of the stars during their first weeks of life. Others sense the Earth's magnetic field, using a kind of internal compass that allows them to detect direction even on cloudy nights when neither sun nor stars can be seen. Some birds also recognise landmarks such as coastlines, rivers and mountain ranges, and follow them like roads. Older, experienced birds lead the way on some routes, but many young birds migrate alone on their first journey, guided only by instincts they were born with.\n\nThe physical demands of migration are extreme. Before a long flight, a bird may double its body weight by building up fat, which serves as fuel in the same way petrol serves a car. During flight, the heart beats faster, the muscles burn fat at an extraordinary rate, and some birds even shrink internal organs they do not need in the air, such as parts of the digestive system, to save weight. The bar-tailed godwit's non-stop flight across the Pacific is the longest known journey without refuelling by any animal. When it lands, it may have lost more than half its body weight, yet within days it begins feeding and recovering for the return journey.\n\nNot all birds migrate in the same way. Some travel in large flocks, taking advantage of the shelter that flying in formation provides, while others travel alone, often at night when the air is cooler and predators are fewer. Some species fly only short distances, moving down a mountainside or to a nearby valley, while others cross whole continents and oceans. A few birds, such as some populations of the blackcap, have changed their migration routes within a few decades, beginning to spend winters in Britain instead of flying to southern Europe, a shift that scientists link to warmer winters and food provided in gardens.\n\nMigration is now under threat from human activity. The loss of wetlands and forests removes the resting places where birds must feed and recover during their journeys, and a bird that cannot refuel at the right place may not survive the next leg of its flight. Bright city lights can confuse night-flying birds, drawing them off course or causing them to collide with buildings, and tall glass towers kill millions of migrants every year. Climate change adds a further danger: if spring arrives earlier in the breeding grounds, birds that set out on a fixed schedule may arrive after the peak of insect food has passed, leaving too little for their chicks. Conservationists argue that protecting migratory birds requires protecting not one place but a chain of places, the breeding grounds, the wintering grounds and every stopover in between, across many countries. A bird that crosses a dozen borders in a single journey can only survive if all of them offer it somewhere safe to land.",
+          "questions": [
+            {
+              "no": 28,
+              "type": "tfng",
+              "prompt": "The Arctic tern flies more than seventy thousand kilometres in a single year.",
+              "answer": "TRUE",
+              "explanation": "The tern's annual round trip exceeds seventy thousand kilometres.",
+              "evidence": "covering more than seventy thousand kilometres in a single year."
+            },
+            {
+              "no": 29,
+              "type": "mcq",
+              "prompt": "How long does the bar-tailed godwit's non-stop flight across the Pacific take?",
+              "options": [
+                "About eight days and nights",
+                "About three days",
+                "About two weeks",
+                "About one day"
+              ],
+              "answer": 0,
+              "explanation": "The godwit flies eight days and nights without stopping.",
+              "evidence": "flies without stopping for more than eleven thousand kilometres across the Pacific Ocean, a journey that takes eight days and nights without food, water or rest."
+            },
+            {
+              "no": 30,
+              "type": "mcq",
+              "prompt": "What is the main reason birds migrate?",
+              "options": [
+                "To escape predators",
+                "Food: summer in the north is rich, but winter there leaves almost nothing to eat",
+                "To find mates only",
+                "To avoid other birds"
+              ],
+              "answer": 1,
+              "explanation": "Migration is driven first by food availability across seasons.",
+              "evidence": "Migration is driven first of all by food. In the high north, summer brings long days, abundant insects and few competitors"
+            },
+            {
+              "no": 31,
+              "type": "tfng",
+              "prompt": "Birds that migrate tend to raise more young than birds that stay behind.",
+              "answer": "TRUE",
+              "explanation": "Migrating birds tend to raise more young, which is why the habit evolved.",
+              "evidence": "Birds that migrate tend to raise more young than birds that stay behind, which is why the habit has evolved independently in many different families of birds."
+            },
+            {
+              "no": 32,
+              "type": "mcq",
+              "prompt": "Which of these do birds use to navigate?",
+              "options": [
+                "Only landmarks",
+                "The sun, the stars, the Earth's magnetic field and landmarks, often in combination",
+                "Only the Earth's magnetic field",
+                "Only following older birds"
+              ],
+              "answer": 1,
+              "explanation": "Birds use several guides in combination.",
+              "evidence": "Experiments have shown that birds use several different guides, often in combination."
+            },
+            {
+              "no": 33,
+              "type": "short",
+              "prompt": "Complete the sentence: Many young birds migrate alone on their first journey, guided only by ___ they were born with.",
+              "answers": [
+                "instincts"
+              ],
+              "explanation": "Young birds migrate alone guided only by instincts.",
+              "evidence": "many young birds migrate alone on their first journey, guided only by instincts they were born with."
+            },
+            {
+              "no": 34,
+              "type": "tfng",
+              "prompt": "Before a long flight, a bird may double its body weight by building up fat.",
+              "answer": "TRUE",
+              "explanation": "Birds build up fat as fuel before long flights, sometimes doubling weight.",
+              "evidence": "Before a long flight, a bird may double its body weight by building up fat, which serves as fuel"
+            },
+            {
+              "no": 35,
+              "type": "mcq",
+              "prompt": "Why do some birds shrink internal organs during flight?",
+              "options": [
+                "To save weight",
+                "To stay warm",
+                "To fly faster in storms",
+                "To avoid predators"
+              ],
+              "answer": 0,
+              "explanation": "Organs not needed in the air shrink to save weight.",
+              "evidence": "some birds even shrink internal organs they do not need in the air, such as parts of the digestive system, to save weight."
+            },
+            {
+              "no": 36,
+              "type": "tfng",
+              "prompt": "The bar-tailed godwit's Pacific flight is the longest known journey without refuelling by any animal.",
+              "answer": "TRUE",
+              "explanation": "The passage states this record directly.",
+              "evidence": "The bar-tailed godwit's non-stop flight across the Pacific is the longest known journey without refuelling by any animal."
+            },
+            {
+              "no": 37,
+              "type": "mcq",
+              "prompt": "Why do some birds travel at night?",
+              "options": [
+                "Because the air is cooler and predators are fewer",
+                "Because stars are easier to see in cities",
+                "Because they cannot fly in daylight",
+                "Because food is more plentiful at night"
+              ],
+              "answer": 0,
+              "explanation": "Night travel means cooler air and fewer predators.",
+              "evidence": "others travel alone, often at night when the air is cooler and predators are fewer."
+            },
+            {
+              "no": 38,
+              "type": "tfng",
+              "prompt": "Some blackcaps have changed their migration routes within a few decades.",
+              "answer": "TRUE",
+              "explanation": "Some blackcaps now winter in Britain instead of southern Europe.",
+              "evidence": "some populations of the blackcap, have changed their migration routes within a few decades, beginning to spend winters in Britain instead of flying to southern Europe"
+            },
+            {
+              "no": 39,
+              "type": "mcq",
+              "prompt": "What danger does climate change pose to migratory birds?",
+              "options": [
+                "It makes birds fly faster",
+                "Birds may arrive after the peak of insect food has passed, leaving too little for their chicks",
+                "It removes all predators",
+                "It makes winters colder everywhere"
+              ],
+              "answer": 1,
+              "explanation": "Earlier springs can mean birds miss the insect peak for their chicks.",
+              "evidence": "if spring arrives earlier in the breeding grounds, birds that set out on a fixed schedule may arrive after the peak of insect food has passed, leaving too little for their chicks."
+            },
+            {
+              "no": 40,
+              "type": "mcq",
+              "prompt": "According to conservationists, what does protecting migratory birds require?",
+              "options": [
+                "Protecting a chain of places: breeding grounds, wintering grounds and every stopover in between",
+                "Protecting only the breeding grounds",
+                "Banning all city lights",
+                "Keeping birds in one country"
+              ],
+              "answer": 0,
+              "explanation": "Protection needs the whole chain of sites across many countries.",
+              "evidence": "protecting migratory birds requires protecting not one place but a chain of places, the breeding grounds, the wintering grounds and every stopover in between, across many countries."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RG1",
+      "track": "general",
+      "title": "General Training Reading Test 1",
+      "passages": [
+        {
+          "section": 1,
+          "title": "Everyday Notices",
+          "text": "TEXT A — RIVERSIDE COMMUNITY LIBRARY\nOpening hours: Monday to Friday 9.00 am to 6.00 pm, Saturday 9.00 am to 1.00 pm. The library is closed on Sundays and public holidays. Members may borrow up to six books for three weeks. Books can be renewed once by phone or online, unless another member has reserved them. A late return fee of 50p per book per day applies after the due date. Please return books in the box outside the main door if the library is closed.\n\nTEXT B — GREENFIELD LEISURE CENTRE: SWIMMING POOL\nThe swimming pool will be closed for essential repairs from Monday 9 June to Friday 20 June. During this period, all swimming lessons and aqua fitness classes are cancelled, and no refunds will be given for missed lessons. Instead, every lesson will be added to the end of the current term. The gym, sports hall and cafe will remain open as usual. We apologise for any inconvenience.\n\nTEXT C — BUS SERVICE 42: TIMETABLE CHANGE\nFrom Monday 2 June, Bus 42 will run every 20 minutes on weekdays, instead of every 30 minutes. The first bus from Market Square will leave at 6.20 am and the last bus will leave at 11.40 pm. On Sundays, the service will run every 30 minutes as before. Passengers are reminded that a valid ticket must be shown to the driver before boarding.\n\nTEXT D — SATURDAY FARMERS' MARKET, TOWN SQUARE\nThe farmers' market is held every Saturday from 8.00 am to 2.00 pm in the Town Square. Stalls sell fresh vegetables, bread, cheese, honey and flowers, all produced within 30 miles of the town. Cash and cards are accepted at most stalls. Dogs are welcome but must be kept on a lead. Parking in the Town Square is not available on market days; please use the car park on Station Road, which is free for the first two hours.\n\nTEXT E — RECYCLING CENTRE, MILL ROAD\nThe recycling centre is open daily from 8.00 am to 4.00 pm. Household waste, garden waste, paper, glass and metal can be left here free of charge. Large items such as old sofas and fridges must be booked in advance by phone. Building waste from home improvements is not accepted. Proof of address is required on your first visit.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "tfng",
+              "prompt": "Riverside Community Library is open on Sundays.",
+              "answer": "FALSE",
+              "explanation": "The library is closed on Sundays and public holidays.",
+              "evidence": "The library is closed on Sundays and public holidays."
+            },
+            {
+              "no": 2,
+              "type": "mcq",
+              "prompt": "How many books may a library member borrow at one time?",
+              "options": [
+                "Three",
+                "Four",
+                "Six",
+                "Ten"
+              ],
+              "answer": 2,
+              "explanation": "Members may borrow up to six books.",
+              "evidence": "Members may borrow up to six books for three weeks."
+            },
+            {
+              "no": 3,
+              "type": "short",
+              "prompt": "Complete the sentence: A late return fee of ___ per book per day applies after the due date.",
+              "answers": [
+                "50p"
+              ],
+              "explanation": "The late fee is 50p per book per day.",
+              "evidence": "A late return fee of 50p per book per day applies after the due date."
+            },
+            {
+              "no": 4,
+              "type": "tfng",
+              "prompt": "Library books can be renewed once unless another member has reserved them.",
+              "answer": "TRUE",
+              "explanation": "Renewal is allowed once, except for reserved books.",
+              "evidence": "Books can be renewed once by phone or online, unless another member has reserved them."
+            },
+            {
+              "no": 5,
+              "type": "mcq",
+              "prompt": "Why will the swimming pool at Greenfield Leisure Centre be closed?",
+              "options": [
+                "For essential repairs",
+                "Because of a staff shortage",
+                "For a swimming competition",
+                "Because of low water levels"
+              ],
+              "answer": 0,
+              "explanation": "The pool closes for essential repairs from 9 to 20 June.",
+              "evidence": "The swimming pool will be closed for essential repairs from Monday 9 June to Friday 20 June."
+            },
+            {
+              "no": 6,
+              "type": "tfng",
+              "prompt": "Swimmers will receive refunds for swimming lessons missed during the pool closure.",
+              "answer": "FALSE",
+              "explanation": "No refunds will be given; missed lessons are added to the end of term instead.",
+              "evidence": "no refunds will be given for missed lessons. Instead, every lesson will be added to the end of the current term."
+            },
+            {
+              "no": 7,
+              "type": "mcq",
+              "prompt": "During the pool closure, which facilities will remain open?",
+              "options": [
+                "Only the cafe",
+                "The gym, sports hall and cafe",
+                "Only the gym",
+                "Nothing will remain open"
+              ],
+              "answer": 1,
+              "explanation": "The gym, sports hall and cafe stay open as usual.",
+              "evidence": "The gym, sports hall and cafe will remain open as usual."
+            },
+            {
+              "no": 8,
+              "type": "short",
+              "prompt": "Complete the sentence: From 2 June, Bus 42 will run every ___ minutes on weekdays.",
+              "answers": [
+                "20"
+              ],
+              "explanation": "The weekday frequency changes from 30 to 20 minutes.",
+              "evidence": "From Monday 2 June, Bus 42 will run every 20 minutes on weekdays, instead of every 30 minutes."
+            },
+            {
+              "no": 9,
+              "type": "tfng",
+              "prompt": "On Sundays, Bus 42 will run every 20 minutes.",
+              "answer": "FALSE",
+              "explanation": "Sunday service stays at every 30 minutes.",
+              "evidence": "On Sundays, the service will run every 30 minutes as before."
+            },
+            {
+              "no": 10,
+              "type": "mcq",
+              "prompt": "What time does the first Bus 42 leave Market Square on weekdays?",
+              "options": [
+                "6.20 am",
+                "6.30 am",
+                "7.00 am",
+                "5.40 am"
+              ],
+              "answer": 0,
+              "explanation": "The first bus leaves at 6.20 am.",
+              "evidence": "The first bus from Market Square will leave at 6.20 am"
+            },
+            {
+              "no": 11,
+              "type": "mcq",
+              "prompt": "What is sold at the Saturday farmers' market?",
+              "options": [
+                "Fresh vegetables, bread, cheese, honey and flowers",
+                "Clothes and shoes",
+                "Books and toys",
+                "Electrical goods"
+              ],
+              "answer": 0,
+              "explanation": "Stalls sell vegetables, bread, cheese, honey and flowers.",
+              "evidence": "Stalls sell fresh vegetables, bread, cheese, honey and flowers, all produced within 30 miles of the town."
+            },
+            {
+              "no": 12,
+              "type": "tfng",
+              "prompt": "Parking in the Town Square is available on market days.",
+              "answer": "FALSE",
+              "explanation": "Parking in the Town Square is not available on market days.",
+              "evidence": "Parking in the Town Square is not available on market days; please use the car park on Station Road"
+            },
+            {
+              "no": 13,
+              "type": "mcq",
+              "prompt": "What must visitors to the recycling centre do on their first visit?",
+              "options": [
+                "Pay a fee",
+                "Book in advance",
+                "Show proof of address",
+                "Bring a driving licence"
+              ],
+              "answer": 2,
+              "explanation": "Proof of address is required on the first visit.",
+              "evidence": "Proof of address is required on your first visit."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "title": "Workplace Information",
+          "text": "TEXT A — STAFF HANDBOOK: ANNUAL LEAVE\nAll full-time staff are entitled to 25 days of paid annual leave each year, plus public holidays. Part-time staff receive leave in proportion to the hours they work. Leave must be requested at least two weeks in advance using the online form, and approved by your line manager. No more than two members of the same team may be on leave at the same time. Unused leave may be carried over to the following year, up to a maximum of five days. Leave cannot be taken during the first month of employment.\n\nTEXT B — STAFF HANDBOOK: HEALTH AND SAFETY\nAll new staff must complete the online health and safety training within their first week. Fire exits must be kept clear at all times, and staff should familiarise themselves with the nearest exit to their workstation. Any accident, however minor, must be reported to your supervisor on the same day and recorded in the accident book. Staff who lift heavy items must use the trolleys provided and must not lift anything weighing more than 20 kilograms on their own. Protective gloves are provided free of charge and must be worn when handling cleaning chemicals.\n\nTEXT C — NOTICE TO ALL STAFF: STAFF CANTEEN\nFrom 1 July, the staff canteen will offer a hot lunch every weekday from 12.00 to 2.00 pm, at a cost of £4.50. A vegetarian option will always be available. Staff who bring their own lunch may use the microwaves and fridges in the canteen, but must label all food with their name and the date. Any food left in the fridge for more than three days will be thrown away. Tea and coffee are free for all staff during working hours.\n\nTEXT D — NOTICE TO ALL STAFF: OVERTIME AND FLEXIBLE WORKING\nOvertime is paid at time and a half for hours worked beyond 40 hours in a week, and at double time on Sundays and public holidays. All overtime must be approved in advance by your line manager; unapproved overtime will not be paid. Staff who have worked here for more than six months may apply for flexible working, such as starting earlier or later, or working from home for up to two days a week. Applications should be made in writing to the Human Resources department, which will reply within 14 days.",
+          "questions": [
+            {
+              "no": 14,
+              "type": "mcq",
+              "prompt": "How many days of paid annual leave are full-time staff entitled to each year?",
+              "options": [
+                "20 days",
+                "25 days",
+                "30 days",
+                "15 days"
+              ],
+              "answer": 1,
+              "explanation": "Full-time staff get 25 days plus public holidays.",
+              "evidence": "All full-time staff are entitled to 25 days of paid annual leave each year, plus public holidays."
+            },
+            {
+              "no": 15,
+              "type": "tfng",
+              "prompt": "Part-time staff receive the same 25 days of leave as full-time staff.",
+              "answer": "FALSE",
+              "explanation": "Part-time staff receive leave in proportion to hours worked.",
+              "evidence": "Part-time staff receive leave in proportion to the hours they work."
+            },
+            {
+              "no": 16,
+              "type": "short",
+              "prompt": "Complete the sentence: Leave must be requested at least ___ weeks in advance.",
+              "answers": [
+                "two",
+                "2"
+              ],
+              "explanation": "Leave requests need at least two weeks' notice.",
+              "evidence": "Leave must be requested at least two weeks in advance using the online form"
+            },
+            {
+              "no": 17,
+              "type": "tfng",
+              "prompt": "Up to five days of unused leave may be carried over to the following year.",
+              "answer": "TRUE",
+              "explanation": "Carry-over is allowed up to five days.",
+              "evidence": "Unused leave may be carried over to the following year, up to a maximum of five days."
+            },
+            {
+              "no": 18,
+              "type": "mcq",
+              "prompt": "When must new staff complete the online health and safety training?",
+              "options": [
+                "Within their first week",
+                "Within their first month",
+                "Within their first day",
+                "Before they start work"
+              ],
+              "answer": 0,
+              "explanation": "Training must be completed within the first week.",
+              "evidence": "All new staff must complete the online health and safety training within their first week."
+            },
+            {
+              "no": 19,
+              "type": "tfng",
+              "prompt": "Staff may lift items heavier than 20 kilograms on their own if they are in a hurry.",
+              "answer": "FALSE",
+              "explanation": "Staff must not lift anything over 20 kilograms alone.",
+              "evidence": "Staff who lift heavy items must use the trolleys provided and must not lift anything weighing more than 20 kilograms on their own."
+            },
+            {
+              "no": 20,
+              "type": "mcq",
+              "prompt": "What must staff do after any accident at work?",
+              "options": [
+                "Report it to their supervisor on the same day and record it in the accident book",
+                "Wait until the end of the week to report it",
+                "Tell a colleague only",
+                "Report it only if it is serious"
+              ],
+              "answer": 0,
+              "explanation": "Any accident, however minor, must be reported the same day and recorded.",
+              "evidence": "Any accident, however minor, must be reported to your supervisor on the same day and recorded in the accident book."
+            },
+            {
+              "no": 21,
+              "type": "short",
+              "prompt": "Complete the sentence: A hot lunch in the staff canteen costs ___.",
+              "answers": [
+                "£4.50",
+                "4.50"
+              ],
+              "explanation": "Hot lunch costs £4.50.",
+              "evidence": "the staff canteen will offer a hot lunch every weekday from 12.00 to 2.00 pm, at a cost of £4.50."
+            },
+            {
+              "no": 22,
+              "type": "tfng",
+              "prompt": "A vegetarian option will always be available in the staff canteen.",
+              "answer": "TRUE",
+              "explanation": "A vegetarian option is always available.",
+              "evidence": "A vegetarian option will always be available."
+            },
+            {
+              "no": 23,
+              "type": "mcq",
+              "prompt": "What happens to food left in the canteen fridge for more than three days?",
+              "options": [
+                "It is given to other staff",
+                "It is thrown away",
+                "It is frozen",
+                "It is returned to its owner"
+              ],
+              "answer": 1,
+              "explanation": "Food left over three days is thrown away.",
+              "evidence": "Any food left in the fridge for more than three days will be thrown away."
+            },
+            {
+              "no": 24,
+              "type": "mcq",
+              "prompt": "At what rate is overtime paid on Sundays and public holidays?",
+              "options": [
+                "Time and a half",
+                "Double time",
+                "The normal rate",
+                "Triple time"
+              ],
+              "answer": 1,
+              "explanation": "Sunday and public holiday overtime is double time.",
+              "evidence": "Overtime is paid at time and a half for hours worked beyond 40 hours in a week, and at double time on Sundays and public holidays."
+            },
+            {
+              "no": 25,
+              "type": "tfng",
+              "prompt": "Overtime worked without advance approval will be paid.",
+              "answer": "FALSE",
+              "explanation": "Unapproved overtime will not be paid.",
+              "evidence": "All overtime must be approved in advance by your line manager; unapproved overtime will not be paid."
+            },
+            {
+              "no": 26,
+              "type": "mcq",
+              "prompt": "Who may apply for flexible working?",
+              "options": [
+                "Any member of staff on their first day",
+                "Staff who have worked here for more than six months",
+                "Only managers",
+                "Only part-time staff"
+              ],
+              "answer": 1,
+              "explanation": "Flexible working is open to staff with over six months' service.",
+              "evidence": "Staff who have worked here for more than six months may apply for flexible working"
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "title": "Neither Rain nor Snow: The Story of the Postal Service",
+          "text": "Long before telephones and email, the postal service was the fastest way to send news across a country. Runners, riders and later trains carried letters between towns, and for centuries the arrival of the post was the most important event of the day in many communities. The modern postal service, with its stamps, post boxes and daily deliveries, was largely invented in the nineteenth century, and it changed the way ordinary people communicated, did business and kept in touch with family far away.\n\nThe turning point came in Britain in 1840, with the introduction of the Penny Black, the world's first adhesive postage stamp. Before this, the person receiving a letter usually had to pay for it, and the cost depended on the distance it had travelled and the number of pages it contained. This made letters expensive and complicated, so most ordinary people rarely sent them. The new system was simple: the sender bought a stamp for one penny, stuck it on the envelope, and the letter could travel anywhere in the country. The price was the same whether the letter went to the next village or to the far end of the country. Within a few years, the number of letters sent in Britain rose from about seventy-six million a year to more than three hundred and fifty million, and other countries quickly copied the idea.\n\nDelivering all those letters required organisation on a huge scale. Post offices were opened in towns and villages, post boxes were placed on street corners so that people could post letters at any hour, and mail trains carried sacks of letters through the night. In London, an underground railway was built solely to carry mail beneath the city's crowded streets. Postmen and postwomen walked the same routes every day, in all weathers, and became familiar figures in every neighbourhood. For many people, the postman was also a source of local news, and in remote areas the daily visit from the post van might be the only contact with the outside world.\n\nThe postal service also helped to create new businesses. Mail-order catalogues allowed people in the countryside to buy goods from shops in distant cities, and small businesses could reach customers across the whole country by post. Banks used the post to send statements and cheques, newspapers were delivered by post to subscribers, and governments used it to send official notices, tax forms and election papers. In this way, the post became part of the basic infrastructure of modern life, as important in its day as the internet is now.\n\nIn the late twentieth century, the rise of the telephone, the fax machine and then email began to reduce the number of letters people sent. Many predicted that the postal service would disappear altogether, but it has instead changed its role. While personal letters have become rare, the number of parcels has grown enormously, driven by online shopping. People who once waited for a letter from a friend now wait for a parcel ordered on the internet, and postal workers spend more of their time delivering boxes than envelopes. Postal services have also added new work, such as delivering groceries, collecting returns from online shoppers, and providing banking and identity services in villages where banks have closed. In some villages, the post office counter is also the place where people collect pensions, pay bills and buy savings stamps.\n\nThe future of the post is still uncertain. Delivering to every address, including remote farms and mountain villages, is expensive, and in many countries the postal service loses money on letters while making money on parcels. Some governments have reduced deliveries from six days a week to five, or closed small post offices to save money. Others argue that a daily postal service is a public good, like roads or schools, and should be protected even if it does not make a profit. What is clear is that the postal service has survived every earlier prediction of its death, from the telegraph in the nineteenth century to email in the twentieth. It has done so by adapting to each new age while keeping its oldest promise: that a message given to the post in one place will reach its destination, whoever the sender is and wherever the addressee lives. Even today, a handwritten letter can still reach a house with no street name, guided only by the postman's knowledge of the neighbourhood.",
+          "questions": [
+            {
+              "no": 27,
+              "type": "tfng",
+              "prompt": "Before the telephone and email, the postal service was the fastest way to send news across a country.",
+              "answer": "TRUE",
+              "explanation": "The passage opens with this claim.",
+              "evidence": "Long before telephones and email, the postal service was the fastest way to send news across a country."
+            },
+            {
+              "no": 28,
+              "type": "mcq",
+              "prompt": "What was the Penny Black?",
+              "options": [
+                "The world's first adhesive postage stamp",
+                "The first post box",
+                "The first mail train",
+                "The first postal uniform"
+              ],
+              "answer": 0,
+              "explanation": "The Penny Black was the world's first adhesive postage stamp, introduced in 1840.",
+              "evidence": "with the introduction of the Penny Black, the world's first adhesive postage stamp."
+            },
+            {
+              "no": 29,
+              "type": "tfng",
+              "prompt": "Before 1840, the person receiving a letter usually paid for it.",
+              "answer": "TRUE",
+              "explanation": "Before the stamp, the recipient usually paid, with cost depending on distance and pages.",
+              "evidence": "Before this, the person receiving a letter usually had to pay for it, and the cost depended on the distance it had travelled and the number of pages it contained."
+            },
+            {
+              "no": 30,
+              "type": "short",
+              "prompt": "Complete the sentence: Under the new system, the sender bought a stamp for ___ and the letter could travel anywhere in the country.",
+              "answers": [
+                "one penny"
+              ],
+              "explanation": "The stamp cost one penny.",
+              "evidence": "the sender bought a stamp for one penny, stuck it on the envelope, and the letter could travel anywhere in the country."
+            },
+            {
+              "no": 31,
+              "type": "mcq",
+              "prompt": "How did the number of letters sent in Britain change within a few years of the Penny Black?",
+              "options": [
+                "It fell sharply",
+                "It stayed the same",
+                "It rose from about seventy-six million a year to more than three hundred and fifty million",
+                "It doubled to about one hundred and fifty million"
+              ],
+              "answer": 2,
+              "explanation": "Letter numbers rose from ~76 million to over 350 million a year.",
+              "evidence": "the number of letters sent in Britain rose from about seventy-six million a year to more than three hundred and fifty million"
+            },
+            {
+              "no": 32,
+              "type": "tfng",
+              "prompt": "Post boxes allowed people to post letters at any hour.",
+              "answer": "TRUE",
+              "explanation": "Post boxes on street corners allowed posting at any hour.",
+              "evidence": "post boxes were placed on street corners so that people could post letters at any hour"
+            },
+            {
+              "no": 33,
+              "type": "mcq",
+              "prompt": "Why was an underground railway built in London?",
+              "options": [
+                "To carry passengers more quickly",
+                "Solely to carry mail beneath the city's crowded streets",
+                "To transport coal",
+                "To connect the airport to the city"
+              ],
+              "answer": 1,
+              "explanation": "The underground railway was built solely to carry mail.",
+              "evidence": "In London, an underground railway was built solely to carry mail beneath the city's crowded streets."
+            },
+            {
+              "no": 34,
+              "type": "tfng",
+              "prompt": "In remote areas, the daily visit from the post van might be the only contact with the outside world.",
+              "answer": "TRUE",
+              "explanation": "The passage says this about remote areas.",
+              "evidence": "in remote areas the daily visit from the post van might be the only contact with the outside world."
+            },
+            {
+              "no": 35,
+              "type": "mcq",
+              "prompt": "How did mail-order catalogues help people in the countryside?",
+              "options": [
+                "They allowed them to buy goods from shops in distant cities",
+                "They gave them free newspapers",
+                "They replaced the need for money",
+                "They delivered food every day"
+              ],
+              "answer": 0,
+              "explanation": "Catalogues let rural people buy from distant city shops.",
+              "evidence": "Mail-order catalogues allowed people in the countryside to buy goods from shops in distant cities"
+            },
+            {
+              "no": 36,
+              "type": "tfng",
+              "prompt": "Many predicted the postal service would disappear with email, and it did disappear.",
+              "answer": "FALSE",
+              "explanation": "Many predicted it would disappear, but it changed its role instead.",
+              "evidence": "Many predicted that the postal service would disappear altogether, but it has instead changed its role."
+            },
+            {
+              "no": 37,
+              "type": "mcq",
+              "prompt": "What has driven the enormous growth in parcels?",
+              "options": [
+                "Online shopping",
+                "The telephone",
+                "Mail-order catalogues",
+                "Government notices"
+              ],
+              "answer": 0,
+              "explanation": "Parcel growth is driven by online shopping.",
+              "evidence": "the number of parcels has grown enormously, driven by online shopping."
+            },
+            {
+              "no": 38,
+              "type": "short",
+              "prompt": "Complete the sentence: Postal workers now spend more of their time delivering ___ than envelopes.",
+              "answers": [
+                "boxes"
+              ],
+              "explanation": "Workers now deliver more boxes than envelopes.",
+              "evidence": "postal workers spend more of their time delivering boxes than envelopes."
+            },
+            {
+              "no": 39,
+              "type": "tfng",
+              "prompt": "Some governments have reduced postal deliveries from six days a week to five.",
+              "answer": "TRUE",
+              "explanation": "Some governments cut deliveries to five days a week to save money.",
+              "evidence": "Some governments have reduced deliveries from six days a week to five, or closed small post offices to save money."
+            },
+            {
+              "no": 40,
+              "type": "mcq",
+              "prompt": "What is the main idea of the final paragraph?",
+              "options": [
+                "The postal service has survived by adapting while keeping its oldest promise",
+                "The postal service will soon close everywhere",
+                "Email has completely replaced the post",
+                "Postal workers no longer deliver letters at all"
+              ],
+              "answer": 0,
+              "explanation": "The post survived each prediction of its death by adapting.",
+              "evidence": "It has done so by adapting to each new age while keeping its oldest promise: that a message given to the post in one place will reach its destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RA3",
+      "track": "academic",
+      "title": "Academic Reading Test 3",
+      "passages": [
+        {
+          "section": 1,
+          "title": "The Quiet Invasion: How Invasive Species Reshape Ecosystems",
+          "text": "In 1859, an English settler in Australia released twenty-four rabbits so that he could hunt them for sport. Within fifty years, their descendants numbered in the hundreds of millions, and they had eaten their way across a continent, stripping fields bare and driving native animals towards extinction. The rabbit is one of history's most famous invasive species: a plant or animal that arrives in a new place, spreads rapidly, and damages the ecosystem it enters. Scientists now regard invasive species as one of the greatest threats to wildlife on Earth, second only to the destruction of habitats themselves.\n\nMost invasions begin with human help, often by accident. For centuries, ships have carried more than cargo across the oceans. In their ballast tanks, vessels take on water in one port and release it in another, and with that water travel thousands of tiny creatures, from plankton to the larvae of crabs and mussels. When the ballast is discharged, the stowaways enter a new harbour, and if conditions suit them, they settle and multiply. Trade in plants has caused similar damage: gardeners have imported attractive foreign flowers that later escaped into the wild, while timber companies have planted fast-growing foreign trees that crowded out native forests. Escaped pets have added to the problem, from parrots in city parks to goldfish in lakes. Even a single goldfish tipped into a pond can found a population that crowds out native fish within a few seasons.\n\nNot every newcomer becomes a problem. The great majority of introduced species either die out quickly or live quietly alongside native wildlife. The dangerous ones share a small set of advantages. In their new home they often have no natural predators, so nothing controls their numbers. They may breed faster than local species, produce enormous numbers of seeds, or tolerate conditions — drought, cold or salty soil — that native plants and animals cannot survive. Free from the diseases and competitors that held them back at home, they can spread with remarkable speed.\n\nThe damage they cause is both ecological and economic. The zebra mussel, a small shellfish from the Black Sea, reached the Great Lakes of North America in the 1980s in the ballast water of ships. It now clogs water pipes, damages boats and covers lake beds so thickly that native mussels cannot feed. In Australia, the cane toad, introduced in 1935 to control beetles in sugar-cane fields, proved useless against the beetles but deadly to native animals: its skin contains a poison that kills the snakes, lizards and birds that try to eat it. The global cost of invasive species is estimated at hundreds of billions of dollars a year, in lost crops, damaged infrastructure and control programmes.\n\nControlling an invasion is far harder than preventing one, and complete eradication is rare. Once a species is established over a wide area, removing every individual is usually impossible. The most successful efforts have been on islands, where a pest can be hunted down in a limited space: New Zealand, for example, has cleared rats from more than a hundred offshore islands, allowing native birds to recover. On the mainland, managers usually aim to contain a species rather than eliminate it, using traps, fences and carefully chosen herbicides. One controversial method is biological control — introducing a natural enemy of the pest, such as an insect that eats only the invading plant. When it works, it can be cheap and lasting, but history holds warnings: the cane toad itself was a form of biological control that went badly wrong.\n\nThe best defence, most experts agree, is prevention. Strict checks on imported plants, animals and cargo can stop many invasions before they start, and early detection makes a huge difference: a small colony found in its first year can sometimes be wiped out for a fraction of the cost of fighting it a decade later. Ordinary people have a part to play as well. Gardeners are urged to choose native plants, pet owners never to release unwanted animals, and travellers not to carry seeds, fruit or soil across borders. The lesson of the rabbit is that a single careless release can reshape a continent, and that once nature's balance is broken, it is rarely restored.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "tfng",
+              "prompt": "The rabbits released in Australia in 1859 numbered more than one hundred.",
+              "answer": "FALSE",
+              "explanation": "Only twenty-four rabbits were released.",
+              "evidence": "released twenty-four rabbits so that he could hunt them for sport."
+            },
+            {
+              "no": 2,
+              "type": "tfng",
+              "prompt": "Invasive species are considered a greater threat to wildlife than habitat destruction.",
+              "answer": "FALSE",
+              "explanation": "They rank second, after the destruction of habitats.",
+              "evidence": "second only to the destruction of habitats themselves."
+            },
+            {
+              "no": 3,
+              "type": "mcq",
+              "prompt": "What is an invasive species?",
+              "options": [
+                "A plant or animal that spreads rapidly and damages a new ecosystem",
+                "Any animal that is hunted for sport",
+                "A species that has become extinct in its native land",
+                "A plant that grows only in gardens"
+              ],
+              "answer": 0,
+              "explanation": "An invasive species arrives somewhere new, spreads fast and damages the ecosystem.",
+              "evidence": "a plant or animal that arrives in a new place, spreads rapidly, and damages the ecosystem it enters."
+            },
+            {
+              "no": 4,
+              "type": "tfng",
+              "prompt": "Ballast water has carried tiny creatures between ports.",
+              "answer": "TRUE",
+              "explanation": "Thousands of tiny creatures travel with ballast water.",
+              "evidence": "with that water travel thousands of tiny creatures, from plankton to the larvae of crabs and mussels."
+            },
+            {
+              "no": 5,
+              "type": "short",
+              "prompt": "Ships take on water in one port and ___ it in another.",
+              "answers": [
+                "release",
+                "discharge"
+              ],
+              "explanation": "Vessels take on water in one port and release it in another.",
+              "evidence": "vessels take on water in one port and release it in another"
+            },
+            {
+              "no": 6,
+              "type": "mcq",
+              "prompt": "Which of these is given as an example of damage caused by the plant trade?",
+              "options": [
+                "Foreign flowers escaped into the wild",
+                "Timber companies stopped planting trees",
+                "Gardeners refused to buy foreign plants",
+                "Native forests grew faster"
+              ],
+              "answer": 0,
+              "explanation": "Imported foreign flowers later escaped into the wild.",
+              "evidence": "gardeners have imported attractive foreign flowers that later escaped into the wild"
+            },
+            {
+              "no": 7,
+              "type": "tfng",
+              "prompt": "Most introduced species become a serious problem.",
+              "answer": "FALSE",
+              "explanation": "The great majority die out quickly or live quietly alongside native wildlife.",
+              "evidence": "The great majority of introduced species either die out quickly or live quietly alongside native wildlife."
+            },
+            {
+              "no": 8,
+              "type": "short",
+              "prompt": "In a new home, invasive species often have no natural ___.",
+              "answers": [
+                "predators"
+              ],
+              "explanation": "With no natural predators, nothing controls their numbers.",
+              "evidence": "they often have no natural predators, so nothing controls their numbers."
+            },
+            {
+              "no": 9,
+              "type": "mcq",
+              "prompt": "What happened when the zebra mussel reached the Great Lakes?",
+              "options": [
+                "It covered lake beds so thickly that native mussels could not feed",
+                "It ate all the fish in the lakes",
+                "It made the water safe to drink",
+                "It was eaten by native birds"
+              ],
+              "answer": 0,
+              "explanation": "Zebra mussels cover lake beds so thickly that native mussels cannot feed.",
+              "evidence": "covers lake beds so thickly that native mussels cannot feed."
+            },
+            {
+              "no": 10,
+              "type": "tfng",
+              "prompt": "The cane toad successfully controlled the beetles in sugar-cane fields.",
+              "answer": "FALSE",
+              "explanation": "The toad proved useless against the beetles.",
+              "evidence": "proved useless against the beetles but deadly to native animals"
+            },
+            {
+              "no": 11,
+              "type": "short",
+              "prompt": "The cane toad's skin contains a ___ that kills animals that try to eat it.",
+              "answers": [
+                "poison"
+              ],
+              "explanation": "The toad's skin contains a poison deadly to snakes, lizards and birds.",
+              "evidence": "its skin contains a poison that kills the snakes, lizards and birds that try to eat it."
+            },
+            {
+              "no": 12,
+              "type": "mcq",
+              "prompt": "Where have eradication efforts been most successful?",
+              "options": [
+                "On islands",
+                "In large cities",
+                "In deep oceans",
+                "In desert regions"
+              ],
+              "answer": 0,
+              "explanation": "The most successful efforts have been on islands, where a pest can be hunted down in a limited space.",
+              "evidence": "The most successful efforts have been on islands"
+            },
+            {
+              "no": 13,
+              "type": "tfng",
+              "prompt": "Biological control has never caused any problems.",
+              "answer": "FALSE",
+              "explanation": "The cane toad itself was a form of biological control that went badly wrong.",
+              "evidence": "the cane toad itself was a form of biological control that went badly wrong."
+            },
+            {
+              "no": 14,
+              "type": "mcq",
+              "prompt": "What is described as the best defence against invasive species?",
+              "options": [
+                "Prevention",
+                "Trapping every individual",
+                "Introducing more predators",
+                "Banning all international trade"
+              ],
+              "answer": 0,
+              "explanation": "Most experts agree the best defence is prevention.",
+              "evidence": "The best defence, most experts agree, is prevention."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "title": "From Clay to Code: A Short History of Writing",
+          "text": "Human beings have been speaking to each other for well over a hundred thousand years, yet writing is a surprisingly recent invention. The first true writing appeared only around five and a half thousand years ago, in the cities of Mesopotamia, in what is now Iraq. Before that, people relied entirely on memory, speech and pictures to pass on knowledge, and a community could lose its history in a single generation. Writing changed everything: it allowed laws to be recorded, trade to be organised across long distances, and ideas to outlive the people who first thought them.\n\nThe earliest writing was invented for counting, not for stories. Merchants in the Sumerian cities needed to keep track of grain, sheep and silver, so they pressed small marks into wet clay tablets. At first these marks were simple pictures of the things being counted, but over time the pictures were simplified into wedge-shaped signs, pressed with the corner of a cut reed. This system, which we call cuneiform, eventually grew to hundreds of signs, and scribes used it to record not only trade but also laws, letters and literature. One of the oldest surviving stories in the world, the Epic of Gilgamesh, was written in cuneiform on clay tablets.\n\nIn Egypt, a different system developed at about the same time. Hieroglyphs, the sacred carvings of the Egyptians, used around seven hundred signs, some standing for sounds and others for whole words or ideas. They were carved into temple walls and tombs, where they were meant to last for eternity, but Egyptians also wrote a quicker cursive form on papyrus, a paper-like material made from reeds, for everyday business. Learning either system took years, so writing remained the skill of a small class of trained scribes, and most people never learned to read.\n\nThe great breakthrough came with the alphabet. Traders from Phoenicia, on the coast of what is now Lebanon, developed a set of only about twenty-two signs, each standing for a single sound. With so few signs to learn, writing became far easier to master. The Greeks borrowed the Phoenician alphabet and added signs for vowels, and the Romans then adapted the Greek letters into the Latin alphabet that is still used across much of the world today. An alphabet did not make everyone literate overnight — schools, paper and cheap books were also needed — but it removed the greatest barrier to learning to write.\n\nTwo later inventions spread writing to ordinary people. Paper, invented in China around two thousand years ago, was far cheaper and lighter than clay tablets or papyrus, and it travelled west along trade routes over the following centuries. Then, in the 1450s, Johannes Gutenberg built a printing press with movable metal type in Germany. A press could produce hundreds of copies of a book in the time a scribe needed to copy one, so the price of books fell sharply and reading spread beyond priests and scholars. Within fifty years, printing presses were working in more than two hundred European towns, and new ideas — in science, religion and politics — could reach thousands of readers within months.\n\nLibraries and schools carried the change further. In the ancient world, a great library such as the one at Alexandria collected hundreds of thousands of scrolls, but only scholars could use them. By the 1800s, public libraries, cheap newspapers and compulsory schooling were bringing reading to ordinary families for the first time. A child who learned to read could now learn almost anything without a teacher standing beside them, and that quiet change did more for ordinary lives than any single invention. Reading had become a private skill, practised alone, yet it connected each reader to the thoughts of strangers centuries away.\n\nIn the nineteenth century, the typewriter put writing within reach of offices and homes, and in the twentieth century the computer changed it again. Today, billions of people write every day on phones and keyboards, sending messages that travel around the world in seconds. Yet the basic purpose of writing has not changed since those first clay tablets: to hold a thought still, so that it can be shared with someone far away, or with a reader who has not yet been born.",
+          "questions": [
+            {
+              "no": 15,
+              "type": "tfng",
+              "prompt": "Humans invented writing at the same time as spoken language.",
+              "answer": "FALSE",
+              "explanation": "People had been speaking for well over a hundred thousand years before writing appeared.",
+              "evidence": "Human beings have been speaking to each other for well over a hundred thousand years, yet writing is a surprisingly recent invention."
+            },
+            {
+              "no": 16,
+              "type": "short",
+              "prompt": "The first true writing appeared only around ___ years ago.",
+              "answers": [
+                "five and a half thousand",
+                "5,500",
+                "5500"
+              ],
+              "explanation": "The first true writing appeared around five and a half thousand years ago.",
+              "evidence": "The first true writing appeared only around five and a half thousand years ago"
+            },
+            {
+              "no": 17,
+              "type": "mcq",
+              "prompt": "What were the earliest Sumerian tablets mainly used for?",
+              "options": [
+                "Recording trade",
+                "Writing poetry",
+                "Teaching children",
+                "Recording laws"
+              ],
+              "answer": 0,
+              "explanation": "The earliest writing was invented for counting and keeping track of trade goods.",
+              "evidence": "The earliest writing was invented for counting, not for stories."
+            },
+            {
+              "no": 18,
+              "type": "tfng",
+              "prompt": "Cuneiform signs were pressed into wet clay.",
+              "answer": "TRUE",
+              "explanation": "Merchants pressed small marks into wet clay tablets.",
+              "evidence": "they pressed small marks into wet clay tablets."
+            },
+            {
+              "no": 19,
+              "type": "short",
+              "prompt": "Egyptian hieroglyphs used around ___ different signs.",
+              "answers": [
+                "seven hundred",
+                "700"
+              ],
+              "explanation": "Hieroglyphs used around seven hundred signs.",
+              "evidence": "used around seven hundred signs"
+            },
+            {
+              "no": 20,
+              "type": "mcq",
+              "prompt": "What was the Phoenicians' key contribution to writing?",
+              "options": [
+                "An alphabet of about twenty-two signs, each for a single sound",
+                "A system of seven hundred picture signs",
+                "The first paper made from reeds",
+                "The first printing press"
+              ],
+              "answer": 0,
+              "explanation": "The Phoenicians developed about twenty-two signs, each standing for a single sound.",
+              "evidence": "developed a set of only about twenty-two signs, each standing for a single sound."
+            },
+            {
+              "no": 21,
+              "type": "tfng",
+              "prompt": "The Greeks added signs for vowels to the alphabet they borrowed.",
+              "answer": "TRUE",
+              "explanation": "The Greeks borrowed the Phoenician alphabet and added signs for vowels.",
+              "evidence": "The Greeks borrowed the Phoenician alphabet and added signs for vowels"
+            },
+            {
+              "no": 22,
+              "type": "short",
+              "prompt": "Paper was invented in ___.",
+              "answers": [
+                "China"
+              ],
+              "explanation": "Paper was invented in China around two thousand years ago.",
+              "evidence": "Paper, invented in China around two thousand years ago"
+            },
+            {
+              "no": 23,
+              "type": "mcq",
+              "prompt": "What did Gutenberg's printing press make possible?",
+              "options": [
+                "Cheap books for many readers",
+                "Writing on clay tablets",
+                "Letters that travel in seconds",
+                "Books that only priests could read"
+              ],
+              "answer": 0,
+              "explanation": "A press could produce hundreds of copies, so the price of books fell sharply.",
+              "evidence": "so the price of books fell sharply and reading spread beyond priests and scholars."
+            },
+            {
+              "no": 24,
+              "type": "tfng",
+              "prompt": "Printing immediately made everyone able to read.",
+              "answer": "FALSE",
+              "explanation": "An alphabet did not make everyone literate overnight; schools, paper and cheap books were also needed.",
+              "evidence": "An alphabet did not make everyone literate overnight"
+            },
+            {
+              "no": 25,
+              "type": "short",
+              "prompt": "The typewriter put writing within reach of offices and homes in the ___ century.",
+              "answers": [
+                "nineteenth",
+                "19th"
+              ],
+              "explanation": "The typewriter appeared in the nineteenth century.",
+              "evidence": "In the nineteenth century, the typewriter put writing within reach of offices and homes"
+            },
+            {
+              "no": 26,
+              "type": "mcq",
+              "prompt": "According to the passage, what has not changed since the first clay tablets?",
+              "options": [
+                "The basic purpose of writing",
+                "The number of signs used",
+                "The material writing is done on",
+                "The speed at which messages travel"
+              ],
+              "answer": 0,
+              "explanation": "The basic purpose of writing has not changed: to hold a thought still so it can be shared.",
+              "evidence": "Yet the basic purpose of writing has not changed since those first clay tablets"
+            },
+            {
+              "no": 27,
+              "type": "mcq",
+              "prompt": "What is the main idea of the passage?",
+              "options": [
+                "Writing developed in stages, each making it easier and more widely available",
+                "Clay tablets were better than paper for recording laws",
+                "Only priests and scholars should have learned to write",
+                "The printing press ended the use of handwriting"
+              ],
+              "answer": 0,
+              "explanation": "The passage traces writing from clay tablets through the alphabet, paper and printing to computers.",
+              "evidence": "Writing changed everything: it allowed laws to be recorded, trade to be organised across long distances, and ideas to outlive the people who first thought them."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "title": "The Economics of Happiness: What Makes a Country Prosper?",
+          "text": "For most of the last century, governments have measured the success of a country by a single number: gross domestic product, or GDP, the total value of everything a country produces. If GDP rises, the country is said to be doing well; if it falls, politicians speak of crisis. Yet GDP counts only money changing hands. It rises when a forest is cut down and sold, but not when children play safely in that forest. It grows when people pay for hospital treatment, but not when they stay healthy. A growing number of economists now argue that prosperity means far more than income, and that countries should measure what actually makes life worth living.\n\nMoney does matter, of course, and the evidence is clear up to a point. In poor countries, higher incomes buy longer lives: clean water, enough food, doctors and schools. As a country grows richer, its people live longer and their children are more likely to finish school. But once basic needs are met, the link weakens. In rich countries, people in the richest regions are barely happier than people in regions with half their income, a finding known as the Easterlin paradox, after the economist Richard Easterlin, who first described it in the 1970s. Beyond a certain level, extra money buys surprisingly little extra happiness.\n\nIf money alone does not explain happiness, what does? Surveys carried out in more than a hundred countries point to the same few factors again and again. People are happier where they trust their neighbours and their institutions, where they feel safe walking home at night, and where they have close family and friends to rely on. Having work matters, but so does having time: countries with shorter working hours and generous holidays, such as Denmark and the Netherlands, consistently rank near the top of happiness tables, even though their incomes are not the highest in the world. Good health matters too, and it depends less on expensive hospitals than on clean air, safe streets and habits formed early in life.\n\nHow income is shared matters as much as how much there is. In countries where the gap between rich and poor is wide, people report more stress, worse health and lower trust in each other, even when the average income is high. The United States, for example, is one of the richest countries on Earth, yet it ranks well below many poorer European nations on measures of life satisfaction. By contrast, the Nordic countries combine high average incomes with narrow gaps between rich and poor, strong public services and high levels of trust, and they top the happiness rankings year after year.\n\nSome governments have begun to act on these findings. Bhutan, a small Himalayan kingdom, has measured Gross National Happiness since the 1970s, asking its citizens about their health, their education, their community and their environment, not only their income. In 2019, New Zealand published the world's first Wellbeing Budget, directing public money towards mental health, child poverty and the environment alongside the usual spending on roads and industry. Supporters say such budgets force politicians to ask a better question than how fast the economy is growing: whether people's lives are actually getting better.\n\nMeasuring happiness is not simple, and critics are quick to point out the difficulties. People in different cultures answer survey questions differently: some are reluctant to say they are unhappy, while others expect less from life and report higher satisfaction. A single survey can also miss what changes over time, since a country may feel cheerful in a good year and gloomy in a bad one. Even so, researchers argue that the measures are now reliable enough to guide policy, much as early weather forecasts were imperfect yet still useful.\n\nNone of this means that GDP is useless. It remains a practical tool for managing an economy, and no country can afford to ignore it. But as a measure of a nation's success, it is incomplete. A country that grows richer while its rivers become polluted, its people grow lonelier and its poor fall further behind is not obviously prospering. The economists who study happiness do not promise an easy answer, but they agree on the direction: prosperity should be judged by the quality of people's lives, not only by the size of their pay packets.",
+          "questions": [
+            {
+              "no": 28,
+              "type": "tfng",
+              "prompt": "GDP counts only money changing hands.",
+              "answer": "TRUE",
+              "explanation": "GDP counts only money changing hands, not things like children playing safely in a forest.",
+              "evidence": "Yet GDP counts only money changing hands."
+            },
+            {
+              "no": 29,
+              "type": "mcq",
+              "prompt": "According to the passage, what does GDP fail to measure?",
+              "options": [
+                "What actually makes life worth living",
+                "The total value of everything a country produces",
+                "How fast the economy is growing",
+                "How much people pay for hospital treatment"
+              ],
+              "answer": 0,
+              "explanation": "Countries should measure what actually makes life worth living, not only GDP.",
+              "evidence": "countries should measure what actually makes life worth living."
+            },
+            {
+              "no": 30,
+              "type": "short",
+              "prompt": "In poor countries, higher incomes buy longer lives, clean water, enough food, doctors and ___.",
+              "answers": [
+                "schools"
+              ],
+              "explanation": "Higher incomes buy clean water, food, doctors and schools.",
+              "evidence": "clean water, enough food, doctors and schools."
+            },
+            {
+              "no": 31,
+              "type": "tfng",
+              "prompt": "In rich countries, people in the richest regions are much happier than people in regions with half their income.",
+              "answer": "FALSE",
+              "explanation": "They are barely happier — the Easterlin paradox.",
+              "evidence": "people in the richest regions are barely happier than people in regions with half their income"
+            },
+            {
+              "no": 32,
+              "type": "short",
+              "prompt": "The finding that extra money buys little extra happiness is known as the ___ paradox.",
+              "answers": [
+                "Easterlin"
+              ],
+              "explanation": "It is known as the Easterlin paradox, after Richard Easterlin.",
+              "evidence": "a finding known as the Easterlin paradox, after the economist Richard Easterlin"
+            },
+            {
+              "no": 33,
+              "type": "mcq",
+              "prompt": "Which of these is given as a factor that makes people happier?",
+              "options": [
+                "Trusting their neighbours and institutions",
+                "Working longer hours",
+                "Living in the richest region",
+                "Spending more on hospitals"
+              ],
+              "answer": 0,
+              "explanation": "People are happier where they trust their neighbours and their institutions.",
+              "evidence": "People are happier where they trust their neighbours and their institutions"
+            },
+            {
+              "no": 34,
+              "type": "tfng",
+              "prompt": "Denmark and the Netherlands have the highest incomes in the world.",
+              "answer": "FALSE",
+              "explanation": "They rank near the top of happiness tables even though their incomes are not the highest.",
+              "evidence": "even though their incomes are not the highest in the world."
+            },
+            {
+              "no": 35,
+              "type": "short",
+              "prompt": "The United States ranks well below many poorer ___ nations on measures of life satisfaction.",
+              "answers": [
+                "European"
+              ],
+              "explanation": "The US ranks below many poorer European nations on life satisfaction.",
+              "evidence": "it ranks well below many poorer European nations on measures of life satisfaction."
+            },
+            {
+              "no": 36,
+              "type": "mcq",
+              "prompt": "Why do the Nordic countries top the happiness rankings?",
+              "options": [
+                "High average incomes, narrow income gaps, strong public services and high trust",
+                "The highest GDP in the world",
+                "The shortest working hours of any countries",
+                "The lowest taxes in Europe"
+              ],
+              "answer": 0,
+              "explanation": "The Nordic countries combine high incomes with narrow gaps, strong services and high trust.",
+              "evidence": "the Nordic countries combine high average incomes with narrow gaps between rich and poor, strong public services and high levels of trust"
+            },
+            {
+              "no": 37,
+              "type": "tfng",
+              "prompt": "Bhutan has measured Gross National Happiness since the 1970s.",
+              "answer": "TRUE",
+              "explanation": "Bhutan has measured Gross National Happiness since the 1970s.",
+              "evidence": "Bhutan, a small Himalayan kingdom, has measured Gross National Happiness since the 1970s"
+            },
+            {
+              "no": 38,
+              "type": "short",
+              "prompt": "In 2019, New Zealand published the world's first ___ Budget.",
+              "answers": [
+                "Wellbeing"
+              ],
+              "explanation": "New Zealand published the world's first Wellbeing Budget in 2019.",
+              "evidence": "In 2019, New Zealand published the world's first Wellbeing Budget"
+            },
+            {
+              "no": 39,
+              "type": "mcq",
+              "prompt": "What do supporters of wellbeing budgets say they force politicians to ask?",
+              "options": [
+                "Whether people's lives are actually getting better",
+                "How fast the economy is growing",
+                "How much money hospitals need",
+                "How many roads should be built"
+              ],
+              "answer": 0,
+              "explanation": "Such budgets ask whether people's lives are actually getting better.",
+              "evidence": "whether people's lives are actually getting better."
+            },
+            {
+              "no": 40,
+              "type": "mcq",
+              "prompt": "What is the main conclusion of the passage?",
+              "options": [
+                "Prosperity should be judged by the quality of people's lives, not only by income",
+                "GDP should be abolished as a measure",
+                "Money has no effect on happiness at all",
+                "Only rich countries can afford to measure happiness"
+              ],
+              "answer": 0,
+              "explanation": "Prosperity should be judged by the quality of people's lives, not only by pay packets.",
+              "evidence": "prosperity should be judged by the quality of people's lives, not only by the size of their pay packets."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RA4",
+      "track": "academic",
+      "title": "Academic Reading Test 4",
+      "passages": [
+        {
+          "section": 1,
+          "title": "The Sound of Silence: How Noise Affects Our Health",
+          "text": "For most of human history, the world was a quiet place. The loudest sounds people heard were thunder, a waterfall, or the roar of a crowd at a festival. Today, silence has become rare. Traffic hums outside our windows day and night, aircraft pass overhead, and in offices and classrooms, music, phones, and machines fill the air. Even inside our homes, washing machines, televisions, and game consoles add their own hum to the mix. We have grown so used to this background noise that we barely notice it. Yet a growing body of research suggests that constant noise is not just an annoyance. It is a health risk, and it affects our bodies and minds in ways that scientists are only now beginning to understand.\n\nThe most obvious harm is to our hearing. Very loud sounds can damage the tiny hair cells inside the ear, and once those cells are damaged, they do not grow back. Workers in factories, musicians, and people who listen to music at full volume through headphones are all at risk. Health experts warn that listening to personal music players at high volume for more than an hour a day can cause permanent hearing loss over time. The damage is gradual, so people often notice it only when it is too late. By then, ordinary conversation can become difficult to follow, especially in a noisy room, and hearing aids can help only partly. Concerts and nightclubs can be louder still, and a single evening in front of a large speaker can leave the ears ringing for days.\n\nNoise also disturbs our sleep, and poor sleep affects almost everything else. Studies of people living near busy roads and airports have found that they wake more often during the night, even when they do not remember waking. Their sleep is lighter and less restful. Over weeks and months, this broken sleep leaves people tired, irritable, and less able to concentrate at work or at school. The problem is worse for shift workers, who must try to sleep during the day while the world around them is at its noisiest. Children are affected too: pupils in schools near airports have been found to read more slowly than children in quieter schools, and the difference disappears only when the noise is reduced.\n\nPerhaps the most surprising finding concerns the heart. When the brain hears a sudden loud noise, it treats it as a possible danger and releases stress hormones such as adrenaline. The heart beats faster and blood pressure rises. This reaction is useful if a real danger is near, but when it happens dozens of times a day, day after day, the strain adds up. Large studies that followed people living near airports for many years found higher rates of high blood pressure and heart disease among those exposed to the most noise. The link is not proof that noise alone causes heart disease, but it is strong enough that doctors now take it seriously.\n\nNoise also shapes the way we behave towards each other. In experiments, people who had just been exposed to loud, unpleasant noise were less likely to help a stranger who had dropped their papers. Researchers suggest that noise uses up our patience and makes us less generous. In real life, the same effect may help to explain why crowded, noisy neighbourhoods often report more arguments between neighbours, and why people in noisy open-plan offices report more friction with their colleagues. In noisy classrooms, teachers report that children find it harder to listen and to remember what they have heard. Quiet, by contrast, seems to restore our ability to think clearly and to treat other people with care.\n\nThe good news is that noise can be reduced. Cities can build barriers along busy roads, plant trees and hedges that absorb sound, and create quiet zones around schools and hospitals. Quieter road surfaces and electric vehicles, which make far less engine noise than petrol cars, are already making a difference in some cities. Inside buildings, thick walls, double-glazed windows, and soft furnishings all help. Schools, too, are beginning to design quieter classrooms, with soft floors and ceilings that absorb sound. Individuals can help too, by turning the volume down, wearing ear protection at work, and keeping at least one quiet hour in the day. Silence is not empty time. For our ears, our hearts, and our minds, it is a form of rest that we can no longer afford to ignore.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "tfng",
+              "prompt": "For most of human history, the world was a quiet place.",
+              "answer": "TRUE",
+              "explanation": "The passage opens by saying that for most of human history the world was a quiet place.",
+              "evidence": "For most of human history, the world was a quiet place."
+            },
+            {
+              "no": 2,
+              "type": "tfng",
+              "prompt": "Traffic noise is only heard during the day.",
+              "answer": "FALSE",
+              "explanation": "Traffic hums outside our windows day and night, not only during the day.",
+              "evidence": "Traffic hums outside our windows day and night"
+            },
+            {
+              "no": 3,
+              "type": "mcq",
+              "prompt": "What does constant noise affect, according to the passage?",
+              "options": [
+                "Only our hearing",
+                "Our bodies and minds",
+                "Only our sleep"
+              ],
+              "answer": 1,
+              "explanation": "Constant noise is a health risk that affects our bodies and minds.",
+              "evidence": "It is a health risk, and it affects our bodies and minds in ways that scientists are only now beginning to understand."
+            },
+            {
+              "no": 4,
+              "type": "tfng",
+              "prompt": "Damaged hair cells inside the ear grow back.",
+              "answer": "FALSE",
+              "explanation": "Once the tiny hair cells inside the ear are damaged, they do not grow back.",
+              "evidence": "once those cells are damaged, they do not grow back."
+            },
+            {
+              "no": 5,
+              "type": "short",
+              "prompt": "Listening to music at high volume for more than ___ a day can cause permanent hearing loss.",
+              "answers": [
+                "an hour",
+                "one hour",
+                "1 hour"
+              ],
+              "explanation": "Listening to personal music players at high volume for more than an hour a day can cause permanent hearing loss over time.",
+              "evidence": "listening to personal music players at high volume for more than an hour a day can cause permanent hearing loss over time."
+            },
+            {
+              "no": 6,
+              "type": "mcq",
+              "prompt": "What happens to the sleep of people living near busy roads and airports?",
+              "options": [
+                "They sleep more deeply",
+                "They wake more often during the night",
+                "They fall asleep more quickly"
+              ],
+              "answer": 1,
+              "explanation": "They wake more often during the night, even when they do not remember waking.",
+              "evidence": "they wake more often during the night, even when they do not remember waking."
+            },
+            {
+              "no": 7,
+              "type": "tfng",
+              "prompt": "Pupils in schools near airports read more slowly than children in quieter schools.",
+              "answer": "TRUE",
+              "explanation": "The passage states this finding directly.",
+              "evidence": "pupils in schools near airports have been found to read more slowly than children in quieter schools"
+            },
+            {
+              "no": 8,
+              "type": "short",
+              "prompt": "When the brain hears a sudden loud noise, it releases stress hormones such as ___.",
+              "answers": [
+                "adrenaline"
+              ],
+              "explanation": "The brain treats a sudden loud noise as a possible danger and releases stress hormones such as adrenaline.",
+              "evidence": "it treats it as a possible danger and releases stress hormones such as adrenaline."
+            },
+            {
+              "no": 9,
+              "type": "mcq",
+              "prompt": "What did long studies of people living near airports find?",
+              "options": [
+                "Lower rates of heart disease",
+                "Higher rates of high blood pressure and heart disease",
+                "No difference in health"
+              ],
+              "answer": 1,
+              "explanation": "The studies found higher rates of high blood pressure and heart disease among those exposed to the most noise.",
+              "evidence": "found higher rates of high blood pressure and heart disease among those exposed to the most noise."
+            },
+            {
+              "no": 10,
+              "type": "tfng",
+              "prompt": "The link between noise and heart disease is absolute proof that noise alone causes it.",
+              "answer": "FALSE",
+              "explanation": "The passage says the link is not proof that noise alone causes heart disease.",
+              "evidence": "The link is not proof that noise alone causes heart disease, but it is strong enough that doctors now take it seriously."
+            },
+            {
+              "no": 11,
+              "type": "mcq",
+              "prompt": "In experiments, people exposed to loud, unpleasant noise were...",
+              "options": [
+                "More likely to help a stranger",
+                "Less likely to help a stranger",
+                "Unaffected in their behaviour"
+              ],
+              "answer": 1,
+              "explanation": "They were less likely to help a stranger who had dropped their papers.",
+              "evidence": "people who had just been exposed to loud, unpleasant noise were less likely to help a stranger who had dropped their papers."
+            },
+            {
+              "no": 12,
+              "type": "short",
+              "prompt": "Noise uses up our ___ and makes us less generous.",
+              "answers": [
+                "patience"
+              ],
+              "explanation": "Researchers suggest that noise uses up our patience and makes us less generous.",
+              "evidence": "Researchers suggest that noise uses up our patience and makes us less generous."
+            },
+            {
+              "no": 13,
+              "type": "tfng",
+              "prompt": "Electric vehicles make far less engine noise than petrol cars.",
+              "answer": "TRUE",
+              "explanation": "The passage says electric vehicles make far less engine noise than petrol cars.",
+              "evidence": "electric vehicles, which make far less engine noise than petrol cars, are already making a difference in some cities."
+            },
+            {
+              "no": 14,
+              "type": "mcq",
+              "prompt": "According to the passage, silence is...",
+              "options": [
+                "Empty time with no value",
+                "A form of rest for our ears, hearts and minds",
+                "Only useful for sleep"
+              ],
+              "answer": 1,
+              "explanation": "Silence is a form of rest for our ears, our hearts, and our minds.",
+              "evidence": "Silence is not empty time. For our ears, our hearts, and our minds, it is a form of rest that we can no longer afford to ignore."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "title": "From Shells to Smartphones: A Short History of Money",
+          "text": "Money is one of the most powerful inventions in human history, yet it has no value in itself. A banknote is only a piece of printed paper, and a coin is only a small disc of metal. Money works because everyone agrees to accept it. That agreement, built on trust, has taken thousands of years to develop, and the form that money takes has changed again and again.\n\nLong before coins existed, people traded directly, swapping grain for goats or fish for tools. This system, known as barter, worked well in small communities, but it had an obvious weakness: a farmer with extra wheat could not always find a fisherman who needed wheat. To solve this problem, societies began to use objects that everyone wanted as a middle step in a trade. In different parts of the world, these early forms of money included shells, beads, salt, and even cattle. In parts of Africa, cowrie shells were used as money for centuries, and they were small, durable, and easy to carry — all the qualities that good money needs.\n\nThe first true coins appeared about two thousand six hundred years ago, in a region of western Asia known as Lydia. They were small lumps of gold and silver, stamped with a mark that guaranteed their weight and purity. The idea spread quickly. Coins were easier to carry than cattle, harder to fake than shells, and they could be divided into smaller pieces for small purchases. Greek cities, the Roman Empire, and later the kingdoms of India and China all minted their own coins, and the face of a ruler stamped on a coin became a powerful symbol of authority.\n\nFor much of the nineteenth and early twentieth centuries, many countries tied their money to gold. A pound or a dollar could be exchanged for a fixed weight of gold, and this system, known as the gold standard, gave people confidence that their money would keep its value. It also limited what governments could do: they could not simply print more money, because every note had to be backed by gold in a vault. The gold standard ended in the twentieth century, when governments needed more freedom to manage their economies, especially during wars and economic crises. Since then, most money has been backed by nothing more than the promise of the government that issued it, and by the trust of the people who use it.\n\nPaper money came much later, and it began in China. By the ninth century, Chinese merchants were using paper notes to avoid carrying heavy strings of coins over long distances. At first, these notes were simply promises: a merchant could take a note to a bank and exchange it for coins. Over time, governments began to print their own notes, and people accepted them because the government promised to honour them. When the traveller Marco Polo visited China in the thirteenth century, he was amazed to see paper used as money, and he described it in detail for readers in Europe, where the idea seemed almost unbelievable.\n\nIn Europe, paper money arrived slowly. Banks began to issue their own notes in the seventeenth century, and governments followed. The next great change was the cheque, which allowed people to pay large sums without carrying cash at all. Then, in the twentieth century, came plastic cards. The first credit cards appeared in the United States in the nineteen fifties, and cash machines followed in the nineteen sixties. Suddenly, people could spend money they did not physically carry, and banks could record every transaction. For the first time, money became mostly a set of numbers in a computer.\n\nThe latest chapter is still being written. In many countries, mobile phones have replaced cash for everyday payments, and in parts of Africa and Asia, people who never had a bank account now pay, save, and borrow using only a phone. At the same time, new forms of digital money, known as cryptocurrencies, have appeared. They are not issued by any government, and their value can rise and fall sharply in a single day. Some people see them as the future of money; others see them as a risky experiment. What is certain is that money will keep changing. From shells to smartphones, its history is the story of a simple idea — trust — finding new forms.",
+          "questions": [
+            {
+              "no": 15,
+              "type": "tfng",
+              "prompt": "A banknote has value in itself because it is printed paper.",
+              "answer": "FALSE",
+              "explanation": "A banknote is only a piece of printed paper; money works because everyone agrees to accept it.",
+              "evidence": "A banknote is only a piece of printed paper, and a coin is only a small disc of metal."
+            },
+            {
+              "no": 16,
+              "type": "mcq",
+              "prompt": "Why did societies start using objects like shells as money?",
+              "options": [
+                "Because barter had an obvious weakness",
+                "Because coins were too heavy",
+                "Because governments ordered it"
+              ],
+              "answer": 0,
+              "explanation": "Barter worked in small communities, but a farmer could not always find someone who needed what he had.",
+              "evidence": "This system, known as barter, worked well in small communities, but it had an obvious weakness: a farmer with extra wheat could not always find a fisherman who needed wheat."
+            },
+            {
+              "no": 17,
+              "type": "short",
+              "prompt": "Cowrie shells were used as money in parts of ___ for centuries.",
+              "answers": [
+                "Africa"
+              ],
+              "explanation": "In parts of Africa, cowrie shells were used as money for centuries.",
+              "evidence": "In parts of Africa, cowrie shells were used as money for centuries"
+            },
+            {
+              "no": 18,
+              "type": "tfng",
+              "prompt": "The first true coins appeared in Lydia about two thousand six hundred years ago.",
+              "answer": "TRUE",
+              "explanation": "The passage states that the first true coins appeared about two thousand six hundred years ago in Lydia.",
+              "evidence": "The first true coins appeared about two thousand six hundred years ago, in a region of western Asia known as Lydia."
+            },
+            {
+              "no": 19,
+              "type": "mcq",
+              "prompt": "What did the stamp on a coin guarantee?",
+              "options": [
+                "The ruler's name",
+                "Its weight and purity",
+                "The date it was made"
+              ],
+              "answer": 1,
+              "explanation": "Coins were stamped with a mark that guaranteed their weight and purity.",
+              "evidence": "stamped with a mark that guaranteed their weight and purity."
+            },
+            {
+              "no": 20,
+              "type": "short",
+              "prompt": "Paper money began in ___.",
+              "answers": [
+                "China"
+              ],
+              "explanation": "Paper money came much later, and it began in China.",
+              "evidence": "Paper money came much later, and it began in China."
+            },
+            {
+              "no": 21,
+              "type": "tfng",
+              "prompt": "Chinese merchants used paper notes to avoid carrying heavy strings of coins.",
+              "answer": "TRUE",
+              "explanation": "Chinese merchants used paper notes to avoid carrying heavy strings of coins over long distances.",
+              "evidence": "Chinese merchants were using paper notes to avoid carrying heavy strings of coins over long distances."
+            },
+            {
+              "no": 22,
+              "type": "mcq",
+              "prompt": "Why was Marco Polo amazed when he visited China?",
+              "options": [
+                "He saw paper used as money",
+                "He saw gold coins for the first time",
+                "He saw banks lending money"
+              ],
+              "answer": 0,
+              "explanation": "He was amazed to see paper used as money.",
+              "evidence": "he was amazed to see paper used as money"
+            },
+            {
+              "no": 23,
+              "type": "short",
+              "prompt": "The first credit cards appeared in the United States in the nineteen ___.",
+              "answers": [
+                "fifties",
+                "1950s"
+              ],
+              "explanation": "The first credit cards appeared in the United States in the nineteen fifties.",
+              "evidence": "The first credit cards appeared in the United States in the nineteen fifties"
+            },
+            {
+              "no": 24,
+              "type": "tfng",
+              "prompt": "Cash machines appeared before credit cards.",
+              "answer": "FALSE",
+              "explanation": "Credit cards appeared in the nineteen fifties, and cash machines followed in the nineteen sixties.",
+              "evidence": "The first credit cards appeared in the United States in the nineteen fifties, and cash machines followed in the nineteen sixties."
+            },
+            {
+              "no": 25,
+              "type": "mcq",
+              "prompt": "In parts of Africa and Asia, what do people who never had a bank account now use to pay, save and borrow?",
+              "options": [
+                "Only a phone",
+                "Only a bank account",
+                "Only cash"
+              ],
+              "answer": 0,
+              "explanation": "They now pay, save, and borrow using only a phone.",
+              "evidence": "people who never had a bank account now pay, save, and borrow using only a phone."
+            },
+            {
+              "no": 26,
+              "type": "short",
+              "prompt": "Cryptocurrencies are not issued by any ___.",
+              "answers": [
+                "government"
+              ],
+              "explanation": "Cryptocurrencies are not issued by any government.",
+              "evidence": "They are not issued by any government, and their value can rise and fall sharply in a single day."
+            },
+            {
+              "no": 27,
+              "type": "tfng",
+              "prompt": "The passage says money's history is the story of trust finding new forms.",
+              "answer": "TRUE",
+              "explanation": "The passage closes by saying money's history is the story of trust finding new forms.",
+              "evidence": "From shells to smartphones, its history is the story of a simple idea — trust — finding new forms."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "title": "The Secret Life of Soil",
+          "text": "To most of us, soil looks dull and lifeless: a brown layer under our feet, useful for growing plants and little else. In reality, a single handful of healthy soil contains more living organisms than there are people on Earth. Bacteria, fungi, worms, beetles, and countless microscopic creatures live, feed, and die in the dark, and together they form one of the most complex ecosystems on the planet. Without them, there would be no food, no forests, and no life as we know it.\n\nThe smallest inhabitants do the most work. Bacteria and fungi break down dead leaves, fallen trees, and animal waste, turning them back into the nutrients that plants need to grow. Without these decomposers, dead material would pile up for ever, and the nutrients locked inside it would never return to the soil. A single gram of soil can hold billions of bacteria, belonging to thousands of different species, each playing its own small part in the cycle. Scientists are still discovering new species in ordinary garden soil, and most of them have never been given a name. Some bacteria can even break down oil and other pollutants, and scientists are now studying them as a way to clean up polluted land.\n\nSome of the most remarkable soil life belongs to the fungi. Beneath the forest floor, the thread-like roots of fungi, called hyphae, spread for kilometres, joining tree after tree into a single underground network. Through this network, trees share water and nutrients, and they can even send warning signals to each other when insects attack. Young seedlings that connect to the network grow faster than those that do not, because older trees pass them food through the fungal threads. Foresters now call this hidden system the wood wide web, and it has changed the way scientists think about forests: not as a collection of separate trees, but as a community.\n\nLarger creatures play their part too. Earthworms are the great engineers of the soil. As they burrow, they mix the soil, pull dead leaves underground, and leave behind tunnels that let air and water reach the roots of plants. Their droppings, known as worm casts, are richer in nutrients than the surrounding soil. A healthy field can contain hundreds of earthworms in every square metre, and Charles Darwin, who studied them for forty years, concluded that worms had played a larger part in shaping the history of the world than most people would believe. Darwin was so fascinated by worms that he kept them in pots in his study and played the piano to them, to see whether they could hear.\n\nSoil also holds one of the keys to the climate. The soil of the world stores more carbon than the atmosphere and all the living plants on Earth combined. Plants take carbon dioxide from the air and turn it into leaves and roots; when those roots die, much of the carbon stays in the soil for hundreds of years. Farming practices that disturb the soil, such as deep ploughing, release this carbon back into the air. Practices that protect the soil, such as planting cover crops and ploughing less, keep the carbon locked away. In this way, the health of the soil is directly linked to the health of the climate. A spoonful of soil may also hold the cure for a future disease: many of our most important medicines, including several antibiotics, were first found in soil bacteria.\n\nYet soil is being lost at an alarming rate. Wind and water strip away topsoil from bare fields, and it takes centuries for nature to build a single centimetre of new topsoil. Intensive farming, the heavy use of chemicals, and the spread of cities over farmland all add to the damage. The good news is that soil can recover if it is given the chance. Farmers who plant a mix of crops, leave crop remains on the field, and add compost instead of relying only on chemical fertiliser often see their soil come back to life within a few years, with more worms, darker colour, and better harvests. Some cities are now protecting their soil too, by turning empty land into community gardens where people grow food and learn how soil works. The ground beneath our feet is not dirt. It is a living world, and our future depends on keeping it alive.",
+          "questions": [
+            {
+              "no": 28,
+              "type": "tfng",
+              "prompt": "A single handful of healthy soil contains more living organisms than there are people on Earth.",
+              "answer": "TRUE",
+              "explanation": "The passage states this directly in its opening paragraph.",
+              "evidence": "a single handful of healthy soil contains more living organisms than there are people on Earth."
+            },
+            {
+              "no": 29,
+              "type": "mcq",
+              "prompt": "What do bacteria and fungi do in the soil?",
+              "options": [
+                "They break down dead material into nutrients plants need",
+                "They eat the roots of living plants",
+                "They make the soil dry and hard"
+              ],
+              "answer": 0,
+              "explanation": "They break down dead leaves, fallen trees, and animal waste, turning them back into nutrients plants need.",
+              "evidence": "Bacteria and fungi break down dead leaves, fallen trees, and animal waste, turning them back into the nutrients that plants need to grow."
+            },
+            {
+              "no": 30,
+              "type": "short",
+              "prompt": "A single gram of soil can hold ___ of bacteria.",
+              "answers": [
+                "billions"
+              ],
+              "explanation": "A single gram of soil can hold billions of bacteria.",
+              "evidence": "A single gram of soil can hold billions of bacteria"
+            },
+            {
+              "no": 31,
+              "type": "tfng",
+              "prompt": "Most of the bacteria species in ordinary garden soil have been given names.",
+              "answer": "FALSE",
+              "explanation": "Most of the newly discovered species have never been given a name.",
+              "evidence": "most of them have never been given a name."
+            },
+            {
+              "no": 32,
+              "type": "mcq",
+              "prompt": "What are hyphae?",
+              "options": [
+                "The thread-like roots of fungi",
+                "The roots of young trees",
+                "Small insects that live in soil"
+              ],
+              "answer": 0,
+              "explanation": "Hyphae are the thread-like roots of fungi that spread for kilometres under the forest floor.",
+              "evidence": "the thread-like roots of fungi, called hyphae, spread for kilometres"
+            },
+            {
+              "no": 33,
+              "type": "short",
+              "prompt": "Through the fungal network, trees share water and ___.",
+              "answers": [
+                "nutrients"
+              ],
+              "explanation": "Through the network, trees share water and nutrients.",
+              "evidence": "Through this network, trees share water and nutrients"
+            },
+            {
+              "no": 34,
+              "type": "tfng",
+              "prompt": "Young seedlings connected to the fungal network grow faster than those that do not connect.",
+              "answer": "TRUE",
+              "explanation": "Seedlings that connect to the network grow faster than those that do not.",
+              "evidence": "Young seedlings that connect to the network grow faster than those that do not"
+            },
+            {
+              "no": 35,
+              "type": "mcq",
+              "prompt": "What do earthworms leave behind as they burrow?",
+              "options": [
+                "Tunnels that let air and water reach plant roots",
+                "Poison that kills bacteria",
+                "Stones that block the roots"
+              ],
+              "answer": 0,
+              "explanation": "Their tunnels let air and water reach the roots of plants.",
+              "evidence": "leave behind tunnels that let air and water reach the roots of plants."
+            },
+            {
+              "no": 36,
+              "type": "short",
+              "prompt": "Earthworm droppings are known as worm ___.",
+              "answers": [
+                "casts"
+              ],
+              "explanation": "Earthworm droppings are known as worm casts.",
+              "evidence": "Their droppings, known as worm casts, are richer in nutrients than the surrounding soil."
+            },
+            {
+              "no": 37,
+              "type": "tfng",
+              "prompt": "Charles Darwin studied earthworms for forty years.",
+              "answer": "TRUE",
+              "explanation": "The passage says Charles Darwin studied earthworms for forty years.",
+              "evidence": "Charles Darwin, who studied them for forty years"
+            },
+            {
+              "no": 38,
+              "type": "mcq",
+              "prompt": "What does the world's soil store more of than the atmosphere and all living plants combined?",
+              "options": [
+                "Carbon",
+                "Water",
+                "Nitrogen"
+              ],
+              "answer": 0,
+              "explanation": "The soil of the world stores more carbon than the atmosphere and all the living plants on Earth combined.",
+              "evidence": "The soil of the world stores more carbon than the atmosphere and all the living plants on Earth combined."
+            },
+            {
+              "no": 39,
+              "type": "short",
+              "prompt": "Deep ploughing releases carbon back into the ___.",
+              "answers": [
+                "air"
+              ],
+              "explanation": "Farming practices that disturb the soil, such as deep ploughing, release carbon back into the air.",
+              "evidence": "such as deep ploughing, release this carbon back into the air."
+            },
+            {
+              "no": 40,
+              "type": "tfng",
+              "prompt": "It takes centuries for nature to build a single centimetre of new topsoil.",
+              "answer": "TRUE",
+              "explanation": "The passage states that it takes centuries to build a single centimetre of new topsoil.",
+              "evidence": "it takes centuries for nature to build a single centimetre of new topsoil."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2108 @@
+{
+  "tests": [
+    {
+      "id": "L1",
+      "title": "Listening Test 1",
+      "parts": [
+        {
+          "part": 1,
+          "title": "Joining a swimming course",
+          "setting": "A student phones a leisure centre to ask about swimming lessons for beginners.",
+          "transcript": "NARRATOR: You will hear a student phoning a leisure centre to ask about swimming lessons.\nRECEPTIONIST: Good morning, Riverside Leisure Centre. How can I help you?\nSTUDENT: Good morning. My name is Ana Sharma. I am a first-year student at the university, and I would like to join a swimming course for beginners.\nRECEPTIONIST: Of course, Ana. We run beginner courses on Tuesday and Thursday evenings, and also on Saturday mornings.\nSTUDENT: Saturday morning would suit me best. What time does it start?\nRECEPTIONIST: The Saturday class starts at half past nine and lasts for one hour.\nSTUDENT: That sounds good. How long does the whole course last?\nRECEPTIONIST: It runs for eight weeks, and there is a short break in the middle for the public holiday weekend.\nSTUDENT: And how much does it cost?\nRECEPTIONIST: The full course is ninety pounds, but students get a discount, so you would pay sixty-five pounds.\nSTUDENT: That is reasonable. Do I need to bring anything with me?\nRECEPTIONIST: Just a swimming costume, a towel, and a pair of goggles if you have them. We provide swimming caps and all the other equipment.\nSTUDENT: I do not have goggles yet. Can I buy them at the centre?\nRECEPTIONIST: Yes, we sell them at reception for eight pounds.\nSTUDENT: Good. Is there a test before I start, to check my level?\nRECEPTIONIST: No test, but the instructor will watch you swim a short distance in the first lesson, just to place you in the right group.\nSTUDENT: I can swim a little, but I cannot do a proper front crawl yet.\nRECEPTIONIST: That is fine. Most beginners are in the same position. The course starts with breathing and floating, then moves on to the basic strokes.\nSTUDENT: One more thing — is there somewhere to leave my bag while I swim?\nRECEPTIONIST: Yes, there are lockers beside the pool. You need a one-pound coin, which you get back afterwards.\nSTUDENT: How do I book a place?\nRECEPTIONIST: You can book online, or I can take your details now and reserve a place for you.\nSTUDENT: Please reserve a place for me now. My email is ana.sharma@studentmail.com.\nRECEPTIONIST: Thank you. I will send you a confirmation email today, and you need to pay by Friday the twentieth of September.\nSTUDENT: Friday the twentieth — I will make a note of that. Where is the centre, exactly?\nRECEPTIONIST: We are on Mill Road, next to the bus station. The nearest bus stop is just outside the main entrance.\nSTUDENT: Perfect. Thank you very much for your help.\nRECEPTIONIST: You are welcome, Ana. We look forward to seeing you on Saturday.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "short",
+              "prompt": "The Saturday swimming class starts at ___",
+              "answers": [
+                "half past nine",
+                "9.30",
+                "9:30"
+              ],
+              "explanation": "The receptionist says the Saturday class starts at half past nine.",
+              "evidence": "RECEPTIONIST: The Saturday class starts at half past nine and lasts for one hour."
+            },
+            {
+              "no": 2,
+              "type": "mcq",
+              "prompt": "How long does the whole course last?",
+              "options": [
+                "Six weeks",
+                "Eight weeks",
+                "Ten weeks"
+              ],
+              "answer": 1,
+              "explanation": "The course runs for eight weeks, with a short break in the middle.",
+              "evidence": "RECEPTIONIST: It runs for eight weeks, and there is a short break in the middle for the public holiday weekend."
+            },
+            {
+              "no": 3,
+              "type": "short",
+              "prompt": "The price for students is ___",
+              "answers": [
+                "sixty-five pounds",
+                "65 pounds",
+                "£65"
+              ],
+              "explanation": "The full price is ninety pounds, but students pay sixty-five pounds.",
+              "evidence": "RECEPTIONIST: The full course is ninety pounds, but students get a discount, so you would pay sixty-five pounds."
+            },
+            {
+              "no": 4,
+              "type": "mcq",
+              "prompt": "What must Ana bring to the lessons?",
+              "options": [
+                "A swimming cap",
+                "A towel",
+                "A pair of flippers"
+              ],
+              "answer": 1,
+              "explanation": "She must bring a swimming costume, a towel, and goggles if she has them; caps are provided.",
+              "evidence": "RECEPTIONIST: Just a swimming costume, a towel, and a pair of goggles if you have them. We provide swimming caps and all the other equipment."
+            },
+            {
+              "no": 5,
+              "type": "short",
+              "prompt": "Goggles cost ___ at reception.",
+              "answers": [
+                "eight pounds",
+                "8 pounds",
+                "£8"
+              ],
+              "explanation": "Goggles are sold at reception for eight pounds.",
+              "evidence": "RECEPTIONIST: Yes, we sell them at reception for eight pounds."
+            },
+            {
+              "no": 6,
+              "type": "mcq",
+              "prompt": "What will the instructor do in the first lesson?",
+              "options": [
+                "Give Ana a written test",
+                "Watch Ana swim a short distance",
+                "Ask Ana to swim a full length of the pool"
+              ],
+              "answer": 1,
+              "explanation": "There is no test; the instructor watches her swim a short distance to place her in the right group.",
+              "evidence": "RECEPTIONIST: No test, but the instructor will watch you swim a short distance in the first lesson, just to place you in the right group."
+            },
+            {
+              "no": 7,
+              "type": "short",
+              "prompt": "Ana must pay by ___",
+              "answers": [
+                "Friday the twentieth of September",
+                "20 September",
+                "the twentieth of September"
+              ],
+              "explanation": "Payment is due by Friday the twentieth of September.",
+              "evidence": "RECEPTIONIST: Thank you. I will send you a confirmation email today, and you need to pay by Friday the twentieth of September."
+            },
+            {
+              "no": 8,
+              "type": "mcq",
+              "prompt": "Where is the leisure centre?",
+              "options": [
+                "On Mill Road",
+                "On Station Road",
+                "On Riverside Drive"
+              ],
+              "answer": 0,
+              "explanation": "The centre is on Mill Road, next to the bus station.",
+              "evidence": "RECEPTIONIST: We are on Mill Road, next to the bus station."
+            },
+            {
+              "no": 9,
+              "type": "short",
+              "prompt": "To use a locker, Ana needs a ___ coin.",
+              "answers": [
+                "one-pound",
+                "one pound",
+                "£1"
+              ],
+              "explanation": "The lockers take a one-pound coin, which is returned afterwards.",
+              "evidence": "RECEPTIONIST: Yes, there are lockers beside the pool. You need a one-pound coin, which you get back afterwards."
+            },
+            {
+              "no": 10,
+              "type": "mcq",
+              "prompt": "What does the course start with?",
+              "options": [
+                "Breathing and floating",
+                "Diving",
+                "Racing"
+              ],
+              "answer": 0,
+              "explanation": "The course starts with breathing and floating, then moves on to the basic strokes.",
+              "evidence": "RECEPTIONIST: That is fine. Most beginners are in the same position. The course starts with breathing and floating, then moves on to the basic strokes."
+            }
+          ]
+        },
+        {
+          "part": 2,
+          "title": "A guided walk around Riverside Park",
+          "setting": "A volunteer welcomes visitors to a guided walk around a riverside park.",
+          "transcript": "NARRATOR: You will hear a volunteer welcoming visitors to a guided walk around a riverside park.\nGUIDE: Good morning, everyone, and welcome to Riverside Park. My name is Tom Baker, and I will be your guide for the next hour and a half.\nGUIDE: The park was opened in 1924, when the land was given to the town by the Hartley family, who owned the large house you can see across the river.\nGUIDE: Before we start, let me tell you a little about the route. We will walk along the river path first, then cross the old stone bridge and come back through the woodland garden.\nGUIDE: The whole walk is about two kilometres, and the paths are flat, so it should be comfortable for everyone, including people with pushchairs.\nGUIDE: Our first stop is the boathouse, which was built in 1890. In the past, boats carried goods up and down the river, but today the boathouse is used by the local rowing club.\nGUIDE: If you look across the water, you can see the heronry. About forty grey herons nest there every spring, and if we are lucky, we may see one fishing in the shallow water near the bank.\nGUIDE: Further along the path, we will pass the rose garden. It has more than two hundred varieties of roses, and the best time to see them is in June, when they are all in flower.\nGUIDE: The park is also home to a small cafe, the Riverside Cafe, which is open every day from nine in the morning until five in the afternoon. It serves hot drinks, sandwiches, and homemade cakes.\nGUIDE: Now, a few practical points. There are toilets near the main entrance and also beside the cafe. Dogs are welcome in the park, but they must be kept on a lead near the children's playground.\nGUIDE: The playground was rebuilt last year, and it now has a climbing frame, swings, and a sandpit for younger children.\nGUIDE: Each summer, the park hosts a music festival. This year, the festival takes place on the third weekend of July, and entry is free, although visitors are asked to make a small donation.\nGUIDE: Finally, if you enjoy today's walk, the Friends of Riverside Park meet on the first Saturday of every month to help with planting and litter picking. New members are always welcome.\nGUIDE: Right, let us begin. Please follow me down to the river path, and do watch your step on the wooden bridge — it can be slippery after rain.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 11,
+              "type": "short",
+              "prompt": "Riverside Park was opened in ___",
+              "answers": [
+                "1924"
+              ],
+              "explanation": "The guide says the park was opened in 1924.",
+              "evidence": "GUIDE: The park was opened in 1924, when the land was given to the town by the Hartley family, who owned the large house you can see across the river."
+            },
+            {
+              "no": 12,
+              "type": "mcq",
+              "prompt": "How long will the guided walk last?",
+              "options": [
+                "One hour",
+                "An hour and a half",
+                "Two hours"
+              ],
+              "answer": 1,
+              "explanation": "Tom Baker says he will be the guide for the next hour and a half.",
+              "evidence": "GUIDE: Good morning, everyone, and welcome to Riverside Park. My name is Tom Baker, and I will be your guide for the next hour and a half."
+            },
+            {
+              "no": 13,
+              "type": "short",
+              "prompt": "The whole walk is about ___ long.",
+              "answers": [
+                "two kilometres",
+                "2 kilometres",
+                "2 km"
+              ],
+              "explanation": "The walk covers about two kilometres on flat paths.",
+              "evidence": "GUIDE: The whole walk is about two kilometres, and the paths are flat, so it should be comfortable for everyone, including people with pushchairs."
+            },
+            {
+              "no": 14,
+              "type": "mcq",
+              "prompt": "What is the boathouse used for today?",
+              "options": [
+                "A cafe",
+                "The local rowing club",
+                "A museum"
+              ],
+              "answer": 1,
+              "explanation": "The boathouse is now used by the local rowing club.",
+              "evidence": "GUIDE: Our first stop is the boathouse, which was built in 1890. In the past, boats carried goods up and down the river, but today the boathouse is used by the local rowing club."
+            },
+            {
+              "no": 15,
+              "type": "short",
+              "prompt": "About ___ grey herons nest at the heronry every spring.",
+              "answers": [
+                "forty",
+                "about forty",
+                "40"
+              ],
+              "explanation": "About forty grey herons nest there every spring.",
+              "evidence": "GUIDE: If you look across the water, you can see the heronry. About forty grey herons nest there every spring, and if we are lucky, we may see one fishing in the shallow water near the bank."
+            },
+            {
+              "no": 16,
+              "type": "mcq",
+              "prompt": "When is the best time to see the roses?",
+              "options": [
+                "In April",
+                "In June",
+                "In September"
+              ],
+              "answer": 1,
+              "explanation": "The roses are at their best in June, when they are all in flower.",
+              "evidence": "GUIDE: Further along the path, we will pass the rose garden. It has more than two hundred varieties of roses, and the best time to see them is in June, when they are all in flower."
+            },
+            {
+              "no": 17,
+              "type": "short",
+              "prompt": "The Riverside Cafe closes at ___",
+              "answers": [
+                "five in the afternoon",
+                "5 pm",
+                "17:00"
+              ],
+              "explanation": "The cafe is open from nine in the morning until five in the afternoon.",
+              "evidence": "GUIDE: The park is also home to a small cafe, the Riverside Cafe, which is open every day from nine in the morning until five in the afternoon."
+            },
+            {
+              "no": 18,
+              "type": "mcq",
+              "prompt": "Where must dogs be kept on a lead?",
+              "options": [
+                "Near the children's playground",
+                "On the river path",
+                "In the rose garden"
+              ],
+              "answer": 0,
+              "explanation": "Dogs must be kept on a lead near the children's playground.",
+              "evidence": "GUIDE: Now, a few practical points. There are toilets near the main entrance and also beside the cafe. Dogs are welcome in the park, but they must be kept on a lead near the children's playground."
+            },
+            {
+              "no": 19,
+              "type": "short",
+              "prompt": "The summer music festival takes place in ___",
+              "answers": [
+                "July"
+              ],
+              "explanation": "This year the festival takes place on the third weekend of July.",
+              "evidence": "GUIDE: Each summer, the park hosts a music festival. This year, the festival takes place on the third weekend of July, and entry is free, although visitors are asked to make a small donation."
+            },
+            {
+              "no": 20,
+              "type": "mcq",
+              "prompt": "When do the Friends of Riverside Park meet?",
+              "options": [
+                "On the first Saturday of every month",
+                "On the last Sunday of every month",
+                "Every Wednesday evening"
+              ],
+              "answer": 0,
+              "explanation": "The Friends meet on the first Saturday of every month to help with planting and litter picking.",
+              "evidence": "GUIDE: Finally, if you enjoy today's walk, the Friends of Riverside Park meet on the first Saturday of every month to help with planting and litter picking."
+            }
+          ]
+        },
+        {
+          "part": 3,
+          "title": "Planning a presentation on renewable energy",
+          "setting": "Two students discuss their group presentation with their tutor.",
+          "transcript": "NARRATOR: You will hear two students discussing a group presentation with their tutor.\nTUTOR: Good afternoon, Maya and Daniel. How is your group presentation coming along?\nMAYA: It is going well, Dr Evans. We have decided to focus on renewable energy in small towns, and Daniel has found some very useful data.\nDANIEL: Yes, I looked at three towns in the north of England that now get most of their electricity from wind and solar power.\nTUTOR: That sounds like a good angle. How long is the presentation?\nMAYA: Twenty minutes, plus five minutes for questions from the class.\nTUTOR: And how have you divided the work between you?\nDANIEL: I will introduce the topic and explain how wind turbines work. Maya will talk about solar power and the costs, and then we will present our conclusions together.\nMAYA: We have also made a short video of an interview with the manager of a wind farm near Leeds. We would like to show a two-minute clip from it.\nTUTOR: That could work well, but make sure the clip adds something new. Do not just repeat what you have already said.\nDANIEL: Good point. The manager talks about the problems they faced when the wind farm was built, which we have not covered in the main talk.\nTUTOR: Excellent. What about your sources? Have you used enough academic material?\nMAYA: We have used two journal articles and a government report from last year. I was worried that might not be enough.\nTUTOR: Three good sources are fine for a twenty-minute talk, but make sure you list them all on your final slide.\nDANIEL: We also wanted to include a graph showing how electricity prices have changed over the last ten years. Is that a good idea?\nTUTOR: Yes, a clear graph is always helpful, but keep it simple — no more than three lines on one graph.\nMAYA: When is the deadline for the slides?\nTUTOR: You need to send me the slides by Thursday evening, so I can check them before your presentation on Monday morning.\nDANIEL: Monday morning — that is the ninth of June, is it not?\nTUTOR: Yes, the ninth of June, at ten o'clock, in Room 4 of the Science Building.\nMAYA: One more question. Should we give the class a handout?\nTUTOR: A one-page summary would be useful, but do not print the whole presentation. Just the main points and your three sources.\nDANIEL: Thanks, Dr Evans. We will send you the slides on Thursday.\nTUTOR: Good. I am looking forward to it.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 21,
+              "type": "short",
+              "prompt": "The students' presentation is about renewable energy in ___",
+              "answers": [
+                "small towns"
+              ],
+              "explanation": "They chose to focus on renewable energy in small towns.",
+              "evidence": "MAYA: It is going well, Dr Evans. We have decided to focus on renewable energy in small towns, and Daniel has found some very useful data."
+            },
+            {
+              "no": 22,
+              "type": "mcq",
+              "prompt": "How long is the presentation itself?",
+              "options": [
+                "Fifteen minutes",
+                "Twenty minutes",
+                "Twenty-five minutes"
+              ],
+              "answer": 1,
+              "explanation": "The talk is twenty minutes, plus five minutes for questions.",
+              "evidence": "MAYA: Twenty minutes, plus five minutes for questions from the class."
+            },
+            {
+              "no": 23,
+              "type": "short",
+              "prompt": "Daniel will explain how ___ work.",
+              "answers": [
+                "wind turbines"
+              ],
+              "explanation": "Daniel will introduce the topic and explain how wind turbines work.",
+              "evidence": "DANIEL: I will introduce the topic and explain how wind turbines work."
+            },
+            {
+              "no": 24,
+              "type": "mcq",
+              "prompt": "What will Maya talk about?",
+              "options": [
+                "Wind turbines",
+                "Solar power and the costs",
+                "Electricity prices"
+              ],
+              "answer": 1,
+              "explanation": "Maya will talk about solar power and the costs.",
+              "evidence": "DANIEL: I will introduce the topic and explain how wind turbines work. Maya will talk about solar power and the costs, and then we will present our conclusions together."
+            },
+            {
+              "no": 25,
+              "type": "short",
+              "prompt": "The video clip they want to show is ___ long.",
+              "answers": [
+                "two minutes",
+                "2 minutes"
+              ],
+              "explanation": "They want to show a two-minute clip from the interview.",
+              "evidence": "MAYA: We have also made a short video of an interview with the manager of a wind farm near Leeds. We would like to show a two-minute clip from it."
+            },
+            {
+              "no": 26,
+              "type": "mcq",
+              "prompt": "What does the wind farm manager talk about in the video?",
+              "options": [
+                "The problems they faced when the wind farm was built",
+                "The cost of wind turbines",
+                "The history of Leeds"
+              ],
+              "answer": 0,
+              "explanation": "The manager talks about the problems faced when the wind farm was built, which is not covered in the main talk.",
+              "evidence": "DANIEL: Good point. The manager talks about the problems they faced when the wind farm was built, which we have not covered in the main talk."
+            },
+            {
+              "no": 27,
+              "type": "short",
+              "prompt": "The students have used ___ sources in total.",
+              "answers": [
+                "three",
+                "3"
+              ],
+              "explanation": "Two journal articles plus a government report make three sources.",
+              "evidence": "MAYA: We have used two journal articles and a government report from last year."
+            },
+            {
+              "no": 28,
+              "type": "mcq",
+              "prompt": "What does the tutor say about the graph?",
+              "options": [
+                "It should have no more than three lines",
+                "It can have as many lines as they like",
+                "They should not use a graph at all"
+              ],
+              "answer": 0,
+              "explanation": "The tutor says to keep the graph simple, with no more than three lines.",
+              "evidence": "TUTOR: Yes, a clear graph is always helpful, but keep it simple — no more than three lines on one graph."
+            },
+            {
+              "no": 29,
+              "type": "short",
+              "prompt": "The slides must be sent to the tutor by ___",
+              "answers": [
+                "Thursday evening"
+              ],
+              "explanation": "The slides are due by Thursday evening so the tutor can check them.",
+              "evidence": "TUTOR: You need to send me the slides by Thursday evening, so I can check them before your presentation on Monday morning."
+            },
+            {
+              "no": 30,
+              "type": "mcq",
+              "prompt": "Where will the presentation take place?",
+              "options": [
+                "Room 4 of the Science Building",
+                "Room 9 of the Library",
+                "The main lecture hall"
+              ],
+              "answer": 0,
+              "explanation": "The presentation is in Room 4 of the Science Building on the ninth of June.",
+              "evidence": "TUTOR: Yes, the ninth of June, at ten o'clock, in Room 4 of the Science Building."
+            }
+          ]
+        },
+        {
+          "part": 4,
+          "title": "Sleep and memory",
+          "setting": "A university lecturer gives a talk about how sleep affects memory.",
+          "transcript": "NARRATOR: You will hear a lecture about sleep and memory.\nLECTURER: Good morning. Today I want to talk about something that affects every student in this room: the link between sleep and memory.\nLECTURER: Most of us think of sleep as a time when the brain switches off. In fact, the brain is extremely busy while we sleep, and one of its most important jobs is to organise what we have learned during the day.\nLECTURER: Sleep has two main stages that matter for memory. The first is deep sleep, which happens mostly in the first half of the night. During deep sleep, the brain moves new facts — like the names and dates you studied — from short-term storage into long-term memory.\nLECTURER: The second stage is REM sleep, which stands for rapid eye movement sleep. This happens mostly in the second half of the night, and it seems to be important for skills and for emotional memories.\nLECTURER: A famous experiment at Harvard University showed this very clearly. Two groups of students were taught a new skill in the evening. One group slept normally, while the other group stayed awake all night. The next morning, the group that had slept performed twenty per cent better on the test.\nLECTURER: So what does this mean for students? First, it means that staying up all night before an exam is usually a bad idea. You may feel that you have studied more, but without sleep, much of that information will not be stored properly.\nLECTURER: Second, short naps can help. A nap of twenty to thirty minutes in the afternoon can improve your ability to remember new words, although a nap longer than an hour can leave you feeling sleepy.\nLECTURER: Third, regular sleep matters more than one good night. Students who sleep seven to eight hours every night remember more over a whole term than students whose sleep changes a lot from night to night.\nLECTURER: Finally, what you do before bed matters too. Reading your notes for fifteen minutes in the evening, and then going to sleep, is more effective than reading the same notes for an hour in the morning.\nLECTURER: To sum up, sleep is not wasted time. It is part of learning itself. If you want to remember what you study, protect your sleep as carefully as you protect your study time.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 31,
+              "type": "mcq",
+              "prompt": "What is the main idea of the lecture?",
+              "options": [
+                "Sleep is a time when the brain switches off",
+                "Sleep helps organise what we have learned",
+                "Students need less sleep than other people"
+              ],
+              "answer": 1,
+              "explanation": "The lecturer's main point is that the brain organises learning during sleep.",
+              "evidence": "LECTURER: Most of us think of sleep as a time when the brain switches off. In fact, the brain is extremely busy while we sleep, and one of its most important jobs is to organise what we have learned during the day."
+            },
+            {
+              "no": 32,
+              "type": "short",
+              "prompt": "Deep sleep happens mostly in ___ of the night.",
+              "answers": [
+                "the first half",
+                "the first half of the night"
+              ],
+              "explanation": "Deep sleep happens mostly in the first half of the night.",
+              "evidence": "LECTURER: Sleep has two main stages that matter for memory. The first is deep sleep, which happens mostly in the first half of the night."
+            },
+            {
+              "no": 33,
+              "type": "short",
+              "prompt": "REM stands for ___ sleep.",
+              "answers": [
+                "rapid eye movement"
+              ],
+              "explanation": "REM stands for rapid eye movement sleep.",
+              "evidence": "LECTURER: The second stage is REM sleep, which stands for rapid eye movement sleep."
+            },
+            {
+              "no": 34,
+              "type": "mcq",
+              "prompt": "What is REM sleep especially important for?",
+              "options": [
+                "Facts and dates",
+                "Skills and emotional memories",
+                "Physical strength"
+              ],
+              "answer": 1,
+              "explanation": "REM sleep seems to be important for skills and for emotional memories.",
+              "evidence": "LECTURER: The second stage is REM sleep, which stands for rapid eye movement sleep. This happens mostly in the second half of the night, and it seems to be important for skills and for emotional memories."
+            },
+            {
+              "no": 35,
+              "type": "short",
+              "prompt": "In the Harvard experiment, the group that had slept performed ___ better.",
+              "answers": [
+                "twenty per cent",
+                "20 per cent",
+                "20%"
+              ],
+              "explanation": "The sleeping group performed twenty per cent better on the test.",
+              "evidence": "LECTURER: A famous experiment at Harvard University showed this very clearly. Two groups of students were taught a new skill in the evening. One group slept normally, while the other group stayed awake all night. The next morning, the group that had slept performed twenty per cent better on the test."
+            },
+            {
+              "no": 36,
+              "type": "mcq",
+              "prompt": "What does the lecturer say about staying up all night before an exam?",
+              "options": [
+                "It is usually a bad idea",
+                "It works well before exams",
+                "It only helps with learning skills"
+              ],
+              "answer": 0,
+              "explanation": "Staying up all night is usually a bad idea because information is not stored properly without sleep.",
+              "evidence": "LECTURER: So what does this mean for students? First, it means that staying up all night before an exam is usually a bad idea."
+            },
+            {
+              "no": 37,
+              "type": "short",
+              "prompt": "A helpful afternoon nap lasts ___",
+              "answers": [
+                "twenty to thirty minutes",
+                "20 to 30 minutes",
+                "20-30 minutes"
+              ],
+              "explanation": "A nap of twenty to thirty minutes can improve memory for new words.",
+              "evidence": "LECTURER: Second, short naps can help. A nap of twenty to thirty minutes in the afternoon can improve your ability to remember new words, although a nap longer than an hour can leave you feeling sleepy."
+            },
+            {
+              "no": 38,
+              "type": "mcq",
+              "prompt": "What matters more than one good night of sleep?",
+              "options": [
+                "Regular sleep",
+                "Long afternoon naps",
+                "Studying in the morning"
+              ],
+              "answer": 0,
+              "explanation": "Regular sleep matters more than one good night.",
+              "evidence": "LECTURER: Third, regular sleep matters more than one good night."
+            },
+            {
+              "no": 39,
+              "type": "short",
+              "prompt": "Students should sleep ___ every night.",
+              "answers": [
+                "seven to eight hours",
+                "7 to 8 hours",
+                "7-8 hours"
+              ],
+              "explanation": "Students who sleep seven to eight hours every night remember more over a whole term.",
+              "evidence": "LECTURER: Third, regular sleep matters more than one good night. Students who sleep seven to eight hours every night remember more over a whole term than students whose sleep changes a lot from night to night."
+            },
+            {
+              "no": 40,
+              "type": "mcq",
+              "prompt": "What is more effective than reading notes for an hour in the morning?",
+              "options": [
+                "Reading for fifteen minutes in the evening, then sleeping",
+                "Reading for two hours late at night",
+                "Skipping sleep to revise"
+              ],
+              "answer": 0,
+              "explanation": "Reading notes for fifteen minutes in the evening and then sleeping beats an hour of morning reading.",
+              "evidence": "LECTURER: Finally, what you do before bed matters too. Reading your notes for fifteen minutes in the evening, and then going to sleep, is more effective than reading the same notes for an hour in the morning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L2",
+      "title": "Listening Test 2",
+      "parts": [
+        {
+          "part": 1,
+          "title": "Renting a flat near the university",
+          "setting": "A student phones a letting agent about a flat near the university.",
+          "transcript": "NARRATOR: You will hear a student phoning a letting agent about a flat.\nAGENT: Good afternoon, City Lets. This is James speaking. How can I help?\nSTUDENT: Hello, my name is Ben Carter. I am looking for a one-bedroom flat near the university, and I saw your advertisement for a flat on Oak Street.\nAGENT: Yes, the Oak Street flat is still available. It is on the second floor, and it is about a ten-minute walk from the main campus.\nSTUDENT: That sounds ideal. How much is the rent?\nAGENT: The rent is five hundred and fifty pounds a month, and that includes water and heating, but not electricity.\nSTUDENT: Is there a deposit?\nAGENT: Yes, the deposit is one month's rent, and you will get it back at the end of the tenancy if there is no damage to the flat.\nSTUDENT: When could I move in?\nAGENT: The flat is available from the first of October. The current tenant is moving out at the end of September.\nSTUDENT: Could I come and see the flat this week?\nAGENT: Of course. I can show you round on Wednesday afternoon at three o'clock, or on Thursday morning at eleven.\nSTUDENT: Wednesday at three would be perfect. What is the flat like inside?\nAGENT: It is quite small but very bright. There is a living room with a sofa and a small dining table, a separate kitchen, and a bathroom with a shower. There is no bath, I am afraid.\nSTUDENT: Is there internet in the flat?\nAGENT: Not yet, but the previous tenant had broadband, so the connection is already there. You would just need to choose a provider.\nSTUDENT: And is there any parking?\nAGENT: There is no private parking, but you can park on the street with a resident's permit, which costs forty pounds a year from the council.\nSTUDENT: I do not have a car, so that does not matter. Is the area quiet at night?\nAGENT: Yes, Oak Street is a quiet residential street, and most of the neighbours are families and postgraduate students.\nSTUDENT: That sounds good. Can I bring a friend to the viewing on Wednesday?\nAGENT: Certainly. Just meet me outside the main entrance at three o'clock, and please bring some photo identification with you.\nSTUDENT: I will bring my passport. Thank you very much.\nAGENT: You are welcome, Ben. I will see you on Wednesday.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "short",
+              "prompt": "The Oak Street flat is on the ___ floor.",
+              "answers": [
+                "second",
+                "the second"
+              ],
+              "explanation": "The flat is on the second floor.",
+              "evidence": "AGENT: Yes, the Oak Street flat is still available. It is on the second floor, and it is about a ten-minute walk from the main campus."
+            },
+            {
+              "no": 2,
+              "type": "short",
+              "prompt": "The flat is a ___ walk from the main campus.",
+              "answers": [
+                "ten-minute",
+                "ten minutes",
+                "10 minutes",
+                "a ten-minute walk"
+              ],
+              "explanation": "The flat is about a ten-minute walk from the main campus.",
+              "evidence": "AGENT: Yes, the Oak Street flat is still available. It is on the second floor, and it is about a ten-minute walk from the main campus."
+            },
+            {
+              "no": 3,
+              "type": "short",
+              "prompt": "The rent is ___ a month.",
+              "answers": [
+                "five hundred and fifty pounds",
+                "550 pounds",
+                "£550"
+              ],
+              "explanation": "The rent is five hundred and fifty pounds a month.",
+              "evidence": "AGENT: The rent is five hundred and fifty pounds a month, and that includes water and heating, but not electricity."
+            },
+            {
+              "no": 4,
+              "type": "mcq",
+              "prompt": "What is NOT included in the rent?",
+              "options": [
+                "Water",
+                "Heating",
+                "Electricity"
+              ],
+              "answer": 2,
+              "explanation": "The rent includes water and heating, but not electricity.",
+              "evidence": "AGENT: The rent is five hundred and fifty pounds a month, and that includes water and heating, but not electricity."
+            },
+            {
+              "no": 5,
+              "type": "short",
+              "prompt": "The deposit is ___",
+              "answers": [
+                "one month's rent",
+                "one months rent"
+              ],
+              "explanation": "The deposit is one month's rent, returned if there is no damage.",
+              "evidence": "AGENT: Yes, the deposit is one month's rent, and you will get it back at the end of the tenancy if there is no damage to the flat."
+            },
+            {
+              "no": 6,
+              "type": "mcq",
+              "prompt": "When is the flat available from?",
+              "options": [
+                "The first of October",
+                "The end of September",
+                "The first of November"
+              ],
+              "answer": 0,
+              "explanation": "The flat is available from the first of October.",
+              "evidence": "AGENT: The flat is available from the first of October. The current tenant is moving out at the end of September."
+            },
+            {
+              "no": 7,
+              "type": "short",
+              "prompt": "The viewing on Wednesday is at ___",
+              "answers": [
+                "three o'clock",
+                "3 o'clock",
+                "3 pm"
+              ],
+              "explanation": "The agent can show Ben round on Wednesday afternoon at three o'clock.",
+              "evidence": "AGENT: Of course. I can show you round on Wednesday afternoon at three o'clock, or on Thursday morning at eleven."
+            },
+            {
+              "no": 8,
+              "type": "mcq",
+              "prompt": "What is missing from the bathroom?",
+              "options": [
+                "A shower",
+                "A bath",
+                "A sink"
+              ],
+              "answer": 1,
+              "explanation": "The bathroom has a shower but no bath.",
+              "evidence": "AGENT: It is quite small but very bright. There is a living room with a sofa and a small dining table, a separate kitchen, and a bathroom with a shower. There is no bath, I am afraid."
+            },
+            {
+              "no": 9,
+              "type": "short",
+              "prompt": "A resident's parking permit costs ___ a year.",
+              "answers": [
+                "forty pounds",
+                "40 pounds",
+                "£40"
+              ],
+              "explanation": "A resident's permit costs forty pounds a year from the council.",
+              "evidence": "AGENT: There is no private parking, but you can park on the street with a resident's permit, which costs forty pounds a year from the council."
+            },
+            {
+              "no": 10,
+              "type": "mcq",
+              "prompt": "What must Ben bring to the viewing?",
+              "options": [
+                "Some photo identification",
+                "A bank statement",
+                "A reference letter"
+              ],
+              "answer": 0,
+              "explanation": "Ben must bring some photo identification; he will bring his passport.",
+              "evidence": "AGENT: Certainly. Just meet me outside the main entrance at three o'clock, and please bring some photo identification with you."
+            }
+          ]
+        },
+        {
+          "part": 2,
+          "title": "A tour of the university botanical garden",
+          "setting": "A guide introduces visitors to a university botanical garden.",
+          "transcript": "NARRATOR: You will hear a guide introducing visitors to a botanical garden.\nGUIDE: Hello, everyone, and welcome to the university botanical garden. My name is Dr Helen Wright, and I manage the garden's education programme.\nGUIDE: The garden covers twelve hectares, and it is home to more than eight thousand different kinds of plants, from tiny alpine flowers to trees that are over two hundred years old.\nGUIDE: The garden was founded in 1831 as a place where medical students could learn about plants used in medicine. Today, it is used for teaching, research, and by the public, who are welcome to visit free of charge.\nGUIDE: We will begin our tour in the glasshouses, where the temperature is kept at twenty-five degrees all year round. Inside, you will see plants from tropical rainforests, including orchids, palms, and a banana tree that produces fruit every summer.\nGUIDE: From there, we will walk to the rock garden, which was built in 1935 from stone brought from the mountains of Wales. The small plants that grow there come from high places all over the world, where the summers are short and the winters are very cold.\nGUIDE: Next, we will visit the herb garden. Many of the herbs here have been used as medicines for hundreds of years. For example, the leaves of the foxglove plant were once used to treat heart problems, and they are still the source of an important modern drug.\nGUIDE: After the herb garden, we will stop at the lake, where you can see water lilies and a family of ducks that has lived here for many years. Please do not feed the ducks, as bread can make them ill.\nGUIDE: The garden is open every day from ten in the morning until six in the evening, except on Christmas Day. The best time to visit is in May, when the spring flowers are at their best and the trees are full of blossom.\nGUIDE: Before we start, let me mention the garden shop, which sells seeds, books, and plants grown here in the garden. All the money from the shop goes back into looking after the garden.\nGUIDE: Finally, if you would like to learn more, we run a short course on gardening for beginners every Saturday morning in the autumn. The course costs thirty pounds for six weeks, and you can sign up at the visitor centre.\nGUIDE: Now, if everyone is ready, please follow me into the first glasshouse, and mind the step as you go in — it is a little higher than it looks.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 11,
+              "type": "short",
+              "prompt": "The botanical garden covers ___ hectares.",
+              "answers": [
+                "twelve",
+                "12"
+              ],
+              "explanation": "The garden covers twelve hectares.",
+              "evidence": "GUIDE: The garden covers twelve hectares, and it is home to more than eight thousand different kinds of plants, from tiny alpine flowers to trees that are over two hundred years old."
+            },
+            {
+              "no": 12,
+              "type": "short",
+              "prompt": "The garden is home to more than ___ different kinds of plants.",
+              "answers": [
+                "eight thousand",
+                "8000",
+                "8,000"
+              ],
+              "explanation": "There are more than eight thousand different kinds of plants in the garden.",
+              "evidence": "GUIDE: The garden covers twelve hectares, and it is home to more than eight thousand different kinds of plants, from tiny alpine flowers to trees that are over two hundred years old."
+            },
+            {
+              "no": 13,
+              "type": "mcq",
+              "prompt": "Why was the garden founded?",
+              "options": [
+                "To teach medical students about plants used in medicine",
+                "To grow food for the university",
+                "To attract tourists to the city"
+              ],
+              "answer": 0,
+              "explanation": "It was founded in 1831 so medical students could learn about plants used in medicine.",
+              "evidence": "GUIDE: The garden was founded in 1831 as a place where medical students could learn about plants used in medicine."
+            },
+            {
+              "no": 14,
+              "type": "short",
+              "prompt": "The temperature in the glasshouses is kept at ___ all year round.",
+              "answers": [
+                "twenty-five degrees",
+                "25 degrees"
+              ],
+              "explanation": "The glasshouses are kept at twenty-five degrees all year round.",
+              "evidence": "GUIDE: We will begin our tour in the glasshouses, where the temperature is kept at twenty-five degrees all year round."
+            },
+            {
+              "no": 15,
+              "type": "short",
+              "prompt": "The rock garden was built in ___",
+              "answers": [
+                "1935"
+              ],
+              "explanation": "The rock garden was built in 1935 from stone from the mountains of Wales.",
+              "evidence": "GUIDE: From there, we will walk to the rock garden, which was built in 1935 from stone brought from the mountains of Wales."
+            },
+            {
+              "no": 16,
+              "type": "mcq",
+              "prompt": "What were foxglove leaves once used to treat?",
+              "options": [
+                "Heart problems",
+                "Headaches",
+                "Skin problems"
+              ],
+              "answer": 0,
+              "explanation": "Foxglove leaves were once used to treat heart problems.",
+              "evidence": "GUIDE: Next, we will visit the herb garden. Many of the herbs here have been used as medicines for hundreds of years. For example, the leaves of the foxglove plant were once used to treat heart problems, and they are still the source of an important modern drug."
+            },
+            {
+              "no": 17,
+              "type": "short",
+              "prompt": "The garden closes at ___",
+              "answers": [
+                "six in the evening",
+                "6 pm",
+                "18:00"
+              ],
+              "explanation": "The garden is open from ten in the morning until six in the evening.",
+              "evidence": "GUIDE: The garden is open every day from ten in the morning until six in the evening, except on Christmas Day."
+            },
+            {
+              "no": 18,
+              "type": "mcq",
+              "prompt": "When is the best time to visit the garden?",
+              "options": [
+                "In May",
+                "In October",
+                "In January"
+              ],
+              "answer": 0,
+              "explanation": "May is the best time, when the spring flowers are at their best.",
+              "evidence": "GUIDE: The garden is open every day from ten in the morning until six in the evening, except on Christmas Day. The best time to visit is in May, when the spring flowers are at their best and the trees are full of blossom."
+            },
+            {
+              "no": 19,
+              "type": "short",
+              "prompt": "The beginners' gardening course costs ___ for six weeks.",
+              "answers": [
+                "thirty pounds",
+                "30 pounds",
+                "£30"
+              ],
+              "explanation": "The six-week course costs thirty pounds.",
+              "evidence": "GUIDE: Finally, if you would like to learn more, we run a short course on gardening for beginners every Saturday morning in the autumn. The course costs thirty pounds for six weeks, and you can sign up at the visitor centre."
+            },
+            {
+              "no": 20,
+              "type": "mcq",
+              "prompt": "What happens to the money from the garden shop?",
+              "options": [
+                "It goes back into looking after the garden",
+                "It pays the tour guides",
+                "It funds new university buildings"
+              ],
+              "answer": 0,
+              "explanation": "All the money from the shop goes back into looking after the garden.",
+              "evidence": "GUIDE: Before we start, let me mention the garden shop, which sells seeds, books, and plants grown here in the garden. All the money from the shop goes back into looking after the garden."
+            }
+          ]
+        },
+        {
+          "part": 3,
+          "title": "Discussing a field trip report on river water",
+          "setting": "Two students discuss their field trip report on river water quality with their tutor.",
+          "transcript": "NARRATOR: You will hear two students discussing a field trip report with their tutor.\nTUTOR: Hello, Sara and Tom. Let us talk about your field trip report on the River Avon. How did the trip go?\nSARA: It went very well, Dr Green. We visited three sites along the river and took water samples at each one.\nTOM: The first site was near the town centre, the second was next to a farm, and the third was in the nature reserve, about five kilometres downstream.\nTUTOR: Good. And what did your results show?\nSARA: The water at the nature reserve was the cleanest. It had the lowest level of nitrates and the highest level of oxygen, which is a good sign for fish.\nTOM: The site next to the farm had the worst results. The nitrate level there was three times higher than at the nature reserve, probably because of fertiliser washing off the fields.\nTUTOR: That is an important finding. Did you check your results against the official standards?\nSARA: Yes, we compared them with the Environment Agency's guidelines. The farm site was above the safe limit for nitrates, but the other two sites were within the limit.\nTUTOR: What about the samples from the town centre?\nTOM: They were in the middle. The oxygen level was lower than at the nature reserve, but the water was still safe for most fish species.\nTUTOR: How are you going to present these results in your report?\nSARA: We are going to use a table for the main numbers, and a bar chart to show the nitrate levels at the three sites.\nTUTOR: A bar chart is a good choice. Make sure you label both axes clearly, and include the units.\nTOM: We also took photographs at each site. Should we include them in the report?\nTUTOR: Yes, two or three photographs would be helpful, especially if they show the land use around each site. But do not include too many.\nSARA: When is the report due?\nTUTOR: The deadline is Friday the fourteenth of November, and you should submit it through the online system, not by email.\nTOM: We will need to write about two thousand words. Is that right?\nTUTOR: Yes, two thousand words, not including the table and the references. And please include a short conclusion with one clear recommendation.\nSARA: Our recommendation is that farmers should leave a ten-metre strip of grass between their fields and the river. That would reduce the fertiliser reaching the water.\nTUTOR: That is a sensible recommendation. Well done, both of you. I will look forward to reading the report.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 21,
+              "type": "short",
+              "prompt": "The students visited ___ sites along the river.",
+              "answers": [
+                "three",
+                "3"
+              ],
+              "explanation": "They visited three sites and took water samples at each one.",
+              "evidence": "SARA: It went very well, Dr Green. We visited three sites along the river and took water samples at each one."
+            },
+            {
+              "no": 22,
+              "type": "short",
+              "prompt": "The third site was about ___ downstream.",
+              "answers": [
+                "five kilometres",
+                "5 kilometres",
+                "5 km"
+              ],
+              "explanation": "The nature reserve site was about five kilometres downstream.",
+              "evidence": "TOM: The first site was near the town centre, the second was next to a farm, and the third was in the nature reserve, about five kilometres downstream."
+            },
+            {
+              "no": 23,
+              "type": "mcq",
+              "prompt": "Which site had the cleanest water?",
+              "options": [
+                "The town centre",
+                "Next to a farm",
+                "The nature reserve"
+              ],
+              "answer": 2,
+              "explanation": "The water at the nature reserve was the cleanest, with the lowest nitrates and highest oxygen.",
+              "evidence": "SARA: The water at the nature reserve was the cleanest. It had the lowest level of nitrates and the highest level of oxygen, which is a good sign for fish."
+            },
+            {
+              "no": 24,
+              "type": "short",
+              "prompt": "The nitrate level at the farm site was ___ higher than at the nature reserve.",
+              "answers": [
+                "three times",
+                "3 times"
+              ],
+              "explanation": "The nitrate level at the farm was three times higher, probably from fertiliser washing off the fields.",
+              "evidence": "TOM: The site next to the farm had the worst results. The nitrate level there was three times higher than at the nature reserve, probably because of fertiliser washing off the fields."
+            },
+            {
+              "no": 25,
+              "type": "mcq",
+              "prompt": "What did the students compare their results with?",
+              "options": [
+                "The Environment Agency's guidelines",
+                "A textbook",
+                "Another university's results"
+              ],
+              "answer": 0,
+              "explanation": "They compared their results with the Environment Agency's guidelines.",
+              "evidence": "SARA: Yes, we compared them with the Environment Agency's guidelines."
+            },
+            {
+              "no": 26,
+              "type": "short",
+              "prompt": "The oxygen level at the town centre was ___ than at the nature reserve.",
+              "answers": [
+                "lower"
+              ],
+              "explanation": "The town centre oxygen level was lower than at the nature reserve.",
+              "evidence": "TOM: They were in the middle. The oxygen level was lower than at the nature reserve, but the water was still safe for most fish species."
+            },
+            {
+              "no": 27,
+              "type": "mcq",
+              "prompt": "How will the students show the nitrate levels?",
+              "options": [
+                "With a bar chart",
+                "With a pie chart",
+                "With a line graph"
+              ],
+              "answer": 0,
+              "explanation": "They will use a bar chart to show the nitrate levels at the three sites.",
+              "evidence": "SARA: We are going to use a table for the main numbers, and a bar chart to show the nitrate levels at the three sites."
+            },
+            {
+              "no": 28,
+              "type": "short",
+              "prompt": "The report is due on ___",
+              "answers": [
+                "Friday the fourteenth of November",
+                "14 November",
+                "the fourteenth of November"
+              ],
+              "explanation": "The deadline is Friday the fourteenth of November.",
+              "evidence": "TUTOR: The deadline is Friday the fourteenth of November, and you should submit it through the online system, not by email."
+            },
+            {
+              "no": 29,
+              "type": "short",
+              "prompt": "The report should be about ___ long.",
+              "answers": [
+                "two thousand words",
+                "2000 words",
+                "2,000 words"
+              ],
+              "explanation": "The report should be two thousand words, not including the table and references.",
+              "evidence": "TUTOR: Yes, two thousand words, not including the table and the references."
+            },
+            {
+              "no": 30,
+              "type": "mcq",
+              "prompt": "What is the students' recommendation?",
+              "options": [
+                "Farmers should leave a ten-metre strip of grass between their fields and the river",
+                "Farmers should stop using fertiliser completely",
+                "The river should be closed to fishing"
+              ],
+              "answer": 0,
+              "explanation": "They recommend a ten-metre strip of grass between fields and the river to reduce fertiliser reaching the water.",
+              "evidence": "SARA: Our recommendation is that farmers should leave a ten-metre strip of grass between their fields and the river."
+            }
+          ]
+        },
+        {
+          "part": 4,
+          "title": "Honeybees and pollination",
+          "setting": "A university lecturer gives a talk about honeybees and their role in farming.",
+          "transcript": "NARRATOR: You will hear a lecture about honeybees and pollination.\nLECTURER: Good afternoon. In today's lecture, I want to look at one of the most important animals in agriculture: the honeybee.\nLECTURER: Most people know that bees make honey, but their real value lies in pollination. When a bee visits a flower to collect nectar, pollen sticks to its body, and when the bee moves to the next flower, some of that pollen is left behind. This allows the plant to produce seeds and fruit.\nLECTURER: Around three quarters of the world's food crops depend on pollinators to some extent. Crops such as apples, almonds, and coffee all produce much smaller harvests without bees.\nLECTURER: Unfortunately, honeybee numbers have been falling in many countries. In the United States, for example, beekeepers have lost about forty per cent of their colonies in some recent winters.\nLECTURER: There are several reasons for this decline. The first is the loss of habitat. As more land is used for housing and for large fields of a single crop, bees have fewer wild flowers to feed on.\nLECTURER: The second reason is pesticides. Some chemicals used to protect crops from insects can also harm bees, damaging their ability to find their way back to the hive.\nLECTURER: The third reason is disease. A tiny mite called Varroa attacks young bees and spreads viruses through the colony. Beekeepers now have to treat their hives regularly to keep this mite under control.\nLECTURER: What can be done? Farmers can help by planting strips of wild flowers along the edges of their fields. Studies have shown that these flower strips can increase the number of wild bees in an area by up to fifty per cent.\nLECTURER: Gardeners can help too, by growing plants that flower at different times of the year, so that bees always have food. Even a small balcony with a few pots can make a difference.\nLECTURER: Finally, scientists are working on new ways to protect bees, including breeding bees that are more resistant to the Varroa mite and developing safer pesticides.\nLECTURER: To conclude, bees are not just honey producers. They are essential workers in our food system, and protecting them is one of the simplest ways to protect our food supply.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 31,
+              "type": "mcq",
+              "prompt": "What is the real value of bees, according to the lecturer?",
+              "options": [
+                "Making honey",
+                "Pollination",
+                "Making wax"
+              ],
+              "answer": 1,
+              "explanation": "The lecturer says the bees' real value lies in pollination, not honey.",
+              "evidence": "LECTURER: Most people know that bees make honey, but their real value lies in pollination."
+            },
+            {
+              "no": 32,
+              "type": "short",
+              "prompt": "Around ___ of the world's food crops depend on pollinators to some extent.",
+              "answers": [
+                "three quarters",
+                "around three quarters",
+                "75%"
+              ],
+              "explanation": "Around three quarters of the world's food crops depend on pollinators.",
+              "evidence": "LECTURER: Around three quarters of the world's food crops depend on pollinators to some extent."
+            },
+            {
+              "no": 33,
+              "type": "short",
+              "prompt": "In the United States, beekeepers have lost about ___ of their colonies in some recent winters.",
+              "answers": [
+                "forty per cent",
+                "40 per cent",
+                "40%"
+              ],
+              "explanation": "Beekeepers in the United States have lost about forty per cent of their colonies in some recent winters.",
+              "evidence": "LECTURER: Unfortunately, honeybee numbers have been falling in many countries. In the United States, for example, beekeepers have lost about forty per cent of their colonies in some recent winters."
+            },
+            {
+              "no": 34,
+              "type": "mcq",
+              "prompt": "What is the first reason given for the decline in honeybees?",
+              "options": [
+                "Loss of habitat",
+                "Cold winters",
+                "Too many beekeepers"
+              ],
+              "answer": 0,
+              "explanation": "The first reason is the loss of habitat, as land is used for housing and single-crop fields.",
+              "evidence": "LECTURER: There are several reasons for this decline. The first is the loss of habitat."
+            },
+            {
+              "no": 35,
+              "type": "short",
+              "prompt": "Pesticides can damage bees' ability to ___",
+              "answers": [
+                "find their way back to the hive",
+                "find their way home"
+              ],
+              "explanation": "Some crop chemicals can harm bees and damage their ability to find their way back to the hive.",
+              "evidence": "LECTURER: The second reason is pesticides. Some chemicals used to protect crops from insects can also harm bees, damaging their ability to find their way back to the hive."
+            },
+            {
+              "no": 36,
+              "type": "short",
+              "prompt": "The tiny mite that attacks young bees is called ___",
+              "answers": [
+                "Varroa"
+              ],
+              "explanation": "A tiny mite called Varroa attacks young bees and spreads viruses through the colony.",
+              "evidence": "LECTURER: The third reason is disease. A tiny mite called Varroa attacks young bees and spreads viruses through the colony."
+            },
+            {
+              "no": 37,
+              "type": "mcq",
+              "prompt": "What can farmers plant to help bees?",
+              "options": [
+                "Strips of wild flowers along the edges of their fields",
+                "More wheat in the middle of their fields",
+                "Trees in the middle of their fields"
+              ],
+              "answer": 0,
+              "explanation": "Farmers can plant strips of wild flowers along the edges of their fields.",
+              "evidence": "LECTURER: What can be done? Farmers can help by planting strips of wild flowers along the edges of their fields."
+            },
+            {
+              "no": 38,
+              "type": "short",
+              "prompt": "Flower strips can increase the number of wild bees by up to ___",
+              "answers": [
+                "fifty per cent",
+                "50 per cent",
+                "50%"
+              ],
+              "explanation": "Studies show flower strips can increase wild bee numbers by up to fifty per cent.",
+              "evidence": "LECTURER: What can be done? Farmers can help by planting strips of wild flowers along the edges of their fields. Studies have shown that these flower strips can increase the number of wild bees in an area by up to fifty per cent."
+            },
+            {
+              "no": 39,
+              "type": "mcq",
+              "prompt": "How can gardeners help bees?",
+              "options": [
+                "By growing plants that flower at different times of the year",
+                "By stopping watering their plants",
+                "By keeping bees indoors"
+              ],
+              "answer": 0,
+              "explanation": "Gardeners can grow plants that flower at different times of the year so bees always have food.",
+              "evidence": "LECTURER: Gardeners can help too, by growing plants that flower at different times of the year, so that bees always have food."
+            },
+            {
+              "no": 40,
+              "type": "mcq",
+              "prompt": "What are scientists breeding?",
+              "options": [
+                "Bees that are more resistant to the Varroa mite",
+                "Larger bees",
+                "Bees that make more honey"
+              ],
+              "answer": 0,
+              "explanation": "Scientists are breeding bees that are more resistant to the Varroa mite.",
+              "evidence": "LECTURER: Finally, scientists are working on new ways to protect bees, including breeding bees that are more resistant to the Varroa mite and developing safer pesticides."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L3",
+      "title": "Listening Test 3",
+      "parts": [
+        {
+          "part": 1,
+          "title": "Booking a dental appointment",
+          "setting": "A patient phones a dental clinic to book a first check-up.",
+          "transcript": "NARRATOR: You will hear a patient phoning a dental clinic to book an appointment.\nRECEPTIONIST: Good morning, Bright Smile Dental Clinic. How can I help you?\nPATIENT: Good morning. My name is Sara Karki, and I would like to book a check-up appointment, please.\nRECEPTIONIST: Of course, Sara. Are you a new patient, or have you visited us before?\nPATIENT: I am a new patient. I moved to the city last month, and I have not registered with a dentist yet.\nRECEPTIONIST: That is no problem. We are taking new patients at the moment. When would you like to come in?\nPATIENT: I work during the day, so an evening appointment would be best. Do you have anything on Thursday?\nRECEPTIONIST: Let me check. Yes, we have a slot on Thursday the twelfth of March at half past five. Would that suit you?\nPATIENT: Thursday the twelfth at half past five sounds perfect. How long will the appointment take?\nRECEPTIONIST: A first check-up usually takes about forty-five minutes. The dentist will examine your teeth and take two X-rays.\nPATIENT: That is fine. How much will it cost?\nRECEPTIONIST: The first check-up costs forty pounds, and that includes the X-rays. If you need any treatment, the dentist will explain the cost first.\nPATIENT: That seems reasonable. Do I need to bring anything with me?\nRECEPTIONIST: Please bring a form of identification, such as your passport or driving licence. We will also ask you to fill in a short medical history form when you arrive.\nPATIENT: I can do that. Is there anything I should avoid before the appointment?\nRECEPTIONIST: Just avoid eating for one hour before you come, and please arrive ten minutes early so we can complete the paperwork.\nPATIENT: I will arrive early. Where exactly is the clinic?\nRECEPTIONIST: We are on Station Road, next to the post office. The nearest car park is behind the library, about five minutes away on foot.\nPATIENT: I will come by bus, so that is helpful. Which bus stop should I use?\nRECEPTIONIST: Get off at the Market Square stop, and the clinic is a two-minute walk from there.\nPATIENT: Thank you. Can I ask one more thing? I sometimes feel nervous at the dentist.\nRECEPTIONIST: Many patients feel the same, Sara. Please tell the dentist when you arrive, and she will take extra time to explain each step.\nPATIENT: That is reassuring. I will see you on Thursday the twelfth.\nRECEPTIONIST: We look forward to meeting you. If you need to change the appointment, please call us at least twenty-four hours in advance.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "short",
+              "prompt": "The patient would like to book a ___ appointment.",
+              "answers": [
+                "check-up",
+                "checkup",
+                "check up"
+              ],
+              "explanation": "Sara says she would like to book a check-up appointment.",
+              "evidence": "I would like to book a check-up appointment, please."
+            },
+            {
+              "no": 2,
+              "type": "mcq",
+              "prompt": "Why has the patient not visited a dentist before?",
+              "options": [
+                "She moved to the city recently",
+                "She was afraid of dentists",
+                "Her old dentist retired"
+              ],
+              "answer": 0,
+              "explanation": "Sara moved to the city last month and has not registered with a dentist yet.",
+              "evidence": "I moved to the city last month, and I have not registered with a dentist yet."
+            },
+            {
+              "no": 3,
+              "type": "short",
+              "prompt": "The appointment is on Thursday the ___ of March.",
+              "answers": [
+                "twelfth",
+                "12th",
+                "12"
+              ],
+              "explanation": "The receptionist offers a slot on Thursday the twelfth of March.",
+              "evidence": "we have a slot on Thursday the twelfth of March at half past five."
+            },
+            {
+              "no": 4,
+              "type": "mcq",
+              "prompt": "How long will the first check-up take?",
+              "options": [
+                "Thirty minutes",
+                "Forty-five minutes",
+                "One hour"
+              ],
+              "answer": 1,
+              "explanation": "A first check-up usually takes about forty-five minutes.",
+              "evidence": "A first check-up usually takes about forty-five minutes."
+            },
+            {
+              "no": 5,
+              "type": "short",
+              "prompt": "The check-up costs ___ pounds.",
+              "answers": [
+                "forty",
+                "40"
+              ],
+              "explanation": "The first check-up costs forty pounds, including the X-rays.",
+              "evidence": "The first check-up costs forty pounds, and that includes the X-rays."
+            },
+            {
+              "no": 6,
+              "type": "mcq",
+              "prompt": "What must the patient bring to the appointment?",
+              "options": [
+                "A form of identification",
+                "Her old dental records",
+                "A letter from her doctor"
+              ],
+              "answer": 0,
+              "explanation": "The receptionist asks her to bring a form of identification.",
+              "evidence": "Please bring a form of identification, such as your passport or driving licence."
+            },
+            {
+              "no": 7,
+              "type": "short",
+              "prompt": "The patient should avoid eating for ___ before the appointment.",
+              "answers": [
+                "one hour",
+                "1 hour"
+              ],
+              "explanation": "The receptionist tells her to avoid eating for one hour before she comes.",
+              "evidence": "Just avoid eating for one hour before you come"
+            },
+            {
+              "no": 8,
+              "type": "mcq",
+              "prompt": "Where is the clinic?",
+              "options": [
+                "On Station Road",
+                "Behind the library",
+                "In Market Square"
+              ],
+              "answer": 0,
+              "explanation": "The clinic is on Station Road, next to the post office.",
+              "evidence": "We are on Station Road, next to the post office."
+            },
+            {
+              "no": 9,
+              "type": "short",
+              "prompt": "The nearest car park is about ___ away on foot.",
+              "answers": [
+                "five minutes",
+                "5 minutes"
+              ],
+              "explanation": "The car park behind the library is about five minutes away on foot.",
+              "evidence": "about five minutes away on foot."
+            },
+            {
+              "no": 10,
+              "type": "mcq",
+              "prompt": "What should the patient do if she needs to change the appointment?",
+              "options": [
+                "Call at least twenty-four hours in advance",
+                "Send an email on the day",
+                "Visit the clinic in person"
+              ],
+              "answer": 0,
+              "explanation": "Changes must be made by phone at least twenty-four hours in advance.",
+              "evidence": "please call us at least twenty-four hours in advance."
+            }
+          ]
+        },
+        {
+          "part": 2,
+          "title": "Welcome to Harbour View Youth Hostel",
+          "setting": "The manager of a youth hostel welcomes a group of new guests.",
+          "transcript": "NARRATOR: You will hear the manager of a youth hostel welcoming a group of new guests.\nMANAGER: Good evening, everyone, and welcome to Harbour View Youth Hostel. My name is Daniel, and I am the hostel manager. Before you settle in, I would like to tell you a few important things about your stay. First, the bedrooms. Most of you are in shared rooms with four beds, and each bed has a small locker underneath it. Please keep your valuables in the lockers, because the hostel cannot take responsibility for things left on the beds. The bathrooms are at the end of each corridor, and there are separate showers for men and women on the second floor. The kitchen is on the ground floor, next to the dining room. You are welcome to use the kitchen at any time, but please wash your dishes after cooking and label your food with your name and the date. Food that is not labelled will be removed on Friday morning. Breakfast is served in the dining room from seven o'clock until half past nine, and it costs four pounds. You can pay at reception the night before, or you can buy a breakfast ticket in the morning. The dining room also has free tea and coffee all day, so please help yourselves. Now, a few rules. The hostel is quiet after eleven o'clock at night, so please keep noise down in the corridors after that time. Smoking is not allowed anywhere inside the building, but there is a small smoking area in the garden. Finally, check-out is at ten o'clock in the morning. Please leave your key at reception when you leave, and remember to take everything from your locker. If you need anything during your stay, the reception desk is open from seven in the morning until midnight, and there is a night manager after that. There is also a notice board in the entrance hall with information about local buses, walking tours and places to eat. I hope you enjoy your stay in our city. If you have any questions, please come and find me at reception.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 11,
+              "type": "short",
+              "prompt": "The hostel manager's name is ___.",
+              "answers": [
+                "Daniel"
+              ],
+              "explanation": "The manager introduces himself as Daniel.",
+              "evidence": "My name is Daniel, and I am the hostel manager."
+            },
+            {
+              "no": 12,
+              "type": "mcq",
+              "prompt": "How many beds are in most of the shared rooms?",
+              "options": [
+                "Two",
+                "Four",
+                "Six"
+              ],
+              "answer": 1,
+              "explanation": "Most shared rooms have four beds.",
+              "evidence": "Most of you are in shared rooms with four beds"
+            },
+            {
+              "no": 13,
+              "type": "short",
+              "prompt": "Guests should keep valuables in the ___ under the bed.",
+              "answers": [
+                "locker",
+                "lockers"
+              ],
+              "explanation": "Each bed has a small locker underneath it for valuables.",
+              "evidence": "each bed has a small locker underneath it."
+            },
+            {
+              "no": 14,
+              "type": "mcq",
+              "prompt": "Where are the separate showers?",
+              "options": [
+                "On the ground floor",
+                "On the second floor",
+                "At the end of the corridor"
+              ],
+              "answer": 1,
+              "explanation": "The separate showers for men and women are on the second floor.",
+              "evidence": "there are separate showers for men and women on the second floor."
+            },
+            {
+              "no": 15,
+              "type": "short",
+              "prompt": "Unlabelled food will be removed on ___ morning.",
+              "answers": [
+                "Friday"
+              ],
+              "explanation": "Food that is not labelled will be removed on Friday morning.",
+              "evidence": "Food that is not labelled will be removed on Friday morning."
+            },
+            {
+              "no": 16,
+              "type": "mcq",
+              "prompt": "How much does breakfast cost?",
+              "options": [
+                "Three pounds",
+                "Four pounds",
+                "Five pounds"
+              ],
+              "answer": 1,
+              "explanation": "Breakfast costs four pounds.",
+              "evidence": "it costs four pounds."
+            },
+            {
+              "no": 17,
+              "type": "short",
+              "prompt": "Breakfast is served until ___.",
+              "answers": [
+                "half past nine",
+                "9.30",
+                "9:30"
+              ],
+              "explanation": "Breakfast runs from seven o'clock until half past nine.",
+              "evidence": "from seven o'clock until half past nine"
+            },
+            {
+              "no": 18,
+              "type": "mcq",
+              "prompt": "What is free in the dining room all day?",
+              "options": [
+                "Tea and coffee",
+                "Breakfast",
+                "Cooking lessons"
+              ],
+              "answer": 0,
+              "explanation": "Tea and coffee are free in the dining room all day.",
+              "evidence": "The dining room also has free tea and coffee all day"
+            },
+            {
+              "no": 19,
+              "type": "short",
+              "prompt": "Check-out is at ___ in the morning.",
+              "answers": [
+                "ten o'clock",
+                "10 o'clock",
+                "10:00",
+                "10"
+              ],
+              "explanation": "Guests must check out at ten o'clock in the morning.",
+              "evidence": "check-out is at ten o'clock in the morning."
+            },
+            {
+              "no": 20,
+              "type": "mcq",
+              "prompt": "When is the reception desk open?",
+              "options": [
+                "From seven in the morning until midnight",
+                "Twenty-four hours a day",
+                "From nine until five"
+              ],
+              "answer": 0,
+              "explanation": "Reception is open from seven in the morning until midnight.",
+              "evidence": "the reception desk is open from seven in the morning until midnight"
+            }
+          ]
+        },
+        {
+          "part": 3,
+          "title": "Planning a survey on public transport",
+          "setting": "Two students discuss their group project on public transport.",
+          "transcript": "NARRATOR: You will hear two students discussing a group project on public transport.\nLENA: Hi, Marco. Have you started thinking about our group project on public transport yet?\nMARCO: A little. I think we should survey passengers at the bus station, but I am not sure how many people we need to interview.\nLENA: Our tutor said we need at least fifty responses for the results to be useful. If we work in pairs, we could finish in two afternoons.\nMARCO: Fifty sounds like a lot, but you are right — it would be quicker in pairs. What questions should we ask?\nLENA: The main question is why people choose the bus instead of driving. We could offer four reasons: cost, convenience, parking problems and concern for the environment.\nMARCO: That makes sense. We should also ask how often they travel by bus — every day, a few times a week, or only occasionally.\nLENA: Good idea. And we need to ask about the biggest problem with the service. I expect most people will say the buses are late.\nMARCO: Probably. My bus was twenty minutes late yesterday, and two of my friends missed their lectures because of it.\nLENA: We should record the answers on paper first, then enter them into a spreadsheet in the library. The tutor wants a chart for each question.\nMARCO: That will take time. When is the project due?\nLENA: The report is due on the thirtieth of April, and we have to give a ten-minute presentation the week after.\nMARCO: Ten minutes is short. We will need to practise so we do not run over time.\nLENA: Yes, and we should divide the presentation equally. I can present the results, and you can explain our method.\nMARCO: That sounds fair. One more thing — should we interview drivers as well?\nLENA: The tutor said we could, but it is not required. I think we should focus on passengers first, and only talk to drivers if we have extra time.\nMARCO: Agreed. Shall we meet at the bus station on Monday at nine o'clock to start the survey?\nLENA: Monday at nine is good for me. I will bring the printed questionnaires and a clipboard.\nMARCO: Perfect. I will bring pens and a watch so we can note the time of each bus.\nLENA: Great. Let us hope the weather stays dry — standing at a bus station in the rain would not be much fun.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 21,
+              "type": "short",
+              "prompt": "The students need at least ___ survey responses.",
+              "answers": [
+                "fifty",
+                "50"
+              ],
+              "explanation": "The tutor said they need at least fifty responses for useful results.",
+              "evidence": "we need at least fifty responses for the results to be useful."
+            },
+            {
+              "no": 22,
+              "type": "mcq",
+              "prompt": "How do the students plan to collect the responses?",
+              "options": [
+                "Working in pairs",
+                "Interviewing drivers only",
+                "Sending an online form"
+              ],
+              "answer": 0,
+              "explanation": "Working in pairs, they could finish in two afternoons.",
+              "evidence": "If we work in pairs, we could finish in two afternoons."
+            },
+            {
+              "no": 23,
+              "type": "short",
+              "prompt": "One reason for choosing the bus is concern for the ___.",
+              "answers": [
+                "environment"
+              ],
+              "explanation": "Concern for the environment is one of the four reasons offered.",
+              "evidence": "cost, convenience, parking problems and concern for the environment."
+            },
+            {
+              "no": 24,
+              "type": "mcq",
+              "prompt": "What do the students expect passengers to say is the biggest problem?",
+              "options": [
+                "The buses are too crowded",
+                "The buses are late",
+                "The tickets are too expensive"
+              ],
+              "answer": 1,
+              "explanation": "Lena expects most people will say the buses are late.",
+              "evidence": "I expect most people will say the buses are late."
+            },
+            {
+              "no": 25,
+              "type": "short",
+              "prompt": "Marco's bus was ___ minutes late yesterday.",
+              "answers": [
+                "twenty",
+                "20"
+              ],
+              "explanation": "Marco says his bus was twenty minutes late yesterday.",
+              "evidence": "My bus was twenty minutes late yesterday"
+            },
+            {
+              "no": 26,
+              "type": "mcq",
+              "prompt": "Where will the students enter the answers?",
+              "options": [
+                "Into a spreadsheet in the library",
+                "On the tutor's computer",
+                "In a notebook at home"
+              ],
+              "answer": 0,
+              "explanation": "They will enter the answers into a spreadsheet in the library.",
+              "evidence": "then enter them into a spreadsheet in the library."
+            },
+            {
+              "no": 27,
+              "type": "short",
+              "prompt": "The report is due on the ___ of April.",
+              "answers": [
+                "thirtieth",
+                "30th",
+                "30"
+              ],
+              "explanation": "The report is due on the thirtieth of April.",
+              "evidence": "The report is due on the thirtieth of April"
+            },
+            {
+              "no": 28,
+              "type": "mcq",
+              "prompt": "How long will the presentation be?",
+              "options": [
+                "Five minutes",
+                "Ten minutes",
+                "Fifteen minutes"
+              ],
+              "answer": 1,
+              "explanation": "They have to give a ten-minute presentation.",
+              "evidence": "we have to give a ten-minute presentation the week after."
+            },
+            {
+              "no": 29,
+              "type": "short",
+              "prompt": "Lena will present the ___.",
+              "answers": [
+                "results"
+              ],
+              "explanation": "Lena will present the results and Marco will explain the method.",
+              "evidence": "I can present the results, and you can explain our method."
+            },
+            {
+              "no": 30,
+              "type": "mcq",
+              "prompt": "When will the students meet at the bus station?",
+              "options": [
+                "Monday at nine o'clock",
+                "Tuesday at nine o'clock",
+                "Monday at ten o'clock"
+              ],
+              "answer": 0,
+              "explanation": "They agree to meet at the bus station on Monday at nine o'clock.",
+              "evidence": "Shall we meet at the bus station on Monday at nine o'clock to start the survey?"
+            }
+          ]
+        },
+        {
+          "part": 4,
+          "title": "The science of tides",
+          "setting": "A lecturer explains how tides work.",
+          "transcript": "NARRATOR: You will hear a lecture about the science of tides.\nLECTURER: Good morning. Today I would like to talk about tides — the regular rise and fall of the sea that has fascinated sailors, fishermen and scientists for centuries. The main cause of tides is the gravitational pull of the Moon. As the Moon orbits the Earth, its gravity pulls the ocean towards it, creating a bulge of water on the side of the Earth facing the Moon. At the same time, a second bulge forms on the opposite side, because the Earth is pulled towards the Moon slightly more strongly than the water on the far side. As the Earth rotates, different places pass through these two bulges, and that is why most coastal areas experience two high tides and two low tides each day. The Sun also affects the tides, although its influence is weaker because it is much further away. When the Sun, the Moon and the Earth are in a straight line, which happens at the new moon and the full moon, their gravitational forces combine. The result is a spring tide, with higher high tides and lower low tides than usual. The name has nothing to do with the season of spring — it comes from an old word meaning to rise up. In contrast, when the Sun and the Moon are at right angles to each other, their forces partly cancel out, and we get a neap tide, with a smaller difference between high and low water. Neap tides occur during the first and third quarters of the Moon. The height of a tide also depends on local geography. In a narrow bay, the incoming water has nowhere to spread, so it can rise much higher than on an open coast. The Bay of Fundy in Canada is famous for this: the difference between high and low tide there can reach sixteen metres, the largest in the world. Tides are not just a curiosity — they have shaped human life for thousands of years. Fishing communities planned their work around the tide tables, and today engineers are building tidal power stations that generate electricity from the movement of the water. Understanding tides, therefore, is both a scientific challenge and a practical necessity.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 31,
+              "type": "mcq",
+              "prompt": "What is the main cause of tides?",
+              "options": [
+                "The gravitational pull of the Moon",
+                "The rotation of the Earth",
+                "The wind blowing across the sea"
+              ],
+              "answer": 0,
+              "explanation": "The main cause of tides is the gravitational pull of the Moon.",
+              "evidence": "The main cause of tides is the gravitational pull of the Moon."
+            },
+            {
+              "no": 32,
+              "type": "short",
+              "prompt": "A second bulge of water forms on the ___ side of the Earth.",
+              "answers": [
+                "opposite"
+              ],
+              "explanation": "A second bulge forms on the opposite side of the Earth.",
+              "evidence": "a second bulge forms on the opposite side"
+            },
+            {
+              "no": 33,
+              "type": "short",
+              "prompt": "Most coastal areas experience ___ high tides each day.",
+              "answers": [
+                "two",
+                "2"
+              ],
+              "explanation": "Most coastal areas experience two high tides and two low tides each day.",
+              "evidence": "most coastal areas experience two high tides and two low tides each day."
+            },
+            {
+              "no": 34,
+              "type": "mcq",
+              "prompt": "Why is the Sun's influence on tides weaker than the Moon's?",
+              "options": [
+                "Because it is much further away",
+                "Because it is smaller",
+                "Because it rises only in the morning"
+              ],
+              "answer": 0,
+              "explanation": "The Sun is much further away, so its influence is weaker.",
+              "evidence": "its influence is weaker because it is much further away."
+            },
+            {
+              "no": 35,
+              "type": "short",
+              "prompt": "Spring tides happen at the new moon and the ___ moon.",
+              "answers": [
+                "full"
+              ],
+              "explanation": "Spring tides happen when the Sun, Moon and Earth line up at the new moon and the full moon.",
+              "evidence": "which happens at the new moon and the full moon"
+            },
+            {
+              "no": 36,
+              "type": "mcq",
+              "prompt": "What does the word 'spring' in 'spring tide' originally mean?",
+              "options": [
+                "The season of spring",
+                "To rise up",
+                "A source of water"
+              ],
+              "answer": 1,
+              "explanation": "The name comes from an old word meaning to rise up.",
+              "evidence": "it comes from an old word meaning to rise up."
+            },
+            {
+              "no": 37,
+              "type": "short",
+              "prompt": "Neap tides occur during the first and ___ quarters of the Moon.",
+              "answers": [
+                "third"
+              ],
+              "explanation": "Neap tides occur during the first and third quarters of the Moon.",
+              "evidence": "Neap tides occur during the first and third quarters of the Moon."
+            },
+            {
+              "no": 38,
+              "type": "mcq",
+              "prompt": "Why can tides rise higher in a narrow bay?",
+              "options": [
+                "The incoming water has nowhere to spread",
+                "The wind is stronger there",
+                "The Moon is closer to the bay"
+              ],
+              "answer": 0,
+              "explanation": "In a narrow bay the incoming water has nowhere to spread.",
+              "evidence": "In a narrow bay, the incoming water has nowhere to spread, so it can rise much higher than on an open coast."
+            },
+            {
+              "no": 39,
+              "type": "short",
+              "prompt": "The tidal range in the Bay of Fundy can reach ___ metres.",
+              "answers": [
+                "sixteen",
+                "16"
+              ],
+              "explanation": "The difference between high and low tide there can reach sixteen metres.",
+              "evidence": "the difference between high and low tide there can reach sixteen metres, the largest in the world."
+            },
+            {
+              "no": 40,
+              "type": "mcq",
+              "prompt": "What is one modern use of tides mentioned in the lecture?",
+              "options": [
+                "Generating electricity",
+                "Making drinking water",
+                "Cooling power stations"
+              ],
+              "answer": 0,
+              "explanation": "Engineers are building tidal power stations that generate electricity.",
+              "evidence": "today engineers are building tidal power stations that generate electricity from the movement of the water."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L4",
+      "title": "Listening Test 4",
+      "parts": [
+        {
+          "part": 1,
+          "title": "Booking a room for a birthday party",
+          "setting": "A woman phones a community centre to book a room for her mother's birthday party.",
+          "transcript": "NARRATOR: You will hear a woman phoning a community centre to book a room for her mother's birthday party.\nRECEPTIONIST: Good afternoon, Hilltop Community Centre.\nCALLER: Good afternoon. My name is Sofia Mendes. I would like to book a room for a birthday party.\nRECEPTIONIST: Of course, Sofia. Which date were you thinking of?\nCALLER: Saturday the fourteenth of December. Is the main hall free that day?\nRECEPTIONIST: Let me check. Yes, the main hall is free on the fourteenth, in the afternoon and in the evening.\nCALLER: The party would be in the evening, from six o'clock until ten o'clock.\nRECEPTIONIST: That is fine. The hall is available until half past ten.\nCALLER: How many people can the hall hold?\nRECEPTIONIST: It can hold up to eighty people comfortably. How many guests are you expecting?\nCALLER: About fifty, including children.\nCALLER: How much does it cost to hire the hall for the evening?\nRECEPTIONIST: The hire charge is forty-five pounds for the evening. There is also a deposit of thirty pounds, which we return to you after the event if nothing is damaged.\nCALLER: Does the hall have a kitchen I can use?\nRECEPTIONIST: Yes, there is a small kitchen next to the hall.\nCALLER: Good. Can I bring my own food and drinks?\nRECEPTIONIST: Yes, you can bring your own food, but alcohol is not allowed in the building.\nCALLER: That is fine — we will bring soft drinks and juice.\nRECEPTIONIST: There are twelve large tables and sixty chairs in the hall already, and we can bring in more if you need them.\nCALLER: Twelve tables should be enough. Is there a sound system for music?\nRECEPTIONIST: Yes, there is a speaker system, and you can connect your phone to it with a cable.\nCALLER: Some of the guests are elderly. Is there step-free access?\nRECEPTIONIST: Yes, there is a ramp at the main entrance and a lift to the first floor.\nCALLER: How do I confirm the booking?\nRECEPTIONIST: I can take a booking now. I will need your phone number and email address, and you can pay the deposit online within three days.\nCALLER: My phone number is 07700 900 214, and my email is sofia.mendes@examplemail.com.\nRECEPTIONIST: Thank you. I have booked the main hall for the fourteenth, from six until ten. I will send you the payment link today.\nCALLER: Thank you very much. One last question — where can guests park?\nRECEPTIONIST: There is a free car park behind the building, with space for about forty cars.\nCALLER: Excellent. Thank you.\nRECEPTIONIST: You are welcome, Sofia. We look forward to seeing you on the fourteenth.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "short",
+              "prompt": "The party is on Saturday the ___ of December.",
+              "answers": [
+                "fourteenth",
+                "14th",
+                "14"
+              ],
+              "explanation": "Sofia asks about Saturday the fourteenth of December.",
+              "evidence": "CALLER: Saturday the fourteenth of December. Is the main hall free that day?"
+            },
+            {
+              "no": 2,
+              "type": "mcq",
+              "prompt": "What time will the party finish?",
+              "options": [
+                "Ten o'clock",
+                "Half past ten",
+                "Eleven o'clock"
+              ],
+              "answer": 0,
+              "explanation": "The party runs from six o'clock until ten o'clock; half past ten is only the latest the hall is available.",
+              "evidence": "CALLER: The party would be in the evening, from six o'clock until ten o'clock."
+            },
+            {
+              "no": 3,
+              "type": "short",
+              "prompt": "The hall can hold up to ___ people.",
+              "answers": [
+                "eighty",
+                "80"
+              ],
+              "explanation": "The receptionist says the hall can hold up to eighty people comfortably.",
+              "evidence": "RECEPTIONIST: It can hold up to eighty people comfortably. How many guests are you expecting?"
+            },
+            {
+              "no": 4,
+              "type": "mcq",
+              "prompt": "How much is the deposit?",
+              "options": [
+                "Thirty pounds",
+                "Forty-five pounds",
+                "Seventy-five pounds"
+              ],
+              "answer": 0,
+              "explanation": "The hire charge is forty-five pounds, but the deposit is thirty pounds.",
+              "evidence": "RECEPTIONIST: The hire charge is forty-five pounds for the evening. There is also a deposit of thirty pounds, which we return to you after the event if nothing is damaged."
+            },
+            {
+              "no": 5,
+              "type": "short",
+              "prompt": "The deposit is returned if nothing is ___.",
+              "answers": [
+                "damaged"
+              ],
+              "explanation": "The deposit is returned after the event if nothing is damaged.",
+              "evidence": "RECEPTIONIST: The hire charge is forty-five pounds for the evening. There is also a deposit of thirty pounds, which we return to you after the event if nothing is damaged."
+            },
+            {
+              "no": 6,
+              "type": "mcq",
+              "prompt": "What is NOT allowed in the building?",
+              "options": [
+                "Soft drinks",
+                "Alcohol",
+                "Home-made food"
+              ],
+              "answer": 1,
+              "explanation": "Sofia may bring her own food, but alcohol is not allowed in the building.",
+              "evidence": "RECEPTIONIST: Yes, you can bring your own food, but alcohol is not allowed in the building."
+            },
+            {
+              "no": 7,
+              "type": "short",
+              "prompt": "There are ___ large tables in the hall.",
+              "answers": [
+                "twelve",
+                "12"
+              ],
+              "explanation": "The receptionist says there are twelve large tables and sixty chairs in the hall already.",
+              "evidence": "RECEPTIONIST: There are twelve large tables and sixty chairs in the hall already, and we can bring in more if you need them."
+            },
+            {
+              "no": 8,
+              "type": "mcq",
+              "prompt": "How can Sofia connect her phone to the speaker system?",
+              "options": [
+                "With a cable",
+                "By Bluetooth",
+                "With a remote control"
+              ],
+              "answer": 0,
+              "explanation": "She can connect her phone to the speaker system with a cable, and cables are available at reception.",
+              "evidence": "RECEPTIONIST: Yes, there is a speaker system, and you can connect your phone to it with a cable."
+            },
+            {
+              "no": 9,
+              "type": "short",
+              "prompt": "Guests can park in the free car park ___ the building.",
+              "answers": [
+                "behind"
+              ],
+              "explanation": "There is a free car park behind the building, with space for about forty cars.",
+              "evidence": "RECEPTIONIST: There is a free car park behind the building, with space for about forty cars."
+            },
+            {
+              "no": 10,
+              "type": "short",
+              "prompt": "Sofia must pay the deposit within ___ days.",
+              "answers": [
+                "three",
+                "3"
+              ],
+              "explanation": "The deposit must be paid online within three days.",
+              "evidence": "RECEPTIONIST: I can take a booking now. I will need your phone number and email address, and you can pay the deposit online within three days."
+            }
+          ]
+        },
+        {
+          "part": 2,
+          "title": "A tour of the Old Station Railway Museum",
+          "setting": "A guide welcomes visitors to a small railway museum and describes the tour.",
+          "transcript": "NARRATOR: You will hear a guide welcoming visitors to a small railway museum.\nGUIDE: Good morning, everyone, and welcome to the Old Station Railway Museum. My name is Daniel, and I will be your guide this morning. Before we begin, let me tell you a little about this building. The station opened in eighteen eighty-four, and trains stopped here for almost one hundred years. The last passenger train left in nineteen eighty-one, and the building stood empty for ten years before a group of local volunteers saved it and turned it into a museum.\nOur tour today will last about one hour, and we will visit four rooms. We start here, in the ticket hall, where passengers once bought their tickets. You can still see the original wooden ticket counter, and the old timetable boards on the wall. The earliest timetable we have is from eighteen ninety-two, and it shows just six trains a day.\nNext, we will go into the waiting room, which has been restored to look exactly as it did in nineteen twenty. The benches, the stove, and even the posters on the wall are all original. In those days, passengers waited here for hours, because trains were often delayed in winter.\nAfter that, we visit the signal box, where you can try pulling the levers that once controlled the signals and the points. Please be careful with the levers — they are heavy, and some of them are over a hundred years old.\nFinally, we will go outside to the platform, where our oldest exhibit is waiting: a steam locomotive called the Green Dragon, built in nineteen oh three. It carried coal from the mines to the port for forty years. You are welcome to climb into the driver's cab and have your photograph taken, but please do not touch the controls.\nThe museum is open from Tuesday to Sunday, from ten in the morning until four in the afternoon. Admission is free, but we do ask visitors to leave a small donation if they can. There is a small cafe in the old parcels office, and it serves tea, coffee, and homemade cakes. The shop sells postcards, books, and model trains.\nBefore we start, please remember that photography is allowed everywhere in the museum, but please do not use a flash in the waiting room, because the light can damage the old posters. If you have any questions during the tour, please just ask. Let us begin in the ticket hall.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 11,
+              "type": "mcq",
+              "prompt": "When did the station open?",
+              "options": [
+                "1881",
+                "1884",
+                "1892"
+              ],
+              "answer": 1,
+              "explanation": "The station opened in eighteen eighty-four; 1892 is the date of the earliest timetable.",
+              "evidence": "GUIDE: Good morning, everyone, and welcome to the Old Station Railway Museum. My name is Daniel, and I will be your guide this morning. Before we begin, let me tell you a little about this building. The station opened in eighteen eighty-four, and trains stopped here for almost one hundred years."
+            },
+            {
+              "no": 12,
+              "type": "short",
+              "prompt": "The last passenger train left in ___.",
+              "answers": [
+                "nineteen eighty-one",
+                "1981"
+              ],
+              "explanation": "The last passenger train left in nineteen eighty-one.",
+              "evidence": "The last passenger train left in nineteen eighty-one, and the building stood empty for ten years before a group of local volunteers saved it and turned it into a museum."
+            },
+            {
+              "no": 13,
+              "type": "mcq",
+              "prompt": "How long will the tour last?",
+              "options": [
+                "About half an hour",
+                "About one hour",
+                "About two hours"
+              ],
+              "answer": 1,
+              "explanation": "The tour will last about one hour and visit four rooms.",
+              "evidence": "Our tour today will last about one hour, and we will visit four rooms."
+            },
+            {
+              "no": 14,
+              "type": "short",
+              "prompt": "The earliest timetable is from ___.",
+              "answers": [
+                "eighteen ninety-two",
+                "1892"
+              ],
+              "explanation": "The earliest timetable is from eighteen ninety-two and shows just six trains a day.",
+              "evidence": "The earliest timetable we have is from eighteen ninety-two, and it shows just six trains a day."
+            },
+            {
+              "no": 15,
+              "type": "mcq",
+              "prompt": "What can visitors see in the waiting room?",
+              "options": [
+                "Original benches and posters",
+                "A model railway",
+                "The ticket machines"
+              ],
+              "answer": 0,
+              "explanation": "The waiting room was restored to look as it did in 1920, with original benches, stove and posters.",
+              "evidence": "Next, we will go into the waiting room, which has been restored to look exactly as it did in nineteen twenty. The benches, the stove, and even the posters on the wall are all original."
+            },
+            {
+              "no": 16,
+              "type": "short",
+              "prompt": "Visitors can try pulling the ___ in the signal box.",
+              "answers": [
+                "levers"
+              ],
+              "explanation": "In the signal box visitors can try pulling the levers that once controlled the signals and the points.",
+              "evidence": "After that, we visit the signal box, where you can try pulling the levers that once controlled the signals and the points."
+            },
+            {
+              "no": 17,
+              "type": "mcq",
+              "prompt": "What is the name of the steam locomotive?",
+              "options": [
+                "The Green Dragon",
+                "The Red Arrow",
+                "The Silver Star"
+              ],
+              "answer": 0,
+              "explanation": "The oldest exhibit is a steam locomotive called the Green Dragon.",
+              "evidence": "Finally, we will go outside to the platform, where our oldest exhibit is waiting: a steam locomotive called the Green Dragon, built in nineteen oh three."
+            },
+            {
+              "no": 18,
+              "type": "short",
+              "prompt": "The locomotive was built in ___.",
+              "answers": [
+                "nineteen oh three",
+                "1903"
+              ],
+              "explanation": "The Green Dragon was built in nineteen oh three.",
+              "evidence": "a steam locomotive called the Green Dragon, built in nineteen oh three."
+            },
+            {
+              "no": 19,
+              "type": "mcq",
+              "prompt": "On which day is the museum closed?",
+              "options": [
+                "On Mondays",
+                "On Tuesdays",
+                "On Sundays"
+              ],
+              "answer": 0,
+              "explanation": "The museum is open from Tuesday to Sunday, so it is closed on Mondays.",
+              "evidence": "The museum is open from Tuesday to Sunday, from ten in the morning until four in the afternoon."
+            },
+            {
+              "no": 20,
+              "type": "short",
+              "prompt": "Photography is allowed, but flash is not allowed in the ___.",
+              "answers": [
+                "waiting room"
+              ],
+              "explanation": "Flash is not allowed in the waiting room because the light can damage the old posters.",
+              "evidence": "please remember that photography is allowed everywhere in the museum, but please do not use a flash in the waiting room, because the light can damage the old posters."
+            }
+          ]
+        },
+        {
+          "part": 3,
+          "title": "Planning a class debate on social media",
+          "setting": "Two students plan their arguments for a class debate about social media.",
+          "transcript": "NARRATOR: You will hear two students planning a class debate about social media.\nJAMES: Hi Lena. Have you started preparing for the debate on Friday?\nLENA: A little. Our team has to argue that social media does more harm than good for teenagers. I am not sure where to begin.\nJAMES: Let us start with the strongest point: time. The average teenager spends more than three hours a day on social media, and that time comes straight out of homework, sleep, and sport.\nLENA: That is a good point, but the other team will say that teenagers also learn a lot online. How do we answer that?\nJAMES: We can say that learning is different from scrolling. Most of those three hours are spent watching short videos.\nLENA: True. What about mental health? I read a survey that found teenagers who spend more than two hours a day on social media are more likely to report feeling anxious.\nJAMES: Yes, that survey was done last year with five thousand teenagers. We can quote it — but we need to be careful, because the other team may say the survey only shows a link, not a cause.\nLENA: We can accept that, and still argue that the link is strong enough to worry parents and teachers.\nJAMES: Good. Another point is sleep. Many teenagers check their phones late at night, and the light from the screen makes it harder to fall asleep.\nLENA: And tired teenagers do worse at school the next day.\nJAMES: What about the other side? The opposing team will say social media helps teenagers keep in touch with friends and family.\nLENA: That is true, especially for teenagers who live far from their friends. But we can argue that real conversations are better than messages, and that many teenagers already meet their friends at school every day.\nJAMES: We should also mention online bullying. It is harder to escape than bullying in the playground, because it can follow you home.\nLENA: That is our strongest emotional point. We should keep it for the end, so the audience remembers it.\nJAMES: Agreed. So our order is: time, mental health, sleep, and then bullying at the end. Who will speak first?\nLENA: You should open, because you are good at introductions. I will take the mental health and sleep points, and you can finish with bullying.\nJAMES: Fine. Let us meet on Wednesday evening to practise. We need to keep each speech under four minutes.\nLENA: Wednesday at seven in the library. I will bring the survey results, and you bring the notes on sleep.\nJAMES: Perfect. See you then.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 21,
+              "type": "mcq",
+              "prompt": "What must James and Lena's team argue in the debate?",
+              "options": [
+                "Social media does more harm than good for teenagers",
+                "Teenagers should not use phones at school",
+                "Social media helps teenagers learn"
+              ],
+              "answer": 0,
+              "explanation": "Their team has to argue that social media does more harm than good for teenagers.",
+              "evidence": "LENA: A little. Our team has to argue that social media does more harm than good for teenagers. I am not sure where to begin."
+            },
+            {
+              "no": 22,
+              "type": "short",
+              "prompt": "The average teenager spends more than ___ hours a day on social media.",
+              "answers": [
+                "three",
+                "3"
+              ],
+              "explanation": "The average teenager spends more than three hours a day on social media.",
+              "evidence": "JAMES: Let us start with the strongest point: time. The average teenager spends more than three hours a day on social media, and that time comes straight out of homework, sleep, and sport."
+            },
+            {
+              "no": 23,
+              "type": "mcq",
+              "prompt": "How many teenagers took part in the survey Lena mentions?",
+              "options": [
+                "Five hundred",
+                "Two thousand",
+                "Five thousand"
+              ],
+              "answer": 2,
+              "explanation": "The survey was done last year with five thousand teenagers.",
+              "evidence": "JAMES: Yes, that survey was done last year with five thousand teenagers."
+            },
+            {
+              "no": 24,
+              "type": "short",
+              "prompt": "Teenagers who spend more than two hours a day on social media are more likely to feel ___.",
+              "answers": [
+                "anxious"
+              ],
+              "explanation": "The survey found such teenagers are more likely to report feeling anxious.",
+              "evidence": "LENA: True. What about mental health? I read a survey that found teenagers who spend more than two hours a day on social media are more likely to report feeling anxious."
+            },
+            {
+              "no": 25,
+              "type": "mcq",
+              "prompt": "What does the light from the screen do at night?",
+              "options": [
+                "Makes it harder to fall asleep",
+                "Helps teenagers relax",
+                "Improves their eyesight"
+              ],
+              "answer": 0,
+              "explanation": "The light from the screen makes it harder to fall asleep.",
+              "evidence": "JAMES: Good. Another point is sleep. Many teenagers check their phones late at night, and the light from the screen makes it harder to fall asleep."
+            },
+            {
+              "no": 26,
+              "type": "short",
+              "prompt": "The team's last point will be about online ___.",
+              "answers": [
+                "bullying"
+              ],
+              "explanation": "Online bullying is their strongest emotional point, kept for the end.",
+              "evidence": "LENA: That is our strongest emotional point. We should keep it for the end, so the audience remembers it."
+            },
+            {
+              "no": 27,
+              "type": "mcq",
+              "prompt": "Who will open the debate for the team?",
+              "options": [
+                "Lena",
+                "James",
+                "Both together"
+              ],
+              "answer": 1,
+              "explanation": "James will open because he is good at introductions.",
+              "evidence": "LENA: You should open, because you are good at introductions."
+            },
+            {
+              "no": 28,
+              "type": "short",
+              "prompt": "Each speech must be under ___ minutes.",
+              "answers": [
+                "four",
+                "4"
+              ],
+              "explanation": "They need to keep each speech under four minutes.",
+              "evidence": "JAMES: Fine. Let us meet on Wednesday evening to practise. We need to keep each speech under four minutes."
+            },
+            {
+              "no": 29,
+              "type": "mcq",
+              "prompt": "When will they meet to practise?",
+              "options": [
+                "Tuesday evening",
+                "Wednesday evening",
+                "Thursday evening"
+              ],
+              "answer": 1,
+              "explanation": "They will meet again on Wednesday evening to practise.",
+              "evidence": "JAMES: Fine. Let us meet on Wednesday evening to practise."
+            },
+            {
+              "no": 30,
+              "type": "short",
+              "prompt": "Lena will bring the ___ to the practice meeting.",
+              "answers": [
+                "survey results"
+              ],
+              "explanation": "Lena will bring the survey results, and James will bring the notes on sleep.",
+              "evidence": "LENA: Wednesday at seven in the library. I will bring the survey results, and you bring the notes on sleep."
+            }
+          ]
+        },
+        {
+          "part": 4,
+          "title": "Urban trees and city heat",
+          "setting": "A lecturer explains how trees help cities cope with rising temperatures.",
+          "transcript": "NARRATOR: You will hear a lecture about how trees help cities cope with rising temperatures.\nLECTURER: Good morning. Today I want to talk about a simple and surprisingly powerful tool for cooling our cities: the urban tree. As cities grow hotter, researchers are paying more attention to the shade and cooling that trees provide.\nFirst, let us look at the problem. Cities are usually several degrees warmer than the countryside around them. This is called the urban heat island effect. Roads, roofs, and pavements absorb heat during the day and release it slowly at night, so the city never fully cools down. During a heatwave, this difference can reach seven degrees, which puts elderly people and young children at serious risk.\nTrees cool a city in two ways. The first is shade. A large tree can shade an area of more than one hundred square metres, and the ground beneath it can be ten degrees cooler than the same ground in full sun. The second is evaporation. A mature tree releases hundreds of litres of water into the air each day through its leaves, and as this water evaporates, it takes heat with it. Together, shade and evaporation can lower the temperature of a street by two to five degrees.\nTrees also clean the air by trapping dust and absorbing some pollutants. They reduce noise from traffic, and they give people somewhere pleasant to walk and sit. Studies have found that patients in rooms with a view of trees recover faster than patients whose windows face a brick wall.\nHowever, planting trees in cities is not easy. The soil under a pavement is often too shallow and too dry, and the roots have little room to grow. Many young trees die within five years of planting, because nobody waters them during the first dry summer. To succeed, a city needs to choose the right species — trees that can survive drought, pollution, and salty roads in winter — and it needs to water them for at least the first three years.\nSome cities are now taking this seriously. In Singapore, planners aim to plant one million more trees by twenty thirty. In Paris, the city is planting trees along every street it rebuilds. These programmes are expensive, but researchers argue that planting a tree costs far less than treating heat-related illness, or cooling a building with air conditioning.\nTo conclude, urban trees are not decoration. They are infrastructure — as important to a healthy city as clean water or reliable transport. The question is not whether we can afford to plant them, but whether we can afford not to.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 31,
+              "type": "mcq",
+              "prompt": "What is the urban heat island effect?",
+              "options": [
+                "Cities are several degrees warmer than the countryside",
+                "The countryside is warmer than cities",
+                "Cities cool down quickly at night"
+              ],
+              "answer": 0,
+              "explanation": "Cities are usually several degrees warmer than the countryside around them.",
+              "evidence": "First, let us look at the problem. Cities are usually several degrees warmer than the countryside around them. This is called the urban heat island effect."
+            },
+            {
+              "no": 32,
+              "type": "short",
+              "prompt": "During a heatwave, the temperature difference can reach ___ degrees.",
+              "answers": [
+                "seven",
+                "7"
+              ],
+              "explanation": "During a heatwave the difference between city and countryside can reach seven degrees.",
+              "evidence": "During a heatwave, this difference can reach seven degrees, which puts elderly people and young children at serious risk."
+            },
+            {
+              "no": 33,
+              "type": "mcq",
+              "prompt": "How much area can a large tree shade?",
+              "options": [
+                "More than ten square metres",
+                "More than fifty square metres",
+                "More than one hundred square metres"
+              ],
+              "answer": 2,
+              "explanation": "A large tree can shade an area of more than one hundred square metres.",
+              "evidence": "A large tree can shade an area of more than one hundred square metres, and the ground beneath it can be ten degrees cooler than the same ground in full sun."
+            },
+            {
+              "no": 34,
+              "type": "short",
+              "prompt": "The ground under a tree can be ___ degrees cooler than ground in full sun.",
+              "answers": [
+                "ten",
+                "10"
+              ],
+              "explanation": "The ground beneath a large tree can be ten degrees cooler than the same ground in full sun.",
+              "evidence": "A large tree can shade an area of more than one hundred square metres, and the ground beneath it can be ten degrees cooler than the same ground in full sun."
+            },
+            {
+              "no": 35,
+              "type": "mcq",
+              "prompt": "How do trees cool the air through evaporation?",
+              "options": [
+                "Their leaves release water into the air",
+                "Their roots absorb heat from the soil",
+                "Their bark reflects sunlight"
+              ],
+              "answer": 0,
+              "explanation": "A mature tree releases hundreds of litres of water into the air each day through its leaves, and the evaporating water takes heat with it.",
+              "evidence": "A mature tree releases hundreds of litres of water into the air each day through its leaves, and as this water evaporates, it takes heat with it."
+            },
+            {
+              "no": 36,
+              "type": "short",
+              "prompt": "Shade and evaporation together can lower a street's temperature by two to ___ degrees.",
+              "answers": [
+                "five",
+                "5"
+              ],
+              "explanation": "Together, shade and evaporation can lower the temperature of a street by two to five degrees.",
+              "evidence": "Together, shade and evaporation can lower the temperature of a street by two to five degrees."
+            },
+            {
+              "no": 37,
+              "type": "mcq",
+              "prompt": "What did studies find about hospital patients?",
+              "options": [
+                "Patients with a view of trees recover faster",
+                "Patients prefer rooms facing brick walls",
+                "Patients recover at the same speed in all rooms"
+              ],
+              "answer": 0,
+              "explanation": "Patients in hospital rooms with a view of trees recover faster than patients whose windows face a brick wall.",
+              "evidence": "Studies have found that patients in rooms with a view of trees recover faster than patients whose windows face a brick wall."
+            },
+            {
+              "no": 38,
+              "type": "short",
+              "prompt": "Many young trees die within ___ years of planting.",
+              "answers": [
+                "five",
+                "5"
+              ],
+              "explanation": "Many young trees die within five years of planting, because nobody waters them during the first dry summer.",
+              "evidence": "Many young trees die within five years of planting, because nobody waters them during the first dry summer."
+            },
+            {
+              "no": 39,
+              "type": "mcq",
+              "prompt": "How many more trees does Singapore aim to plant by 2030?",
+              "options": [
+                "One hundred thousand",
+                "One million",
+                "Ten million"
+              ],
+              "answer": 1,
+              "explanation": "In Singapore, planners aim to plant one million more trees by twenty thirty.",
+              "evidence": "In Singapore, planners aim to plant one million more trees by twenty thirty."
+            },
+            {
+              "no": 40,
+              "type": "short",
+              "prompt": "The lecturer says urban trees are not decoration but ___.",
+              "answers": [
+                "infrastructure"
+              ],
+              "explanation": "Urban trees are infrastructure, as important to a healthy city as clean water or reliable transport.",
+              "evidence": "To conclude, urban trees are not decoration. They are infrastructure — as important to a healthy city as clean water or reliable transport."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
