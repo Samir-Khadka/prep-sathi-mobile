@@ -68,3 +68,16 @@ default taken and what would change it.
     only and says what it cannot judge.
 16. **Partner Speaking practice is deferred** (needs real learner
     demand first), same as the web app's Phase 4 decision.
+17. **compileSdk is 36, not 37 (fixed 2026-11-16).** The first push set
+    compileSdk 37, but Google's SDK repository has no `platforms;android-37`
+    yet (highest platform is android-36, verified against
+    dl.google.com/android/repository/repository2-1.xml on 2026-11-16), so
+    the Gradle build could never resolve it. buildTools 37.0.0 and NDK
+    27.1.12297006 do exist and are kept. Revisit 37 when Google ships it.
+18. **No `android-actions/setup-android` in CI (fixed 2026-11-16).** The
+    action runs `sdkmanager tools` and the `tools` package no longer exists
+    in Google's SDK repository, so the step fails with "Failed to find
+    package 'tools'" (CI run 43899834228). The ubuntu runner already ships
+    an Android SDK, so CI installs the exact packages it needs with
+    sdkmanager directly (`platform-tools`, `platforms;android-36`,
+    `build-tools;37.0.0`, `ndk;27.1.12297006`).
