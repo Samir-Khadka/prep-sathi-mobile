@@ -2,15 +2,15 @@
  * Speaking history — on-device recordings, newest first.
  *
  * Audio files live on disk; MMKV holds metadata only. Playback uses
- * the recorder-player. Deleting a recording removes its file and its
- * metadata. Nothing is ever uploaded.
+ * nitro-sound (react-native-nitro-sound). Deleting a recording removes
+ * its file and its metadata. Nothing is ever uploaded.
  */
 
 import {useFocusEffect, useNavigation} from '@react-navigation/native';
 import {exists, unlink} from '@dr.pogodin/react-native-fs';
 import React, {useCallback, useEffect, useState} from 'react';
 import {Pressable, StyleSheet, Text, View} from 'react-native';
-import AudioRecorderPlayer from 'react-native-audio-recorder-player';
+import Sound from 'react-native-nitro-sound';
 import {
   AppButton,
   Body,
@@ -48,8 +48,9 @@ export function SpeakingHistoryScreen() {
   // Stop playback if the screen unmounts.
   useEffect(
     () => () => {
-      AudioRecorderPlayer.removePlayBackListener();
-      void AudioRecorderPlayer.stopPlayer().catch(() => undefined);
+      Sound.removePlayBackListener();
+      Sound.removePlaybackEndListener();
+      void Sound.stopPlayer().catch(() => undefined);
     },
     [],
   );
@@ -58,14 +59,16 @@ export function SpeakingHistoryScreen() {
     setError('');
     try {
       if (playingId === recording.id) {
-        await AudioRecorderPlayer.stopPlayer();
-        AudioRecorderPlayer.removePlayBackListener();
+        await Sound.stopPlayer();
+        Sound.removePlayBackListener();
+        Sound.removePlaybackEndListener();
         setPlayingId(null);
         return;
       }
       if (playingId) {
-        await AudioRecorderPlayer.stopPlayer();
-        AudioRecorderPlayer.removePlayBackListener();
+        await Sound.stopPlayer();
+        Sound.removePlayBackListener();
+        Sound.removePlaybackEndListener();
       }
       const fileExists = await exists(recording.filePath);
       if (!fileExists) {
@@ -74,8 +77,13 @@ export function SpeakingHistoryScreen() {
         );
         return;
       }
-      AudioRecorderPlayer.addPlayBackListener(() => undefined);
-      await AudioRecorderPlayer.startPlayer(recording.filePath);
+      Sound.addPlayBackListener(() => undefined);
+      Sound.addPlaybackEndListener(() => {
+        Sound.removePlayBackListener();
+        Sound.removePlaybackEndListener();
+        setPlayingId(null);
+      });
+      await Sound.startPlayer(recording.filePath);
       setPlayingId(recording.id);
     } catch (err) {
       setError(
@@ -86,8 +94,9 @@ export function SpeakingHistoryScreen() {
 
   const deleteOne = async (recording: StoredSpeakingRecording) => {
     if (playingId === recording.id) {
-      await AudioRecorderPlayer.stopPlayer().catch(() => undefined);
-      AudioRecorderPlayer.removePlayBackListener();
+      await Sound.stopPlayer().catch(() => undefined);
+      Sound.removePlayBackListener();
+      Sound.removePlaybackEndListener();
       setPlayingId(null);
     }
     await unlink(recording.filePath).catch(() => undefined);
@@ -101,8 +110,9 @@ export function SpeakingHistoryScreen() {
       setConfirmDeleteAll(true);
       return;
     }
-    await AudioRecorderPlayer.stopPlayer().catch(() => undefined);
-    AudioRecorderPlayer.removePlayBackListener();
+    await Sound.stopPlayer().catch(() => undefined);
+    Sound.removePlayBackListener();
+    Sound.removePlaybackEndListener();
     setPlayingId(null);
     const current = getSpeakingRecordings();
     for (const recording of current) {

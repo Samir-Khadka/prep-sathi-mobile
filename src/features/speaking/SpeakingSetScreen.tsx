@@ -15,7 +15,7 @@ import {useNavigation, useRoute, type RouteProp} from '@react-navigation/native'
 import {DocumentDirectoryPath, unlink} from '@dr.pogodin/react-native-fs';
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {PermissionsAndroid, Platform, StyleSheet, Text, View} from 'react-native';
-import AudioRecorderPlayer from 'react-native-audio-recorder-player';
+import Sound, {type RecordBackType} from 'react-native-nitro-sound';
 import {completeSpeaking} from '../../api/client';
 import {
   AppButton,
@@ -92,14 +92,16 @@ export function SpeakingSetScreen() {
 
   const stopRecording = useCallback(async () => {
     try {
-      const uri = await AudioRecorderPlayer.stopRecorder();
-      if (uri) {
+      const uri = await Sound.stopRecorder();
+      // stopRecorder is idempotent: a second call resolves with the string
+      // "recorder already stopped", which is not a file path.
+      if (uri && uri.startsWith('/')) {
         filePathRef.current = uri;
       }
     } catch {
       // Keep the path we started with; the file may still exist.
     }
-    AudioRecorderPlayer.removeRecordBackListener();
+    Sound.removeRecordBackListener();
     const duration = Math.max(1, elapsedRef.current);
     const estimate = analyseFluency(
       levelsRef.current,
@@ -144,8 +146,8 @@ export function SpeakingSetScreen() {
   // Never leave the recorder running if the screen unmounts.
   useEffect(
     () => () => {
-      AudioRecorderPlayer.removeRecordBackListener();
-      void AudioRecorderPlayer.stopRecorder().catch(() => undefined);
+      Sound.removeRecordBackListener();
+      void Sound.stopRecorder().catch(() => undefined);
     },
     [],
   );
@@ -205,14 +207,19 @@ export function SpeakingSetScreen() {
       levelsRef.current = [];
       elapsedRef.current = 0;
       setElapsed(0);
-      AudioRecorderPlayer.setSubscriptionDuration(SAMPLE_INTERVAL_SECONDS);
-      AudioRecorderPlayer.addRecordBackListener(event => {
+      // nitro-sound takes the subscription duration in SECONDS (the
+      // Nitro spec declares `sec: number` and native converts to ms),
+      // so 0.1 samples metering every 100 ms — matching the fluency
+      // analyser's sample interval. The README's methods table says
+      // "ms"; the spec and native code are authoritative.
+      Sound.setSubscriptionDuration(SAMPLE_INTERVAL_SECONDS);
+      Sound.addRecordBackListener((event: RecordBackType) => {
         levelsRef.current.push(meteringDbToLevel(event.currentMetering));
       });
-      await AudioRecorderPlayer.startRecorder(path, undefined, true);
+      await Sound.startRecorder(path, undefined, true);
       setPhase('recording');
     } catch (err) {
-      AudioRecorderPlayer.removeRecordBackListener();
+      Sound.removeRecordBackListener();
       setError(
         err instanceof Error
           ? `Could not start recording: ${err.message}`

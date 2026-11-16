@@ -81,23 +81,39 @@ jest.mock('@react-native-community/netinfo', () => ({
   addEventListener: jest.fn(() => jest.fn()),
 }));
 
-// --- react-native-audio-recorder-player ------------------------------
-jest.mock('react-native-audio-recorder-player', () => {
-  class AudioRecorderPlayer {
-    addRecordBackListener = jest.fn();
-    removeRecordBackListener = jest.fn();
-    addPlayBackListener = jest.fn();
-    removePlayBackListener = jest.fn();
-    startRecorder = jest.fn(async () => '/tmp/test-recording.m4a');
-    stopRecorder = jest.fn(async () => '/tmp/test-recording.m4a');
-    startPlayer = jest.fn(async () => '/tmp/test-recording.m4a');
-    stopPlayer = jest.fn(async () => {});
-    pausePlayer = jest.fn(async () => {});
-    resumePlayer = jest.fn(async () => {});
-    setVolume = jest.fn(async () => {});
-    setSubscriptionDuration = jest.fn(() => {});
-  }
-  return {__esModule: true, default: AudioRecorderPlayer};
+// --- react-native-nitro-sound -----------------------------------------
+// Default export is the Sound singleton; the screens call its methods
+// directly. Metering values are dB (-160 silent to 0 loud), matching
+// the real Android implementation.
+jest.mock('react-native-nitro-sound', () => {
+  const Sound = {
+    mmss: jest.fn(() => '00:00'),
+    mmssss: jest.fn(() => '00:00:00'),
+    setSubscriptionDuration: jest.fn(() => {}),
+    addRecordBackListener: jest.fn(),
+    removeRecordBackListener: jest.fn(),
+    addPlayBackListener: jest.fn(),
+    removePlayBackListener: jest.fn(),
+    addPlaybackEndListener: jest.fn(),
+    removePlaybackEndListener: jest.fn(),
+    startRecorder: jest.fn(async () => '/tmp/test-recording.m4a'),
+    stopRecorder: jest.fn(async () => '/tmp/test-recording.m4a'),
+    pauseRecorder: jest.fn(async () => '/tmp/test-recording.m4a'),
+    resumeRecorder: jest.fn(async () => '/tmp/test-recording.m4a'),
+    startPlayer: jest.fn(async () => '/tmp/test-recording.m4a'),
+    stopPlayer: jest.fn(async () => {}),
+    pausePlayer: jest.fn(async () => {}),
+    resumePlayer: jest.fn(async () => {}),
+    seekToPlayer: jest.fn(async () => {}),
+    setVolume: jest.fn(async () => {}),
+    setPlaybackSpeed: jest.fn(async () => {}),
+  };
+  return {
+    __esModule: true,
+    default: Sound,
+    Sound,
+    createSound: jest.fn(() => Sound),
+  };
 });
 
 // --- @dr.pogodin/react-native-fs --------------------------------------

@@ -90,3 +90,27 @@ default taken and what would change it.
     Note: audio-recorder-player 4.5.0 is deprecated upstream in favour of
     react-native-nitro-sound — a future switch is possible but not needed
     while this one builds and works.
+20. **Audio library swapped: react-native-nitro-sound 0.2.20 replaces
+    react-native-audio-recorder-player 4.5.0 (fixed 2026-11-16).** The old
+    library is deprecated upstream and its nitrogen-generated
+    `HybridAudioRecorderPlayerSpec.kt` references `updateNative`, which
+    nitro-modules 0.37.2 no longer defines — CI failed at
+    `:react-native-audio-recorder-player:compileDebugKotlin` with
+    "Unresolved reference 'updateNative'" (run 43902912717). Downgrading
+    nitro was rejected: it would re-break other things and strand the
+    app on an old Nitro. nitro-sound is the author's own recommended
+    successor; its peer requirement (`nitro-modules >=0.36.5`) is
+    satisfied by the installed 0.37.2, which stays a direct dependency
+    (see item 19). Verified from the library's own source before
+    rewriting: Android metering is dB (-160 silent to 0 loud,
+    `20 * log10(maxAmplitude / 32767)` in `Sound.kt`), identical to the
+    old library — so `meteringDbToLevel` and the fluency math are
+    unchanged. `setSubscriptionDuration` takes SECONDS (spec declares
+    `sec: number`; native does `(sec * 1000)`), despite the README's
+    methods table saying "ms" — 0.1 still means 100 ms sampling.
+    `stopRecorder` is idempotent (extra calls resolve with the string
+    "recorder already stopped"), so the screens only accept a returned
+    value that looks like a file path. Recording stays MPEG-4/AAC, so
+    the `.m4a` file names are unchanged. Playback now clears the
+    playing state via `addPlaybackEndListener` when a recording ends
+    naturally (the old code left the Play button stuck on "Stop").

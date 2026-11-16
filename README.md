@@ -44,12 +44,12 @@ it runs once Render's free services resume on 1 Dec 2026).
 | react-native-mmkv (storage) | 4.3.2 |
 | react-native-reanimated | 4.7.1 (+ worklets 0.13.1) |
 | react-native-screens / safe-area-context | 4.30.1 / 5.11.1 |
-| react-native-audio-recorder-player (Speaking) | 4.5.0 |
+| react-native-nitro-sound (Speaking) | 0.2.20 |
 | @dr.pogodin/react-native-fs (recording files) | 2.41.0 |
 | @react-native-community/netinfo | 12.0.1 |
 | Jest + React Native Testing Library | 29.6.3 + 14.1.0 |
 | ESLint (flat config) | 9.39.5 |
-| Android | target SDK 36, compile SDK 37, Gradle 9.4.1, Kotlin 2.2.0 |
+| Android | target SDK 36, compile SDK 36, Gradle 9.4.1, Kotlin 2.2.0 |
 
 See [DECISIONS.md](DECISIONS.md) for the version choices that differ
 from the first draft of the brief (TypeScript 6 not 5.9, SDK 36/37 not
