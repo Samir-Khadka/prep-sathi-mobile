@@ -5,9 +5,12 @@
  * local vocabulary state and speaking-recording metadata. MMKV files
  * live in the app-private directory, so other apps cannot read them.
  *
- * NOTE (hardening, not done in v0.1): the JWT is stored in plain
- * MMKV. A future step is react-native-keychain (Keychain/Keystore)
- * for the token. Nothing else secret is stored on device.
+ * NOTE: the JWT no longer lives here. Since Phase 5.3 it is stored
+ * in the OS secure store via src/store/tokenStore.ts
+ * (react-native-keychain, local-only). The `auth.token` MMKV key
+ * below is legacy-only: it exists so migrateLegacyToken() can move
+ * a pre-Keychain token once, then it is removed. Nothing else
+ * secret is stored on device.
  */
 
 import {createMMKV} from 'react-native-mmkv';
@@ -52,13 +55,19 @@ function setJson(key: string, value: unknown): void {
   storage.set(key, JSON.stringify(value));
 }
 
-/* --- Auth ------------------------------------------------------------ */
+/* --- Auth (legacy token only — see src/store/tokenStore.ts) -------- */
 
-export function getAuthToken(): string | null {
+/**
+ * Legacy MMKV auth token, kept only for the one-time migration in
+ * tokenStore.migrateLegacyToken(). Do not use for new code: the
+ * token lives in the OS Keychain/Keystore now.
+ */
+export function getLegacyAuthToken(): string | null {
   return getString(KEYS.authToken);
 }
 
-export function setAuthToken(token: string | null): void {
+/** @deprecated Use tokenStore.saveAuthToken / deleteAuthToken instead. */
+export function setLegacyAuthToken(token: string | null): void {
   if (token === null) {
     storage.remove(KEYS.authToken);
   } else {

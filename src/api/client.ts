@@ -1,14 +1,16 @@
 /**
  * Typed HTTP client for the PrepSathi API.
  *
- * Base URL and auth token come from MMKV (see src/store/storage.ts),
+ * Base URL comes from MMKV (see src/store/storage.ts) and the auth
+ * token from the OS Keychain/Keystore (see src/store/tokenStore.ts),
  * never from code. The default base URL is the Render API the web app
  * uses; the learner can change it in Settings. Every call throws
  * ApiError on a non-2xx response and TypeError on a network failure
  * (offline) — callers treat TypeError as "offline, use local data".
  */
 
-import {getApiBaseUrl, getAuthToken} from '../store/storage';
+import {getApiBaseUrl} from '../store/storage';
+import {loadAuthToken} from '../store/tokenStore';
 import type {
   AttemptCreate,
   AttemptOut,
@@ -82,7 +84,7 @@ async function request<T>(
     Accept: 'application/json',
   };
   if (options.auth !== false) {
-    const token = getAuthToken();
+    const token = await loadAuthToken();
     if (token) {
       headers.Authorization = `Bearer ${token}`;
     }

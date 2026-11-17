@@ -21,7 +21,7 @@ export default function App() {
   const syncPending = useSyncStore(s => s.syncPending);
 
   useEffect(() => {
-    hydrate();
+    void hydrate();
   }, [hydrate]);
 
   // When the device comes online and the learner is signed in, push

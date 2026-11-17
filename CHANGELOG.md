@@ -1,5 +1,18 @@
 # Changelog
 
+## Unreleased
+
+- Auth token now lives in the OS secure store (iOS Keychain / Android
+  Keystore, local-only, via react-native-keychain 11.0.0) instead of
+  plain MMKV. A token from an earlier install is migrated once on
+  launch and the MMKV copy removed; if the Keychain is ever
+  unavailable the app falls back to the legacy MMKV token rather
+  than signing the user out.
+- Bottom tab bar for the main sections (Home, Vocabulary, Mock,
+  Progress, Settings, via @react-navigation/bottom-tabs 7.22.0);
+  detail screens stay in the root stack above the tabs, and the
+  Home module cards still open them.
+
 ## v0.1.1 — 2026-11-16
 
 Android build fix: audio library swapped.

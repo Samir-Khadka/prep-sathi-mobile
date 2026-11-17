@@ -176,7 +176,7 @@ export function SettingsScreen() {
         variant="danger"
         onPress={() => {
           setOfflineGuest(false);
-          logout();
+          void logout();
         }}
         accessibilityLabel="Log out"
       />

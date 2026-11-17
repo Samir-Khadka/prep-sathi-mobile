@@ -71,13 +71,13 @@ const MODULES: Array<{
     title: 'Full mock',
     description:
       'Listening, Reading, Writing and Speaking in one sitting, in test order.',
-    route: 'MockList',
+    route: 'Mock',
     label: 'Open full mock tests',
   },
   {
     title: 'My progress',
     description: 'Attempts, latest bands and your overall estimate.',
-    route: 'Dashboard',
+    route: 'Progress',
     label: 'Open my progress dashboard',
   },
 ];
@@ -114,11 +114,11 @@ export function HomeScreen() {
       case 'Vocabulary':
         navigation.navigate('Vocabulary');
         break;
-      case 'MockList':
-        navigation.navigate('MockList');
+      case 'Mock':
+        navigation.navigate('Mock');
         break;
-      case 'Dashboard':
-        navigation.navigate('Dashboard');
+      case 'Progress':
+        navigation.navigate('Progress');
         break;
       default:
         break;
@@ -202,7 +202,7 @@ export function HomeScreen() {
         <AppButton
           title="See full progress"
           variant="secondary"
-          onPress={() => navigation.navigate('Dashboard')}
+          onPress={() => navigation.navigate('Progress')}
           accessibilityLabel="See full progress dashboard"
         />
       </Card>

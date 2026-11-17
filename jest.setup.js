@@ -270,6 +270,42 @@ jest.mock('react-native-nitro-sound', () => {
   };
 });
 
+// --- react-native-keychain: in-memory secure store --------------------
+// Mirrors the real v11 Promise API: setGenericPassword(username,
+// password, {service}) -> true; getGenericPassword({service}) ->
+// {username, password, service, storage} or false; resetGenericPassword
+// -> true/false. Entries are keyed by service (default 'default').
+// Tests reset state with __clearAllEntries().
+jest.mock('react-native-keychain', () => {
+  const entries = new Map();
+  const keyFor = options => options?.service ?? 'default';
+  return {
+    __esModule: true,
+    setGenericPassword: jest.fn(async (username, password, options) => {
+      entries.set(keyFor(options), {username, password});
+      return true;
+    }),
+    getGenericPassword: jest.fn(async options => {
+      const entry = entries.get(keyFor(options));
+      return entry
+        ? {
+            username: entry.username,
+            password: entry.password,
+            service: options?.service ?? '',
+            storage: 'local',
+          }
+        : false;
+    }),
+    hasGenericPassword: jest.fn(async options =>
+      entries.has(keyFor(options)),
+    ),
+    resetGenericPassword: jest.fn(async options =>
+      entries.delete(keyFor(options)),
+    ),
+    __clearAllEntries: () => entries.clear(),
+  };
+});
+
 // --- @dr.pogodin/react-native-fs --------------------------------------
 jest.mock('@dr.pogodin/react-native-fs', () => ({
   DocumentDirectoryPath: '/tmp/prepsathi-documents',

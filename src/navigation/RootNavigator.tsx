@@ -1,6 +1,8 @@
 /**
  * Root navigator — one native stack, light header.
- * Guests see Auth; signed-in learners see Home + the feature screens.
+ * Guests see Auth; signed-in learners see the MainTabs bottom tabs
+ * (Home, Vocabulary, Mock, Progress, Settings) with the feature
+ * screens in the stack above them.
  */
 
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
@@ -8,29 +10,25 @@ import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
 import {AuthScreen} from '../features/auth/AuthScreen';
 import {useOfflineGuest} from '../features/auth/guestMode';
-import {DashboardScreen} from '../features/dashboard/DashboardScreen';
-import {HomeScreen} from '../features/dashboard/HomeScreen';
 import {FeedbackScreen} from '../features/feedback/FeedbackScreen';
 import {ListeningListScreen} from '../features/listening/ListeningListScreen';
 import {ListeningTestScreen} from '../features/listening/ListeningTestScreen';
-import {MockListScreen} from '../features/mock/MockListScreen';
 import {MockResultsScreen} from '../features/mock/MockResultsScreen';
 import {MockRunnerScreen} from '../features/mock/MockRunnerScreen';
 import {ReadingListScreen} from '../features/reading/ReadingListScreen';
 import {ReadingTestScreen} from '../features/reading/ReadingTestScreen';
 import {ResourcesScreen} from '../features/resources/ResourcesScreen';
 import {PrivacyScreen} from '../features/settings/PrivacyScreen';
-import {SettingsScreen} from '../features/settings/SettingsScreen';
 import {SpeakingHistoryScreen} from '../features/speaking/SpeakingHistoryScreen';
 import {SpeakingListScreen} from '../features/speaking/SpeakingListScreen';
 import {SpeakingSetScreen} from '../features/speaking/SpeakingSetScreen';
 import {VocabularyReviewScreen} from '../features/vocab/VocabularyReviewScreen';
-import {VocabularyScreen} from '../features/vocab/VocabularyScreen';
 import {WritingListScreen} from '../features/writing/WritingListScreen';
 import {WritingPromptScreen} from '../features/writing/WritingPromptScreen';
 import {useAuthStore} from '../store/authStore';
 import {colors} from '../theme/tokens';
 import {Loading} from '../components/ui';
+import {MainTabs} from './MainTabs';
 import type {RootStackParamList} from './types';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -82,14 +80,9 @@ export function RootNavigator() {
         ) : (
           <>
             <Stack.Screen
-              name="Home"
-              component={HomeScreen}
+              name="MainTabs"
+              component={MainTabs}
               options={{title: 'PrepSathi'}}
-            />
-            <Stack.Screen
-              name="Dashboard"
-              component={DashboardScreen}
-              options={{title: 'My progress'}}
             />
             <Stack.Screen
               name="ListeningList"
@@ -137,19 +130,9 @@ export function RootNavigator() {
               options={{title: 'My recordings'}}
             />
             <Stack.Screen
-              name="Vocabulary"
-              component={VocabularyScreen}
-              options={{title: 'Vocabulary'}}
-            />
-            <Stack.Screen
               name="VocabularyReview"
               component={VocabularyReviewScreen}
               options={{title: 'Review words'}}
-            />
-            <Stack.Screen
-              name="MockList"
-              component={MockListScreen}
-              options={{title: 'Full mock tests'}}
             />
             <Stack.Screen
               name="MockRunner"
@@ -175,11 +158,6 @@ export function RootNavigator() {
               name="Privacy"
               component={PrivacyScreen}
               options={{title: 'Privacy'}}
-            />
-            <Stack.Screen
-              name="Settings"
-              component={SettingsScreen}
-              options={{title: 'Settings'}}
             />
           </>
         )}

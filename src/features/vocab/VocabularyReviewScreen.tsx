@@ -81,7 +81,7 @@ export function VocabularyReviewScreen() {
         </Card>
         <AppButton
           title="Back to Vocabulary"
-          onPress={() => navigation.navigate('Vocabulary')}
+          onPress={() => navigation.navigate('MainTabs', {screen: 'Vocabulary'})}
           accessibilityLabel="Back to vocabulary list"
         />
         {total > 0 ? (

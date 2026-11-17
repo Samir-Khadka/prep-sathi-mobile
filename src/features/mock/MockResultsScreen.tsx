@@ -92,7 +92,7 @@ export function MockResultsScreen() {
         <AppButton
           title="Back to mocks"
           variant="secondary"
-          onPress={() => navigation.navigate('MockList')}
+          onPress={() => navigation.navigate('MainTabs', {screen: 'Mock'})}
           accessibilityLabel="Back to full mock tests"
         />
       </Screen>
@@ -280,13 +280,13 @@ export function MockResultsScreen() {
       <AppButton
         title="Back to mocks"
         variant="secondary"
-        onPress={() => navigation.navigate('MockList')}
+        onPress={() => navigation.navigate('MainTabs', {screen: 'Mock'})}
         accessibilityLabel="Back to full mock tests"
       />
       <AppButton
         title="Back home"
         variant="ghost"
-        onPress={() => navigation.navigate('Home')}
+        onPress={() => navigation.navigate('MainTabs', {screen: 'Home'})}
         accessibilityLabel="Back home"
       />
     </Screen>
