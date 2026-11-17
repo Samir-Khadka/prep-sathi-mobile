@@ -2,15 +2,21 @@
  * ListeningTestScreen: renders a full test from bundled content,
  * scores on-device and queues the attempt when the server is
  * unreachable, and uses the server score when a session exists.
- * No audio is faked: each part shows its transcript + audio note.
+ * No audio is faked: a part without audio shows its transcript +
+ * audio note and no player; a part with an audio_url renders the
+ * Listening audio player.
  */
 
 import {act, fireEvent, render, screen, waitFor} from '@testing-library/react-native';
 import React from 'react';
+import NetInfo from '@react-native-community/netinfo';
+import {exists} from '@dr.pogodin/react-native-fs';
+import Sound from 'react-native-nitro-sound';
 import {
   startListening,
   submitListening,
 } from '@/api/client';
+import * as content from '@/content';
 import {storage} from '@/store/storage';
 import {useSyncStore} from '@/store/syncStore';
 import {ListeningTestScreen} from '../ListeningTestScreen';
@@ -45,6 +51,7 @@ jest.mock('@/api/client', () => {
   }
   return {
     ApiError,
+    apiBaseUrl: jest.fn(() => 'https://prepsathi-api.onrender.com'),
     startListening: jest.fn(),
     submitListening: jest.fn(),
     // Offline sync: posting the queued attempt fails, so it stays queued.
@@ -69,9 +76,14 @@ describe('ListeningTestScreen', () => {
     setRoute({testId: 'L1', mode: 'practice'});
     mockedStart.mockRejectedValue(new TypeError('offline'));
     mockedSubmit.mockRejectedValue(new TypeError('offline'));
+    (exists as jest.Mock).mockResolvedValue(false);
+    (NetInfo.fetch as jest.Mock).mockResolvedValue({
+      isConnected: true,
+      isInternetReachable: true,
+    });
   });
 
-  it('shows parts with transcripts and audio notes, never audio', async () => {
+  it('shows parts with transcripts and audio notes, never a player, when no audio is recorded', async () => {
     await render(<ListeningTestScreen />);
     expect(screen.getByText('Listening Test 1')).toBeTruthy();
     expect(screen.getByText('Part 1 — Joining a swimming course')).toBeTruthy();
@@ -81,7 +93,45 @@ describe('ListeningTestScreen', () => {
       screen.getAllByText('Audio coming soon — read the transcript'),
     ).toHaveLength(4);
     expect(screen.getAllByText(/Audio is pending/)).toHaveLength(4);
+    expect(screen.queryByTestId('audio-player-part-1')).toBeNull();
+    expect(screen.queryByTestId('audio-player-part-4')).toBeNull();
     expect(screen.getByText('Answered 0 of 40')).toBeTruthy();
+  });
+
+  it('renders the audio player for a part with audio_url, and the note for parts without', async () => {
+    const real = content.getListeningTest('L1');
+    expect(real).not.toBeNull();
+    const withAudio = {
+      ...real!,
+      parts: real!.parts.map((p, i) =>
+        i === 0
+          ? {...p, audio_url: '/static/audio/listening/L1/part1.mp3'}
+          : p,
+      ),
+    };
+    const spy = jest
+      .spyOn(content, 'getListeningTest')
+      .mockReturnValue(withAudio);
+    (exists as jest.Mock).mockResolvedValue(true);
+    try {
+      await render(<ListeningTestScreen />);
+      expect(screen.getByTestId('audio-player-part-1')).toBeTruthy();
+      expect(screen.queryByTestId('audio-player-part-2')).toBeNull();
+      expect(screen.getByTestId('audio-note-part-2')).toBeTruthy();
+      expect(
+        screen.getAllByText('Audio coming soon — read the transcript'),
+      ).toHaveLength(3);
+      expect(screen.getByTestId('transcript-part-1')).toBeTruthy();
+
+      await fireEvent.press(screen.getByTestId('audio-play-part-1'));
+      await waitFor(() =>
+        expect(Sound.startPlayer as jest.Mock).toHaveBeenCalledWith(
+          '/tmp/prepsathi-documents/prepsathi-audio/L1-part1.mp3',
+        ),
+      );
+    } finally {
+      spy.mockRestore();
+    }
   });
 
   it('counts down from 32:00 in timed mode', async () => {

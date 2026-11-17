@@ -59,6 +59,14 @@ function baseUrl(): string {
   return getApiBaseUrl().replace(/\/$/, '');
 }
 
+/**
+ * API base URL (no trailing slash), for resolving relative asset
+ * URLs such as Listening `audio_url` (`/static/audio/...`).
+ */
+export function apiBaseUrl(): string {
+  return baseUrl();
+}
+
 interface RequestOptions {
   method?: 'GET' | 'POST' | 'PATCH' | 'DELETE';
   body?: unknown;

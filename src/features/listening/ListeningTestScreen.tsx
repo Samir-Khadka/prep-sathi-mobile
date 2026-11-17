@@ -1,7 +1,11 @@
 /**
  * Listening test: 4 parts in order, each with its setting and
- * transcript (audio is pending real recordings — the audio note
- * is shown and no audio is faked), then its questions.
+ * transcript, then its questions.
+ *
+ * A part with a real recording (`audio_url` set) renders the audio
+ * player (offline-first download + play); a part without one shows
+ * the "Audio coming soon" note and no audio is faked. The transcript
+ * is always shown, so practice never depends on the recording.
  *
  * Timed mode counts down from the server session's expiry when
  * online, otherwise from a local 32:00 clock. Submit goes to the
@@ -14,7 +18,7 @@ import {useNavigation, useRoute} from '@react-navigation/native';
 import type {RouteProp} from '@react-navigation/native';
 import React, {useMemo} from 'react';
 import {StyleSheet, View} from 'react-native';
-import {startListening, submitListening} from '@/api/client';
+import {apiBaseUrl, startListening, submitListening} from '@/api/client';
 import {
   allListeningQuestions,
   getListeningTest,
@@ -39,6 +43,8 @@ import {
 import {formatDuration} from '@/lib/time';
 import type {RootNavigation, RootStackParamList} from '@/navigation/types';
 import {spacing} from '@/theme/tokens';
+import {resolveAudioUrl} from './audioCache';
+import {ListeningAudioPlayer} from './ListeningAudioPlayer';
 import {
   QuestionField,
   ResultsView,
@@ -126,29 +132,43 @@ export function ListeningTestScreen() {
         Answered {answered} of {questions.length}
       </Caption>
 
-      {test.parts.map(part => (
-        <View key={part.part} style={styles.partBlock}>
-          <SectionHeader>
-            Part {part.part} — {part.title}
-          </SectionHeader>
-          <Body>{part.setting}</Body>
-          <Card testID={`audio-note-part-${part.part}`}>
-            <Subheading>Audio coming soon — read the transcript</Subheading>
-            <Caption>{part.audio_note}</Caption>
-          </Card>
-          <Card testID={`transcript-part-${part.part}`}>
-            <Body>{part.transcript}</Body>
-          </Card>
-          {part.questions.map(question => (
-            <QuestionField
-              key={question.no}
-              question={question}
-              value={session.answers[String(question.no)] ?? null}
-              onChange={value => session.setAnswer(question.no, value)}
-            />
-          ))}
-        </View>
-      ))}
+      {test.parts.map(part => {
+        const audioUrl = part.audio_url
+          ? resolveAudioUrl(part.audio_url, apiBaseUrl())
+          : null;
+        return (
+          <View key={part.part} style={styles.partBlock}>
+            <SectionHeader>
+              Part {part.part} — {part.title}
+            </SectionHeader>
+            <Body>{part.setting}</Body>
+            {audioUrl ? (
+              <ListeningAudioPlayer
+                testId={test.id}
+                part={part.part}
+                audioUrl={audioUrl}
+                audioNote={part.audio_note}
+              />
+            ) : (
+              <Card testID={`audio-note-part-${part.part}`}>
+                <Subheading>Audio coming soon — read the transcript</Subheading>
+                <Caption>{part.audio_note}</Caption>
+              </Card>
+            )}
+            <Card testID={`transcript-part-${part.part}`}>
+              <Body>{part.transcript}</Body>
+            </Card>
+            {part.questions.map(question => (
+              <QuestionField
+                key={question.no}
+                question={question}
+                value={session.answers[String(question.no)] ?? null}
+                onChange={value => session.setAnswer(question.no, value)}
+              />
+            ))}
+          </View>
+        );
+      })}
 
       {session.submitError ? (
         <ErrorText message={session.submitError} />

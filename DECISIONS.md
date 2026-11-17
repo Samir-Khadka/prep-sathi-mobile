@@ -60,7 +60,9 @@ default taken and what would change it.
     Attempts are scored on-device and synced when online.
 13. **Listening audio is pending real recordings**, same as the web
     app. Transcripts are shown instead; never ship fake or synthesised
-    audio.
+    audio. The playback pipeline (Phase 5.2) is built — on-demand
+    download + offline cache + player — and renders whenever a part's
+    `audio_url` is set; until then the transcript fallback stands.
 14. **No Play Store listing.** Debug APK installs directly; the $25
     store listing is Samir's later tap.
 15. **Band estimates are always labelled** "practice estimate, not an
