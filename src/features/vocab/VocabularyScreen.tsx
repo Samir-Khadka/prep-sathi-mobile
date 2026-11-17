@@ -1,5 +1,5 @@
 /**
- * Vocabulary — the 250-word deck, seeded from bundled content into
+ * Vocabulary — the 350-word deck, seeded from bundled content into
  * local state on first open. Search, add, and delete are all local;
  * a server id (when present) is deleted best-effort. Local state is
  * the source of truth offline.

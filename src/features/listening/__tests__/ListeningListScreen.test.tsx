@@ -35,15 +35,15 @@ describe('ListeningListScreen', () => {
     jest.clearAllMocks();
   });
 
-  it('lists all 4 bundled Listening tests with their shape', async () => {
+  it('lists all 8 bundled Listening tests with their shape', async () => {
     await render(<ListeningListScreen />);
     expect(screen.getByText('Listening')).toBeTruthy();
-    for (const id of ['L1', 'L2', 'L3', 'L4']) {
+    for (const id of ['L1', 'L2', 'L3', 'L4', 'L5', 'L6', 'L7', 'L8']) {
       expect(screen.getByTestId(`listening-test-${id}`)).toBeTruthy();
     }
     expect(
       screen.getAllByText('4 parts · 40 questions · about 30 minutes'),
-    ).toHaveLength(4);
+    ).toHaveLength(8);
   });
 
   it('navigates timed and practice from the mode picker', async () => {

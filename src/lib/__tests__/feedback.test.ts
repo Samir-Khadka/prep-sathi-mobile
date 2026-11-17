@@ -95,7 +95,7 @@ describe('analyseWriting shape', () => {
 
 describe('calibration', () => {
   it('every model answer scores an overall low end of 7.0+', () => {
-    expect(writingPrompts.length).toBe(20);
+    expect(writingPrompts.length).toBe(30);
     for (const prompt of writingPrompts) {
       const result = analyseWriting(prompt, prompt.model_answer);
       expect(result.meets_minimum).toBe(true);

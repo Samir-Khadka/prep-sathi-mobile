@@ -18,10 +18,10 @@ import type {ContentQuestion} from '../lib/scoring';
 
 export const CONTENT_VERSION = {
   /** Web repo commit the JSONs were copied from. */
-  webMain: '16dfee58',
+  webMain: '2a5f0b9d5fc69320b7c774bdfb79810c5d2a9517',
   /** Web app version at that commit. */
-  webVersion: '0.4.0',
-  copiedAt: '2026-11-16',
+  webVersion: '0.5.0',
+  copiedAt: '2026-11-17',
 } as const;
 
 export interface ListeningPart {

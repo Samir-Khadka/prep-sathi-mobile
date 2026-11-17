@@ -22,9 +22,9 @@ beforeEach(() => {
 });
 
 describe('buildSeedItems / ensureSeeded', () => {
-  it('seeds all 250 bundled words, due immediately', () => {
+  it('seeds all 350 bundled words, due immediately', () => {
     const seeded = buildSeedItems(vocabularyDeck, NOW);
-    expect(seeded.length).toBe(250);
+    expect(seeded.length).toBe(350);
     expect(seeded[0]!.word).toBe(vocabularyDeck[0]!.word);
     expect(seeded.every(item => item.nextReviewMs === NOW)).toBe(true);
     expect(seeded.every(item => item.intervalDays === 1)).toBe(true);
@@ -33,7 +33,7 @@ describe('buildSeedItems / ensureSeeded', () => {
 
   it('seeds once and never overwrites local state', () => {
     const first = ensureSeeded(NOW);
-    expect(first.length).toBe(250);
+    expect(first.length).toBe(350);
     const second = ensureSeeded(NOW + 1000);
     expect(second).toEqual(first);
     // A user-added word survives a later open.
@@ -45,7 +45,7 @@ describe('buildSeedItems / ensureSeeded', () => {
       ...first,
     ];
     setLocalVocab(withExtra);
-    expect(ensureSeeded(NOW + 2000).length).toBe(251);
+    expect(ensureSeeded(NOW + 2000).length).toBe(351);
   });
 });
 
@@ -58,14 +58,14 @@ describe('filterVocab', () => {
     );
     expect(filterVocab(items, 'education').length).toBeGreaterThan(1);
     expect(filterVocab(items, 'zzz-no-such-word').length).toBe(0);
-    expect(filterVocab(items, '').length).toBe(250);
+    expect(filterVocab(items, '').length).toBe(350);
   });
 });
 
 describe('dueItems', () => {
   it('returns only words whose review time has arrived', () => {
     const items = buildSeedItems(vocabularyDeck, NOW);
-    expect(dueItems(items, NOW).length).toBe(250);
+    expect(dueItems(items, NOW).length).toBe(350);
     expect(dueItems(items, NOW - 1).length).toBe(0);
   });
 });

@@ -12,6 +12,10 @@ export const ACADEMIC_PAIRS: ReadonlyArray<readonly [string, string]> = [
   ['L2', 'RA2'],
   ['L3', 'RA3'],
   ['L4', 'RA4'],
+  ['L5', 'RA5'],
+  ['L6', 'RA6'],
+  ['L7', 'RA1'],
+  ['L8', 'RA2'],
 ];
 
 export const GENERAL_PAIRS: ReadonlyArray<readonly [string, string]> = [
@@ -19,6 +23,10 @@ export const GENERAL_PAIRS: ReadonlyArray<readonly [string, string]> = [
   ['L2', 'RG1'],
   ['L3', 'RG1'],
   ['L4', 'RG1'],
+  ['L5', 'RG2'],
+  ['L6', 'RG1'],
+  ['L7', 'RG2'],
+  ['L8', 'RG1'],
 ];
 
 export type MockTrack = 'academic' | 'general';

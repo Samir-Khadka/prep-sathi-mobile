@@ -2299,6 +2299,1355 @@
           ]
         }
       ]
+    },
+    {
+      "id": "RA5",
+      "track": "academic",
+      "title": "Academic Reading Test 5",
+      "passages": [
+        {
+          "section": 1,
+          "title": "The Rise of the Electric Car",
+          "text": "A hundred years ago, the streets of many cities were full of electric cars. In 1900, about a third of all cars on the roads of the United States were electric, and they were popular with city drivers because they were quiet, clean and easy to start. Then, for most of the twentieth century, the electric car almost disappeared.\nThe main reason was the petrol engine. Petrol cars could travel much further on a full tank than electric cars could travel on a full charge, and petrol was cheap and easy to find. In 1912, the electric starter motor made petrol cars much easier to start, removing one of the electric car's main advantages. By the 1930s, electric cars had become rare, and they remained a curiosity for the next seventy years.\nThe return of the electric car began in the 1990s, when worries about air pollution and climate change made governments look for cleaner forms of transport. California, in the United States, passed a law requiring car makers to sell a certain number of zero-emission vehicles, and this encouraged companies to build electric cars again. At first, these cars were expensive and could only travel a short distance before their batteries ran out.\nThe real change came with better batteries. Modern electric cars use lithium-ion batteries, the same type of battery that powers mobile phones and laptop computers. These batteries are much lighter and store much more energy than the lead-acid batteries used in early electric cars. As a result, a modern electric car can travel more than 300 kilometres on a single charge, and some models can travel more than 500 kilometres.\nBatteries are also becoming cheaper. In 2010, a battery for an electric car cost about 1,000 dollars for each kilowatt-hour of energy it could store. By 2023, the price had fallen to about 140 dollars per kilowatt-hour. This fall in price has made electric cars much more affordable, and in some countries they now cost little more than a similar petrol car.\nGovernments have also helped. Many countries now offer money to people who buy an electric car, and some have announced that they will ban the sale of new petrol and diesel cars in the future. Norway has gone furthest: more than 80 percent of new cars sold there are now electric, and the government aims to end the sale of petrol and diesel cars by 2025.\nThere are still problems to solve. Charging an electric car takes much longer than filling a petrol tank, and in many places there are not enough public charging points. The batteries also use minerals such as lithium and cobalt, which are mined in only a few countries, and mining them can damage the environment. Finally, the electricity used to charge the cars must itself come from clean sources, or the benefit to the climate is much smaller.\nCharging is also getting faster and easier. Ten years ago, most electric cars could only be charged slowly, at home, overnight. Today, fast chargers at motorway service stations can add more than 200 kilometres of range in about half an hour, and the number of public chargers is growing every year. In many cities, chargers are now built into street lights and car parks, so drivers can charge while they shop or work.\nResearchers are also working on the next generation of batteries. Solid-state batteries, which use a solid material instead of a liquid to carry the electric charge, promise to store more energy, charge faster, and last longer than today's batteries. If they can be made cheaply, they could make electric cars cheaper still, and remove one of the last reasons for choosing a petrol car.\nThe change is also reaching the second-hand market. As more new electric cars are sold, more used electric cars are becoming available, and their prices are falling. This matters, because most people buy used cars, not new ones. However, buyers of used electric cars often worry about the battery: a battery that has been used for many years may not hold as much charge as a new one. To help buyers, some countries now require sellers to report the health of the battery, in the same way that they report the mileage of a petrol car.\nEven so, most experts believe that the electric car is here to stay. The number of electric cars on the world's roads has grown from a few thousand in 2010 to more than 25 million in 2023, and car makers are investing billions of dollars in new models. The car that seemed to have lost the race a hundred years ago is now leading it.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "tfng",
+              "prompt": "In 1900, about a third of the cars on American roads were electric.",
+              "answer": "TRUE",
+              "explanation": "About a third of all cars on the roads of the United States were electric in 1900.",
+              "evidence": "In 1900, about a third of all cars on the roads of the United States were electric, and they were popular with city drivers because they were quiet, clean and easy to start."
+            },
+            {
+              "no": 2,
+              "type": "mcq",
+              "prompt": "Why were early electric cars popular with city drivers?",
+              "options": [
+                "They were quiet, clean and easy to start",
+                "They were faster than petrol cars",
+                "They were cheaper to buy"
+              ],
+              "answer": 0,
+              "explanation": "Early electric cars were popular because they were quiet, clean and easy to start.",
+              "evidence": "In 1900, about a third of all cars on the roads of the United States were electric, and they were popular with city drivers because they were quiet, clean and easy to start."
+            },
+            {
+              "no": 3,
+              "type": "tfng",
+              "prompt": "Petrol cars could travel further than electric cars on a full tank.",
+              "answer": "TRUE",
+              "explanation": "Petrol cars could travel much further on a full tank than electric cars could on a full charge.",
+              "evidence": "The main reason was the petrol engine. Petrol cars could travel much further on a full tank than electric cars could travel on a full charge, and petrol was cheap and easy to find."
+            },
+            {
+              "no": 4,
+              "type": "mcq",
+              "prompt": "What did the electric starter motor do in 1912?",
+              "options": [
+                "It made petrol cars much easier to start",
+                "It made electric cars cheaper",
+                "It made batteries last longer"
+              ],
+              "answer": 0,
+              "explanation": "The electric starter motor made petrol cars much easier to start, removing an advantage of electric cars.",
+              "evidence": "In 1912, the electric starter motor made petrol cars much easier to start, removing one of the electric car's main advantages."
+            },
+            {
+              "no": 5,
+              "type": "tfng",
+              "prompt": "Electric cars were common throughout the twentieth century.",
+              "answer": "FALSE",
+              "explanation": "By the 1930s electric cars had become rare and remained a curiosity for seventy years.",
+              "evidence": "By the 1930s, electric cars had become rare, and they remained a curiosity for the next seventy years."
+            },
+            {
+              "no": 6,
+              "type": "short",
+              "prompt": "California passed a law requiring car makers to sell a certain number of ___ vehicles.",
+              "answers": [
+                "zero-emission"
+              ],
+              "explanation": "California passed a law requiring car makers to sell a certain number of zero-emission vehicles.",
+              "evidence": "California, in the United States, passed a law requiring car makers to sell a certain number of zero-emission vehicles, and this encouraged companies to build electric cars again."
+            },
+            {
+              "no": 7,
+              "type": "mcq",
+              "prompt": "What type of battery do modern electric cars use?",
+              "options": [
+                "Lithium-ion batteries",
+                "Lead-acid batteries",
+                "Nickel batteries"
+              ],
+              "answer": 0,
+              "explanation": "Modern electric cars use lithium-ion batteries, the same type used in phones and laptops.",
+              "evidence": "Modern electric cars use lithium-ion batteries, the same type of battery that powers mobile phones and laptop computers."
+            },
+            {
+              "no": 8,
+              "type": "short",
+              "prompt": "Some modern electric cars can travel more than ___ kilometres on a single charge.",
+              "answers": [
+                "500"
+              ],
+              "explanation": "Some models can travel more than 500 kilometres on a single charge.",
+              "evidence": "As a result, a modern electric car can travel more than 300 kilometres on a single charge, and some models can travel more than 500 kilometres."
+            },
+            {
+              "no": 9,
+              "type": "tfng",
+              "prompt": "In 2010, a car battery cost about 1,000 dollars per kilowatt-hour.",
+              "answer": "TRUE",
+              "explanation": "In 2010 a battery cost about 1,000 dollars for each kilowatt-hour of energy it could store.",
+              "evidence": "In 2010, a battery for an electric car cost about 1,000 dollars for each kilowatt-hour of energy it could store."
+            },
+            {
+              "no": 10,
+              "type": "short",
+              "prompt": "By 2023, the battery price had fallen to about ___ dollars per kilowatt-hour.",
+              "answers": [
+                "140"
+              ],
+              "explanation": "By 2023 the price had fallen to about 140 dollars per kilowatt-hour.",
+              "evidence": "By 2023, the price had fallen to about 140 dollars per kilowatt-hour."
+            },
+            {
+              "no": 11,
+              "type": "mcq",
+              "prompt": "What proportion of new cars sold in Norway are electric?",
+              "options": [
+                "More than 80 percent",
+                "About 50 percent",
+                "About 30 percent"
+              ],
+              "answer": 0,
+              "explanation": "More than 80 percent of new cars sold in Norway are now electric.",
+              "evidence": "Norway has gone furthest: more than 80 percent of new cars sold there are now electric, and the government aims to end the sale of petrol and diesel cars by 2025."
+            },
+            {
+              "no": 12,
+              "type": "tfng",
+              "prompt": "Norway aims to end the sale of petrol and diesel cars by 2025.",
+              "answer": "TRUE",
+              "explanation": "The Norwegian government aims to end the sale of petrol and diesel cars by 2025.",
+              "evidence": "Norway has gone furthest: more than 80 percent of new cars sold there are now electric, and the government aims to end the sale of petrol and diesel cars by 2025."
+            },
+            {
+              "no": 13,
+              "type": "mcq",
+              "prompt": "What is one problem with electric car batteries mentioned in the passage?",
+              "options": [
+                "They use minerals mined in only a few countries",
+                "They are too heavy to carry",
+                "They cannot be recycled at all"
+              ],
+              "answer": 0,
+              "explanation": "Batteries use minerals such as lithium and cobalt, mined in only a few countries.",
+              "evidence": "The batteries also use minerals such as lithium and cobalt, which are mined in only a few countries, and mining them can damage the environment."
+            },
+            {
+              "no": 14,
+              "type": "short",
+              "prompt": "The number of electric cars on the world's roads grew to more than ___ million in 2023.",
+              "answers": [
+                "25"
+              ],
+              "explanation": "The number grew from a few thousand in 2010 to more than 25 million in 2023.",
+              "evidence": "The number of electric cars on the world's roads has grown from a few thousand in 2010 to more than 25 million in 2023, and car makers are investing billions of dollars in new models."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "title": "How Languages Die — and How They Can Be Saved",
+          "text": "There are about 7,000 languages spoken in the world today, but experts believe that half of them may disappear by the end of this century. Every two weeks, on average, the last speaker of a language dies, and with them dies a unique way of seeing the world.\nLanguages die for many reasons, but the most common is that parents stop speaking their language to their children. This often happens when a language is seen as old-fashioned, or when speaking it brings no advantage in school or in work. Children then grow up speaking a bigger, more powerful language instead, such as English, Spanish or Mandarin.\nThe process is usually slow. At first, the language is still spoken at home, but children use the bigger language at school and with their friends. In the next generation, the language is spoken only by older people. Finally, when the last old people die, the language dies with them.\nThe loss of a language is not only a loss of words. Every language holds knowledge that may not exist anywhere else. For example, many languages have special words for local plants and animals, for the weather, and for the land. When the language dies, that knowledge can die too, because it was never written down.\nSome languages also contain ways of thinking that are different from those of bigger languages. In some Australian Aboriginal languages, for example, there are no words for left and right. Instead, speakers use the points of the compass: they say things like turn north, or the cup is to the east of the plate. People who speak these languages are very good at knowing which direction they are facing, even inside a building.\nIn recent years, people have started to try to save dying languages. The most successful efforts begin with the community itself. When parents and grandparents decide to speak their language to their children, and when schools teach in the language, a language can recover.\nOne famous example is the Maori language of New Zealand. In the 1970s, very few Maori children spoke Maori, and the language seemed likely to disappear. Then Maori families set up language nests, which were kindergartens where only Maori was spoken. Today, Maori is taught in schools across New Zealand, and the number of speakers is growing again.\nTechnology is also helping. People can now record a language on a mobile phone, make dictionaries on a computer, and share lessons on the internet. In some parts of the world, young people are using social media in their own language, which gives the language a new, modern life.\nAnother success story comes from Hawaii, in the United States. In the 1980s, fewer than fifty children spoke Hawaiian, and the language was close to disappearing. Families and teachers set up Hawaiian-language schools, where children learned all their subjects in Hawaiian. Today, thousands of children speak the language, and it is an official language of the state of Hawaii, used in schools, on the radio and in government.\nLinguists, the scientists who study language, also play a part. When a language has very few speakers left, a linguist may spend months or years living in the community, recording stories, songs and conversations, and writing a dictionary and a grammar. This work does not save the language by itself, but it gives the community the tools to teach the language to their children, if they choose to do so.\nThere is another reason to save languages: they are part of a people's identity. When a language disappears, the songs, stories and jokes that were told in that language often disappear too, even if they are translated, because much of their meaning depends on the exact words. For many communities, bringing back their language is not only about communication. It is about pride, and about showing that their culture is alive.\nNot every language can be saved. Some languages have only a handful of speakers left, all of them old, and it may be too late. But experts say that even recording a language before it dies is valuable, because the recording keeps the knowledge for future generations, and it shows respect for the people who spoke it.",
+          "questions": [
+            {
+              "no": 15,
+              "type": "tfng",
+              "prompt": "About half of the world's languages may disappear by the end of this century.",
+              "answer": "TRUE",
+              "explanation": "Experts believe half of the world's 7,000 languages may disappear by the end of this century.",
+              "evidence": "There are about 7,000 languages spoken in the world today, but experts believe that half of them may disappear by the end of this century."
+            },
+            {
+              "no": 16,
+              "type": "short",
+              "prompt": "On average, the last speaker of a language dies every ___",
+              "answers": [
+                "two weeks"
+              ],
+              "explanation": "Every two weeks, on average, the last speaker of a language dies.",
+              "evidence": "Every two weeks, on average, the last speaker of a language dies, and with them dies a unique way of seeing the world."
+            },
+            {
+              "no": 17,
+              "type": "mcq",
+              "prompt": "What is the most common reason languages die?",
+              "options": [
+                "Parents stop speaking the language to their children",
+                "Governments ban the language",
+                "Children refuse to go to school"
+              ],
+              "answer": 0,
+              "explanation": "The most common reason is that parents stop speaking their language to their children.",
+              "evidence": "Languages die for many reasons, but the most common is that parents stop speaking their language to their children."
+            },
+            {
+              "no": 18,
+              "type": "tfng",
+              "prompt": "Children stop learning a language when it brings no advantage in school or work.",
+              "answer": "TRUE",
+              "explanation": "A language is dropped when speaking it brings no advantage in school or in work.",
+              "evidence": "This often happens when a language is seen as old-fashioned, or when speaking it brings no advantage in school or in work."
+            },
+            {
+              "no": 19,
+              "type": "mcq",
+              "prompt": "What happens in the next generation of language loss?",
+              "options": [
+                "The language is spoken only by older people",
+                "The language is taught in schools",
+                "Children invent new words"
+              ],
+              "answer": 0,
+              "explanation": "In the next generation, the language is spoken only by older people.",
+              "evidence": "In the next generation, the language is spoken only by older people. Finally, when the last old people die, the language dies with them."
+            },
+            {
+              "no": 20,
+              "type": "short",
+              "prompt": "Many languages have special words for local plants, animals, the weather, and the ___",
+              "answers": [
+                "land"
+              ],
+              "explanation": "Many languages have special words for local plants and animals, for the weather, and for the land.",
+              "evidence": "For example, many languages have special words for local plants and animals, for the weather, and for the land."
+            },
+            {
+              "no": 21,
+              "type": "mcq",
+              "prompt": "What do speakers of some Australian Aboriginal languages use instead of left and right?",
+              "options": [
+                "The points of the compass",
+                "The position of the sun",
+                "Words for near and far"
+              ],
+              "answer": 0,
+              "explanation": "Instead of left and right, speakers use the points of the compass.",
+              "evidence": "In some Australian Aboriginal languages, for example, there are no words for left and right. Instead, speakers use the points of the compass: they say things like turn north, or the cup is to the east of the plate."
+            },
+            {
+              "no": 22,
+              "type": "tfng",
+              "prompt": "Speakers of these languages are very good at knowing which direction they are facing.",
+              "answer": "TRUE",
+              "explanation": "People who speak these languages are very good at knowing which direction they are facing, even inside a building.",
+              "evidence": "People who speak these languages are very good at knowing which direction they are facing, even inside a building."
+            },
+            {
+              "no": 23,
+              "type": "mcq",
+              "prompt": "What do the most successful efforts to save a language begin with?",
+              "options": [
+                "The community itself",
+                "A government law",
+                "A university programme"
+              ],
+              "answer": 0,
+              "explanation": "The most successful efforts begin with the community itself.",
+              "evidence": "The most successful efforts begin with the community itself. When parents and grandparents decide to speak their language to their children, and when schools teach in the language, a language can recover."
+            },
+            {
+              "no": 24,
+              "type": "short",
+              "prompt": "Maori families set up language nests, which were ___ where only Maori was spoken.",
+              "answers": [
+                "kindergartens"
+              ],
+              "explanation": "Language nests were kindergartens where only Maori was spoken.",
+              "evidence": "Then Maori families set up language nests, which were kindergartens where only Maori was spoken."
+            },
+            {
+              "no": 25,
+              "type": "tfng",
+              "prompt": "In the 1970s, most Maori children spoke Maori fluently.",
+              "answer": "FALSE",
+              "explanation": "In the 1970s very few Maori children spoke Maori, and the language seemed likely to disappear.",
+              "evidence": "In the 1970s, very few Maori children spoke Maori, and the language seemed likely to disappear."
+            },
+            {
+              "no": 26,
+              "type": "mcq",
+              "prompt": "How is technology helping dying languages?",
+              "options": [
+                "People can record languages and share lessons on the internet",
+                "It translates all languages automatically",
+                "It replaces the need for teachers"
+              ],
+              "answer": 0,
+              "explanation": "People can record a language on a mobile phone, make dictionaries, and share lessons on the internet.",
+              "evidence": "People can now record a language on a mobile phone, make dictionaries on a computer, and share lessons on the internet."
+            },
+            {
+              "no": 27,
+              "type": "tfng",
+              "prompt": "Experts say recording a dying language is valuable even if the language cannot be saved.",
+              "answer": "TRUE",
+              "explanation": "Even recording a language before it dies is valuable, because it keeps the knowledge for future generations.",
+              "evidence": "But experts say that even recording a language before it dies is valuable, because the recording keeps the knowledge for future generations, and it shows respect for the people who spoke it."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "title": "The Science of Crowds",
+          "text": "A crowd can be a joyful thing: thousands of people singing together at a concert, or cheering in a stadium. It can also be dangerous: every year, people are injured or killed in crowds at festivals, religious gatherings and football matches. Scientists who study crowds want to understand why a crowd sometimes moves safely, and sometimes turns into a crush.\nFor a long time, people believed that crowds were ruled by panic. The idea was that when people are frightened, they lose their minds and push blindly towards the exit. Research in the last thirty years has shown that this idea is mostly wrong. In most emergencies, people in crowds behave sensibly: they help each other, they follow the people in front of them, and they try to move in an orderly way.\nThe real danger in a crowd is not panic, but density. When there are more than about four people in a square metre, a crowd becomes very difficult to control. At this density, people cannot choose where to walk: they are carried along by the crowd, and they cannot stop. If someone falls, the people behind cannot avoid them, and a crush can begin.\nScientists study crowds in several ways. Some use computer models, which treat each person as a small circle that tries to move towards a goal while avoiding other circles. These models can predict where a crowd will become too dense, and they are now used to design stations, stadiums and festival sites.\nOther scientists study real crowds. They film people from above, and use software to follow each person's movement. This has shown that crowds move like a liquid: they flow smoothly when the space is wide, but they slow down and become turbulent when the space narrows, for example at a doorway or a bridge.\nOne important discovery is that crowds move faster when people walk in the same direction, and much more slowly when two streams of people cross each other. This is why good design separates people who are arriving from people who are leaving, for example by using separate doors or one-way paths.\nAnother discovery concerns information. When people in a crowd know what is happening, they are calmer and more patient. When they do not know, they become anxious, and they push forward to find out. For this reason, clear signs and public announcements are among the most effective ways to keep a crowd safe.\nThe study of crowds has already saved lives. After a serious crush at a football stadium in 1989, in which 97 people died, British stadiums were redesigned: fences were removed, exits were widened, and the number of people allowed in each area was strictly limited. Since then, there has been no similar disaster in a British football stadium.\nOne of the largest crowds in the world gathers every year in Mecca, in Saudi Arabia, for the Hajj, a religious journey made by millions of Muslims. In the past, crushes at the Hajj killed hundreds of people. Today, crowd scientists work with the authorities to manage the flow of people: pilgrims move along one-way routes, at set times, and cameras and computers watch the density of the crowd. Since these measures were introduced, the pilgrimage has become much safer.\nGood design is now part of the planning of every large event. Before a new stadium or station is built, engineers use computer models to test how crowds will move through it. They look for narrow places where people might become trapped, and they change the design before building begins. A few extra metres of width in a corridor, or an extra exit, can make the difference between a safe crowd and a dangerous one.\nCrowd scientists also study how people leave a building in an emergency. In one experiment, volunteers were asked to leave a room through a narrow door. When they were told to leave calmly, they left quickly and safely. When they were told to imagine an emergency, they pushed, the doorway became blocked, and it took longer for everyone to get out. The lesson is clear: in an emergency, the safest thing is often to walk, not to run.\nCrowd science is still a young field, but it is growing quickly. As cities become larger and events become bigger, understanding how crowds move will become even more important. The aim is simple: to make sure that a crowd remains a place of joy, not a place of danger.",
+          "questions": [
+            {
+              "no": 28,
+              "type": "tfng",
+              "prompt": "People are sometimes injured or killed in crowds at festivals and football matches.",
+              "answer": "TRUE",
+              "explanation": "Every year, people are injured or killed in crowds at festivals, religious gatherings and football matches.",
+              "evidence": "It can also be dangerous: every year, people are injured or killed in crowds at festivals, religious gatherings and football matches."
+            },
+            {
+              "no": 29,
+              "type": "mcq",
+              "prompt": "What did people believe about crowds for a long time?",
+              "options": [
+                "Crowds were ruled by panic",
+                "Crowds were always safe",
+                "Crowds never moved"
+              ],
+              "answer": 0,
+              "explanation": "People believed crowds were ruled by panic, with frightened people pushing blindly towards the exit.",
+              "evidence": "For a long time, people believed that crowds were ruled by panic. The idea was that when people are frightened, they lose their minds and push blindly towards the exit."
+            },
+            {
+              "no": 30,
+              "type": "tfng",
+              "prompt": "Research shows that in most emergencies people in crowds behave sensibly.",
+              "answer": "TRUE",
+              "explanation": "In most emergencies, people in crowds behave sensibly: they help each other and try to move in an orderly way.",
+              "evidence": "Research in the last thirty years has shown that this idea is mostly wrong. In most emergencies, people in crowds behave sensibly: they help each other, they follow the people in front of them, and they try to move in an orderly way."
+            },
+            {
+              "no": 31,
+              "type": "short",
+              "prompt": "A crowd becomes very difficult to control when there are more than about ___ people in a square metre.",
+              "answers": [
+                "four",
+                "4"
+              ],
+              "explanation": "When there are more than about four people in a square metre, a crowd becomes very difficult to control.",
+              "evidence": "The real danger in a crowd is not panic, but density. When there are more than about four people in a square metre, a crowd becomes very difficult to control."
+            },
+            {
+              "no": 32,
+              "type": "mcq",
+              "prompt": "What happens at high density if someone falls?",
+              "options": [
+                "The people behind cannot avoid them",
+                "The crowd stops immediately",
+                "The person is lifted up"
+              ],
+              "answer": 0,
+              "explanation": "If someone falls, the people behind cannot avoid them, and a crush can begin.",
+              "evidence": "At this density, people cannot choose where to walk: they are carried along by the crowd, and they cannot stop. If someone falls, the people behind cannot avoid them, and a crush can begin."
+            },
+            {
+              "no": 33,
+              "type": "tfng",
+              "prompt": "Computer models treat each person as a small circle moving towards a goal.",
+              "answer": "TRUE",
+              "explanation": "Computer models treat each person as a small circle that tries to move towards a goal while avoiding other circles.",
+              "evidence": "Some use computer models, which treat each person as a small circle that tries to move towards a goal while avoiding other circles."
+            },
+            {
+              "no": 34,
+              "type": "short",
+              "prompt": "Scientists film real crowds from ___",
+              "answers": [
+                "above"
+              ],
+              "explanation": "Scientists film people from above and use software to follow each person's movement.",
+              "evidence": "Other scientists study real crowds. They film people from above, and use software to follow each person's movement."
+            },
+            {
+              "no": 35,
+              "type": "mcq",
+              "prompt": "How do crowds move, according to the passage?",
+              "options": [
+                "Like a liquid",
+                "Like a solid wall",
+                "Like a flock of birds"
+              ],
+              "answer": 0,
+              "explanation": "Crowds move like a liquid: they flow smoothly in wide spaces but slow down where space narrows.",
+              "evidence": "This has shown that crowds move like a liquid: they flow smoothly when the space is wide, but they slow down and become turbulent when the space narrows, for example at a doorway or a bridge."
+            },
+            {
+              "no": 36,
+              "type": "mcq",
+              "prompt": "When do crowds move much more slowly?",
+              "options": [
+                "When two streams of people cross each other",
+                "When everyone walks in the same direction",
+                "When the crowd is small"
+              ],
+              "answer": 0,
+              "explanation": "Crowds move much more slowly when two streams of people cross each other.",
+              "evidence": "One important discovery is that crowds move faster when people walk in the same direction, and much more slowly when two streams of people cross each other."
+            },
+            {
+              "no": 37,
+              "type": "tfng",
+              "prompt": "People in a crowd are calmer when they know what is happening.",
+              "answer": "TRUE",
+              "explanation": "When people in a crowd know what is happening, they are calmer and more patient.",
+              "evidence": "When people in a crowd know what is happening, they are calmer and more patient. When they do not know, they become anxious, and they push forward to find out."
+            },
+            {
+              "no": 38,
+              "type": "short",
+              "prompt": "In the 1989 stadium crush, ___ people died.",
+              "answers": [
+                "97"
+              ],
+              "explanation": "In the 1989 crush, 97 people died.",
+              "evidence": "After a serious crush at a football stadium in 1989, in which 97 people died, British stadiums were redesigned: fences were removed, exits were widened, and the number of people allowed in each area was strictly limited."
+            },
+            {
+              "no": 39,
+              "type": "mcq",
+              "prompt": "What changed in British stadiums after 1989?",
+              "options": [
+                "Fences were removed and exits were widened",
+                "All standing areas were closed",
+                "Tickets became more expensive"
+              ],
+              "answer": 0,
+              "explanation": "After 1989, fences were removed, exits were widened, and numbers in each area were strictly limited.",
+              "evidence": "After a serious crush at a football stadium in 1989, in which 97 people died, British stadiums were redesigned: fences were removed, exits were widened, and the number of people allowed in each area was strictly limited."
+            },
+            {
+              "no": 40,
+              "type": "tfng",
+              "prompt": "There has been no similar disaster in a British football stadium since 1989.",
+              "answer": "TRUE",
+              "explanation": "Since then, there has been no similar disaster in a British football stadium.",
+              "evidence": "Since then, there has been no similar disaster in a British football stadium."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RA6",
+      "track": "academic",
+      "title": "Academic Reading Test 6",
+      "passages": [
+        {
+          "section": 1,
+          "title": "Why Forests Matter for the Climate",
+          "text": "Forests cover about a third of the land on Earth, and they play a central role in the climate of the planet. They do this in several ways: they store carbon, they affect rainfall, and they cool the air around them. When forests are cut down, all three of these effects are lost, and the climate changes.\nThe most important role of forests is storing carbon. Trees take carbon dioxide from the air as they grow, and they store the carbon in their wood, leaves and roots. A single large tree can store more than a tonne of carbon dioxide over its lifetime. Together, the world's forests store about 650 billion tonnes of carbon, which is more than the amount of carbon in the atmosphere.\nWhen a forest is cut down or burned, much of this stored carbon is released back into the air as carbon dioxide. Scientists estimate that cutting down forests is responsible for about 10 percent of all the carbon dioxide that humans add to the atmosphere each year. This is more than the emissions from all the world's cars, lorries and aeroplanes combined.\nForests also affect rainfall. Trees release water vapour into the air through their leaves, a process called transpiration. This water vapour rises and forms clouds, which then bring rain. In the Amazon rainforest, for example, about half of the rain that falls is water that the forest itself has released into the air. If the forest is cut down, the rain falls less often, and the land becomes drier.\nForests also cool the land. The shade of the trees keeps the ground cooler, and transpiration cools the air in the same way that sweating cools the human body. Studies have shown that the air in a forest can be several degrees cooler than the air in a nearby field on a hot day. In cities, planting trees is one of the cheapest ways to reduce the heat of summer.\nDespite their importance, forests are disappearing fast. About 10 million hectares of forest are lost every year, an area about the size of Iceland. Most of this loss happens in tropical countries, where forests are cleared to make space for farms, cattle, and plantations of palm oil and soya.\nSome countries have shown that forest loss can be stopped. Costa Rica, for example, lost much of its forest in the twentieth century, but it has now doubled its forest cover by paying farmers to protect trees and to plant new ones. Brazil, which has the largest tropical forest in the world, reduced the rate at which its forests were cut down by more than 80 percent between 2004 and 2012, although the rate has risen again since then.\nSome forests are especially important. Mangrove forests, which grow where the sea meets the land in tropical countries, store even more carbon than ordinary forests, because they store carbon in the mud beneath them as well as in their trees. Mangroves also protect the coast from storms and from rising seas, and they provide a home for young fish, which local fishermen depend on. Yet mangroves are being cut down even faster than other forests, often to make space for fish farms.\nPlanting new trees is not as simple as it sounds. A new forest takes many years to store as much carbon as an old forest, and young trees can die if they are planted in the wrong place or if nobody looks after them. Some large planting projects have failed because they planted only one kind of tree, which then died from disease. Scientists say that the best way to restore a forest is often to protect the land and let the trees grow back by themselves, with help from local people.\nForests also matter to the people who live in them. About 300 million people live in or near forests, and many of them are Indigenous peoples, whose families have lived in the forest for hundreds of years. These peoples often know the forest better than anyone else, and studies have shown that forests looked after by Indigenous communities lose fewer trees than forests managed by governments or companies. Protecting the rights of these peoples, many experts say, is one of the best ways to protect the forest itself.\nProtecting forests is not only good for the climate. Forests are home to more than half of all the species of plants and animals on land, and about 1.6 billion people depend on forests for their food, fuel and income. Saving forests, scientists say, is one of the fastest and cheapest ways to slow climate change, and it also protects the living world on which we all depend.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "tfng",
+              "prompt": "Forests cover about a third of the land on Earth.",
+              "answer": "TRUE",
+              "explanation": "Forests cover about a third of the land on Earth.",
+              "evidence": "Forests cover about a third of the land on Earth, and they play a central role in the climate of the planet."
+            },
+            {
+              "no": 2,
+              "type": "mcq",
+              "prompt": "How do forests affect the climate, according to the passage?",
+              "options": [
+                "They store carbon, affect rainfall and cool the air",
+                "They produce oxygen and nothing else",
+                "They block the wind and reduce storms"
+              ],
+              "answer": 0,
+              "explanation": "Forests store carbon, affect rainfall, and cool the air around them.",
+              "evidence": "They do this in several ways: they store carbon, they affect rainfall, and they cool the air around them."
+            },
+            {
+              "no": 3,
+              "type": "short",
+              "prompt": "A single large tree can store more than a ___ of carbon dioxide over its lifetime.",
+              "answers": [
+                "tonne"
+              ],
+              "explanation": "A single large tree can store more than a tonne of carbon dioxide over its lifetime.",
+              "evidence": "A single large tree can store more than a tonne of carbon dioxide over its lifetime."
+            },
+            {
+              "no": 4,
+              "type": "short",
+              "prompt": "The world's forests store about ___ billion tonnes of carbon.",
+              "answers": [
+                "650"
+              ],
+              "explanation": "Together, the world's forests store about 650 billion tonnes of carbon.",
+              "evidence": "Together, the world's forests store about 650 billion tonnes of carbon, which is more than the amount of carbon in the atmosphere."
+            },
+            {
+              "no": 5,
+              "type": "tfng",
+              "prompt": "Cutting down forests is responsible for about 10 percent of human carbon dioxide emissions.",
+              "answer": "TRUE",
+              "explanation": "Cutting down forests is responsible for about 10 percent of all the carbon dioxide humans add to the atmosphere each year.",
+              "evidence": "Scientists estimate that cutting down forests is responsible for about 10 percent of all the carbon dioxide that humans add to the atmosphere each year."
+            },
+            {
+              "no": 6,
+              "type": "mcq",
+              "prompt": "What is transpiration?",
+              "options": [
+                "Trees releasing water vapour into the air through their leaves",
+                "Trees taking carbon dioxide from the air",
+                "Rain falling on the leaves of trees"
+              ],
+              "answer": 0,
+              "explanation": "Transpiration is trees releasing water vapour into the air through their leaves.",
+              "evidence": "Trees release water vapour into the air through their leaves, a process called transpiration."
+            },
+            {
+              "no": 7,
+              "type": "short",
+              "prompt": "In the Amazon rainforest, about ___ of the rain is water the forest itself has released.",
+              "answers": [
+                "half"
+              ],
+              "explanation": "About half of the rain that falls in the Amazon is water the forest itself has released.",
+              "evidence": "In the Amazon rainforest, for example, about half of the rain that falls is water that the forest itself has released into the air."
+            },
+            {
+              "no": 8,
+              "type": "tfng",
+              "prompt": "The air in a forest can be several degrees cooler than in a nearby field.",
+              "answer": "TRUE",
+              "explanation": "The air in a forest can be several degrees cooler than the air in a nearby field on a hot day.",
+              "evidence": "Studies have shown that the air in a forest can be several degrees cooler than the air in a nearby field on a hot day."
+            },
+            {
+              "no": 9,
+              "type": "short",
+              "prompt": "About ___ million hectares of forest are lost every year.",
+              "answers": [
+                "10"
+              ],
+              "explanation": "About 10 million hectares of forest are lost every year.",
+              "evidence": "About 10 million hectares of forest are lost every year, an area about the size of Iceland."
+            },
+            {
+              "no": 10,
+              "type": "mcq",
+              "prompt": "What is most forest loss in tropical countries caused by?",
+              "options": [
+                "Clearing land for farms, cattle and plantations",
+                "Fires started by lightning",
+                "Building new cities"
+              ],
+              "answer": 0,
+              "explanation": "Forests are cleared to make space for farms, cattle, and plantations of palm oil and soya.",
+              "evidence": "Most of this loss happens in tropical countries, where forests are cleared to make space for farms, cattle, and plantations of palm oil and soya."
+            },
+            {
+              "no": 11,
+              "type": "mcq",
+              "prompt": "How did Costa Rica increase its forest cover?",
+              "options": [
+                "By paying farmers to protect trees and plant new ones",
+                "By banning all farming",
+                "By buying land from other countries"
+              ],
+              "answer": 0,
+              "explanation": "Costa Rica doubled its forest cover by paying farmers to protect trees and plant new ones.",
+              "evidence": "Costa Rica, for example, lost much of its forest in the twentieth century, but it has now doubled its forest cover by paying farmers to protect trees and to plant new ones."
+            },
+            {
+              "no": 12,
+              "type": "short",
+              "prompt": "Brazil reduced the rate of forest loss by more than ___ percent between 2004 and 2012.",
+              "answers": [
+                "80"
+              ],
+              "explanation": "Brazil reduced the rate at which its forests were cut down by more than 80 percent between 2004 and 2012.",
+              "evidence": "Brazil, which has the largest tropical forest in the world, reduced the rate at which its forests were cut down by more than 80 percent between 2004 and 2012, although the rate has risen again since then."
+            },
+            {
+              "no": 13,
+              "type": "tfng",
+              "prompt": "Forests are home to more than half of all land species of plants and animals.",
+              "answer": "TRUE",
+              "explanation": "Forests are home to more than half of all the species of plants and animals on land.",
+              "evidence": "Forests are home to more than half of all the species of plants and animals on land, and about 1.6 billion people depend on forests for their food, fuel and income."
+            },
+            {
+              "no": 14,
+              "type": "short",
+              "prompt": "About ___ billion people depend on forests for food, fuel and income.",
+              "answers": [
+                "1.6"
+              ],
+              "explanation": "About 1.6 billion people depend on forests for their food, fuel and income.",
+              "evidence": "Forests are home to more than half of all the species of plants and animals on land, and about 1.6 billion people depend on forests for their food, fuel and income."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "title": "The History of Maps",
+          "text": "Maps are among the oldest human inventions. Long before people could write, they drew pictures of the land around them: where to find water, where the animals lived, and how to get home. The oldest known map, drawn on a piece of mammoth tusk about 25,000 years ago, shows a river, hills and a settlement.\nThe first maps were not meant to be accurate. They were pictures of a place as people knew it, with the most important things drawn largest. A map of a village might show the chief's house much bigger than it really was, because the house was the most important building. Distance and direction were often wrong, but that did not matter, because the map was a memory aid, not a guide for strangers.\nThe Greeks were the first people to try to make maps that were scientifically accurate. In the third century BC, a Greek scholar named Eratosthenes worked out the size of the Earth with surprising accuracy, using the angle of the sun in two different cities. Later, another Greek, Ptolemy, wrote a book about geography in about 150 AD, which included maps of the known world and instructions for drawing them.\nPtolemy's book was lost in Europe for more than a thousand years, but it survived in the Arab world, where scholars copied it and improved it. Arab map-makers drew maps that were far better than European maps of the time, and they added new information from travellers who had sailed to India, China and East Africa.\nIn the fifteenth century, Ptolemy's book came back to Europe, just as European ships were beginning to explore the Atlantic. The new maps encouraged exploration: sailors could see that the world was larger than they had thought, and they wanted to fill in the blank spaces. The first maps of the Americas appeared in the early sixteenth century, only a few years after Columbus reached the Caribbean.\nMaps also became tools of power. Kings and governments used maps to claim land, to plan wars, and to collect taxes. A country that could map its land accurately could control it more easily. In Britain, the first complete survey of the whole country, the Ordnance Survey, began in the 1790s and took more than eighty years to finish.\nIn the twentieth century, maps changed again. Aeroplanes allowed map-makers to photograph the land from above, and satellites made it possible to map the whole planet, including the bottom of the oceans. Today, most people carry a map in their pocket, on their phone, which can show their exact position and give them directions in seconds.\nMaps of the sea were just as important as maps of the land. In the fourteenth century, sailors in the Mediterranean used charts called portolan charts, which showed coastlines, harbours and the direction of the wind. These charts were so accurate that sailors could use them to cross open sea, something that had been very dangerous before. The charts were guarded as secrets, because a country with good charts had an advantage in trade and in war.\nToday, anyone can make a map. With a phone, a person can mark a new road, a shop, or a broken bridge, and share it with the world in seconds. This has been very useful after disasters, when volunteers have mapped damaged areas to help rescue workers. But it has also raised new questions: who owns the map, who checks that it is correct, and what happens to the privacy of people whose homes appear on it?\nMaps have also played a part in science. In 1854, a doctor in London named John Snow used a map to solve a mystery: why were so many people dying of cholera in one part of the city? He marked every case of the disease on a map, and he saw that the cases were clustered around one water pump. When the pump was closed, the outbreak stopped. Snow's map is now famous as one of the first uses of a map to understand a disease.\nThe map has changed from a drawing on a piece of bone to a picture on a screen, but its purpose has not changed: to help people understand where they are, and where they are going.",
+          "questions": [
+            {
+              "no": 15,
+              "type": "tfng",
+              "prompt": "The oldest known map was drawn on a piece of mammoth tusk about 25,000 years ago.",
+              "answer": "TRUE",
+              "explanation": "The oldest known map, drawn on a piece of mammoth tusk about 25,000 years ago, shows a river, hills and a settlement.",
+              "evidence": "The oldest known map, drawn on a piece of mammoth tusk about 25,000 years ago, shows a river, hills and a settlement."
+            },
+            {
+              "no": 16,
+              "type": "mcq",
+              "prompt": "What did the oldest map show?",
+              "options": [
+                "A river, hills and a settlement",
+                "A route to another country",
+                "The stars in the sky"
+              ],
+              "answer": 0,
+              "explanation": "The oldest map shows a river, hills and a settlement.",
+              "evidence": "The oldest known map, drawn on a piece of mammoth tusk about 25,000 years ago, shows a river, hills and a settlement."
+            },
+            {
+              "no": 17,
+              "type": "tfng",
+              "prompt": "The first maps were meant to be scientifically accurate.",
+              "answer": "FALSE",
+              "explanation": "The first maps were not meant to be accurate; they were pictures of a place as people knew it.",
+              "evidence": "The first maps were not meant to be accurate. They were pictures of a place as people knew it, with the most important things drawn largest."
+            },
+            {
+              "no": 18,
+              "type": "mcq",
+              "prompt": "Why might a chief's house be drawn larger than it really was?",
+              "options": [
+                "Because it was the most important building",
+                "Because it was the largest building",
+                "Because the map-maker made a mistake"
+              ],
+              "answer": 0,
+              "explanation": "The most important things were drawn largest, so the chief's house appeared bigger than it was.",
+              "evidence": "A map of a village might show the chief's house much bigger than it really was, because the house was the most important building."
+            },
+            {
+              "no": 19,
+              "type": "short",
+              "prompt": "Eratosthenes worked out the size of the Earth using the angle of the ___ in two different cities.",
+              "answers": [
+                "sun"
+              ],
+              "explanation": "Eratosthenes worked out the size of the Earth using the angle of the sun in two different cities.",
+              "evidence": "In the third century BC, a Greek scholar named Eratosthenes worked out the size of the Earth with surprising accuracy, using the angle of the sun in two different cities."
+            },
+            {
+              "no": 20,
+              "type": "mcq",
+              "prompt": "When did Ptolemy write his book about geography?",
+              "options": [
+                "About 150 AD",
+                "About 150 BC",
+                "About 1500 AD"
+              ],
+              "answer": 0,
+              "explanation": "Ptolemy wrote his book about geography in about 150 AD.",
+              "evidence": "Later, another Greek, Ptolemy, wrote a book about geography in about 150 AD, which included maps of the known world and instructions for drawing them."
+            },
+            {
+              "no": 21,
+              "type": "tfng",
+              "prompt": "Ptolemy's book was lost in Europe for more than a thousand years.",
+              "answer": "TRUE",
+              "explanation": "Ptolemy's book was lost in Europe for more than a thousand years, but survived in the Arab world.",
+              "evidence": "Ptolemy's book was lost in Europe for more than a thousand years, but it survived in the Arab world, where scholars copied it and improved it."
+            },
+            {
+              "no": 22,
+              "type": "mcq",
+              "prompt": "What did Arab map-makers add to their maps?",
+              "options": [
+                "New information from travellers to India, China and East Africa",
+                "Pictures of sea monsters",
+                "The routes of Roman roads"
+              ],
+              "answer": 0,
+              "explanation": "Arab map-makers added new information from travellers who had sailed to India, China and East Africa.",
+              "evidence": "Arab map-makers drew maps that were far better than European maps of the time, and they added new information from travellers who had sailed to India, China and East Africa."
+            },
+            {
+              "no": 23,
+              "type": "short",
+              "prompt": "The first maps of the Americas appeared in the early ___ century.",
+              "answers": [
+                "sixteenth",
+                "16th"
+              ],
+              "explanation": "The first maps of the Americas appeared in the early sixteenth century.",
+              "evidence": "The first maps of the Americas appeared in the early sixteenth century, only a few years after Columbus reached the Caribbean."
+            },
+            {
+              "no": 24,
+              "type": "mcq",
+              "prompt": "How did governments use maps?",
+              "options": [
+                "To claim land, plan wars and collect taxes",
+                "To teach children to read",
+                "To find gold"
+              ],
+              "answer": 0,
+              "explanation": "Kings and governments used maps to claim land, to plan wars, and to collect taxes.",
+              "evidence": "Kings and governments used maps to claim land, to plan wars, and to collect taxes."
+            },
+            {
+              "no": 25,
+              "type": "short",
+              "prompt": "The Ordnance Survey of Britain began in the ___",
+              "answers": [
+                "1790s"
+              ],
+              "explanation": "The first complete survey of Britain, the Ordnance Survey, began in the 1790s.",
+              "evidence": "In Britain, the first complete survey of the whole country, the Ordnance Survey, began in the 1790s and took more than eighty years to finish."
+            },
+            {
+              "no": 26,
+              "type": "short",
+              "prompt": "The Ordnance Survey took more than ___ years to finish.",
+              "answers": [
+                "eighty",
+                "80"
+              ],
+              "explanation": "The Ordnance Survey took more than eighty years to finish.",
+              "evidence": "In Britain, the first complete survey of the whole country, the Ordnance Survey, began in the 1790s and took more than eighty years to finish."
+            },
+            {
+              "no": 27,
+              "type": "tfng",
+              "prompt": "Today, most people carry a map on their phone.",
+              "answer": "TRUE",
+              "explanation": "Today, most people carry a map in their pocket, on their phone.",
+              "evidence": "Today, most people carry a map in their pocket, on their phone, which can show their exact position and give them directions in seconds."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "title": "How the Brain Learns a Second Language",
+          "text": "Learning a second language as an adult is hard. Children seem to learn languages without effort, but adults often struggle for years and still make mistakes. Scientists who study the brain want to know why this is, and what adults can do to learn better.\nThe main reason children learn languages easily is that their brains are still developing. In the first years of life, the brain makes millions of new connections between its cells, and it is very good at noticing patterns in the sounds it hears. A baby can hear the difference between sounds in any language in the world, but by the age of one, the baby has learned to ignore the sounds that do not matter in its own language.\nAdults have lost some of this flexibility, but they have not lost the ability to learn. The adult brain can still make new connections, and it can still learn new words and new rules. The difference is that adults learn more slowly, and they need more practice to make the new language automatic.\nOne important discovery is that the brain treats a second language differently from the first. When a person uses their first language, the brain uses areas that are well practised and work quickly. When the same person uses a second language, the brain uses more areas, including areas that control attention and memory. This is why speaking a second language can feel tiring: the brain is working harder.\nAnother discovery is that sleep plays an important role in learning a language. During sleep, the brain replays what it learned during the day, and it moves new words from short-term memory to long-term memory. Studies have shown that people who sleep after a language lesson remember more words the next day than people who stay awake.\nScientists have also found that the best way to learn a language is to use it in real situations. Reading a list of words is less effective than using the words in a conversation, because the brain remembers words better when they are linked to a meaning and an experience. This is why children learn their first language so well: they use it all day, every day, to get what they want.\nThere is also good news for adults. People who learn a second language, even as adults, have brains that stay healthier for longer. Studies of older people have shown that those who speak two languages develop dementia, a disease that affects memory, about four years later than people who speak only one language. Learning a language, it seems, is good exercise for the brain.\nThere has been much debate about the best age to learn a language. Some scientists believe that there is a critical period, before the age of about twelve, after which it becomes much harder to speak a new language without an accent. Others say that adults can learn just as well, and that the difference is not age but time: children spend thousands of hours using their first language, while adults usually study for only a few hours a week.\nChildren who grow up with two languages often mix them, using a word from one language in a sentence in the other. Parents sometimes worry about this, but scientists say it is normal, and it is not a sign of confusion. Bilingual children usually separate the two languages by the time they start school, and they often develop a better understanding of how language works than children who speak only one language.\nTechnology is changing how adults learn languages. Apps on a phone can teach new words, correct pronunciation, and let learners practise with speakers in other countries. But scientists warn that an app alone is not enough. Language is learned by using it with other people, and no app can replace a real conversation. The best results come from combining technology with real practice: using an app to learn words, and then using the words with a real person.\nThe advice from scientists is simple. If you want to learn a language, use it every day, even for a short time. Listen, speak, read and write. Sleep well after you study. And do not worry about making mistakes: mistakes are a sign that your brain is learning.",
+          "questions": [
+            {
+              "no": 28,
+              "type": "tfng",
+              "prompt": "Children seem to learn languages without effort, but adults often struggle for years.",
+              "answer": "TRUE",
+              "explanation": "Children seem to learn languages without effort, but adults often struggle for years and still make mistakes.",
+              "evidence": "Children seem to learn languages without effort, but adults often struggle for years and still make mistakes."
+            },
+            {
+              "no": 29,
+              "type": "mcq",
+              "prompt": "Why do children learn languages easily?",
+              "options": [
+                "Their brains are still developing",
+                "They have better teachers",
+                "They have more free time"
+              ],
+              "answer": 0,
+              "explanation": "Children learn easily because their brains are still developing and good at noticing sound patterns.",
+              "evidence": "The main reason children learn languages easily is that their brains are still developing."
+            },
+            {
+              "no": 30,
+              "type": "short",
+              "prompt": "By the age of ___, a baby has learned to ignore sounds that do not matter in its own language.",
+              "answers": [
+                "one",
+                "1"
+              ],
+              "explanation": "By the age of one, a baby has learned to ignore sounds that do not matter in its own language.",
+              "evidence": "A baby can hear the difference between sounds in any language in the world, but by the age of one, the baby has learned to ignore the sounds that do not matter in its own language."
+            },
+            {
+              "no": 31,
+              "type": "tfng",
+              "prompt": "Adults have completely lost the ability to learn a new language.",
+              "answer": "FALSE",
+              "explanation": "Adults have lost some flexibility, but they have not lost the ability to learn.",
+              "evidence": "Adults have lost some of this flexibility, but they have not lost the ability to learn."
+            },
+            {
+              "no": 32,
+              "type": "mcq",
+              "prompt": "What does the brain use more of when a person speaks a second language?",
+              "options": [
+                "Areas that control attention and memory",
+                "Areas that control movement",
+                "Areas that control vision"
+              ],
+              "answer": 0,
+              "explanation": "When using a second language, the brain uses more areas, including areas that control attention and memory.",
+              "evidence": "When the same person uses a second language, the brain uses more areas, including areas that control attention and memory."
+            },
+            {
+              "no": 33,
+              "type": "tfng",
+              "prompt": "Speaking a second language can feel tiring because the brain is working harder.",
+              "answer": "TRUE",
+              "explanation": "Speaking a second language can feel tiring because the brain is working harder.",
+              "evidence": "This is why speaking a second language can feel tiring: the brain is working harder."
+            },
+            {
+              "no": 34,
+              "type": "mcq",
+              "prompt": "What does the brain do during sleep after a language lesson?",
+              "options": [
+                "It moves new words from short-term to long-term memory",
+                "It forgets the new words",
+                "It stops working completely"
+              ],
+              "answer": 0,
+              "explanation": "During sleep the brain moves new words from short-term memory to long-term memory.",
+              "evidence": "During sleep, the brain replays what it learned during the day, and it moves new words from short-term memory to long-term memory."
+            },
+            {
+              "no": 35,
+              "type": "short",
+              "prompt": "People who sleep after a lesson remember ___ words the next day than people who stay awake.",
+              "answers": [
+                "more"
+              ],
+              "explanation": "People who sleep after a language lesson remember more words the next day than people who stay awake.",
+              "evidence": "Studies have shown that people who sleep after a language lesson remember more words the next day than people who stay awake."
+            },
+            {
+              "no": 36,
+              "type": "mcq",
+              "prompt": "Why is using words in a conversation better than reading a list of words?",
+              "options": [
+                "The brain remembers words better when they are linked to a meaning and an experience",
+                "It is faster",
+                "It uses less memory"
+              ],
+              "answer": 0,
+              "explanation": "The brain remembers words better when they are linked to a meaning and an experience.",
+              "evidence": "Reading a list of words is less effective than using the words in a conversation, because the brain remembers words better when they are linked to a meaning and an experience."
+            },
+            {
+              "no": 37,
+              "type": "tfng",
+              "prompt": "People who speak two languages develop dementia about four years later than people who speak one.",
+              "answer": "TRUE",
+              "explanation": "Those who speak two languages develop dementia about four years later than people who speak only one language.",
+              "evidence": "Studies of older people have shown that those who speak two languages develop dementia, a disease that affects memory, about four years later than people who speak only one language."
+            },
+            {
+              "no": 38,
+              "type": "mcq",
+              "prompt": "What is dementia, according to the passage?",
+              "options": [
+                "A disease that affects memory",
+                "A disease that affects hearing",
+                "A disease that affects movement"
+              ],
+              "answer": 0,
+              "explanation": "Dementia is a disease that affects memory.",
+              "evidence": "Studies of older people have shown that those who speak two languages develop dementia, a disease that affects memory, about four years later than people who speak only one language."
+            },
+            {
+              "no": 39,
+              "type": "short",
+              "prompt": "Scientists advise learners to use the language every day, even for a ___ time.",
+              "answers": [
+                "short"
+              ],
+              "explanation": "Scientists advise using the language every day, even for a short time.",
+              "evidence": "If you want to learn a language, use it every day, even for a short time."
+            },
+            {
+              "no": 40,
+              "type": "tfng",
+              "prompt": "Mistakes are a sign that the brain is learning.",
+              "answer": "TRUE",
+              "explanation": "Mistakes are a sign that your brain is learning.",
+              "evidence": "And do not worry about making mistakes: mistakes are a sign that your brain is learning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RG2",
+      "track": "general",
+      "title": "General Training Reading Test 2",
+      "passages": [
+        {
+          "section": 1,
+          "title": "Everyday Notices",
+          "text": "TEXT A — RIVERSIDE SWIMMING POOL: NEW OPENING HOURS\nFrom Monday 1 September, the swimming pool will open at 7.00 am on weekdays, one hour earlier than before. On Saturdays, the pool will open at 8.00 am, and on Sundays at 9.00 am. The pool closes at 9.00 pm every day. Children under the age of eight must be accompanied by an adult at all times. A family ticket, for two adults and up to three children, costs £18.\nTEXT B — MARKET SQUARE CAR PARK\nThe car park in Market Square will be closed on Sunday 14 September for the annual food festival. Drivers should use the car park on Station Road instead. The Station Road car park is open 24 hours a day, and the first hour is free. Please note that cars left in Market Square car park after 6.00 pm on Saturday 13 September will be removed.\nTEXT C — EVENING CLASSES AT THE COMMUNITY CENTRE\nNew evening classes begin in October. Classes include Spanish for beginners on Mondays, photography on Tuesdays, and yoga on Thursdays. All classes run from 7.00 pm to 9.00 pm, and cost £60 for a ten-week course. To book a place, please call 01632 960444 or visit the community centre office, which is open from 9.00 am to 5.00 pm, Monday to Friday.\nTEXT D — LOST PROPERTY: BLUE BICYCLE\nTEXT E — SATURDAY MARKET: NEW STALLHOLDERS WANTED\nThe Saturday market in Market Square is looking for new stallholders. Stalls are available from 8.00 am to 2.00 pm every Saturday. A stall costs £15 a day, and stallholders must bring their own table and cover. Anyone interested should contact the market manager, Mrs Allen, on 01632 960511, before Friday 26 September.\nTEXT F — BUS STOP CLOSURE\nThe bus stop outside the library will be closed from Monday 22 September to Friday 26 September, while the pavement is repaired. During this time, buses will stop at the temporary stop on Church Street, about five minutes' walk away. Passengers are advised to allow extra time for their journeys.\nA blue bicycle was found outside the library on Tuesday 9 September. The bicycle is now at the library reception desk. To collect it, please bring proof of ownership, such as a photograph of the bicycle or the key to its lock. The library is open from 9.00 am to 6.00 pm, Monday to Saturday.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "tfng",
+              "prompt": "From 1 September, the swimming pool will open at 7.00 am on weekdays.",
+              "answer": "TRUE",
+              "explanation": "From Monday 1 September, the pool will open at 7.00 am on weekdays.",
+              "evidence": "From Monday 1 September, the swimming pool will open at 7.00 am on weekdays, one hour earlier than before."
+            },
+            {
+              "no": 2,
+              "type": "short",
+              "prompt": "On Sundays, the swimming pool opens at ___ am.",
+              "answers": [
+                "9.00",
+                "9"
+              ],
+              "explanation": "On Sundays the pool opens at 9.00 am.",
+              "evidence": "On Saturdays, the pool will open at 8.00 am, and on Sundays at 9.00 am."
+            },
+            {
+              "no": 3,
+              "type": "mcq",
+              "prompt": "Who must be accompanied by an adult at the swimming pool?",
+              "options": [
+                "Children under the age of eight",
+                "Children under the age of twelve",
+                "All children"
+              ],
+              "answer": 0,
+              "explanation": "Children under the age of eight must be accompanied by an adult at all times.",
+              "evidence": "Children under the age of eight must be accompanied by an adult at all times."
+            },
+            {
+              "no": 4,
+              "type": "short",
+              "prompt": "A family ticket for the swimming pool costs £___",
+              "answers": [
+                "18"
+              ],
+              "explanation": "A family ticket costs £18.",
+              "evidence": "A family ticket, for two adults and up to three children, costs £18."
+            },
+            {
+              "no": 5,
+              "type": "mcq",
+              "prompt": "Why will the Market Square car park be closed on 14 September?",
+              "options": [
+                "For the annual food festival",
+                "For road repairs",
+                "For a new building"
+              ],
+              "answer": 0,
+              "explanation": "The car park will be closed for the annual food festival.",
+              "evidence": "The car park in Market Square will be closed on Sunday 14 September for the annual food festival."
+            },
+            {
+              "no": 6,
+              "type": "short",
+              "prompt": "Cars left in Market Square car park after 6.00 pm on Saturday 13 September will be ___",
+              "answers": [
+                "removed"
+              ],
+              "explanation": "Cars left after 6.00 pm on Saturday 13 September will be removed.",
+              "evidence": "Please note that cars left in Market Square car park after 6.00 pm on Saturday 13 September will be removed."
+            },
+            {
+              "no": 7,
+              "type": "tfng",
+              "prompt": "The first hour in the Station Road car park is free.",
+              "answer": "TRUE",
+              "explanation": "The Station Road car park is open 24 hours a day, and the first hour is free.",
+              "evidence": "The Station Road car park is open 24 hours a day, and the first hour is free."
+            },
+            {
+              "no": 8,
+              "type": "mcq",
+              "prompt": "On which day is the Spanish for beginners class held?",
+              "options": [
+                "Monday",
+                "Tuesday",
+                "Thursday"
+              ],
+              "answer": 0,
+              "explanation": "Spanish for beginners is on Mondays.",
+              "evidence": "Classes include Spanish for beginners on Mondays, photography on Tuesdays, and yoga on Thursdays."
+            },
+            {
+              "no": 9,
+              "type": "short",
+              "prompt": "An evening class costs £___ for a ten-week course.",
+              "answers": [
+                "60"
+              ],
+              "explanation": "All classes cost £60 for a ten-week course.",
+              "evidence": "All classes run from 7.00 pm to 9.00 pm, and cost £60 for a ten-week course."
+            },
+            {
+              "no": 10,
+              "type": "mcq",
+              "prompt": "How can you book a place on an evening class?",
+              "options": [
+                "By phone or by visiting the office",
+                "By email only",
+                "On the first evening of the class"
+              ],
+              "answer": 0,
+              "explanation": "To book, call 01632 960444 or visit the community centre office.",
+              "evidence": "To book a place, please call 01632 960444 or visit the community centre office, which is open from 9.00 am to 5.00 pm, Monday to Friday."
+            },
+            {
+              "no": 11,
+              "type": "short",
+              "prompt": "A blue bicycle was found outside the library on Tuesday ___ September.",
+              "answers": [
+                "9",
+                "9th"
+              ],
+              "explanation": "A blue bicycle was found outside the library on Tuesday 9 September.",
+              "evidence": "A blue bicycle was found outside the library on Tuesday 9 September."
+            },
+            {
+              "no": 12,
+              "type": "mcq",
+              "prompt": "What must you bring to collect the bicycle?",
+              "options": [
+                "Proof of ownership",
+                "A library card",
+                "Twenty pounds"
+              ],
+              "answer": 0,
+              "explanation": "To collect the bicycle, bring proof of ownership, such as a photograph or the key to its lock.",
+              "evidence": "To collect it, please bring proof of ownership, such as a photograph of the bicycle or the key to its lock."
+            },
+            {
+              "no": 13,
+              "type": "tfng",
+              "prompt": "The library is open on Sundays.",
+              "answer": "FALSE",
+              "explanation": "The library is open Monday to Saturday, so it is closed on Sundays.",
+              "evidence": "The library is open from 9.00 am to 6.00 pm, Monday to Saturday."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "title": "Workplace Information",
+          "text": "TEXT A — STAFF HANDBOOK: WORKING HOURS\nAll staff are expected to arrive at work by 9.00 am. If you are going to be late, please phone your manager before 9.00 am. Lunch is for one hour, between 12.00 and 2.00 pm, and you may choose when to take it. The normal working day finishes at 5.30 pm. Staff who work more than two hours beyond their normal finishing time may claim a meal allowance of up to £10.\nTEXT B — STAFF HANDBOOK: SICK LEAVE\nIf you are ill and cannot come to work, you must phone your manager before 9.30 am on the first day of your illness. If you are ill for more than three days, you must provide a note from your doctor. Staff are entitled to ten days of paid sick leave each year. Any sick leave beyond ten days will be unpaid, unless your manager agrees otherwise in writing.\nTEXT C — NOTICE TO ALL STAFF: FIRE DRILL\nThere will be a fire drill on Wednesday 17 September at 11.00 am. When you hear the alarm, please leave the building at once by the nearest fire exit, and go to the assembly point in the car park. Do not use the lifts, and do not stop to collect personal belongings. Please remember that the fire exits must be kept clear at all times, and boxes must never be stored in the corridors.\nTEXT D — STAFF CANTEEN: NEW MENU\nTEXT E — STAFF SOCIAL CLUB: QUIZ NIGHT\nThe staff social club will hold a quiz night on Friday 26 September at 7.30 pm in the canteen. Teams of up to six people may enter, and the entry fee is £2 per person. There will be prizes for the winning team, and sandwiches will be provided. To enter a team, please write your names on the list on the noticeboard by Wednesday 24 September.\nTEXT F — PARKING PERMITS\nStaff who drive to work must display a parking permit on their car. Permits for the new year are available from the reception desk from Monday 29 September. Please bring your car registration number with you. Cars without a valid permit may be fined £25.\nFrom next Monday, the staff canteen will offer a hot vegetarian meal every day, as well as a choice of sandwiches and salads. The canteen is open from 8.00 am to 3.00 pm, Monday to Friday. Tea and coffee are free for all staff, but other drinks must be paid for at the till.",
+          "questions": [
+            {
+              "no": 14,
+              "type": "mcq",
+              "prompt": "What time are staff expected to arrive at work?",
+              "options": [
+                "By 9.00 am",
+                "By 8.30 am",
+                "By 10.00 am"
+              ],
+              "answer": 0,
+              "explanation": "All staff are expected to arrive at work by 9.00 am.",
+              "evidence": "All staff are expected to arrive at work by 9.00 am."
+            },
+            {
+              "no": 15,
+              "type": "short",
+              "prompt": "Lunch is for ___ hour.",
+              "answers": [
+                "one",
+                "1"
+              ],
+              "explanation": "Lunch is for one hour, between 12.00 and 2.00 pm.",
+              "evidence": "Lunch is for one hour, between 12.00 and 2.00 pm, and you may choose when to take it."
+            },
+            {
+              "no": 16,
+              "type": "mcq",
+              "prompt": "When does the normal working day finish?",
+              "options": [
+                "At 5.30 pm",
+                "At 5.00 pm",
+                "At 6.00 pm"
+              ],
+              "answer": 0,
+              "explanation": "The normal working day finishes at 5.30 pm.",
+              "evidence": "The normal working day finishes at 5.30 pm."
+            },
+            {
+              "no": 17,
+              "type": "short",
+              "prompt": "Staff who work more than two hours late may claim a meal allowance of up to £___",
+              "answers": [
+                "10"
+              ],
+              "explanation": "Staff may claim a meal allowance of up to £10.",
+              "evidence": "Staff who work more than two hours beyond their normal finishing time may claim a meal allowance of up to £10."
+            },
+            {
+              "no": 18,
+              "type": "tfng",
+              "prompt": "If you are ill, you must phone your manager before 9.30 am on the first day.",
+              "answer": "TRUE",
+              "explanation": "If ill, you must phone your manager before 9.30 am on the first day of your illness.",
+              "evidence": "If you are ill and cannot come to work, you must phone your manager before 9.30 am on the first day of your illness."
+            },
+            {
+              "no": 19,
+              "type": "short",
+              "prompt": "If you are ill for more than ___ days, you must provide a note from your doctor.",
+              "answers": [
+                "three",
+                "3"
+              ],
+              "explanation": "If ill for more than three days, you must provide a note from your doctor.",
+              "evidence": "If you are ill for more than three days, you must provide a note from your doctor."
+            },
+            {
+              "no": 20,
+              "type": "short",
+              "prompt": "Staff are entitled to ___ days of paid sick leave each year.",
+              "answers": [
+                "ten",
+                "10"
+              ],
+              "explanation": "Staff are entitled to ten days of paid sick leave each year.",
+              "evidence": "Staff are entitled to ten days of paid sick leave each year."
+            },
+            {
+              "no": 21,
+              "type": "mcq",
+              "prompt": "When will the fire drill take place?",
+              "options": [
+                "Wednesday 17 September at 11.00 am",
+                "Tuesday 16 September at 10.00 am",
+                "Thursday 18 September at 11.00 am"
+              ],
+              "answer": 0,
+              "explanation": "The fire drill will be on Wednesday 17 September at 11.00 am.",
+              "evidence": "There will be a fire drill on Wednesday 17 September at 11.00 am."
+            },
+            {
+              "no": 22,
+              "type": "mcq",
+              "prompt": "Where should staff go when they hear the fire alarm?",
+              "options": [
+                "To the assembly point in the car park",
+                "To the staff canteen",
+                "To the main entrance"
+              ],
+              "answer": 0,
+              "explanation": "Staff should go to the assembly point in the car park.",
+              "evidence": "When you hear the alarm, please leave the building at once by the nearest fire exit, and go to the assembly point in the car park."
+            },
+            {
+              "no": 23,
+              "type": "tfng",
+              "prompt": "Staff should use the lifts during a fire drill.",
+              "answer": "FALSE",
+              "explanation": "Staff must not use the lifts during a fire drill.",
+              "evidence": "Do not use the lifts, and do not stop to collect personal belongings."
+            },
+            {
+              "no": 24,
+              "type": "short",
+              "prompt": "From next Monday, the canteen will offer a hot ___ meal every day.",
+              "answers": [
+                "vegetarian"
+              ],
+              "explanation": "From next Monday, the canteen will offer a hot vegetarian meal every day.",
+              "evidence": "From next Monday, the staff canteen will offer a hot vegetarian meal every day, as well as a choice of sandwiches and salads."
+            },
+            {
+              "no": 25,
+              "type": "mcq",
+              "prompt": "When is the staff canteen open?",
+              "options": [
+                "8.00 am to 3.00 pm, Monday to Friday",
+                "7.00 am to 6.00 pm, every day",
+                "9.00 am to 5.00 pm, Monday to Friday"
+              ],
+              "answer": 0,
+              "explanation": "The canteen is open from 8.00 am to 3.00 pm, Monday to Friday.",
+              "evidence": "The canteen is open from 8.00 am to 3.00 pm, Monday to Friday."
+            },
+            {
+              "no": 26,
+              "type": "tfng",
+              "prompt": "Tea and coffee are free for all staff.",
+              "answer": "TRUE",
+              "explanation": "Tea and coffee are free for all staff.",
+              "evidence": "Tea and coffee are free for all staff, but other drinks must be paid for at the till."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "title": "The Story of the Lighthouse",
+          "text": "For hundreds of years, lighthouses have guided ships safely to shore. A lighthouse is a tall tower with a powerful light at the top, built on a dangerous coast or on rocks in the sea. Its light warns sailors of danger, and helps them to find their way into harbour at night or in bad weather.\nThe most famous lighthouse of the ancient world was the Pharos of Alexandria, in Egypt. It was built in about 280 BC, on a small island at the entrance to the harbour of Alexandria. The tower was about 120 metres high, which made it one of the tallest buildings in the ancient world. At night, a fire burned at the top of the tower, and its light could be seen from far out at sea. The Pharos stood for more than 1,500 years, until it was damaged by earthquakes and finally fell down in the fourteenth century.\nFor many centuries after the Pharos, few lighthouses were built. Ships usually stayed close to the coast during the day, and at night they dropped anchor and waited for morning. But as trade grew, ships began to sail at night and in all weathers, and the number of shipwrecks increased. By the seventeenth century, several European countries had begun to build lighthouses on their most dangerous coasts.\nEarly lighthouses used candles or oil lamps, which gave only a weak light. The light was improved in the nineteenth century, when a French scientist named Augustin Fresnel invented a special lens. The Fresnel lens collected the light from a lamp and sent it out in a powerful beam, which could be seen from more than 30 kilometres away. Fresnel lenses are still used in some lighthouses today.\nLife for a lighthouse keeper was hard and lonely. Keepers lived in the lighthouse, often with their families, and their job was to keep the light burning all night, every night, in all weathers. They also had to clean the lens, paint the tower, and repair the building after storms. In remote lighthouses, keepers might not see another person for weeks, and supplies arrived by boat only once a month.\nIn the twentieth century, lighthouses began to change. Electric lights replaced oil lamps, and machines replaced the keepers. The last manned lighthouse in Britain was automated in 1998, and today almost all lighthouses are controlled by computers from far away. A lighthouse keeper is now a rare job.\nSome people think that lighthouses are no longer needed, because ships now have satellite navigation systems that can show their exact position. But sailors still value lighthouses, because a satellite system can fail, and a light on the coast is a simple, reliable guide that needs no technology on the ship. Many old lighthouses have also found a new life: some are now museums, some are hotels, and some are homes.\nOne of the most famous lighthouses ever built stands on the Eddystone rocks, about 14 kilometres off the coast of Plymouth, in England. The rocks are covered by the sea at high tide, and many ships were wrecked there. The first lighthouse on the rocks, built of wood in 1698, was washed away by a great storm five years later. A second lighthouse, built of stone in 1709, was destroyed by fire. The third lighthouse, built in 1759, stood for more than a hundred years, and its design was copied all over the world.\nToday, many lighthouses are open to visitors. People can climb the narrow stairs to the top, look out over the sea, and learn about the lives of the keepers who once lived there. Some lighthouses offer rooms where visitors can stay the night, and wake up to the sound of the sea. For many visitors, the most memorable part is the light itself: a beam that sweeps across the water, just as it has done for hundreds of years.\nLighthouses have also inspired writers and artists. The most famous lighthouse in literature is the one in Virginia Woolf's novel To the Lighthouse, published in 1927. In the novel, the lighthouse is a goal that the family hopes to reach, but the journey is delayed again and again. For Woolf, the lighthouse stood for something distant and difficult to reach, yet always shining in the distance, calling people towards it.\nThe lighthouse has become a symbol of safety and hope. It appears in paintings, in poems and in songs, as a light that guides people through the dark. Long after the last keeper has left, the light still shines.",
+          "questions": [
+            {
+              "no": 27,
+              "type": "tfng",
+              "prompt": "A lighthouse is a tall tower with a powerful light at the top.",
+              "answer": "TRUE",
+              "explanation": "A lighthouse is a tall tower with a powerful light at the top.",
+              "evidence": "A lighthouse is a tall tower with a powerful light at the top, built on a dangerous coast or on rocks in the sea."
+            },
+            {
+              "no": 28,
+              "type": "mcq",
+              "prompt": "What does a lighthouse do?",
+              "options": [
+                "Warns sailors of danger and helps them find harbour",
+                "Guides aeroplanes to airports",
+                "Measures the depth of the sea"
+              ],
+              "answer": 0,
+              "explanation": "Its light warns sailors of danger and helps them find their way into harbour.",
+              "evidence": "Its light warns sailors of danger, and helps them to find their way into harbour at night or in bad weather."
+            },
+            {
+              "no": 29,
+              "type": "short",
+              "prompt": "The Pharos of Alexandria was built in about ___ BC.",
+              "answers": [
+                "280"
+              ],
+              "explanation": "The Pharos was built in about 280 BC.",
+              "evidence": "It was built in about 280 BC, on a small island at the entrance to the harbour of Alexandria."
+            },
+            {
+              "no": 30,
+              "type": "short",
+              "prompt": "The Pharos was about ___ metres high.",
+              "answers": [
+                "120"
+              ],
+              "explanation": "The tower was about 120 metres high.",
+              "evidence": "The tower was about 120 metres high, which made it one of the tallest buildings in the ancient world."
+            },
+            {
+              "no": 31,
+              "type": "tfng",
+              "prompt": "The Pharos stood for more than 1,500 years.",
+              "answer": "TRUE",
+              "explanation": "The Pharos stood for more than 1,500 years until damaged by earthquakes.",
+              "evidence": "The Pharos stood for more than 1,500 years, until it was damaged by earthquakes and finally fell down in the fourteenth century."
+            },
+            {
+              "no": 32,
+              "type": "mcq",
+              "prompt": "Why did ships stay close to the coast in early times?",
+              "options": [
+                "They only sailed during the day and waited at night",
+                "Their engines were too weak",
+                "They had no maps"
+              ],
+              "answer": 0,
+              "explanation": "Ships stayed close to the coast during the day, and at night they dropped anchor and waited for morning.",
+              "evidence": "Ships usually stayed close to the coast during the day, and at night they dropped anchor and waited for morning."
+            },
+            {
+              "no": 33,
+              "type": "short",
+              "prompt": "The Fresnel lens was invented by a ___ scientist named Augustin Fresnel.",
+              "answers": [
+                "French"
+              ],
+              "explanation": "Augustin Fresnel was a French scientist.",
+              "evidence": "The light was improved in the nineteenth century, when a French scientist named Augustin Fresnel invented a special lens."
+            },
+            {
+              "no": 34,
+              "type": "short",
+              "prompt": "A Fresnel lens beam could be seen from more than ___ kilometres away.",
+              "answers": [
+                "30"
+              ],
+              "explanation": "The beam could be seen from more than 30 kilometres away.",
+              "evidence": "The Fresnel lens collected the light from a lamp and sent it out in a powerful beam, which could be seen from more than 30 kilometres away."
+            },
+            {
+              "no": 35,
+              "type": "mcq",
+              "prompt": "What was a lighthouse keeper's main job?",
+              "options": [
+                "To keep the light burning all night, every night",
+                "To build new lighthouses",
+                "To rescue sailors from the sea"
+              ],
+              "answer": 0,
+              "explanation": "A keeper's job was to keep the light burning all night, every night, in all weathers.",
+              "evidence": "Keepers lived in the lighthouse, often with their families, and their job was to keep the light burning all night, every night, in all weathers."
+            },
+            {
+              "no": 36,
+              "type": "tfng",
+              "prompt": "In remote lighthouses, supplies arrived by boat once a month.",
+              "answer": "TRUE",
+              "explanation": "In remote lighthouses, supplies arrived by boat only once a month.",
+              "evidence": "In remote lighthouses, keepers might not see another person for weeks, and supplies arrived by boat only once a month."
+            },
+            {
+              "no": 37,
+              "type": "short",
+              "prompt": "The last manned lighthouse in Britain was automated in ___",
+              "answers": [
+                "1998"
+              ],
+              "explanation": "The last manned lighthouse in Britain was automated in 1998.",
+              "evidence": "The last manned lighthouse in Britain was automated in 1998, and today almost all lighthouses are controlled by computers from far away."
+            },
+            {
+              "no": 38,
+              "type": "mcq",
+              "prompt": "Why do sailors still value lighthouses?",
+              "options": [
+                "A satellite system can fail, and a light is a simple, reliable guide",
+                "They are beautiful to look at",
+                "They are cheaper than satellite systems"
+              ],
+              "answer": 0,
+              "explanation": "Sailors value lighthouses because a satellite system can fail, and a light is a simple, reliable guide.",
+              "evidence": "But sailors still value lighthouses, because a satellite system can fail, and a light on the coast is a simple, reliable guide that needs no technology on the ship."
+            },
+            {
+              "no": 39,
+              "type": "tfng",
+              "prompt": "Some old lighthouses are now museums, hotels or homes.",
+              "answer": "TRUE",
+              "explanation": "Some old lighthouses are now museums, some are hotels, and some are homes.",
+              "evidence": "Many old lighthouses have also found a new life: some are now museums, some are hotels, and some are homes."
+            },
+            {
+              "no": 40,
+              "type": "mcq",
+              "prompt": "What has the lighthouse become a symbol of?",
+              "options": [
+                "Safety and hope",
+                "Wealth and power",
+                "Adventure and danger"
+              ],
+              "answer": 0,
+              "explanation": "The lighthouse has become a symbol of safety and hope.",
+              "evidence": "The lighthouse has become a symbol of safety and hope."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -13,16 +13,18 @@ import {
 
 describe('bundled content', () => {
   it('tracks the web repo version it was copied from', () => {
-    expect(CONTENT_VERSION.webMain).toBe('16dfee58');
-    expect(CONTENT_VERSION.webVersion).toBe('0.4.0');
+    expect(CONTENT_VERSION.webMain).toBe(
+      '2a5f0b9d5fc69320b7c774bdfb79810c5d2a9517',
+    );
+    expect(CONTENT_VERSION.webVersion).toBe('0.5.0');
   });
 
-  it('has the Phase 4 counts', () => {
-    expect(listeningTests).toHaveLength(4);
-    expect(readingTests).toHaveLength(5);
-    expect(writingPrompts).toHaveLength(20);
-    expect(speakingSets).toHaveLength(15);
-    expect(vocabularyDeck).toHaveLength(250);
+  it('has the Phase 5.1 counts', () => {
+    expect(listeningTests).toHaveLength(8);
+    expect(readingTests).toHaveLength(8);
+    expect(writingPrompts).toHaveLength(30);
+    expect(speakingSets).toHaveLength(20);
+    expect(vocabularyDeck).toHaveLength(350);
   });
 
   it('has 40 questions in every Listening test', () => {
@@ -45,8 +47,8 @@ describe('bundled content', () => {
         expect(passage.text.length).toBeGreaterThan(100);
       }
     }
-    expect(readingTests.filter(t => t.track === 'academic')).toHaveLength(4);
-    expect(readingTests.filter(t => t.track === 'general')).toHaveLength(1);
+    expect(readingTests.filter(t => t.track === 'academic')).toHaveLength(6);
+    expect(readingTests.filter(t => t.track === 'general')).toHaveLength(2);
   });
 
   it('has model answers and commentary for every Writing prompt', () => {
@@ -58,10 +60,16 @@ describe('bundled content', () => {
     }
     expect(
       writingPrompts.filter(p => p.track === 'academic' && p.task === 1),
-    ).toHaveLength(5);
+    ).toHaveLength(8);
     expect(
       writingPrompts.filter(p => p.track === 'academic' && p.task === 2),
-    ).toHaveLength(5);
+    ).toHaveLength(8);
+    expect(
+      writingPrompts.filter(p => p.track === 'general' && p.task === 1),
+    ).toHaveLength(7);
+    expect(
+      writingPrompts.filter(p => p.track === 'general' && p.task === 2),
+    ).toHaveLength(7);
   });
 
   it('has complete Speaking sets', () => {

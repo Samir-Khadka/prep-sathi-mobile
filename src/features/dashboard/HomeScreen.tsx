@@ -63,7 +63,7 @@ const MODULES: Array<{
   },
   {
     title: 'Vocabulary',
-    description: '250 words with spaced-repetition review.',
+    description: '350 words with spaced-repetition review.',
     route: 'Vocabulary',
     label: 'Open Vocabulary',
   },

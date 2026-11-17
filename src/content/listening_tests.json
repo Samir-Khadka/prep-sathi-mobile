@@ -2103,6 +2103,2103 @@
           ]
         }
       ]
+    },
+    {
+      "id": "L5",
+      "title": "Listening Test 5",
+      "parts": [
+        {
+          "part": 1,
+          "title": "Evening cookery classes",
+          "setting": "A student phones a community centre to ask about evening cookery classes.",
+          "transcript": "NARRATOR: You will hear a student phoning a community centre to ask about evening cookery classes.\nRECEPTIONIST: Good afternoon, Maplewood Community Centre. How can I help you?\nSTUDENT: Good afternoon. My name is Daniel Okafor, and I am interested in your evening cookery classes. I saw a poster in the library.\nRECEPTIONIST: Yes, we run a beginners' Italian cookery course on Wednesday evenings, and an intermediate course on Friday evenings.\nSTUDENT: The Wednesday course sounds right for me. What time does it start?\nRECEPTIONIST: The class starts at half past six and finishes at half past eight.\nSTUDENT: And how long does the course last?\nRECEPTIONIST: It runs for ten weeks, from the first Wednesday in October to the middle of December.\nSTUDENT: How much does it cost?\nRECEPTIONIST: The full course costs one hundred and twenty pounds, but students pay ninety-five pounds if they show a student card.\nSTUDENT: That is good. What do we cook in the first lesson?\nRECEPTIONIST: In the first lesson you learn to make fresh pasta, with a simple tomato sauce.\nSTUDENT: Do I need to bring anything with me?\nRECEPTIONIST: Just an apron. We provide all the ingredients and the cooking equipment.\nSTUDENT: I do not have an apron. Can I buy one at the centre?\nRECEPTIONIST: Yes, we sell aprons at reception for twelve pounds.\nSTUDENT: Is there a maximum number of students in the class?\nRECEPTIONIST: Yes, the class is limited to fourteen students, so everyone gets a place at a cooker.\nSTUDENT: How do I book a place?\nRECEPTIONIST: You can book online, or I can take your details now and reserve a place for you.\nSTUDENT: Please reserve a place for me now. My phone number is 07700 900461.\nRECEPTIONIST: Thank you. I will send you a confirmation text today, and you need to pay by Monday the twenty-ninth of September.\nSTUDENT: Monday the twenty-ninth — I will make a note of that. Where is the centre, exactly?\nRECEPTIONIST: We are on Chestnut Lane, opposite the post office. The nearest bus stop is just outside the main entrance.\nSTUDENT: Perfect. Thank you very much for your help.\nRECEPTIONIST: You are welcome, Daniel. We look forward to seeing you on Wednesday.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "short",
+              "prompt": "The Wednesday cookery class starts at ___",
+              "answers": [
+                "half past six",
+                "6.30",
+                "6:30"
+              ],
+              "explanation": "The receptionist says the Wednesday class starts at half past six.",
+              "evidence": "RECEPTIONIST: The class starts at half past six and finishes at half past eight."
+            },
+            {
+              "no": 2,
+              "type": "mcq",
+              "prompt": "How long does the course last?",
+              "options": [
+                "Eight weeks",
+                "Ten weeks",
+                "Twelve weeks"
+              ],
+              "answer": 1,
+              "explanation": "The course runs for ten weeks, from the first Wednesday in October to the middle of December.",
+              "evidence": "RECEPTIONIST: It runs for ten weeks, from the first Wednesday in October to the middle of December."
+            },
+            {
+              "no": 3,
+              "type": "short",
+              "prompt": "The price for students is ___",
+              "answers": [
+                "ninety-five pounds",
+                "95 pounds",
+                "£95"
+              ],
+              "explanation": "The full price is one hundred and twenty pounds, but students pay ninety-five pounds.",
+              "evidence": "RECEPTIONIST: The full course costs one hundred and twenty pounds, but students pay ninety-five pounds if they show a student card."
+            },
+            {
+              "no": 4,
+              "type": "mcq",
+              "prompt": "What do students cook in the first lesson?",
+              "options": [
+                "Fresh pasta",
+                "Pizza",
+                "Bread"
+              ],
+              "answer": 0,
+              "explanation": "In the first lesson students learn to make fresh pasta with a simple tomato sauce.",
+              "evidence": "RECEPTIONIST: In the first lesson you learn to make fresh pasta, with a simple tomato sauce."
+            },
+            {
+              "no": 5,
+              "type": "short",
+              "prompt": "Students must bring an ___",
+              "answers": [
+                "apron"
+              ],
+              "explanation": "Students only need to bring an apron; ingredients and equipment are provided.",
+              "evidence": "RECEPTIONIST: Just an apron. We provide all the ingredients and the cooking equipment."
+            },
+            {
+              "no": 6,
+              "type": "short",
+              "prompt": "An apron costs ___ at reception.",
+              "answers": [
+                "twelve pounds",
+                "12 pounds",
+                "£12"
+              ],
+              "explanation": "Aprons are sold at reception for twelve pounds.",
+              "evidence": "RECEPTIONIST: Yes, we sell aprons at reception for twelve pounds."
+            },
+            {
+              "no": 7,
+              "type": "mcq",
+              "prompt": "How many students can join the class?",
+              "options": [
+                "Ten",
+                "Twelve",
+                "Fourteen"
+              ],
+              "answer": 2,
+              "explanation": "The class is limited to fourteen students so everyone gets a place at a cooker.",
+              "evidence": "RECEPTIONIST: Yes, the class is limited to fourteen students, so everyone gets a place at a cooker."
+            },
+            {
+              "no": 8,
+              "type": "short",
+              "prompt": "Daniel must pay by ___",
+              "answers": [
+                "Monday the twenty-ninth of September",
+                "29 September",
+                "the twenty-ninth of September"
+              ],
+              "explanation": "Payment is due by Monday the twenty-ninth of September.",
+              "evidence": "RECEPTIONIST: Thank you. I will send you a confirmation text today, and you need to pay by Monday the twenty-ninth of September."
+            },
+            {
+              "no": 9,
+              "type": "mcq",
+              "prompt": "Where is the community centre?",
+              "options": [
+                "On Chestnut Lane",
+                "On Maplewood Road",
+                "On Library Street"
+              ],
+              "answer": 0,
+              "explanation": "The centre is on Chestnut Lane, opposite the post office.",
+              "evidence": "RECEPTIONIST: We are on Chestnut Lane, opposite the post office. The nearest bus stop is just outside the main entrance."
+            },
+            {
+              "no": 10,
+              "type": "short",
+              "prompt": "Daniel's phone number is ___",
+              "answers": [
+                "07700 900461"
+              ],
+              "explanation": "Daniel gives his phone number as 07700 900461.",
+              "evidence": "STUDENT: Please reserve a place for me now. My phone number is 07700 900461."
+            }
+          ]
+        },
+        {
+          "part": 2,
+          "title": "A guided tour of the city museum",
+          "setting": "A guide welcomes visitors to a guided tour of the city museum.",
+          "transcript": "NARRATOR: You will hear a guide welcoming visitors to a guided tour of the city museum.\nGUIDE: Good morning, everyone, and welcome to the City Museum. My name is Sarah Collins, and I will be your guide for the next hour.\nGUIDE: The museum was opened in 1968, when the old town hall was converted into a museum. It is free to enter, although we welcome donations at the desk.\nGUIDE: Before we start, let me tell you a little about the route. We will begin in the Roman gallery on the ground floor, then go upstairs to the Victorian rooms, and finish in the modern art gallery.\nGUIDE: The whole tour is about one kilometre of walking, and there is a lift to every floor, so it should be comfortable for everyone.\nGUIDE: Our first stop is the Roman gallery, which holds objects found in the city in 1952, when builders were digging the foundations of the new market hall.\nGUIDE: The most famous object is a mosaic floor, which was found almost complete, and which is now displayed in the centre of the gallery.\nGUIDE: Upstairs, the Victorian rooms show how a wealthy family lived in 1890. The furniture, the clothes and even the children's toys are all original.\nGUIDE: The modern art gallery on the top floor changes its exhibition four times a year. The current exhibition shows photographs of the city taken over the last fifty years.\nGUIDE: Please feel free to take photographs in the museum, but do not use a flash, because the light can damage the old fabrics and papers.\nGUIDE: We will finish the tour in the museum cafe, where you can buy tea, coffee and light lunches. The cafe is open from ten in the morning until four in the afternoon.\nGUIDE: There is also a small gift shop next to the cafe. It sells books, postcards and copies of some of the objects you will see today.\nGUIDE: The museum is closed on Mondays, and it is open from Tuesday to Sunday, from ten in the morning until five in the afternoon.\nGUIDE: If you have any questions during the tour, please ask me at any time. Let us begin in the Roman gallery.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 11,
+              "type": "short",
+              "prompt": "The museum was opened in ___",
+              "answers": [
+                "1968"
+              ],
+              "explanation": "The museum was opened in 1968, when the old town hall was converted into a museum.",
+              "evidence": "GUIDE: The museum was opened in 1968, when the old town hall was converted into a museum. It is free to enter, although we welcome donations at the desk."
+            },
+            {
+              "no": 12,
+              "type": "mcq",
+              "prompt": "How much does it cost to enter the museum?",
+              "options": [
+                "Five pounds",
+                "It is free",
+                "Ten pounds"
+              ],
+              "answer": 1,
+              "explanation": "Entry to the museum is free, although donations are welcome.",
+              "evidence": "GUIDE: The museum was opened in 1968, when the old town hall was converted into a museum. It is free to enter, although we welcome donations at the desk."
+            },
+            {
+              "no": 13,
+              "type": "mcq",
+              "prompt": "Where does the tour begin?",
+              "options": [
+                "In the Roman gallery",
+                "In the Victorian rooms",
+                "In the modern art gallery"
+              ],
+              "answer": 0,
+              "explanation": "The tour begins in the Roman gallery on the ground floor.",
+              "evidence": "GUIDE: Before we start, let me tell you a little about the route. We will begin in the Roman gallery on the ground floor, then go upstairs to the Victorian rooms, and finish in the modern art gallery."
+            },
+            {
+              "no": 14,
+              "type": "short",
+              "prompt": "The Roman objects were found in ___",
+              "answers": [
+                "1952"
+              ],
+              "explanation": "The objects in the Roman gallery were found in 1952, when builders were digging foundations.",
+              "evidence": "GUIDE: Our first stop is the Roman gallery, which holds objects found in the city in 1952, when builders were digging the foundations of the new market hall."
+            },
+            {
+              "no": 15,
+              "type": "mcq",
+              "prompt": "What is the most famous object in the Roman gallery?",
+              "options": [
+                "A mosaic floor",
+                "A gold coin",
+                "A stone statue"
+              ],
+              "answer": 0,
+              "explanation": "The most famous object is a mosaic floor, found almost complete.",
+              "evidence": "GUIDE: The most famous object is a mosaic floor, which was found almost complete, and which is now displayed in the centre of the gallery."
+            },
+            {
+              "no": 16,
+              "type": "mcq",
+              "prompt": "What do the Victorian rooms show?",
+              "options": [
+                "How a wealthy family lived in 1890",
+                "How the museum was built",
+                "How the Romans lived"
+              ],
+              "answer": 0,
+              "explanation": "The Victorian rooms show how a wealthy family lived in 1890.",
+              "evidence": "GUIDE: Upstairs, the Victorian rooms show how a wealthy family lived in 1890. The furniture, the clothes and even the children's toys are all original."
+            },
+            {
+              "no": 17,
+              "type": "short",
+              "prompt": "The modern art exhibition changes ___ times a year.",
+              "answers": [
+                "four",
+                "4"
+              ],
+              "explanation": "The modern art gallery changes its exhibition four times a year.",
+              "evidence": "GUIDE: The modern art gallery on the top floor changes its exhibition four times a year. The current exhibition shows photographs of the city taken over the last fifty years."
+            },
+            {
+              "no": 18,
+              "type": "mcq",
+              "prompt": "What are visitors asked not to do when taking photographs?",
+              "options": [
+                "Use a flash",
+                "Take photographs of the cafe",
+                "Photograph the guide"
+              ],
+              "answer": 0,
+              "explanation": "Visitors may take photographs but must not use a flash, because the light can damage old fabrics and papers.",
+              "evidence": "GUIDE: Please feel free to take photographs in the museum, but do not use a flash, because the light can damage the old fabrics and papers."
+            },
+            {
+              "no": 19,
+              "type": "short",
+              "prompt": "The museum cafe is open until ___ in the afternoon.",
+              "answers": [
+                "four",
+                "4",
+                "4 pm",
+                "4pm"
+              ],
+              "explanation": "The cafe is open from ten in the morning until four in the afternoon.",
+              "evidence": "GUIDE: We will finish the tour in the museum cafe, where you can buy tea, coffee and light lunches. The cafe is open from ten in the morning until four in the afternoon."
+            },
+            {
+              "no": 20,
+              "type": "mcq",
+              "prompt": "On which day is the museum closed?",
+              "options": [
+                "Monday",
+                "Sunday",
+                "Tuesday"
+              ],
+              "answer": 0,
+              "explanation": "The museum is closed on Mondays and open Tuesday to Sunday.",
+              "evidence": "GUIDE: The museum is closed on Mondays, and it is open from Tuesday to Sunday, from ten in the morning until five in the afternoon."
+            }
+          ]
+        },
+        {
+          "part": 3,
+          "title": "Planning a group project on local wildlife",
+          "setting": "Three students discuss their group project on the wildlife of the local park.",
+          "transcript": "NARRATOR: You will hear three students discussing their group project on the wildlife of the local park.\nTUTOR: Good morning. You have chosen to study the wildlife of Greenfield Park for your group project. Let us talk about your plan.\nEMMA: We decided to focus on birds, because the park has over forty species, and they are easy to observe during the day.\nTUTOR: That sounds sensible. How will you collect your data?\nJACK: We will visit the park twice a week for six weeks, and count the birds we see in three different areas: the lake, the woodland and the open grass.\nTUTOR: And how will you record what you see?\nSOPHIE: We will use a simple table. For each visit we will write the date, the time, the weather, and the number of each species.\nTUTOR: Good. Will you need any special equipment?\nEMMA: We will need binoculars. The university library has six pairs we can borrow, and we will also need a field guide to identify the birds.\nTUTOR: What about the final report? When is it due?\nJACK: The report is due on the fifteenth of November, and it must be between three thousand and four thousand words long.\nTUTOR: And how will you divide the work?\nSOPHIE: Emma will write the introduction and the description of the park, Jack will analyse the data, and I will write the conclusion and prepare the charts.\nTUTOR: That seems fair. What is the biggest problem you expect?\nEMMA: The weather. If it rains, fewer birds come out, and our counts will be lower. We will note the weather each time, so we can explain any strange results.\nTUTOR: A very good idea. One more thing: you must ask the park office for permission before you start. The office is open on weekdays from nine until five.\nJACK: We will go to the office tomorrow morning. Is there anything else we should do first?\nTUTOR: Yes, read the chapter on bird surveys in your course book. It explains the method clearly, and it will help you avoid common mistakes.\nSOPHIE: Thank you. We will meet again next Tuesday to check our first results.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 21,
+              "type": "mcq",
+              "prompt": "Why did the students choose to study birds?",
+              "options": [
+                "They are easy to observe during the day",
+                "They are the rarest animals in the park",
+                "They are the tutor's favourite animals"
+              ],
+              "answer": 0,
+              "explanation": "They chose birds because the park has over forty species and they are easy to observe during the day.",
+              "evidence": "EMMA: We decided to focus on birds, because the park has over forty species, and they are easy to observe during the day."
+            },
+            {
+              "no": 22,
+              "type": "short",
+              "prompt": "The students will visit the park ___ times a week.",
+              "answers": [
+                "twice",
+                "2"
+              ],
+              "explanation": "They will visit the park twice a week for six weeks.",
+              "evidence": "JACK: We will visit the park twice a week for six weeks, and count the birds we see in three different areas: the lake, the woodland and the open grass."
+            },
+            {
+              "no": 23,
+              "type": "mcq",
+              "prompt": "In how many areas of the park will they count birds?",
+              "options": [
+                "Two",
+                "Three",
+                "Four"
+              ],
+              "answer": 1,
+              "explanation": "They will count birds in three areas: the lake, the woodland and the open grass.",
+              "evidence": "JACK: We will visit the park twice a week for six weeks, and count the birds we see in three different areas: the lake, the woodland and the open grass."
+            },
+            {
+              "no": 24,
+              "type": "short",
+              "prompt": "The students will borrow binoculars from the university ___",
+              "answers": [
+                "library"
+              ],
+              "explanation": "The university library has six pairs of binoculars they can borrow.",
+              "evidence": "EMMA: We will need binoculars. The university library has six pairs we can borrow, and we will also need a field guide to identify the birds."
+            },
+            {
+              "no": 25,
+              "type": "short",
+              "prompt": "The report is due on the ___ of November.",
+              "answers": [
+                "fifteenth",
+                "15th",
+                "15"
+              ],
+              "explanation": "The report is due on the fifteenth of November.",
+              "evidence": "JACK: The report is due on the fifteenth of November, and it must be between three thousand and four thousand words long."
+            },
+            {
+              "no": 26,
+              "type": "mcq",
+              "prompt": "How long must the report be?",
+              "options": [
+                "One to two thousand words",
+                "Three to four thousand words",
+                "Five to six thousand words"
+              ],
+              "answer": 1,
+              "explanation": "The report must be between three thousand and four thousand words long.",
+              "evidence": "JACK: The report is due on the fifteenth of November, and it must be between three thousand and four thousand words long."
+            },
+            {
+              "no": 27,
+              "type": "mcq",
+              "prompt": "Who will analyse the data?",
+              "options": [
+                "Emma",
+                "Jack",
+                "Sophie"
+              ],
+              "answer": 1,
+              "explanation": "Jack will analyse the data, while Emma writes the introduction and Sophie writes the conclusion.",
+              "evidence": "SOPHIE: Emma will write the introduction and the description of the park, Jack will analyse the data, and I will write the conclusion and prepare the charts."
+            },
+            {
+              "no": 28,
+              "type": "mcq",
+              "prompt": "What is the biggest problem the students expect?",
+              "options": [
+                "The weather",
+                "The park office",
+                "The field guide"
+              ],
+              "answer": 0,
+              "explanation": "The biggest problem is the weather, because rain means fewer birds come out.",
+              "evidence": "EMMA: The weather. If it rains, fewer birds come out, and our counts will be lower. We will note the weather each time, so we can explain any strange results."
+            },
+            {
+              "no": 29,
+              "type": "short",
+              "prompt": "The park office is open on weekdays from nine until ___",
+              "answers": [
+                "five",
+                "5",
+                "5 pm",
+                "5pm"
+              ],
+              "explanation": "The park office is open on weekdays from nine until five.",
+              "evidence": "TUTOR: A very good idea. One more thing: you must ask the park office for permission before you start. The office is open on weekdays from nine until five."
+            },
+            {
+              "no": 30,
+              "type": "mcq",
+              "prompt": "What does the tutor advise the students to read first?",
+              "options": [
+                "The chapter on bird surveys in the course book",
+                "A book about the history of the park",
+                "A report from last year's students"
+              ],
+              "answer": 0,
+              "explanation": "The tutor advises them to read the chapter on bird surveys in the course book.",
+              "evidence": "TUTOR: Yes, read the chapter on bird surveys in your course book. It explains the method clearly, and it will help you avoid common mistakes."
+            }
+          ]
+        },
+        {
+          "part": 4,
+          "title": "The history of the bicycle",
+          "setting": "A lecturer talks about the history of the bicycle.",
+          "transcript": "NARRATOR: You will hear a lecture about the history of the bicycle.\nLECTURER: Good afternoon. Today I want to talk about the bicycle, a machine that changed the way ordinary people travelled, and which is now used by more than a billion people around the world.\nLECTURER: The first bicycle appeared in Germany in 1817. It was called the draisine, after its inventor, Karl Drais. It had two wheels and a wooden frame, but it had no pedals. The rider pushed it along with his feet, like a scooter.\nLECTURER: The draisine was not a great success. It was heavy, it was difficult to steer, and it was soon forgotten. But the idea of a two-wheeled machine did not disappear.\nLECTURER: In the 1860s, a new design appeared in France. It had pedals attached to the front wheel, and it was called the velocipede, which means fast foot in Latin. It was made of wood and iron, and it was so uncomfortable that riders called it the boneshaker.\nLECTURER: The next big change came in the 1870s, with the penny-farthing. This bicycle had a very large front wheel and a very small back wheel. The large wheel meant that one turn of the pedals took the rider a long way, so the bicycle could travel fast.\nLECTURER: The penny-farthing was fast, but it was also dangerous. The rider sat very high above the ground, and if the front wheel hit a stone, the rider could fall forwards over the handlebars.\nLECTURER: The modern bicycle arrived in 1885, with the safety bicycle. It had two wheels of the same size, a chain that drove the back wheel, and pneumatic tyres filled with air, which made the ride much more comfortable.\nLECTURER: The safety bicycle was a huge success. Within ten years, cycling had become a popular pastime, and bicycles were being made in factories in Britain, France, Germany and the United States.\nLECTURER: The bicycle also changed society. For the first time, working people could travel easily to jobs in other towns. It also gave women a new freedom, because a woman on a bicycle could travel alone, without a horse or a carriage.\nLECTURER: In the twentieth century, the bicycle had to compete with the car, and in many countries it became less common. But in recent years, cycling has become popular again, partly because of worries about health and the environment, and partly because cities have built safe cycle lanes.\nLECTURER: Today, the bicycle is still changing. Electric bicycles, which have a small motor to help the rider, are now the fastest-growing type of bicycle in Europe. The simple machine that Karl Drais invented in 1817 is still with us, in a new form.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 31,
+              "type": "mcq",
+              "prompt": "How many people use a bicycle around the world today?",
+              "options": [
+                "More than a billion",
+                "About a million",
+                "About a hundred million"
+              ],
+              "answer": 0,
+              "explanation": "The bicycle is now used by more than a billion people around the world.",
+              "evidence": "LECTURER: Good afternoon. Today I want to talk about the bicycle, a machine that changed the way ordinary people travelled, and which is now used by more than a billion people around the world."
+            },
+            {
+              "no": 32,
+              "type": "short",
+              "prompt": "The first bicycle appeared in Germany in ___",
+              "answers": [
+                "1817"
+              ],
+              "explanation": "The first bicycle, the draisine, appeared in Germany in 1817.",
+              "evidence": "LECTURER: The first bicycle appeared in Germany in 1817. It was called the draisine, after its inventor, Karl Drais. It had two wheels and a wooden frame, but it had no pedals. The rider pushed it along with his feet, like a scooter."
+            },
+            {
+              "no": 33,
+              "type": "mcq",
+              "prompt": "What was the draisine made of?",
+              "options": [
+                "Wood",
+                "Steel",
+                "Rubber"
+              ],
+              "answer": 0,
+              "explanation": "The draisine had a wooden frame and no pedals.",
+              "evidence": "LECTURER: The first bicycle appeared in Germany in 1817. It was called the draisine, after its inventor, Karl Drais. It had two wheels and a wooden frame, but it had no pedals. The rider pushed it along with his feet, like a scooter."
+            },
+            {
+              "no": 34,
+              "type": "short",
+              "prompt": "The velocipede was called the ___ by its riders.",
+              "answers": [
+                "boneshaker"
+              ],
+              "explanation": "The velocipede was so uncomfortable that riders called it the boneshaker.",
+              "evidence": "LECTURER: In the 1860s, a new design appeared in France. It had pedals attached to the front wheel, and it was called the velocipede, which means fast foot in Latin. It was made of wood and iron, and it was so uncomfortable that riders called it the boneshaker."
+            },
+            {
+              "no": 35,
+              "type": "mcq",
+              "prompt": "Why could the penny-farthing travel fast?",
+              "options": [
+                "It had a very large front wheel",
+                "It had a powerful motor",
+                "It had three wheels"
+              ],
+              "answer": 0,
+              "explanation": "The large front wheel meant one turn of the pedals took the rider a long way.",
+              "evidence": "LECTURER: The next big change came in the 1870s, with the penny-farthing. This bicycle had a very large front wheel and a very small back wheel. The large wheel meant that one turn of the pedals took the rider a long way, so the bicycle could travel fast."
+            },
+            {
+              "no": 36,
+              "type": "mcq",
+              "prompt": "Why was the penny-farthing dangerous?",
+              "options": [
+                "The rider sat very high and could fall forwards",
+                "The brakes often failed",
+                "The tyres burst easily"
+              ],
+              "answer": 0,
+              "explanation": "The rider sat very high, and if the front wheel hit a stone, the rider could fall forwards over the handlebars.",
+              "evidence": "LECTURER: The penny-farthing was fast, but it was also dangerous. The rider sat very high above the ground, and if the front wheel hit a stone, the rider could fall forwards over the handlebars."
+            },
+            {
+              "no": 37,
+              "type": "short",
+              "prompt": "The safety bicycle arrived in ___",
+              "answers": [
+                "1885"
+              ],
+              "explanation": "The modern bicycle arrived in 1885 with the safety bicycle.",
+              "evidence": "LECTURER: The modern bicycle arrived in 1885, with the safety bicycle. It had two wheels of the same size, a chain that drove the back wheel, and pneumatic tyres filled with air, which made the ride much more comfortable."
+            },
+            {
+              "no": 38,
+              "type": "mcq",
+              "prompt": "What made the safety bicycle more comfortable?",
+              "options": [
+                "Pneumatic tyres filled with air",
+                "A wooden seat",
+                "A larger front wheel"
+              ],
+              "answer": 0,
+              "explanation": "Pneumatic tyres filled with air made the ride much more comfortable.",
+              "evidence": "LECTURER: The modern bicycle arrived in 1885, with the safety bicycle. It had two wheels of the same size, a chain that drove the back wheel, and pneumatic tyres filled with air, which made the ride much more comfortable."
+            },
+            {
+              "no": 39,
+              "type": "mcq",
+              "prompt": "How did the bicycle change life for women?",
+              "options": [
+                "It gave them a new freedom to travel alone",
+                "It allowed them to work in factories",
+                "It made them healthier"
+              ],
+              "answer": 0,
+              "explanation": "The bicycle gave women a new freedom, because a woman on a bicycle could travel alone.",
+              "evidence": "LECTURER: The bicycle also changed society. For the first time, working people could travel easily to jobs in other towns. It also gave women a new freedom, because a woman on a bicycle could travel alone, without a horse or a carriage."
+            },
+            {
+              "no": 40,
+              "type": "mcq",
+              "prompt": "Why has cycling become popular again in recent years?",
+              "options": [
+                "Worries about health and the environment, and safe cycle lanes",
+                "Bicycles have become cheaper than cars",
+                "Cars have been banned from cities"
+              ],
+              "answer": 0,
+              "explanation": "Cycling has become popular again because of worries about health and the environment, and because cities have built safe cycle lanes.",
+              "evidence": "LECTURER: In the twentieth century, the bicycle had to compete with the car, and in many countries it became less common. But in recent years, cycling has become popular again, partly because of worries about health and the environment, and partly because cities have built safe cycle lanes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L6",
+      "title": "Listening Test 6",
+      "parts": [
+        {
+          "part": 1,
+          "title": "Booking a train ticket by phone",
+          "setting": "A traveller phones a railway station to book a train ticket.",
+          "transcript": "NARRATOR: You will hear a traveller phoning a railway station to book a train ticket.\nCLERK: Good morning, Central Station ticket office. How can I help you?\nTRAVELLER: Good morning. My name is Priya Patel. I would like to book a train ticket from here to York, for next Friday.\nCLERK: Certainly, Priya. What time would you like to travel?\nTRAVELLER: I would like to arrive in York before midday, if possible. What trains are there in the morning?\nCLERK: There is a fast train at half past eight, which arrives in York at ten forty-five. There is also a slower train at nine fifteen, which arrives at twelve thirty.\nTRAVELLER: The half past eight train sounds best. How much is a return ticket?\nCLERK: A standard return is sixty-eight pounds, but if you travel after nine thirty, the off-peak return is forty-two pounds.\nTRAVELLER: That is a big difference. Is there a train after nine thirty that still arrives before midday?\nCLERK: Yes, there is a train at ten o'clock, which arrives at twelve fifteen. That one is off-peak, so the return is forty-two pounds.\nTRAVELLER: That would suit me. Can I reserve a seat?\nCLERK: Yes, seat reservations are free. Would you like a window seat or an aisle seat?\nTRAVELLER: A window seat, please, facing the direction of travel.\nCLERK: No problem. Do you have a railcard?\nTRAVELLER: Yes, I have a young person's railcard. It gives me a third off the ticket price.\nCLERK: With the railcard, your off-peak return will be twenty-eight pounds.\nTRAVELLER: That is very reasonable. How do I pay?\nCLERK: You can pay by card now, or you can pay at the station when you collect the ticket. You will need the booking reference, which is YT seven four nine two.\nTRAVELLER: YT seven four nine two. I will pay at the station. Which platform does the ten o'clock train leave from?\nCLERK: It usually leaves from platform four, but please check the departure boards on the day, because platforms can change.\nTRAVELLER: Thank you very much for your help.\nCLERK: You are welcome, Priya. Have a pleasant journey.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "mcq",
+              "prompt": "When does Priya want to travel?",
+              "options": [
+                "Next Friday",
+                "Next Monday",
+                "Tomorrow"
+              ],
+              "answer": 0,
+              "explanation": "Priya wants to book a ticket for next Friday.",
+              "evidence": "TRAVELLER: Good morning. My name is Priya Patel. I would like to book a train ticket from here to York, for next Friday."
+            },
+            {
+              "no": 2,
+              "type": "short",
+              "prompt": "The fast train arrives in York at ___",
+              "answers": [
+                "ten forty-five",
+                "10.45",
+                "10:45"
+              ],
+              "explanation": "The fast train at half past eight arrives in York at ten forty-five.",
+              "evidence": "CLERK: There is a fast train at half past eight, which arrives in York at ten forty-five. There is also a slower train at nine fifteen, which arrives at twelve thirty."
+            },
+            {
+              "no": 3,
+              "type": "short",
+              "prompt": "A standard return ticket costs ___",
+              "answers": [
+                "sixty-eight pounds",
+                "68 pounds",
+                "£68"
+              ],
+              "explanation": "A standard return is sixty-eight pounds.",
+              "evidence": "CLERK: A standard return is sixty-eight pounds, but if you travel after nine thirty, the off-peak return is forty-two pounds."
+            },
+            {
+              "no": 4,
+              "type": "short",
+              "prompt": "The off-peak return costs ___",
+              "answers": [
+                "forty-two pounds",
+                "42 pounds",
+                "£42"
+              ],
+              "explanation": "The off-peak return is forty-two pounds.",
+              "evidence": "CLERK: A standard return is sixty-eight pounds, but if you travel after nine thirty, the off-peak return is forty-two pounds."
+            },
+            {
+              "no": 5,
+              "type": "mcq",
+              "prompt": "Which train does Priya choose?",
+              "options": [
+                "The ten o'clock train",
+                "The half past eight train",
+                "The nine fifteen train"
+              ],
+              "answer": 0,
+              "explanation": "Priya chooses the ten o'clock train, which is off-peak and arrives at twelve fifteen.",
+              "evidence": "CLERK: Yes, there is a train at ten o'clock, which arrives at twelve fifteen. That one is off-peak, so the return is forty-two pounds."
+            },
+            {
+              "no": 6,
+              "type": "short",
+              "prompt": "Priya would like a ___ seat.",
+              "answers": [
+                "window"
+              ],
+              "explanation": "Priya asks for a window seat facing the direction of travel.",
+              "evidence": "TRAVELLER: A window seat, please, facing the direction of travel."
+            },
+            {
+              "no": 7,
+              "type": "mcq",
+              "prompt": "What does Priya's railcard give her?",
+              "options": [
+                "A third off the ticket price",
+                "Free seat reservations",
+                "A free meal on the train"
+              ],
+              "answer": 0,
+              "explanation": "Her young person's railcard gives her a third off the ticket price.",
+              "evidence": "TRAVELLER: Yes, I have a young person's railcard. It gives me a third off the ticket price."
+            },
+            {
+              "no": 8,
+              "type": "short",
+              "prompt": "With the railcard, Priya's return ticket will be ___",
+              "answers": [
+                "twenty-eight pounds",
+                "28 pounds",
+                "£28"
+              ],
+              "explanation": "With the railcard, the off-peak return will be twenty-eight pounds.",
+              "evidence": "CLERK: With the railcard, your off-peak return will be twenty-eight pounds."
+            },
+            {
+              "no": 9,
+              "type": "short",
+              "prompt": "Priya's booking reference is ___",
+              "answers": [
+                "YT 7492",
+                "YT7492"
+              ],
+              "explanation": "The booking reference is YT seven four nine two.",
+              "evidence": "CLERK: You can pay by card now, or you can pay at the station when you collect the ticket. You will need the booking reference, which is YT seven four nine two."
+            },
+            {
+              "no": 10,
+              "type": "mcq",
+              "prompt": "Which platform does the ten o'clock train usually leave from?",
+              "options": [
+                "Platform two",
+                "Platform four",
+                "Platform six"
+              ],
+              "answer": 1,
+              "explanation": "The train usually leaves from platform four, but platforms can change.",
+              "evidence": "CLERK: It usually leaves from platform four, but please check the departure boards on the day, because platforms can change."
+            }
+          ]
+        },
+        {
+          "part": 2,
+          "title": "Welcome talk at a summer language school",
+          "setting": "The director of a summer language school welcomes new students.",
+          "transcript": "NARRATOR: You will hear the director of a summer language school welcoming new students.\nDIRECTOR: Good morning, everyone, and welcome to Brookfield Summer Language School. My name is Helen Wright, and I am the director of the school.\nDIRECTOR: This summer we have students from twenty-three different countries, which is a new record for the school. The school was founded in 1985, and this is our fortieth summer.\nDIRECTOR: Let me tell you about the timetable. Lessons run from Monday to Friday, from nine in the morning until half past twelve. After lunch, there are optional activities every afternoon.\nDIRECTOR: Your first lesson is tomorrow morning at nine o'clock, in the main building. Your teacher's name and your classroom number are on the card you received when you arrived.\nDIRECTOR: In the afternoons, you can choose from sport, art, music, and trips to places of interest. The trips cost extra, and you need to sign up at the office by Wednesday.\nDIRECTOR: Meals are served in the dining hall. Breakfast is from seven thirty to eight thirty, lunch is from half past twelve to one thirty, and dinner is from six to seven in the evening.\nDIRECTOR: If you are ill, or if you have a problem, please come to the office. The office is open from eight in the morning until eight in the evening, and there is always a member of staff on duty at night.\nDIRECTOR: There are a few rules I must mention. Please do not smoke anywhere in the school buildings, and please be quiet in the corridors after ten o'clock at night, so that other students can sleep.\nDIRECTOR: Please also remember that you must speak English at all times in the school, even in your free time. That is the best way to improve quickly, and it is fair to students who do not speak your language.\nDIRECTOR: On Friday evening, there will be a welcome party in the garden. It starts at seven o'clock, and there will be music and food from different countries. Please bring a dish from your own country if you can.\nDIRECTOR: Finally, your course finishes on Friday the eighth of August, and there will be a short ceremony in the morning, when you will receive your certificates.\nDIRECTOR: If you have any questions, please ask me now, or come to the office later. I hope you have a wonderful summer with us.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 11,
+              "type": "short",
+              "prompt": "This summer the school has students from ___ different countries.",
+              "answers": [
+                "twenty-three",
+                "23"
+              ],
+              "explanation": "This summer the school has students from twenty-three different countries, a new record.",
+              "evidence": "DIRECTOR: This summer we have students from twenty-three different countries, which is a new record for the school. The school was founded in 1985, and this is our fortieth summer."
+            },
+            {
+              "no": 12,
+              "type": "short",
+              "prompt": "The school was founded in ___",
+              "answers": [
+                "1985"
+              ],
+              "explanation": "The school was founded in 1985, and this is its fortieth summer.",
+              "evidence": "DIRECTOR: This summer we have students from twenty-three different countries, which is a new record for the school. The school was founded in 1985, and this is our fortieth summer."
+            },
+            {
+              "no": 13,
+              "type": "mcq",
+              "prompt": "When do lessons run?",
+              "options": [
+                "Monday to Friday, nine until half past twelve",
+                "Monday to Saturday, nine until three",
+                "Every day, eight until twelve"
+              ],
+              "answer": 0,
+              "explanation": "Lessons run from Monday to Friday, from nine in the morning until half past twelve.",
+              "evidence": "DIRECTOR: Let me tell you about the timetable. Lessons run from Monday to Friday, from nine in the morning until half past twelve. After lunch, there are optional activities every afternoon."
+            },
+            {
+              "no": 14,
+              "type": "short",
+              "prompt": "The first lesson is tomorrow at ___ o'clock.",
+              "answers": [
+                "nine",
+                "9"
+              ],
+              "explanation": "The first lesson is tomorrow morning at nine o'clock, in the main building.",
+              "evidence": "DIRECTOR: Your first lesson is tomorrow morning at nine o'clock, in the main building. Your teacher's name and your classroom number are on the card you received when you arrived."
+            },
+            {
+              "no": 15,
+              "type": "mcq",
+              "prompt": "What must students do to join a trip?",
+              "options": [
+                "Sign up at the office by Wednesday",
+                "Pay the teacher on the day",
+                "Ask the director in the morning"
+              ],
+              "answer": 0,
+              "explanation": "Students need to sign up at the office by Wednesday to join a trip.",
+              "evidence": "DIRECTOR: In the afternoons, you can choose from sport, art, music, and trips to places of interest. The trips cost extra, and you need to sign up at the office by Wednesday."
+            },
+            {
+              "no": 16,
+              "type": "short",
+              "prompt": "Dinner is served from six to ___ in the evening.",
+              "answers": [
+                "seven",
+                "7"
+              ],
+              "explanation": "Dinner is from six to seven in the evening.",
+              "evidence": "DIRECTOR: Meals are served in the dining hall. Breakfast is from seven thirty to eight thirty, lunch is from half past twelve to one thirty, and dinner is from six to seven in the evening."
+            },
+            {
+              "no": 17,
+              "type": "mcq",
+              "prompt": "What should students do if they are ill?",
+              "options": [
+                "Go to the office",
+                "Go to the hospital",
+                "Stay in bed all day"
+              ],
+              "answer": 0,
+              "explanation": "If students are ill or have a problem, they should come to the office.",
+              "evidence": "DIRECTOR: If you are ill, or if you have a problem, please come to the office. The office is open from eight in the morning until eight in the evening, and there is always a member of staff on duty at night."
+            },
+            {
+              "no": 18,
+              "type": "mcq",
+              "prompt": "What are students asked not to do after ten o'clock at night?",
+              "options": [
+                "Make noise in the corridors",
+                "Use the dining hall",
+                "Watch television"
+              ],
+              "answer": 0,
+              "explanation": "Students must be quiet in the corridors after ten o'clock at night so others can sleep.",
+              "evidence": "DIRECTOR: There are a few rules I must mention. Please do not smoke anywhere in the school buildings, and please be quiet in the corridors after ten o'clock at night, so that other students can sleep."
+            },
+            {
+              "no": 19,
+              "type": "short",
+              "prompt": "The welcome party starts at ___ o'clock.",
+              "answers": [
+                "seven",
+                "7"
+              ],
+              "explanation": "The welcome party starts at seven o'clock on Friday evening.",
+              "evidence": "DIRECTOR: On Friday evening, there will be a welcome party in the garden. It starts at seven o'clock, and there will be music and food from different countries. Please bring a dish from your own country if you can."
+            },
+            {
+              "no": 20,
+              "type": "mcq",
+              "prompt": "When does the course finish?",
+              "options": [
+                "Friday the eighth of August",
+                "Friday the first of August",
+                "Saturday the ninth of August"
+              ],
+              "answer": 0,
+              "explanation": "The course finishes on Friday the eighth of August, with a ceremony in the morning.",
+              "evidence": "DIRECTOR: Finally, your course finishes on Friday the eighth of August, and there will be a short ceremony in the morning, when you will receive your certificates."
+            }
+          ]
+        },
+        {
+          "part": 3,
+          "title": "Discussing a survey on student part-time work",
+          "setting": "A tutor and two students discuss the results of a survey on part-time work.",
+          "transcript": "NARRATOR: You will hear a tutor and two students discussing the results of a survey on part-time work.\nTUTOR: Good afternoon. Today we will discuss the results of your survey on part-time work among students at this university.\nMARIA: We sent the questionnaire to five hundred students, and two hundred and forty of them replied. That is a response rate of forty-eight percent.\nTUTOR: That is a good response rate for a student survey. What did you find out first?\nTOM: We found that sixty-two percent of the students who replied have a part-time job, and most of them work in shops, cafes and restaurants.\nTUTOR: How many hours a week do they work, on average?\nMARIA: Most students work between ten and fifteen hours a week. Only eight percent work more than twenty hours a week.\nTUTOR: And what do they spend the money on?\nTOM: The most common answer was rent, followed by food and travel. Only twelve percent said they spent most of their money on entertainment.\nTUTOR: Did the survey ask about the effects of working on their studies?\nMARIA: Yes. Forty percent said that part-time work had no effect on their studies, but thirty-five percent said it made their studies harder, especially during exam periods.\nTUTOR: That is interesting. Did any students say that work helped their studies?\nTOM: Yes, twenty-five percent said that work helped them to manage their time better, and some said it gave them useful experience for their future career.\nTUTOR: What about the students who do not work? Why do they not have a job?\nMARIA: The most common reason was that they wanted to focus on their studies. Others said they could not find a suitable job, or that their parents gave them enough money.\nTUTOR: What will you recommend in your report?\nTOM: We will recommend that the university should offer more jobs on campus, so that students do not have to travel far to work. We will also suggest that employers should avoid giving students shifts during exam weeks.\nTUTOR: Those are sensible recommendations. When is the report due?\nMARIA: The report is due on the twenty-second of March, and it must be about two thousand five hundred words long.\nTUTOR: Very good. Please send me a draft by the fifteenth of March, so I can give you some feedback before you submit it.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 21,
+              "type": "short",
+              "prompt": "The survey was sent to ___ students.",
+              "answers": [
+                "five hundred",
+                "500"
+              ],
+              "explanation": "The questionnaire was sent to five hundred students.",
+              "evidence": "MARIA: We sent the questionnaire to five hundred students, and two hundred and forty of them replied. That is a response rate of forty-eight percent."
+            },
+            {
+              "no": 22,
+              "type": "short",
+              "prompt": "The response rate was ___ percent.",
+              "answers": [
+                "forty-eight",
+                "48"
+              ],
+              "explanation": "Two hundred and forty of five hundred replied, a response rate of forty-eight percent.",
+              "evidence": "MARIA: We sent the questionnaire to five hundred students, and two hundred and forty of them replied. That is a response rate of forty-eight percent."
+            },
+            {
+              "no": 23,
+              "type": "mcq",
+              "prompt": "What percentage of students who replied have a part-time job?",
+              "options": [
+                "Sixty-two percent",
+                "Forty-eight percent",
+                "Thirty-five percent"
+              ],
+              "answer": 0,
+              "explanation": "Sixty-two percent of the students who replied have a part-time job.",
+              "evidence": "TOM: We found that sixty-two percent of the students who replied have a part-time job, and most of them work in shops, cafes and restaurants."
+            },
+            {
+              "no": 24,
+              "type": "mcq",
+              "prompt": "Where do most working students work?",
+              "options": [
+                "In shops, cafes and restaurants",
+                "In offices and banks",
+                "In schools and hospitals"
+              ],
+              "answer": 0,
+              "explanation": "Most of them work in shops, cafes and restaurants.",
+              "evidence": "TOM: We found that sixty-two percent of the students who replied have a part-time job, and most of them work in shops, cafes and restaurants."
+            },
+            {
+              "no": 25,
+              "type": "short",
+              "prompt": "Most students work between ten and ___ hours a week.",
+              "answers": [
+                "fifteen",
+                "15"
+              ],
+              "explanation": "Most students work between ten and fifteen hours a week.",
+              "evidence": "MARIA: Most students work between ten and fifteen hours a week. Only eight percent work more than twenty hours a week."
+            },
+            {
+              "no": 26,
+              "type": "mcq",
+              "prompt": "What do students spend most of their money on?",
+              "options": [
+                "Rent",
+                "Entertainment",
+                "Books"
+              ],
+              "answer": 0,
+              "explanation": "The most common answer for spending was rent, followed by food and travel.",
+              "evidence": "TOM: The most common answer was rent, followed by food and travel. Only twelve percent said they spent most of their money on entertainment."
+            },
+            {
+              "no": 27,
+              "type": "short",
+              "prompt": "___ percent said part-time work made their studies harder.",
+              "answers": [
+                "thirty-five",
+                "35"
+              ],
+              "explanation": "Thirty-five percent said work made their studies harder, especially during exam periods.",
+              "evidence": "MARIA: Yes. Forty percent said that part-time work had no effect on their studies, but thirty-five percent said it made their studies harder, especially during exam periods."
+            },
+            {
+              "no": 28,
+              "type": "mcq",
+              "prompt": "What did twenty-five percent of students say about work?",
+              "options": [
+                "It helped them manage their time better",
+                "It made them tired all the time",
+                "It paid very badly"
+              ],
+              "answer": 0,
+              "explanation": "Twenty-five percent said work helped them to manage their time better.",
+              "evidence": "TOM: Yes, twenty-five percent said that work helped them to manage their time better, and some said it gave them useful experience for their future career."
+            },
+            {
+              "no": 29,
+              "type": "mcq",
+              "prompt": "What do the students recommend?",
+              "options": [
+                "More jobs on campus",
+                "Higher pay for students",
+                "Fewer exams"
+              ],
+              "answer": 0,
+              "explanation": "They recommend the university should offer more jobs on campus.",
+              "evidence": "TOM: We will recommend that the university should offer more jobs on campus, so that students do not have to travel far to work. We will also suggest that employers should avoid giving students shifts during exam weeks."
+            },
+            {
+              "no": 30,
+              "type": "short",
+              "prompt": "The report is due on the ___ of March.",
+              "answers": [
+                "twenty-second",
+                "22nd",
+                "22"
+              ],
+              "explanation": "The report is due on the twenty-second of March.",
+              "evidence": "MARIA: The report is due on the twenty-second of March, and it must be about two thousand five hundred words long."
+            }
+          ]
+        },
+        {
+          "part": 4,
+          "title": "Volcanoes and how they erupt",
+          "setting": "A lecturer talks about volcanoes and how they erupt.",
+          "transcript": "NARRATOR: You will hear a lecture about volcanoes and how they erupt.\nLECTURER: Good morning. Today we are going to look at volcanoes: what they are, why they erupt, and what happens when they do.\nLECTURER: A volcano is an opening in the surface of the Earth, through which hot, melted rock, gas and ash can escape. The melted rock below the surface is called magma. When it reaches the surface, it is called lava.\nLECTURER: Volcanoes usually form where two of the Earth's plates meet. The plates are huge pieces of rock that move very slowly, a few centimetres a year. When one plate moves under another, the rock melts and forms magma.\nLECTURER: Not all volcanoes are the same. Some erupt quietly, with lava flowing slowly down the sides. Others explode violently, throwing ash and rock high into the sky.\nLECTURER: The type of eruption depends on the magma. If the magma is thin and runny, the gas inside it can escape easily, and the eruption is gentle. If the magma is thick and sticky, the gas cannot escape, pressure builds up, and the volcano explodes.\nLECTURER: One of the most famous eruptions in history was the eruption of Mount Vesuvius in the year 79. The volcano buried the Roman towns of Pompeii and Herculaneum under ash, and the towns were not discovered again for more than fifteen hundred years.\nLECTURER: Another famous eruption was Krakatoa, in Indonesia, in 1883. The explosion was so loud that it was heard three thousand kilometres away, and it destroyed most of the island.\nLECTURER: Volcanoes can also affect the climate. When a volcano erupts, it can throw tiny particles of ash and gas into the atmosphere. These particles reflect sunlight back into space, and the Earth becomes cooler for a year or two.\nLECTURER: For example, after the eruption of Mount Pinatubo in the Philippines in 1991, the average temperature of the Earth fell by about half a degree for two years.\nLECTURER: Scientists now watch volcanoes very carefully. They measure earthquakes around a volcano, because small earthquakes often happen before an eruption. They also measure the shape of the volcano, because the ground often rises slightly as magma moves upwards.\nLECTURER: Thanks to this monitoring, scientists can often warn people before an eruption, and many lives have been saved. But volcanoes are still unpredictable, and an eruption can still surprise us.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 31,
+              "type": "mcq",
+              "prompt": "What is melted rock below the surface called?",
+              "options": [
+                "Magma",
+                "Lava",
+                "Ash"
+              ],
+              "answer": 0,
+              "explanation": "Melted rock below the surface is called magma; on the surface it is called lava.",
+              "evidence": "LECTURER: A volcano is an opening in the surface of the Earth, through which hot, melted rock, gas and ash can escape. The melted rock below the surface is called magma. When it reaches the surface, it is called lava."
+            },
+            {
+              "no": 32,
+              "type": "mcq",
+              "prompt": "Where do volcanoes usually form?",
+              "options": [
+                "Where two of the Earth's plates meet",
+                "In the middle of the ocean",
+                "At the top of mountains"
+              ],
+              "answer": 0,
+              "explanation": "Volcanoes usually form where two of the Earth's plates meet.",
+              "evidence": "LECTURER: Volcanoes usually form where two of the Earth's plates meet. The plates are huge pieces of rock that move very slowly, a few centimetres a year. When one plate moves under another, the rock melts and forms magma."
+            },
+            {
+              "no": 33,
+              "type": "short",
+              "prompt": "The Earth's plates move a few ___ a year.",
+              "answers": [
+                "centimetres"
+              ],
+              "explanation": "The plates move very slowly, a few centimetres a year.",
+              "evidence": "LECTURER: Volcanoes usually form where two of the Earth's plates meet. The plates are huge pieces of rock that move very slowly, a few centimetres a year. When one plate moves under another, the rock melts and forms magma."
+            },
+            {
+              "no": 34,
+              "type": "mcq",
+              "prompt": "What happens if the magma is thin and runny?",
+              "options": [
+                "The eruption is gentle",
+                "The volcano explodes",
+                "Nothing happens"
+              ],
+              "answer": 0,
+              "explanation": "If the magma is thin and runny, the gas can escape easily and the eruption is gentle.",
+              "evidence": "LECTURER: The type of eruption depends on the magma. If the magma is thin and runny, the gas inside it can escape easily, and the eruption is gentle. If the magma is thick and sticky, the gas cannot escape, pressure builds up, and the volcano explodes."
+            },
+            {
+              "no": 35,
+              "type": "short",
+              "prompt": "Mount Vesuvius erupted in the year ___",
+              "answers": [
+                "79"
+              ],
+              "explanation": "Mount Vesuvius erupted in the year 79, burying Pompeii and Herculaneum.",
+              "evidence": "LECTURER: One of the most famous eruptions in history was the eruption of Mount Vesuvius in the year 79. The volcano buried the Roman towns of Pompeii and Herculaneum under ash, and the towns were not discovered again for more than fifteen hundred years."
+            },
+            {
+              "no": 36,
+              "type": "mcq",
+              "prompt": "How long were Pompeii and Herculaneum buried before they were discovered?",
+              "options": [
+                "More than fifteen hundred years",
+                "About five hundred years",
+                "About one hundred years"
+              ],
+              "answer": 0,
+              "explanation": "The towns were not discovered again for more than fifteen hundred years.",
+              "evidence": "LECTURER: One of the most famous eruptions in history was the eruption of Mount Vesuvius in the year 79. The volcano buried the Roman towns of Pompeii and Herculaneum under ash, and the towns were not discovered again for more than fifteen hundred years."
+            },
+            {
+              "no": 37,
+              "type": "short",
+              "prompt": "Krakatoa erupted in Indonesia in ___",
+              "answers": [
+                "1883"
+              ],
+              "explanation": "Krakatoa erupted in Indonesia in 1883.",
+              "evidence": "LECTURER: Another famous eruption was Krakatoa, in Indonesia, in 1883. The explosion was so loud that it was heard three thousand kilometres away, and it destroyed most of the island."
+            },
+            {
+              "no": 38,
+              "type": "short",
+              "prompt": "The Krakatoa explosion was heard ___ kilometres away.",
+              "answers": [
+                "three thousand",
+                "3000"
+              ],
+              "explanation": "The explosion was so loud it was heard three thousand kilometres away.",
+              "evidence": "LECTURER: Another famous eruption was Krakatoa, in Indonesia, in 1883. The explosion was so loud that it was heard three thousand kilometres away, and it destroyed most of the island."
+            },
+            {
+              "no": 39,
+              "type": "mcq",
+              "prompt": "How can a volcanic eruption affect the climate?",
+              "options": [
+                "Ash particles reflect sunlight, making the Earth cooler",
+                "It makes the Earth warmer for many years",
+                "It stops the wind"
+              ],
+              "answer": 0,
+              "explanation": "Ash particles reflect sunlight back into space, and the Earth becomes cooler for a year or two.",
+              "evidence": "LECTURER: Volcanoes can also affect the climate. When a volcano erupts, it can throw tiny particles of ash and gas into the atmosphere. These particles reflect sunlight back into space, and the Earth becomes cooler for a year or two."
+            },
+            {
+              "no": 40,
+              "type": "short",
+              "prompt": "After Mount Pinatubo erupted in 1991, the Earth's temperature fell by about ___ a degree.",
+              "answers": [
+                "half"
+              ],
+              "explanation": "After the 1991 eruption of Mount Pinatubo, the average temperature fell by about half a degree for two years.",
+              "evidence": "LECTURER: For example, after the eruption of Mount Pinatubo in the Philippines in 1991, the average temperature of the Earth fell by about half a degree for two years."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L7",
+      "title": "Listening Test 7",
+      "parts": [
+        {
+          "part": 1,
+          "title": "Reporting a lost bag at the station",
+          "setting": "A passenger phones a railway station to report a lost bag.",
+          "transcript": "NARRATOR: You will hear a passenger phoning a railway station to report a lost bag.\nCLERK: Good afternoon, Northgate Station lost property office. How can I help you?\nPASSENGER: Good afternoon. My name is Robert Hughes. I think I left my bag on the train this morning.\nCLERK: I am sorry to hear that, Mr Hughes. Which train were you on?\nPASSENGER: I caught the eight fifteen train from Northgate to Millford. I got off at Millford at about nine o'clock.\nCLERK: And when did you notice the bag was missing?\nPASSENGER: When I arrived at my office, at about half past nine. I had put the bag on the rack above my seat, and I forgot to pick it up.\nCLERK: Can you describe the bag, please?\nPASSENGER: Yes, it is a black leather bag, quite large, with a shoulder strap. It has my initials, R H, on the front in gold letters.\nCLERK: What was inside the bag?\nPASSENGER: My laptop, a blue notebook, and my lunch. The laptop is the most important thing, of course.\nCLERK: I understand. Let me check the system. The train you were on finished its journey at eleven o'clock, and the cleaners have already checked it.\nPASSENGER: And did they find the bag?\nCLERK: Yes, a black leather bag was found on that train, and it is now in our lost property office here at Northgate.\nPASSENGER: That is wonderful news. When can I collect it?\nCLERK: The office is open from eight in the morning until six in the evening, from Monday to Saturday. It is closed on Sundays.\nPASSENGER: I can come tomorrow morning at about nine. What do I need to bring with me?\nCLERK: Please bring some identification, such as your passport or driving licence, and be ready to describe the contents of the bag.\nPASSENGER: Of course. Is there a fee to pay?\nCLERK: There is a small charge of five pounds for storing the bag.\nPASSENGER: That is fine. Thank you very much for your help.\nCLERK: You are welcome, Mr Hughes. We will see you tomorrow.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "mcq",
+              "prompt": "Which train was Robert on?",
+              "options": [
+                "The eight fifteen to Millford",
+                "The nine o'clock to Northgate",
+                "The half past nine to Millford"
+              ],
+              "answer": 0,
+              "explanation": "Robert caught the eight fifteen train from Northgate to Millford.",
+              "evidence": "PASSENGER: I caught the eight fifteen train from Northgate to Millford. I got off at Millford at about nine o'clock."
+            },
+            {
+              "no": 2,
+              "type": "short",
+              "prompt": "Robert noticed the bag was missing at about ___",
+              "answers": [
+                "half past nine",
+                "9.30",
+                "9:30"
+              ],
+              "explanation": "He noticed the bag was missing when he arrived at his office at about half past nine.",
+              "evidence": "PASSENGER: When I arrived at my office, at about half past nine. I had put the bag on the rack above my seat, and I forgot to pick it up."
+            },
+            {
+              "no": 3,
+              "type": "mcq",
+              "prompt": "Where had Robert put the bag?",
+              "options": [
+                "On the rack above his seat",
+                "Under his seat",
+                "Next to the door"
+              ],
+              "answer": 0,
+              "explanation": "He had put the bag on the rack above his seat.",
+              "evidence": "PASSENGER: When I arrived at my office, at about half past nine. I had put the bag on the rack above my seat, and I forgot to pick it up."
+            },
+            {
+              "no": 4,
+              "type": "short",
+              "prompt": "The bag is made of black ___",
+              "answers": [
+                "leather"
+              ],
+              "explanation": "The bag is a black leather bag with a shoulder strap.",
+              "evidence": "PASSENGER: Yes, it is a black leather bag, quite large, with a shoulder strap. It has my initials, R H, on the front in gold letters."
+            },
+            {
+              "no": 5,
+              "type": "short",
+              "prompt": "Robert's initials on the bag are ___",
+              "answers": [
+                "R H",
+                "RH"
+              ],
+              "explanation": "The bag has his initials, R H, on the front in gold letters.",
+              "evidence": "PASSENGER: Yes, it is a black leather bag, quite large, with a shoulder strap. It has my initials, R H, on the front in gold letters."
+            },
+            {
+              "no": 6,
+              "type": "mcq",
+              "prompt": "What was the most important thing inside the bag?",
+              "options": [
+                "His laptop",
+                "His blue notebook",
+                "His lunch"
+              ],
+              "answer": 0,
+              "explanation": "The laptop is the most important thing in the bag.",
+              "evidence": "PASSENGER: My laptop, a blue notebook, and my lunch. The laptop is the most important thing, of course."
+            },
+            {
+              "no": 7,
+              "type": "mcq",
+              "prompt": "Where is the bag now?",
+              "options": [
+                "In the lost property office at Northgate",
+                "Still on the train",
+                "At Millford station"
+              ],
+              "answer": 0,
+              "explanation": "A black leather bag was found on that train and is now in the lost property office at Northgate.",
+              "evidence": "CLERK: Yes, a black leather bag was found on that train, and it is now in our lost property office here at Northgate."
+            },
+            {
+              "no": 8,
+              "type": "short",
+              "prompt": "The lost property office is open until ___ in the evening.",
+              "answers": [
+                "six",
+                "6",
+                "6 pm",
+                "6pm"
+              ],
+              "explanation": "The office is open from eight in the morning until six in the evening.",
+              "evidence": "CLERK: The office is open from eight in the morning until six in the evening, from Monday to Saturday. It is closed on Sundays."
+            },
+            {
+              "no": 9,
+              "type": "mcq",
+              "prompt": "What must Robert bring to collect the bag?",
+              "options": [
+                "Some identification",
+                "A photograph of the bag",
+                "His train ticket"
+              ],
+              "answer": 0,
+              "explanation": "He must bring some identification, such as a passport or driving licence.",
+              "evidence": "CLERK: Please bring some identification, such as your passport or driving licence, and be ready to describe the contents of the bag."
+            },
+            {
+              "no": 10,
+              "type": "short",
+              "prompt": "The charge for storing the bag is ___ pounds.",
+              "answers": [
+                "five",
+                "5",
+                "£5"
+              ],
+              "explanation": "There is a small charge of five pounds for storing the bag.",
+              "evidence": "CLERK: There is a small charge of five pounds for storing the bag."
+            }
+          ]
+        },
+        {
+          "part": 2,
+          "title": "A talk about the new community garden",
+          "setting": "A volunteer talks about a new community garden.",
+          "transcript": "NARRATOR: You will hear a volunteer talking about a new community garden.\nVOLUNTEER: Good afternoon, everyone. My name is David Miller, and I am one of the volunteers who look after the new community garden here in Elm Street.\nVOLUNTEER: The garden was opened in April this year, on land that had been empty for almost ten years. The council gave us permission to use the land, and local people helped to clear it and build the garden.\nVOLUNTEER: The garden has forty small plots, where people can grow vegetables, fruit and flowers. Each plot is about two metres wide and three metres long.\nVOLUNTEER: At the moment, thirty-two of the plots are taken, so there are still eight plots available. If you would like a plot, you can put your name on the waiting list at the garden office.\nVOLUNTEER: It costs twenty pounds a year to rent a plot. That includes water, and the use of the tools in the tool shed. You must bring your own seeds and plants.\nVOLUNTEER: The garden is open every day from eight in the morning until sunset. There is a small shop at the entrance, which sells seeds, compost and gardening books.\nVOLUNTEER: We also have a meeting room, where we hold classes on gardening. The classes are free for members, and they take place on the first Saturday of every month.\nVOLUNTEER: The next class is on Saturday the seventh of December, and the topic is growing vegetables in winter. The class starts at ten o'clock in the morning and finishes at midday.\nVOLUNTEER: Children are welcome in the garden, but they must be with an adult at all times. There is a special children's area, with small plots where children can grow sunflowers and carrots.\nVOLUNTEER: We also sell the vegetables we grow. Every Saturday morning, from nine until twelve, we have a small market at the garden gate, where you can buy fresh vegetables at very low prices.\nVOLUNTEER: If you would like to become a member, please fill in a form at the garden office. The office is open on Wednesday and Saturday mornings.\nVOLUNTEER: Thank you for listening. I hope to see some of you in the garden soon.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 11,
+              "type": "short",
+              "prompt": "The community garden was opened in ___ this year.",
+              "answers": [
+                "April"
+              ],
+              "explanation": "The garden was opened in April this year.",
+              "evidence": "VOLUNTEER: The garden was opened in April this year, on land that had been empty for almost ten years. The council gave us permission to use the land, and local people helped to clear it and build the garden."
+            },
+            {
+              "no": 12,
+              "type": "short",
+              "prompt": "The land had been empty for almost ___ years.",
+              "answers": [
+                "ten",
+                "10"
+              ],
+              "explanation": "The land had been empty for almost ten years before the garden was built.",
+              "evidence": "VOLUNTEER: The garden was opened in April this year, on land that had been empty for almost ten years. The council gave us permission to use the land, and local people helped to clear it and build the garden."
+            },
+            {
+              "no": 13,
+              "type": "short",
+              "prompt": "The garden has ___ small plots.",
+              "answers": [
+                "forty",
+                "40"
+              ],
+              "explanation": "The garden has forty small plots.",
+              "evidence": "VOLUNTEER: The garden has forty small plots, where people can grow vegetables, fruit and flowers. Each plot is about two metres wide and three metres long."
+            },
+            {
+              "no": 14,
+              "type": "short",
+              "prompt": "___ plots are still available.",
+              "answers": [
+                "eight",
+                "8"
+              ],
+              "explanation": "Thirty-two plots are taken, so eight plots are still available.",
+              "evidence": "VOLUNTEER: At the moment, thirty-two of the plots are taken, so there are still eight plots available. If you would like a plot, you can put your name on the waiting list at the garden office."
+            },
+            {
+              "no": 15,
+              "type": "short",
+              "prompt": "It costs ___ pounds a year to rent a plot.",
+              "answers": [
+                "twenty",
+                "20",
+                "£20"
+              ],
+              "explanation": "It costs twenty pounds a year to rent a plot.",
+              "evidence": "VOLUNTEER: It costs twenty pounds a year to rent a plot. That includes water, and the use of the tools in the tool shed. You must bring your own seeds and plants."
+            },
+            {
+              "no": 16,
+              "type": "mcq",
+              "prompt": "What is included in the rent?",
+              "options": [
+                "Water and the use of tools",
+                "Seeds and plants",
+                "A gardening book"
+              ],
+              "answer": 0,
+              "explanation": "The rent includes water and the use of tools in the tool shed.",
+              "evidence": "VOLUNTEER: It costs twenty pounds a year to rent a plot. That includes water, and the use of the tools in the tool shed. You must bring your own seeds and plants."
+            },
+            {
+              "no": 17,
+              "type": "mcq",
+              "prompt": "When do the gardening classes take place?",
+              "options": [
+                "On the first Saturday of every month",
+                "Every Wednesday morning",
+                "On the last Sunday of every month"
+              ],
+              "answer": 0,
+              "explanation": "Classes take place on the first Saturday of every month.",
+              "evidence": "VOLUNTEER: We also have a meeting room, where we hold classes on gardening. The classes are free for members, and they take place on the first Saturday of every month."
+            },
+            {
+              "no": 18,
+              "type": "short",
+              "prompt": "The next class is on Saturday the seventh of ___",
+              "answers": [
+                "December"
+              ],
+              "explanation": "The next class is on Saturday the seventh of December.",
+              "evidence": "VOLUNTEER: The next class is on Saturday the seventh of December, and the topic is growing vegetables in winter. The class starts at ten o'clock in the morning and finishes at midday."
+            },
+            {
+              "no": 19,
+              "type": "mcq",
+              "prompt": "What is the topic of the next class?",
+              "options": [
+                "Growing vegetables in winter",
+                "Growing flowers in summer",
+                "Making compost"
+              ],
+              "answer": 0,
+              "explanation": "The next class is about growing vegetables in winter.",
+              "evidence": "VOLUNTEER: The next class is on Saturday the seventh of December, and the topic is growing vegetables in winter. The class starts at ten o'clock in the morning and finishes at midday."
+            },
+            {
+              "no": 20,
+              "type": "mcq",
+              "prompt": "When is the vegetable market held?",
+              "options": [
+                "Every Saturday morning, from nine until twelve",
+                "Every Sunday morning",
+                "Every Wednesday afternoon"
+              ],
+              "answer": 0,
+              "explanation": "The market is held every Saturday morning, from nine until twelve, at the garden gate.",
+              "evidence": "VOLUNTEER: We also sell the vegetables we grow. Every Saturday morning, from nine until twelve, we have a small market at the garden gate, where you can buy fresh vegetables at very low prices."
+            }
+          ]
+        },
+        {
+          "part": 3,
+          "title": "Planning a charity fun run",
+          "setting": "Three students plan a charity fun run.",
+          "transcript": "NARRATOR: You will hear three students planning a charity fun run.\nCHAIR: Good evening. Thank you all for coming. We need to plan the charity fun run for next month, so let us start with the date.\nANNA: I think Saturday the twelfth of October would be best. Most students are free on Saturdays, and the weather is usually still good in October.\nBEN: I agree. What about the distance? Should it be five kilometres, or ten?\nCHAIR: I think five kilometres is better. We want as many people as possible to take part, including people who do not run very often.\nANNA: Yes, five kilometres. And where should the run start and finish?\nBEN: The run could start at the university sports field, and finish in the park. The park has space for a stage and for food stalls.\nCHAIR: Good idea. How much should we charge people to enter?\nANNA: Last year we charged ten pounds, and we had three hundred runners. If we charge eight pounds this year, perhaps more people will join.\nBEN: I think eight pounds is fair. And we will ask each runner to find sponsors, who give money for every kilometre they run.\nCHAIR: The money will go to the children's hospital. Last year we raised four thousand pounds. This year, I hope we can raise five thousand.\nANNA: What about advertising? We need to tell people about the run.\nBEN: We can put posters in the university buildings, and we can also use social media. I will design a poster this week.\nCHAIR: We also need volunteers. We need about forty volunteers to help on the day: to give out water, to direct the runners, and to look after the stalls.\nANNA: I will ask the sports clubs for volunteers. They usually help with events like this.\nBEN: What time should the run start?\nCHAIR: I think ten o'clock in the morning is best. It gives people time to arrive, and it is not too hot at that time.\nANNA: Good. I will book the sports field for the twelfth of October, and I will contact the park office tomorrow.\nCHAIR: Thank you. Let us meet again next Monday, at six o'clock, to check our progress.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 21,
+              "type": "mcq",
+              "prompt": "When will the fun run take place?",
+              "options": [
+                "Saturday the twelfth of October",
+                "Sunday the thirteenth of October",
+                "Saturday the fifth of October"
+              ],
+              "answer": 0,
+              "explanation": "The run is planned for Saturday the twelfth of October.",
+              "evidence": "ANNA: I think Saturday the twelfth of October would be best. Most students are free on Saturdays, and the weather is usually still good in October."
+            },
+            {
+              "no": 22,
+              "type": "mcq",
+              "prompt": "How long will the run be?",
+              "options": [
+                "Five kilometres",
+                "Ten kilometres",
+                "Three kilometres"
+              ],
+              "answer": 0,
+              "explanation": "The run will be five kilometres, so that as many people as possible can take part.",
+              "evidence": "CHAIR: I think five kilometres is better. We want as many people as possible to take part, including people who do not run very often."
+            },
+            {
+              "no": 23,
+              "type": "mcq",
+              "prompt": "Where will the run finish?",
+              "options": [
+                "In the park",
+                "At the sports field",
+                "At the hospital"
+              ],
+              "answer": 0,
+              "explanation": "The run will finish in the park, which has space for a stage and food stalls.",
+              "evidence": "BEN: The run could start at the university sports field, and finish in the park. The park has space for a stage and for food stalls."
+            },
+            {
+              "no": 24,
+              "type": "short",
+              "prompt": "Last year the entry fee was ___ pounds.",
+              "answers": [
+                "ten",
+                "10",
+                "£10"
+              ],
+              "explanation": "Last year the entry fee was ten pounds, and three hundred runners took part.",
+              "evidence": "ANNA: Last year we charged ten pounds, and we had three hundred runners. If we charge eight pounds this year, perhaps more people will join."
+            },
+            {
+              "no": 25,
+              "type": "short",
+              "prompt": "This year the entry fee will be ___ pounds.",
+              "answers": [
+                "eight",
+                "8",
+                "£8"
+              ],
+              "explanation": "This year the entry fee will be eight pounds.",
+              "evidence": "ANNA: Last year we charged ten pounds, and we had three hundred runners. If we charge eight pounds this year, perhaps more people will join."
+            },
+            {
+              "no": 26,
+              "type": "mcq",
+              "prompt": "Where will the money go?",
+              "options": [
+                "To the children's hospital",
+                "To the university",
+                "To the sports clubs"
+              ],
+              "answer": 0,
+              "explanation": "The money will go to the children's hospital.",
+              "evidence": "CHAIR: The money will go to the children's hospital. Last year we raised four thousand pounds. This year, I hope we can raise five thousand."
+            },
+            {
+              "no": 27,
+              "type": "short",
+              "prompt": "Last year the run raised ___ pounds.",
+              "answers": [
+                "four thousand",
+                "4000",
+                "£4000"
+              ],
+              "explanation": "Last year the run raised four thousand pounds.",
+              "evidence": "CHAIR: The money will go to the children's hospital. Last year we raised four thousand pounds. This year, I hope we can raise five thousand."
+            },
+            {
+              "no": 28,
+              "type": "short",
+              "prompt": "This year they hope to raise ___ pounds.",
+              "answers": [
+                "five thousand",
+                "5000",
+                "£5000"
+              ],
+              "explanation": "This year they hope to raise five thousand pounds.",
+              "evidence": "CHAIR: The money will go to the children's hospital. Last year we raised four thousand pounds. This year, I hope we can raise five thousand."
+            },
+            {
+              "no": 29,
+              "type": "short",
+              "prompt": "They need about ___ volunteers on the day.",
+              "answers": [
+                "forty",
+                "40"
+              ],
+              "explanation": "They need about forty volunteers to help on the day.",
+              "evidence": "CHAIR: We also need volunteers. We need about forty volunteers to help on the day: to give out water, to direct the runners, and to look after the stalls."
+            },
+            {
+              "no": 30,
+              "type": "short",
+              "prompt": "The run will start at ___ o'clock in the morning.",
+              "answers": [
+                "ten",
+                "10"
+              ],
+              "explanation": "The run will start at ten o'clock in the morning.",
+              "evidence": "CHAIR: I think ten o'clock in the morning is best. It gives people time to arrive, and it is not too hot at that time."
+            }
+          ]
+        },
+        {
+          "part": 4,
+          "title": "How earthquakes are measured",
+          "setting": "A lecturer talks about how earthquakes are measured.",
+          "transcript": "NARRATOR: You will hear a lecture about how earthquakes are measured.\nLECTURER: Good afternoon. Today we are going to look at how scientists measure earthquakes, and what the numbers they use actually mean.\nLECTURER: An earthquake happens when the rocks below the surface of the Earth suddenly move. The place where the movement starts, deep underground, is called the focus. The point on the surface directly above the focus is called the epicentre.\nLECTURER: When the rocks move, they send out waves of energy in all directions, rather like the ripples that spread out when you drop a stone into a pond. These waves travel through the Earth, and they can be felt hundreds of kilometres away.\nLECTURER: Scientists measure earthquakes with an instrument called a seismometer. A seismometer is a very sensitive machine that can detect even the smallest movements of the ground. The record it produces is called a seismogram.\nLECTURER: For many years, the strength of an earthquake was measured on the Richter scale, which was invented in 1935 by Charles Richter, an American scientist. The Richter scale goes from one to ten, and each whole number is ten times stronger than the number below it.\nLECTURER: So an earthquake of magnitude six is ten times stronger than an earthquake of magnitude five, and one hundred times stronger than an earthquake of magnitude four. That is why a small increase in the number can mean a very big increase in the damage.\nLECTURER: Today, scientists usually use a different scale, called the moment magnitude scale. This scale measures the total energy released by the earthquake, and it is more accurate for very large earthquakes.\nLECTURER: The largest earthquake ever recorded was in Chile in 1960. It had a magnitude of nine point five, and it caused a tsunami, a huge sea wave, which travelled across the Pacific Ocean.\nLECTURER: The depth of an earthquake is also important. A shallow earthquake, with a focus close to the surface, usually causes more damage than a deep earthquake of the same magnitude, because the energy has less far to travel.\nLECTURER: Most earthquakes are too small to feel. In fact, scientists estimate that about five hundred thousand earthquakes happen every year, but only about one hundred thousand of them can be felt by people, and only about one hundred cause serious damage.\nLECTURER: By measuring earthquakes carefully, scientists can learn where the dangerous areas are, and they can help engineers to design buildings that are strong enough to survive an earthquake. That is why measurement matters.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 31,
+              "type": "short",
+              "prompt": "The place where an earthquake starts underground is called the ___",
+              "answers": [
+                "focus"
+              ],
+              "explanation": "The place where the movement starts, deep underground, is called the focus.",
+              "evidence": "LECTURER: An earthquake happens when the rocks below the surface of the Earth suddenly move. The place where the movement starts, deep underground, is called the focus. The point on the surface directly above the focus is called the epicentre."
+            },
+            {
+              "no": 32,
+              "type": "short",
+              "prompt": "The point on the surface above the focus is called the ___",
+              "answers": [
+                "epicentre"
+              ],
+              "explanation": "The point on the surface directly above the focus is called the epicentre.",
+              "evidence": "LECTURER: An earthquake happens when the rocks below the surface of the Earth suddenly move. The place where the movement starts, deep underground, is called the focus. The point on the surface directly above the focus is called the epicentre."
+            },
+            {
+              "no": 33,
+              "type": "mcq",
+              "prompt": "What instrument do scientists use to measure earthquakes?",
+              "options": [
+                "A seismometer",
+                "A thermometer",
+                "A barometer"
+              ],
+              "answer": 0,
+              "explanation": "Scientists measure earthquakes with an instrument called a seismometer.",
+              "evidence": "LECTURER: Scientists measure earthquakes with an instrument called a seismometer. A seismometer is a very sensitive machine that can detect even the smallest movements of the ground. The record it produces is called a seismogram."
+            },
+            {
+              "no": 34,
+              "type": "short",
+              "prompt": "The record produced by a seismometer is called a ___",
+              "answers": [
+                "seismogram"
+              ],
+              "explanation": "The record a seismometer produces is called a seismogram.",
+              "evidence": "LECTURER: Scientists measure earthquakes with an instrument called a seismometer. A seismometer is a very sensitive machine that can detect even the smallest movements of the ground. The record it produces is called a seismogram."
+            },
+            {
+              "no": 35,
+              "type": "short",
+              "prompt": "The Richter scale was invented in ___",
+              "answers": [
+                "1935"
+              ],
+              "explanation": "The Richter scale was invented in 1935 by Charles Richter.",
+              "evidence": "LECTURER: For many years, the strength of an earthquake was measured on the Richter scale, which was invented in 1935 by Charles Richter, an American scientist. The Richter scale goes from one to ten, and each whole number is ten times stronger than the number below it."
+            },
+            {
+              "no": 36,
+              "type": "mcq",
+              "prompt": "How much stronger is a magnitude six earthquake than a magnitude five earthquake?",
+              "options": [
+                "Ten times stronger",
+                "Twice as strong",
+                "A hundred times stronger"
+              ],
+              "answer": 0,
+              "explanation": "Each whole number on the Richter scale is ten times stronger than the number below it.",
+              "evidence": "LECTURER: For many years, the strength of an earthquake was measured on the Richter scale, which was invented in 1935 by Charles Richter, an American scientist. The Richter scale goes from one to ten, and each whole number is ten times stronger than the number below it."
+            },
+            {
+              "no": 37,
+              "type": "mcq",
+              "prompt": "What scale do scientists usually use today?",
+              "options": [
+                "The moment magnitude scale",
+                "The Richter scale",
+                "The Mercalli scale"
+              ],
+              "answer": 0,
+              "explanation": "Today scientists usually use the moment magnitude scale, which measures total energy released.",
+              "evidence": "LECTURER: Today, scientists usually use a different scale, called the moment magnitude scale. This scale measures the total energy released by the earthquake, and it is more accurate for very large earthquakes."
+            },
+            {
+              "no": 38,
+              "type": "short",
+              "prompt": "The largest earthquake ever recorded was in Chile in ___",
+              "answers": [
+                "1960"
+              ],
+              "explanation": "The largest earthquake ever recorded was in Chile in 1960, with a magnitude of nine point five.",
+              "evidence": "LECTURER: The largest earthquake ever recorded was in Chile in 1960. It had a magnitude of nine point five, and it caused a tsunami, a huge sea wave, which travelled across the Pacific Ocean."
+            },
+            {
+              "no": 39,
+              "type": "mcq",
+              "prompt": "Why does a shallow earthquake usually cause more damage?",
+              "options": [
+                "The energy has less far to travel",
+                "It lasts longer",
+                "It happens more often"
+              ],
+              "answer": 0,
+              "explanation": "A shallow earthquake causes more damage because the energy has less far to travel.",
+              "evidence": "LECTURER: The depth of an earthquake is also important. A shallow earthquake, with a focus close to the surface, usually causes more damage than a deep earthquake of the same magnitude, because the energy has less far to travel."
+            },
+            {
+              "no": 40,
+              "type": "short",
+              "prompt": "About ___ earthquakes happen every year.",
+              "answers": [
+                "five hundred thousand",
+                "500,000",
+                "500000"
+              ],
+              "explanation": "Scientists estimate that about five hundred thousand earthquakes happen every year.",
+              "evidence": "LECTURER: Most earthquakes are too small to feel. In fact, scientists estimate that about five hundred thousand earthquakes happen every year, but only about one hundred thousand of them can be felt by people, and only about one hundred cause serious damage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L8",
+      "title": "Listening Test 8",
+      "parts": [
+        {
+          "part": 1,
+          "title": "Joining a local walking club",
+          "setting": "A student phones a walking club to ask about joining.",
+          "transcript": "NARRATOR: You will hear a student phoning a walking club to ask about joining.\nSECRETARY: Good evening, Hilltop Walking Club. How can I help you?\nSTUDENT: Good evening. My name is Laura Bennett. I have just moved to the area, and I would like to join your walking club.\nSECRETARY: You are very welcome, Laura. We have about one hundred and twenty members, and we welcome new walkers of all ages and abilities.\nSTUDENT: When do you meet?\nSECRETARY: We meet every Saturday morning. We gather at the market square at nine o'clock, and we usually finish by one o'clock in the afternoon.\nSTUDENT: How far do you usually walk?\nSECRETARY: Our walks are usually between eight and twelve kilometres long. We stop for a rest halfway, and we often have lunch together afterwards in a village pub.\nSTUDENT: That sounds lovely. Do I need any special equipment?\nSECRETARY: You need a good pair of walking boots, and a waterproof jacket. In summer, you should also bring a hat and some water.\nSTUDENT: How much does it cost to join?\nSECRETARY: Membership costs twenty-five pounds a year. That includes insurance, and a copy of our walks programme, which is published four times a year.\nSTUDENT: Is there a walk this Saturday that I could join, to try it out?\nSECRETARY: Yes, this Saturday we are walking from the market square to Willow Lake, which is about ten kilometres. It is an easy walk, mostly flat, so it would be a good first walk.\nSTUDENT: That sounds perfect. What time should I arrive?\nSECRETARY: Please arrive at the market square by quarter to nine, so we can start on time. Look for the group with the green flag.\nSTUDENT: I will be there. Is there anything else I should know?\nSECRETARY: Just one thing: if the weather is very bad, we cancel the walk. We announce cancellations on our website by eight o'clock on Saturday morning.\nSTUDENT: Thank you very much for your help.\nSECRETARY: You are welcome, Laura. We look forward to meeting you on Saturday.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 1,
+              "type": "short",
+              "prompt": "The walking club has about ___ members.",
+              "answers": [
+                "one hundred and twenty",
+                "120"
+              ],
+              "explanation": "The club has about one hundred and twenty members.",
+              "evidence": "SECRETARY: You are very welcome, Laura. We have about one hundred and twenty members, and we welcome new walkers of all ages and abilities."
+            },
+            {
+              "no": 2,
+              "type": "mcq",
+              "prompt": "When does the club meet?",
+              "options": [
+                "Every Saturday morning",
+                "Every Sunday morning",
+                "Every Wednesday evening"
+              ],
+              "answer": 0,
+              "explanation": "The club meets every Saturday morning, gathering at nine o'clock.",
+              "evidence": "SECRETARY: We meet every Saturday morning. We gather at the market square at nine o'clock, and we usually finish by one o'clock in the afternoon."
+            },
+            {
+              "no": 3,
+              "type": "short",
+              "prompt": "Walks usually finish by ___ o'clock in the afternoon.",
+              "answers": [
+                "one",
+                "1"
+              ],
+              "explanation": "Walks usually finish by one o'clock in the afternoon.",
+              "evidence": "SECRETARY: We meet every Saturday morning. We gather at the market square at nine o'clock, and we usually finish by one o'clock in the afternoon."
+            },
+            {
+              "no": 4,
+              "type": "mcq",
+              "prompt": "How long are the walks usually?",
+              "options": [
+                "Between eight and twelve kilometres",
+                "Between three and five kilometres",
+                "Between fifteen and twenty kilometres"
+              ],
+              "answer": 0,
+              "explanation": "Walks are usually between eight and twelve kilometres long.",
+              "evidence": "SECRETARY: Our walks are usually between eight and twelve kilometres long. We stop for a rest halfway, and we often have lunch together afterwards in a village pub."
+            },
+            {
+              "no": 5,
+              "type": "short",
+              "prompt": "Walkers need a good pair of walking ___",
+              "answers": [
+                "boots"
+              ],
+              "explanation": "Walkers need a good pair of walking boots and a waterproof jacket.",
+              "evidence": "SECRETARY: You need a good pair of walking boots, and a waterproof jacket. In summer, you should also bring a hat and some water."
+            },
+            {
+              "no": 6,
+              "type": "short",
+              "prompt": "Membership costs ___ pounds a year.",
+              "answers": [
+                "twenty-five",
+                "25",
+                "£25"
+              ],
+              "explanation": "Membership costs twenty-five pounds a year.",
+              "evidence": "SECRETARY: Membership costs twenty-five pounds a year. That includes insurance, and a copy of our walks programme, which is published four times a year."
+            },
+            {
+              "no": 7,
+              "type": "mcq",
+              "prompt": "What does the membership include?",
+              "options": [
+                "Insurance and a walks programme",
+                "Walking boots and a jacket",
+                "Free lunch every week"
+              ],
+              "answer": 0,
+              "explanation": "Membership includes insurance and a copy of the walks programme.",
+              "evidence": "SECRETARY: Membership costs twenty-five pounds a year. That includes insurance, and a copy of our walks programme, which is published four times a year."
+            },
+            {
+              "no": 8,
+              "type": "short",
+              "prompt": "This Saturday the walk to Willow Lake is about ___ kilometres.",
+              "answers": [
+                "ten",
+                "10"
+              ],
+              "explanation": "This Saturday's walk to Willow Lake is about ten kilometres.",
+              "evidence": "SECRETARY: Yes, this Saturday we are walking from the market square to Willow Lake, which is about ten kilometres. It is an easy walk, mostly flat, so it would be a good first walk."
+            },
+            {
+              "no": 9,
+              "type": "short",
+              "prompt": "Laura should arrive by ___ to nine.",
+              "answers": [
+                "quarter",
+                "a quarter"
+              ],
+              "explanation": "Laura should arrive at the market square by quarter to nine.",
+              "evidence": "SECRETARY: Please arrive at the market square by quarter to nine, so we can start on time. Look for the group with the green flag."
+            },
+            {
+              "no": 10,
+              "type": "mcq",
+              "prompt": "How will walkers know if a walk is cancelled?",
+              "options": [
+                "It is announced on the website by eight o'clock",
+                "They receive a phone call",
+                "It is announced on the radio"
+              ],
+              "answer": 0,
+              "explanation": "Cancellations are announced on the website by eight o'clock on Saturday morning.",
+              "evidence": "SECRETARY: Just one thing: if the weather is very bad, we cancel the walk. We announce cancellations on our website by eight o'clock on Saturday morning."
+            }
+          ]
+        },
+        {
+          "part": 2,
+          "title": "A tour of a historic house",
+          "setting": "A guide welcomes visitors to a tour of a historic house.",
+          "transcript": "NARRATOR: You will hear a guide welcoming visitors to a tour of a historic house.\nGUIDE: Good afternoon, everyone, and welcome to Ashford House. My name is Peter Green, and I will show you around the house today.\nGUIDE: Ashford House was built in 1740, for the Ashford family, who were wealthy wool merchants. The family lived here for over two hundred years, until 1965, when the last member of the family died.\nGUIDE: The house was then given to the National Trust, which opened it to the public in 1970. About sixty thousand people visit the house every year.\nGUIDE: We will start in the entrance hall, which is the oldest part of the house. The stone floor and the wooden staircase are both original, from 1740.\nGUIDE: From the hall, we will go into the drawing room, which was used for entertaining guests. The paintings on the walls show members of the Ashford family, and the furniture is from the eighteenth century.\nGUIDE: Next, we will visit the dining room. The family ate their main meal here every evening at seven o'clock, and the table could seat sixteen people.\nGUIDE: Upstairs, there are six bedrooms. The largest bedroom belonged to the head of the family, and it has a wonderful view over the gardens.\nGUIDE: The gardens are also worth a visit. They were designed in 1780, and they cover about twenty acres. There is a lake, a rose garden, and a long path lined with trees.\nGUIDE: The tour will take about one hour. After the tour, you are free to walk in the gardens, and you can visit the tea room, which is open from eleven in the morning until five in the afternoon.\nGUIDE: Please do not touch the furniture or the paintings, because they are very old and easily damaged. Photography is allowed in the gardens, but not inside the house.\nGUIDE: The house is open from Wednesday to Sunday, from ten in the morning until five in the afternoon. It is closed on Mondays and Tuesdays.\nGUIDE: If you have any questions during the tour, please ask me. Let us start in the entrance hall.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 11,
+              "type": "short",
+              "prompt": "Ashford House was built in ___",
+              "answers": [
+                "1740"
+              ],
+              "explanation": "Ashford House was built in 1740 for the Ashford family.",
+              "evidence": "GUIDE: Ashford House was built in 1740, for the Ashford family, who were wealthy wool merchants. The family lived here for over two hundred years, until 1965, when the last member of the family died."
+            },
+            {
+              "no": 12,
+              "type": "mcq",
+              "prompt": "What did the Ashford family do?",
+              "options": [
+                "They were wool merchants",
+                "They were farmers",
+                "They were bankers"
+              ],
+              "answer": 0,
+              "explanation": "The Ashford family were wealthy wool merchants.",
+              "evidence": "GUIDE: Ashford House was built in 1740, for the Ashford family, who were wealthy wool merchants. The family lived here for over two hundred years, until 1965, when the last member of the family died."
+            },
+            {
+              "no": 13,
+              "type": "short",
+              "prompt": "About ___ people visit the house every year.",
+              "answers": [
+                "sixty thousand",
+                "60,000",
+                "60000"
+              ],
+              "explanation": "About sixty thousand people visit the house every year.",
+              "evidence": "GUIDE: The house was then given to the National Trust, which opened it to the public in 1970. About sixty thousand people visit the house every year."
+            },
+            {
+              "no": 14,
+              "type": "mcq",
+              "prompt": "Which is the oldest part of the house?",
+              "options": [
+                "The entrance hall",
+                "The drawing room",
+                "The dining room"
+              ],
+              "answer": 0,
+              "explanation": "The entrance hall is the oldest part of the house.",
+              "evidence": "GUIDE: We will start in the entrance hall, which is the oldest part of the house. The stone floor and the wooden staircase are both original, from 1740."
+            },
+            {
+              "no": 15,
+              "type": "mcq",
+              "prompt": "What was the drawing room used for?",
+              "options": [
+                "Entertaining guests",
+                "Eating meals",
+                "Sleeping"
+              ],
+              "answer": 0,
+              "explanation": "The drawing room was used for entertaining guests.",
+              "evidence": "GUIDE: From the hall, we will go into the drawing room, which was used for entertaining guests. The paintings on the walls show members of the Ashford family, and the furniture is from the eighteenth century."
+            },
+            {
+              "no": 16,
+              "type": "short",
+              "prompt": "The dining table could seat ___ people.",
+              "answers": [
+                "sixteen",
+                "16"
+              ],
+              "explanation": "The dining table could seat sixteen people.",
+              "evidence": "GUIDE: Next, we will visit the dining room. The family ate their main meal here every evening at seven o'clock, and the table could seat sixteen people."
+            },
+            {
+              "no": 17,
+              "type": "short",
+              "prompt": "The gardens were designed in ___",
+              "answers": [
+                "1780"
+              ],
+              "explanation": "The gardens were designed in 1780 and cover about twenty acres.",
+              "evidence": "GUIDE: The gardens are also worth a visit. They were designed in 1780, and they cover about twenty acres. There is a lake, a rose garden, and a long path lined with trees."
+            },
+            {
+              "no": 18,
+              "type": "short",
+              "prompt": "The gardens cover about ___ acres.",
+              "answers": [
+                "twenty",
+                "20"
+              ],
+              "explanation": "The gardens cover about twenty acres.",
+              "evidence": "GUIDE: The gardens are also worth a visit. They were designed in 1780, and they cover about twenty acres. There is a lake, a rose garden, and a long path lined with trees."
+            },
+            {
+              "no": 19,
+              "type": "mcq",
+              "prompt": "What are visitors asked not to do?",
+              "options": [
+                "Touch the furniture or paintings",
+                "Walk in the gardens",
+                "Visit the tea room"
+              ],
+              "answer": 0,
+              "explanation": "Visitors must not touch the furniture or paintings, because they are old and easily damaged.",
+              "evidence": "GUIDE: Please do not touch the furniture or the paintings, because they are very old and easily damaged. Photography is allowed in the gardens, but not inside the house."
+            },
+            {
+              "no": 20,
+              "type": "mcq",
+              "prompt": "On which days is the house closed?",
+              "options": [
+                "Mondays and Tuesdays",
+                "Saturdays and Sundays",
+                "Wednesdays and Thursdays"
+              ],
+              "answer": 0,
+              "explanation": "The house is closed on Mondays and Tuesdays, open Wednesday to Sunday.",
+              "evidence": "GUIDE: The house is open from Wednesday to Sunday, from ten in the morning until five in the afternoon. It is closed on Mondays and Tuesdays."
+            }
+          ]
+        },
+        {
+          "part": 3,
+          "title": "Discussing a presentation on plastic recycling",
+          "setting": "Two students discuss their presentation on plastic recycling.",
+          "transcript": "NARRATOR: You will hear two students discussing their presentation on plastic recycling.\nTUTOR: Good morning. You are going to give a presentation on plastic recycling next week. How is your preparation going?\nLUCY: We have done most of the research, but we still need to decide how to organise the presentation.\nTUTOR: What have you found out so far?\nSAM: We found that about nine million tonnes of plastic are thrown away in this country every year, and only about thirty percent of it is recycled.\nTUTOR: That is a surprising figure. What happens to the rest?\nLUCY: Most of it is buried in the ground, in landfill sites, and some of it is burned. A small amount ends up in rivers and in the sea.\nTUTOR: And what are the problems with plastic in the sea?\nSAM: Sea animals can eat small pieces of plastic, and they can die. Plastic also breaks into tiny pieces, which are very difficult to remove from the water.\nTUTOR: What solutions will you talk about?\nLUCY: We will talk about three solutions. First, people should use less plastic, for example by carrying their own shopping bags. Second, more types of plastic should be recycled. Third, companies should design products that use less plastic packaging.\nTUTOR: Good. How long will the presentation be?\nSAM: It will be twenty minutes long, followed by ten minutes for questions from the audience.\nTUTOR: And how will you divide the presentation between you?\nLUCY: Sam will introduce the topic and explain the problem, and I will talk about the solutions and the conclusion.\nTUTOR: Will you use any visual aids?\nSAM: Yes, we will use slides, with charts showing how much plastic is recycled, and photographs of plastic in the sea. We will also bring some examples of recycled products.\nTUTOR: That sounds good. When will you practise the presentation?\nLUCY: We will practise on Thursday afternoon, in room twelve, and we would like you to watch us, if you have time.\nTUTOR: I will be happy to watch. Please send me your slides by Wednesday evening, so I can look at them first.\nSAM: Thank you. We will send them on Wednesday.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 21,
+              "type": "short",
+              "prompt": "About ___ million tonnes of plastic are thrown away every year.",
+              "answers": [
+                "nine",
+                "9"
+              ],
+              "explanation": "About nine million tonnes of plastic are thrown away in this country every year.",
+              "evidence": "SAM: We found that about nine million tonnes of plastic are thrown away in this country every year, and only about thirty percent of it is recycled."
+            },
+            {
+              "no": 22,
+              "type": "short",
+              "prompt": "Only about ___ percent of plastic is recycled.",
+              "answers": [
+                "thirty",
+                "30"
+              ],
+              "explanation": "Only about thirty percent of the plastic is recycled.",
+              "evidence": "SAM: We found that about nine million tonnes of plastic are thrown away in this country every year, and only about thirty percent of it is recycled."
+            },
+            {
+              "no": 23,
+              "type": "mcq",
+              "prompt": "Where does most unrecycled plastic go?",
+              "options": [
+                "It is buried in landfill sites",
+                "It is sent to other countries",
+                "It is turned into clothes"
+              ],
+              "answer": 0,
+              "explanation": "Most of it is buried in the ground, in landfill sites.",
+              "evidence": "LUCY: Most of it is buried in the ground, in landfill sites, and some of it is burned. A small amount ends up in rivers and in the sea."
+            },
+            {
+              "no": 24,
+              "type": "mcq",
+              "prompt": "What problem does plastic cause for sea animals?",
+              "options": [
+                "They can eat small pieces of plastic and die",
+                "It makes the water too warm",
+                "It blocks the sunlight"
+              ],
+              "answer": 0,
+              "explanation": "Sea animals can eat small pieces of plastic, and they can die.",
+              "evidence": "SAM: Sea animals can eat small pieces of plastic, and they can die. Plastic also breaks into tiny pieces, which are very difficult to remove from the water."
+            },
+            {
+              "no": 25,
+              "type": "mcq",
+              "prompt": "How many solutions will Lucy and Sam talk about?",
+              "options": [
+                "Three",
+                "Two",
+                "Four"
+              ],
+              "answer": 0,
+              "explanation": "They will talk about three solutions: use less plastic, recycle more types, and design products with less packaging.",
+              "evidence": "LUCY: We will talk about three solutions. First, people should use less plastic, for example by carrying their own shopping bags. Second, more types of plastic should be recycled. Third, companies should design products that use less plastic packaging."
+            },
+            {
+              "no": 26,
+              "type": "short",
+              "prompt": "The presentation will be ___ minutes long.",
+              "answers": [
+                "twenty",
+                "20"
+              ],
+              "explanation": "The presentation will be twenty minutes long, followed by ten minutes for questions.",
+              "evidence": "SAM: It will be twenty minutes long, followed by ten minutes for questions from the audience."
+            },
+            {
+              "no": 27,
+              "type": "mcq",
+              "prompt": "Who will talk about the solutions?",
+              "options": [
+                "Lucy",
+                "Sam",
+                "The tutor"
+              ],
+              "answer": 0,
+              "explanation": "Lucy will talk about the solutions and the conclusion.",
+              "evidence": "LUCY: Sam will introduce the topic and explain the problem, and I will talk about the solutions and the conclusion."
+            },
+            {
+              "no": 28,
+              "type": "mcq",
+              "prompt": "What visual aids will they use?",
+              "options": [
+                "Slides with charts and photographs",
+                "A short film",
+                "A poster only"
+              ],
+              "answer": 0,
+              "explanation": "They will use slides with charts and photographs, and bring examples of recycled products.",
+              "evidence": "SAM: Yes, we will use slides, with charts showing how much plastic is recycled, and photographs of plastic in the sea. We will also bring some examples of recycled products."
+            },
+            {
+              "no": 29,
+              "type": "short",
+              "prompt": "They will practise on Thursday afternoon in room ___",
+              "answers": [
+                "twelve",
+                "12"
+              ],
+              "explanation": "They will practise on Thursday afternoon, in room twelve.",
+              "evidence": "LUCY: We will practise on Thursday afternoon, in room twelve, and we would like you to watch us, if you have time."
+            },
+            {
+              "no": 30,
+              "type": "short",
+              "prompt": "They must send their slides by ___ evening.",
+              "answers": [
+                "Wednesday"
+              ],
+              "explanation": "They must send the slides by Wednesday evening.",
+              "evidence": "TUTOR: I will be happy to watch. Please send me your slides by Wednesday evening, so I can look at them first."
+            }
+          ]
+        },
+        {
+          "part": 4,
+          "title": "The history of photography",
+          "setting": "A lecturer talks about the history of photography.",
+          "transcript": "NARRATOR: You will hear a lecture about the history of photography.\nLECTURER: Good afternoon. Today I want to talk about the history of photography, from the first photographs in the nineteenth century to the digital cameras we use today.\nLECTURER: The first successful photograph was taken in France in 1826, by Joseph Nicéphore Niépce. He used a metal plate covered with a chemical that changed when light fell on it. The photograph took eight hours to make, because the chemical was not very sensitive to light.\nLECTURER: A few years later, in 1839, Louis Daguerre invented a new method, called the daguerreotype. This method was much faster: a photograph took only a few minutes. The daguerreotype became very popular, and many people had their portraits taken.\nLECTURER: However, the daguerreotype had a problem. Each photograph was unique: there was only one copy, and it could not be copied. This changed in the 1840s, when William Henry Fox Talbot invented a method that used a negative, from which many positive prints could be made.\nLECTURER: For the next hundred years, photography used film. A roll of film could hold thirty-six photographs, and the film had to be taken to a shop to be developed. People usually waited several days before they saw their photographs.\nLECTURER: Colour photography became common in the 1960s, although colour photographs had existed since the early twentieth century. At first, colour film was expensive, and many people continued to use black and white film.\nLECTURER: The next big change was the digital camera, which appeared in the 1990s. A digital camera does not use film. Instead, it records the picture as numbers, and the picture can be seen immediately on the back of the camera.\nLECTURER: At first, digital cameras were expensive, and the quality of the pictures was not very good. But the quality improved quickly, and by the early 2000s, digital cameras were more popular than film cameras.\nLECTURER: Today, most photographs are taken with a mobile phone. The first phone with a camera appeared in the year 2000, and now almost every phone has a camera. It is estimated that more than one trillion photographs are taken every year around the world.\nLECTURER: Photography has changed the way we remember our lives. Before photography, most people had no picture of themselves at all. Today, we take photographs every day, and we share them with people all over the world in seconds.\nLECTURER: And yet, the basic idea has not changed since 1826: light falls on a sensitive surface, and a picture is made. The technology has changed, but the idea is the same.",
+          "audio_url": null,
+          "audio_note": "Audio is pending — Samir will record this with a real voice. Read the transcript once, as you would hear it once.",
+          "questions": [
+            {
+              "no": 31,
+              "type": "short",
+              "prompt": "The first successful photograph was taken in France in ___",
+              "answers": [
+                "1826"
+              ],
+              "explanation": "The first successful photograph was taken in France in 1826 by Joseph Nicéphore Niépce.",
+              "evidence": "LECTURER: The first successful photograph was taken in France in 1826, by Joseph Nicéphore Niépce. He used a metal plate covered with a chemical that changed when light fell on it. The photograph took eight hours to make, because the chemical was not very sensitive to light."
+            },
+            {
+              "no": 32,
+              "type": "short",
+              "prompt": "The first photograph took ___ hours to make.",
+              "answers": [
+                "eight",
+                "8"
+              ],
+              "explanation": "The first photograph took eight hours to make.",
+              "evidence": "LECTURER: The first successful photograph was taken in France in 1826, by Joseph Nicéphore Niépce. He used a metal plate covered with a chemical that changed when light fell on it. The photograph took eight hours to make, because the chemical was not very sensitive to light."
+            },
+            {
+              "no": 33,
+              "type": "mcq",
+              "prompt": "Who invented the daguerreotype?",
+              "options": [
+                "Louis Daguerre",
+                "Joseph Niépce",
+                "William Henry Fox Talbot"
+              ],
+              "answer": 0,
+              "explanation": "Louis Daguerre invented the daguerreotype in 1839.",
+              "evidence": "LECTURER: A few years later, in 1839, Louis Daguerre invented a new method, called the daguerreotype. This method was much faster: a photograph took only a few minutes. The daguerreotype became very popular, and many people had their portraits taken."
+            },
+            {
+              "no": 34,
+              "type": "short",
+              "prompt": "The daguerreotype was invented in ___",
+              "answers": [
+                "1839"
+              ],
+              "explanation": "The daguerreotype was invented in 1839.",
+              "evidence": "LECTURER: A few years later, in 1839, Louis Daguerre invented a new method, called the daguerreotype. This method was much faster: a photograph took only a few minutes. The daguerreotype became very popular, and many people had their portraits taken."
+            },
+            {
+              "no": 35,
+              "type": "mcq",
+              "prompt": "What was the problem with the daguerreotype?",
+              "options": [
+                "Each photograph was unique and could not be copied",
+                "It took eight hours to make a photograph",
+                "It could only take photographs of buildings"
+              ],
+              "answer": 0,
+              "explanation": "Each daguerreotype was unique: there was only one copy, and it could not be copied.",
+              "evidence": "LECTURER: However, the daguerreotype had a problem. Each photograph was unique: there was only one copy, and it could not be copied. This changed in the 1840s, when William Henry Fox Talbot invented a method that used a negative, from which many positive prints could be made."
+            },
+            {
+              "no": 36,
+              "type": "mcq",
+              "prompt": "What did Fox Talbot invent?",
+              "options": [
+                "A method using a negative, from which many prints could be made",
+                "The first colour film",
+                "The first digital camera"
+              ],
+              "answer": 0,
+              "explanation": "Fox Talbot invented a method that used a negative, from which many positive prints could be made.",
+              "evidence": "LECTURER: However, the daguerreotype had a problem. Each photograph was unique: there was only one copy, and it could not be copied. This changed in the 1840s, when William Henry Fox Talbot invented a method that used a negative, from which many positive prints could be made."
+            },
+            {
+              "no": 37,
+              "type": "short",
+              "prompt": "A roll of film could hold ___ photographs.",
+              "answers": [
+                "thirty-six",
+                "36"
+              ],
+              "explanation": "A roll of film could hold thirty-six photographs.",
+              "evidence": "LECTURER: For the next hundred years, photography used film. A roll of film could hold thirty-six photographs, and the film had to be taken to a shop to be developed. People usually waited several days before they saw their photographs."
+            },
+            {
+              "no": 38,
+              "type": "mcq",
+              "prompt": "When did colour photography become common?",
+              "options": [
+                "In the 1960s",
+                "In the 1920s",
+                "In the 1990s"
+              ],
+              "answer": 0,
+              "explanation": "Colour photography became common in the 1960s.",
+              "evidence": "LECTURER: Colour photography became common in the 1960s, although colour photographs had existed since the early twentieth century. At first, colour film was expensive, and many people continued to use black and white film."
+            },
+            {
+              "no": 39,
+              "type": "mcq",
+              "prompt": "When did digital cameras appear?",
+              "options": [
+                "In the 1990s",
+                "In the 1960s",
+                "In the 2010s"
+              ],
+              "answer": 0,
+              "explanation": "The digital camera appeared in the 1990s.",
+              "evidence": "LECTURER: The next big change was the digital camera, which appeared in the 1990s. A digital camera does not use film. Instead, it records the picture as numbers, and the picture can be seen immediately on the back of the camera."
+            },
+            {
+              "no": 40,
+              "type": "short",
+              "prompt": "The first phone with a camera appeared in the year ___",
+              "answers": [
+                "2000"
+              ],
+              "explanation": "The first phone with a camera appeared in the year 2000.",
+              "evidence": "LECTURER: Today, most photographs are taken with a mobile phone. The first phone with a camera appeared in the year 2000, and now almost every phone has a camera. It is estimated that more than one trillion photographs are taken every year around the world."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 /**
  * ReadingListScreen: track filter (Academic default from
- * settings, 4 tests; General Training, 1 test) and mode picker
+ * settings, 6 tests; General Training, 2 tests) and mode picker
  * navigation to ReadingTest.
  */
 
@@ -39,10 +39,10 @@ describe('ReadingListScreen', () => {
     useSettingsStore.setState({track: 'academic'});
   });
 
-  it('defaults to Academic with 4 tests', async () => {
+  it('defaults to Academic with 6 tests', async () => {
     await render(<ReadingListScreen />);
     expect(screen.getByText('Reading')).toBeTruthy();
-    for (const id of ['RA1', 'RA2', 'RA3', 'RA4']) {
+    for (const id of ['RA1', 'RA2', 'RA3', 'RA4', 'RA5', 'RA6']) {
       expect(screen.getByTestId(`reading-test-${id}`)).toBeTruthy();
     }
     expect(screen.queryByTestId('reading-test-RG1')).toBeNull();
@@ -50,15 +50,16 @@ describe('ReadingListScreen', () => {
       screen.getAllByText(
         'Academic · 3 sections · 40 questions · 60 minutes',
       ),
-    ).toHaveLength(4);
+    ).toHaveLength(6);
   });
 
-  it('switches to General Training with the 1 GT test and persists the track', async () => {
+  it('switches to General Training with the 2 GT tests and persists the track', async () => {
     await render(<ReadingListScreen />);
     // Press the option text: RNTL fires the press on the
     // Pressable by walking up from its Text child.
     await fireEvent.press(screen.getByText('General Training'));
     expect(screen.getByTestId('reading-test-RG1')).toBeTruthy();
+    expect(screen.getByTestId('reading-test-RG2')).toBeTruthy();
     expect(screen.queryByTestId('reading-test-RA1')).toBeNull();
     expect(useSettingsStore.getState().track).toBe('general');
   });

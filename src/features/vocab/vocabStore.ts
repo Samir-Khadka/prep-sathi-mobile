@@ -1,7 +1,7 @@
 /**
  * Local vocabulary helpers (pure, unit-testable).
  *
- * The 250-word deck is seeded from bundled content into MMKV local
+ * The 350-word deck is seeded from bundled content into MMKV local
  * state on first open; local state is the source of truth offline.
  * The server is only ever called best-effort — review never blocks
  * on the network.
